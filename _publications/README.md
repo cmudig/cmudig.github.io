@@ -1,8 +1,8 @@
 # Adding a publication
 
-Create a new `*.md` file in the `_publications` directory. Pick a short key as your filename. Complete the file with the following basic format.
+Create a new `*.html` file in the `_publications` directory. Pick a short key as your filename. Complete the file with the following basic format.
 
-```md
+```html
 ---
 layout: publication
 title: ...

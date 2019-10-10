@@ -66,6 +66,45 @@ h6 {
   @extend .cmu-dark-gray, .mt4, .mb3, .lh-title;
 }
 
+.cta {
+  color: var(--cmu-dark-gray);
+
+  @extend .ttu, .no-underline, .b;
+
+  font-size: 0.9em;
+  margin-right: 0.15em;
+
+  &:after {
+    content: " \25BA";
+    display: inline;
+    position: relative;
+    font-size: 75%;
+    top: -1px;
+    margin-left: 0.15em;
+  }
+}
+
+.mw-max-width {
+  max-width: 76rem;
+}
+
+a {
+  color: var(--cmu-red);
+  text-decoration-color: var(--pink);
+  @extend .link;
+
+  &:hover,
+  &:focus {
+    color: red;
+  }
+}
+
+button {
+  border-bottom: 2px solid var(--cmu-dark-gray);
+  background-color: 2px solid var(--cmu-gray);
+  padding: 0.2rem 0.6rem;
+}
+
 .jumbotron {
   // https://www.gradient-animator.com/
   background: linear-gradient(
@@ -96,43 +135,11 @@ h6 {
   h1 {
     @extend .white;
   }
-}
 
-a {
-  color: var(--cmu-red);
-  text-decoration-color: var(--pink);
-  @extend .link;
-
-  &:hover,
-  &:focus {
-    color: red;
+  .cta {
+    color: white;
+    &:hover {
+      text-decoration: underline;
+    }
   }
-}
-
-button {
-  border-bottom: 2px solid var(--cmu-dark-gray);
-  background-color: 2px solid var(--cmu-gray);
-  padding: 0.2rem 0.6rem;
-}
-
-.cta {
-  color: var(--cmu-dark-gray);
-
-  @extend .ttu, .no-underline, .b;
-
-  font-size: 0.9em;
-  margin-right: 0.15em;
-
-  &:after {
-    content: " \25BA";
-    display: inline;
-    position: relative;
-    font-size: 75%;
-    top: -1px;
-    margin-left: 0.15em;
-  }
-}
-
-.mw-max-width {
-  max-width: 76rem;
 }

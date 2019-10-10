@@ -1,7 +1,7 @@
 ---
 name: Dominik Moritz
 website: http://www.domoritz.de/
-image: /assets/dominik.jpg
+image: /assets/people/dominik.jpg
 ---
 
 Loves chocolate.
