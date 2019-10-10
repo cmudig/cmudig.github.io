@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<section class="w-100 mw8 ph4-l ph3 center">
+  <article>
+    <h2 class="f3">{{ page.title }}</h2>
+
+    <div class="lh-copy">
+      {% for author in page.authors %}
+      {{ author }}
+      {% endfor %}
+    </div>
+
+    <h3 class="f5">Abstract:</h3>
+    <p class="f5 measure-wide lh-copy">
+      {{ content }}
+    </p>
+
+    <h3 class="f5">Materials</h3>
+    <div>
+      TODO
+    </div>
+
+    <h3 class="f5">Citation</h3>
+    <div>
+      TODO
+    </div>
+  </article>
+</section>

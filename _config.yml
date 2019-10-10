@@ -1,0 +1,32 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: CMU Data Interaction Group
+email: dig@cmu.edu
+description: >- # this means to ignore newlines until "baseurl:"
+  We are a research group at Carnegie Mellon University. Our mission is to empower people to analyze and communicate data with interactive systems.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "dig.cmu.edu" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: cmudig
+github_username: cmudig
+
+sass:
+  style: compressed
+  load_paths:
+    - node_modules
+
+collections:
+  publications:
+    output: true
+  people:
+    output: false
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-mentions

@@ -1,0 +1,11 @@
+---
+layout: page
+title: Publications
+subtitle: We publish at CHI, InfoVis, and related conferences.
+---
+
+<article>
+  {% for pub in site.publications %}
+  <a href="{{ pub.url }}">{{ pub.title }}</a>
+  {% endfor %}
+</article>

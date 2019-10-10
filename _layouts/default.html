@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <header class="bg-white">
+      <div class="w-100 mw8 ph4-l ph3 center pt3 pb3  flex items-baseline">
+        <a href="/" class="dib f4 fw6 mt0 mb1 link cmu-dark-gray">CMU DIG</a>
+        <nav class="ml-auto">
+          <a class="mr3 b" href="{{ '/people' | relative_url }}">People</a>
+          <a class="mr3 b" href="{{ '/publications' | relative_url }}"
+            >Publications</a
+          >
+          <a class="mr3 b" href="{{ '/about' | relative_url }}">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer class="bg-near-white cmu-dark-gray mt5">
+      <div class="w-100 mw8 ph4-l ph3 center pt4 pb4">
+        Hello from Pittsburgh.
+      </div>
+    </footer>
+  </body>
+</html>

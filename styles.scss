@@ -1,0 +1,138 @@
+---
+---
+
+@charset "utf-8";
+
+@import "tachyons-sass/tachyons.scss";
+
+@media only screen and (min-width: 768px) {
+  html,
+  button,
+  input,
+  select,
+  textarea {
+    font-family: "Open Sans", "Helvetica", sans-serif;
+  }
+}
+
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 16px;
+  margin: 0;
+}
+
+:root {
+  --cmu-red: #b00;
+  --cmu-gray: #e0e0e0;
+  --cmu-dark-gray: #666;
+
+  --cmu-gold: #a60;
+  --cmu-teal: #067;
+  --cmu-blue: #247;
+  --cmu-green: #085;
+  --cmu-dark-green: #243;
+
+  --pink: #faa;
+}
+
+.cmu-dark-gray {
+  color: var(--cmu-dark-gray);
+}
+.cmu-gray {
+  color: var(--cmu-gray);
+}
+.bg-cmu-dark-gray {
+  background-color: var(--cmu-dark-gray);
+}
+.bg-cmu-gray {
+  background-color: var(--cmu-gray);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @extend .cmu-dark-gray, .mt4, .mb3, .lh-title;
+}
+
+.jumbotron {
+  // https://www.gradient-animator.com/
+  background: linear-gradient(
+    280deg,
+    var(--cmu-teal),
+    var(--cmu-green),
+    var(--cmu-blue),
+    var(--cmu-gold),
+    var(--cmu-red)
+  );
+  background-size: 800% 800%;
+  animation: move 30s ease infinite;
+
+  @keyframes move {
+    0% {
+      background-position: 0% 20%;
+    }
+    50% {
+      background-position: 100% 80%;
+    }
+    100% {
+      background-position: 0% 20%;
+    }
+  }
+
+  @extend .white;
+
+  h1 {
+    @extend .white;
+  }
+}
+
+a {
+  color: var(--cmu-red);
+  text-decoration-color: var(--pink);
+  @extend .link;
+
+  &:hover,
+  &:focus {
+    color: red;
+  }
+}
+
+button {
+  border-bottom: 2px solid var(--cmu-dark-gray);
+  background-color: 2px solid var(--cmu-gray);
+  padding: 0.2rem 0.6rem;
+}
+
+.cta {
+  color: var(--cmu-dark-gray);
+
+  @extend .ttu, .no-underline, .b;
+
+  font-size: 0.9em;
+  margin-right: 0.15em;
+
+  &:after {
+    content: " \25BA";
+    display: inline;
+    position: relative;
+    font-size: 75%;
+    top: -1px;
+    margin-left: 0.15em;
+  }
+}
+
+.mw-max-width {
+  max-width: 76rem;
+}

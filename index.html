@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="jumbotron pv4">
+  <div class="w-100 mw8 ph4-l ph3 center">
+    <h1 class="f1 lh-title measure mt3">
+      CMU Data Interaction Group
+    </h1>
+    <p class="f4 measure lh-copy">{{ site.description }}</p>
+  </div>
+</div>
+
+<section class="w-100 mw8 ph4-l ph3 center">
+  <h2 class="f2">Research Areas</h2>
+
+  <div class="cf">
+    <div class="w-third">
+      <h3>Hello</h3>
+      <p>Lorem ipsum del.</p>
+    </div>
+    <div class="w-third">
+      <h3>Hello</h3>
+      <p>Lorem ipsum del.</p>
+    </div>
+    <div class="w-third">
+      <h3>Hello</h3>
+      <p>Lorem ipsum del.</p>
+    </div>
+  </div>
+
+  <h2 class="f2">Publications</h2>
+
+  <ul>
+    {% for pub in site.papers %}
+    <li>
+      <a href="{{ pub.url }}">{{ pub.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <a href="/publications">Show all</a>
+</section>
