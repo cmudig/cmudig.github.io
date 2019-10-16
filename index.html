@@ -2,33 +2,45 @@
 layout: default
 ---
 
-<div class="jumbotron pv4">
-  <div class="w-100 mw8 ph4-l ph3 center">
+<div class="jumbotron">
+  <div class="w-100 mw8 ph4-l ph3 pv5-l pv3 center">
     <h1 class="f1 lh-title measure mt3">
       CMU Data Interaction Group
     </h1>
     <p class="f4 measure lh-copy">
-      {{ site.description }}
+      We are a research group at the
+      <a class="https://www.hcii.cmu.edu/"
+        >Human-Computer Interaction Institute</a
+      >
+      <a href="https://www.cmu.edu/">Carnegie Mellon University</a>. Our mission
+      is to empower people to analyze and communicate data with interactive
+      systems.
       <a class="cta" href="{{ '/about' | relative_url }}">Learn more</a>
     </p>
   </div>
 </div>
 
 <section class="w-100 mw8 ph4-l ph3 center">
-  <div>
-    <h2 class="f3">Research Areas</h2>
+  <div class="pv3">
+    <h2 class="f2">Research Areas</h2>
 
-    <div class="cf">
-      <div class="w-third">
-        <h3>Visualization</h3>
+    <p class="f5">
+      Our group conducts research in computer science at the intersection of
+      human computer interaction, machine learning, data science, programming
+      languages, and data management.
+    </p>
+
+    <div class="flex flex-row-ns flex-column pt3">
+      <div class="mr2-ns mv2 w-third-ns shadow-4 pa3 br2">
+        <h3 class="f4 mt0">Visualization</h3>
         <p>
           Visualization leverages human perception to make (potentially large)
           data accessible. We are developing new languages and tools for
           analysis and communication.
         </p>
       </div>
-      <div class="w-third">
-        <h3>Human-Centered Data Science</h3>
+      <div class="mh2-ns mv2 w-third-ns shadow-4 pa3 br2">
+        <h3 class="f4 mt0">Human-Centered Data Science</h3>
         <p>
           While computers can help us manage data, human judgment and domain
           expertise is what turns it into understanding. Meeting the challenges
@@ -36,8 +48,8 @@ layout: default
           integrate the capabilities of both people and machines.
         </p>
       </div>
-      <div class="w-third">
-        <h3>Design for Machine Learning</h3>
+      <div class="ml2-ns mv2 w-third-ns shadow-4 pa3 br2">
+        <h3 class="f4 mt0">Design for Machine Learning</h3>
         <p>
           machine learning models are part of larger applications. To develop
           meaningful experiences, we need to design models in the context of
@@ -49,28 +61,42 @@ layout: default
     </div>
   </div>
 
-  <div>
-    <h2 class="f3">Updates</h2>
+  <div class="flex flex-row-ns flex-column pv3">
+    <div class="pr3 w-two-thirds-ns">
+      <h2 class="f3">Posts & Updates</h2>
 
-    <p>
-      We are here.
-    </p>
+      <ul class="list pl0">
+        {% for pub in site.posts %}
+        <li class="pb3">
+          <a href="{{ pub.url }}">{{ pub.title }}</a>
+          <time datetime="{{ pub.date }}" class="db f6 black-80">{{
+            pub.date | date: "%b %Y"
+          }}</time>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="pl3-ns w-third-ns">
+      <h2 class="f3">Courses</h2>
+
+      <div>
+        <div>
+          Fall 2018
+          <a href="http://www.hcii.cmu.edu/" class="fr"
+            >Interactive Data Science</a
+          >
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div>
-    <h2 class="f3">Courses</h2>
-
-    <p>
-      Fall 2018 <a href="http://www.hcii.cmu.edu/">Interactive Data Science</a>
-    </p>
-  </div>
-
-  <div>
+  <div class="pv3">
     <h2 class="f3">Recent Publications</h2>
 
-    <a href="/publications">Show all</a>
+    <a class="cta" href="/publications">Show all</a>
 
-    <ul>
+    <ul class="list pl0">
       {% for pub in site.publications %}
       <li>
         <a href="{{ pub.url }}">{{ pub.title }}</a>

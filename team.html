@@ -1,0 +1,27 @@
+---
+layout: page
+title: Team
+subtitle: People define this group.
+---
+
+<article>
+  <h2>Join the Group</h2>
+  <p>
+    If you are interested in joining the group as an incoming PhD student, have a look at <a href="{% post_url 2019-10-15-join-us %}">our job openings for 2020</a>.
+  </p>
+
+  <h2>Current Members</h2>
+  <div class="flex">
+    {% for person in site.people %}
+    <a href="{{ person.website }}" class="w-25 ph2"
+      ><span>
+        <img
+          src="{{ person.image | relative_url }}"
+          alt="Picture of {{ person.name }}"
+          class="br3"
+        />
+        {{ person.name }}
+      </span>
+    </a>
+    {% endfor %}
+</article>

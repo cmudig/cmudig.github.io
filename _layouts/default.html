@@ -3,14 +3,26 @@
   {% include head.html %}
   <body>
     <header class="bg-white">
-      <div class="w-100 mw8 ph4-l ph3 center pt3 pb3  flex items-baseline">
-        <a href="/" class="dib f4 fw6 mt0 mb1 link cmu-dark-gray">CMU DIG</a>
+      <div class="w-100 mw8 ph4-l ph3 center pt3 pb3 flex items-baseline">
+        <a href="/" class="dib f3 fw6 mt0 mb1 link black hover-cmu-red"
+          >CMU DIG</a
+        >
         <nav class="ml-auto">
-          <a class="mr3 b" href="{{ '/people' | relative_url }}">People</a>
-          <a class="mr3 b" href="{{ '/publications' | relative_url }}"
+          <a
+            class="ml4 b black hover-cmu-red link"
+            href="{{ '/team' | relative_url }}"
+            >Team</a
+          >
+          <a
+            class="ml4 b black hover-cmu-red link"
+            href="{{ '/publications' | relative_url }}"
             >Publications</a
           >
-          <a class="mr3 b" href="{{ '/about' | relative_url }}">About</a>
+          <a
+            class="ml4 b black hover-cmu-red link"
+            href="{{ '/about' | relative_url }}"
+            >About</a
+          >
         </nav>
       </div>
     </header>
@@ -19,9 +31,38 @@
       {{ content }}
     </main>
 
-    <footer class="bg-near-white cmu-dark-gray mt5">
-      <div class="w-100 mw8 ph4-l ph3 center pt4 pb4">
-        Hello from Pittsburgh.
+    <footer class="bt bg-cmu-dark-gray white mt5">
+      <div class="w-100 mw8 ph4-l ph3 center pv5">
+        <div class="flex flex-row-ns flex-column">
+          <div class="w-50-ns">
+            Hello from Pittsburgh.
+            <a
+              href="{% post_url 2019-10-15-join-us %}"
+              class="link white dim underline"
+              >Come join us!</a
+            >
+          </div>
+          <div class="w-50-ns">
+            <h4 class="white mt0-ns">Links</h4>
+            <ul class="list pl0">
+              <li>
+                <a href="https://hcii.cmu.edu" class="link white dim pv1 dib"
+                  >Human-Computer Interaction Institute</a
+                >
+              </li>
+              <li>
+                <a href="https://www.cs.cmu.edu" class="link white dim pv1 dib"
+                  >School of Computer Science</a
+                >
+              </li>
+              <li>
+                <a href="https://www.cmu.edu" class="link white dim pv1 dib"
+                  >Carnegie Mellon University</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </body>

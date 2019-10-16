@@ -28,6 +28,7 @@ body {
   text-rendering: optimizeLegibility;
   font-size: 16px;
   margin: 0;
+  min-height: 100vh;
 }
 
 :root {
@@ -42,6 +43,8 @@ body {
   --cmu-dark-green: #243;
 
   --pink: #faa;
+
+  --text-color: #000;
 }
 
 .cmu-dark-gray {
@@ -50,6 +53,10 @@ body {
 .cmu-gray {
   color: var(--cmu-gray);
 }
+.hover-cmu-red:hover {
+  color: var(--cmu-red);
+}
+
 .bg-cmu-dark-gray {
   background-color: var(--cmu-dark-gray);
 }
@@ -88,14 +95,16 @@ h6 {
   max-width: 76rem;
 }
 
-a {
-  color: var(--cmu-red);
-  text-decoration-color: var(--pink);
-  @extend .link;
+main {
+  a {
+    color: var(--cmu-red);
+    text-decoration-color: var(--pink);
+    @extend .link;
 
-  &:hover,
-  &:focus {
-    color: red;
+    &:hover,
+    &:focus {
+      @extend .dim;
+    }
   }
 }
 
@@ -136,10 +145,13 @@ button {
     @extend .white;
   }
 
-  .cta {
+  .cta,
+  a {
     color: white;
-    &:hover {
-      text-decoration: underline;
-    }
   }
+}
+
+footer {
+  background-image: url(assets/bg-seal.png);
+  background-repeat: no-repeat;
 }
