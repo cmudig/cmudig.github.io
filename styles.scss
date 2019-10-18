@@ -23,12 +23,17 @@ textarea {
   font-family: sans-serif;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-size: 16px;
   margin: 0;
-  min-height: 100vh;
+  height: 100%;
+  position: relative;
 }
 
 :root {
@@ -154,4 +159,17 @@ button {
 footer {
   background-image: url(assets/bg-seal.png);
   background-repeat: no-repeat;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
 }
