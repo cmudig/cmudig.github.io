@@ -36,12 +36,24 @@
     <footer class="bt bg-cmu-dark-gray white mt5">
       <div class="w-100 mw8 ph4-l ph3 center pv5">
         <div class="flex flex-row-ns flex-column">
-          <div class="w-50-ns">
+          <div class="w-50-ns pv1">
             Hello from Pittsburgh.
             <a
               href="{% post_url 2019-10-15-join-us %}"
               class="link white dim underline"
               >Come join us!</a
+            >
+            <a
+              href="https://github.com/cmudig/cmudig.github.io/edit/master/{{
+                page.path
+              }}"
+              class="link white dim underline pv1 db"
+              >Edit this page</a
+            >
+            <abbr
+              title="Last build on {{ site.time | date: '%Y-%m-%d' }}"
+              class="white pt4 db"
+              >{{ site.time | date: "%B %Y" }}</abbr
             >
           </div>
           <div class="w-50-ns">
