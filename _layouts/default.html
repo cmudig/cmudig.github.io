@@ -11,6 +11,11 @@
           <nav class="ml-auto">
             <a
               class="ml4-ns ml2 b black hover-cmu-red link"
+              href="{{ '/about' | relative_url }}"
+              >About</a
+            >
+            <a
+              class="ml4-ns ml2 b black hover-cmu-red link"
               href="{{ '/team' | relative_url }}"
               >Team</a
             >
@@ -20,9 +25,14 @@
               >Publications</a
             >
             <a
-              class="ml4-ns ml2 b black hover-cmu-red link"
-              href="{{ '/about' | relative_url }}"
-              >About</a
+              class="ml4-ns ml2 b black hover-cmu-red link dn di-ns"
+              href="https://twitter.com/cmudig"
+              >GitHub</a
+            >
+            <a
+              class="ml4-ns ml2 b black hover-cmu-red link dn di-ns"
+              href="https://twitter.com/cmudig"
+              >Twitter</a
             >
           </nav>
         </div>
@@ -47,9 +57,16 @@
               href="https://github.com/cmudig/cmudig.github.io/edit/master/{{
                 page.path
               }}"
-              class="link white dim underline pv1 db"
+              class="link white dim pv1 db"
               >Edit this page</a
             >
+            <div>
+              We are
+              <a href="https://twitter.com/cmudig" class="link white dim"
+                >@cmudig</a
+              >
+              on Twitter.
+            </div>
             <abbr
               title="Last build on {{ site.time | date: '%Y-%m-%d' }}"
               class="white pt4 db"
