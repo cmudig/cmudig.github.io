@@ -1,5 +1,7 @@
 # Lab Website
 
+Deployed at https://dig.cmu.edu/. 
+
 ## Usage
 
 Install Jekyll dependencies with `bundle`. To start this page, run `bundle exec jekyll serve --livereload`.
