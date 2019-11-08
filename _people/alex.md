@@ -5,4 +5,4 @@ image: /assets/people/alex.jpg
 role: PhD Student
 ---
 
-Maybe loves chocolate.
+Loves Milka.
