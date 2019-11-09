@@ -4,29 +4,31 @@ title: Team
 subtitle: People define this group. <a class="cta" href="{% post_url 2019-10-15-join-us %}">Come join us</a>
 ---
 
-<article>
-  <h2>Join the Group</h2>
-  <p class="measure-wide">
-    If you are interested in joining the group as an incoming PhD student, have a look at <a href="{% post_url 2019-10-15-join-us %}">our job openings for 2020</a>.
-  </p>
+<h2>Join the Group</h2>
+<p class="measure-wide">
+  If you are interested in joining the group as an incoming PhD student, have a
+  look at
+  <a href="{% post_url 2019-10-15-join-us %}">our job openings for 2020</a>.
+</p>
 
-  <h2>Current Members</h2>
-  <div class="flex">
-    {% for person in site.people %}
-    <div class="w-25 ph2">
-      <a href="{{ person.website }}"
-        ><span>
-          <img
-            src="{{ person.image | relative_url }}"
-            alt="Picture of {{ person.name }}"
-            class="br3"
-          />
-          <span class="black">
-            {{ person.name }}
-          </span>
+<h2>Current Members</h2>
+<div class="flex">
+  {% assign sorted_people = site.people | sort: 'order' %} {% for person in
+  sorted_people %}
+  <div class="w-25 ph2">
+    <a href="{{ person.website }}"
+      ><span>
+        <img
+          src="{{ person.image | relative_url }}"
+          alt="Picture of {{ person.name }}"
+          class="br3"
+        />
+        <span class="black">
+          {{ person.name }}
         </span>
-      </a>
-      <div class="gray">({{ person.role }})</div>
-    </div>
-    {% endfor %}
-</article>
+      </span>
+    </a>
+    <div class="gray">({{ person.role }})</div>
+  </div>
+  {% endfor %}
+</div>

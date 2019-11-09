@@ -63,7 +63,7 @@ layout: default
           data. While these techniques may be automated and yield high accuracy
           precision, they are often black-boxes that limit interpretability and
           actionable insights. We focus on designing novel techniques and
-          systems to keep data scientists and end-users ‘in-the-loop’.
+          systems to keep data scientists and end-users "in-the-loop".
         </p>
       </div>
     </div>
@@ -88,42 +88,19 @@ layout: default
     <div class="pl3-ns w-third-ns">
       <h2 class="f3">Courses</h2>
 
-      <table>
-        <tr>
-          <td>Fall 2019</td>
-          <td align="right">
-            <a href="http://www.hcii.cmu.edu/" class="fr">Data Visualization</a>
-          </td>
-        </tr>
-        <tr>
-          <td>Spring 2019</td>
-          <td align="right">
-            <a
-              href="https://cmuvis.github.io/interpretable-ml/index.html"
-              class="fr"
-              >Interpretable Machine Learning</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td>Spring 2019</td>
-          <td align="right">
-            <a
-              href="https://cmuvis.github.io/data-science-visualization/index.html"
-              class="fr"
-              >Data Science and Visualization</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td>Fall 2018</td>
-          <td align="right">
-            <a href="http://www.hcii.cmu.edu/" class="fr"
-              >Interactive Data Science</a
-            >
-          </td>
-        </tr>
-      </table>
+      <ul class="list pl0">
+        {% assign years = site.courses | group_by: 'year' %}{% assign
+        sorted_years = years | reverse %}{% for year in sorted_years %} {%
+        assign sorted_courses = year.items | sort: 'semester' %} {% for course
+        in sorted_courses %}
+        <li class="pb3">
+          <a href="{{ course.url }}">{{ course.name }}</a>
+          <span class="db f6 black-80"
+            >{{ course.semester }} {{ course.year }}</span
+          >
+        </li>
+        {% endfor %} {% endfor %}
+      </ul>
     </div>
   </div>
 

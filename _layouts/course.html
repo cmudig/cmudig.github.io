@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<section>
+  <div class="pv4 bg-near-white">
+    <div class="w-100 mw8 ph4-l ph3 pv4-l pv3 center">
+      <h1 class="f2 lh-title measure mt3">
+        {{ page.name }}
+      </h1>
+      <div class="f4 measure lh-copy">
+        <div>{{ page.semester }} {{ page.year }}</div>
+        {% if page.time %}
+        <div>
+          {{ page.time }} {% if page.location %}in {{ page.location }} {% endif
+          %}
+        </div>
+        {% endif %}
+      </div>
+      {% if page.instructor %} {% assign instructor = site.people |
+      where:"name", page.instructor | first %}
+      <div class="flex flex-row items-start mt4">
+        <div class="flex flex-column items-center">
+          <img
+            class="br-100 w3 h3 mb1"
+            src="{{ instructor.image | relative_url }}"
+            alt="Picture of {{ instructor.name }}"
+          />
+          <div class="black">{{ instructor.name }}</div>
+          <div class="gray">(Instructor)</div>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="w-100 mw8 ph4-l ph3 center mt4">
+    <article class="measure-wide lh-copy">
+      {{ content }}
+    </article>
+  </div>
+</section>
