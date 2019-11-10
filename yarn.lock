@@ -3,9 +3,9 @@
 
 
 tachyons-custom@^4.9.5:
-  version "4.9.6"
-  resolved "https://registry.yarnpkg.com/tachyons-custom/-/tachyons-custom-4.9.6.tgz#02f3a28269e098566eaf63c09c5985d249bbbdf8"
-  integrity sha512-HsrN1C8GTj9Tr8Ki4XMZdd1ye2O8YLVUXNAJiga3DzcdY4pRuEMYcvjOk0wAGEdVgePPSAWAsE+CWNZzNagEJw==
+  version "4.9.8"
+  resolved "https://registry.yarnpkg.com/tachyons-custom/-/tachyons-custom-4.9.8.tgz#406e539bbd417db8de8b93561ef6d36ca7c50580"
+  integrity sha512-MVnslsN5dFswmh2+Sw+OOA4/6pQfnJrA8/wrtaf+Px347wze3MIk3lp3Q3QmbUPqrJda79s0dZtY3dgTwVHdfg==
 
 tachyons-sass@^4.9.5:
   version "4.9.5"

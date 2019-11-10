@@ -6,14 +6,157 @@ subtitle: We publish at Visualization, Machine Learning, and Data Science confer
 
 <h2>🚧 Work in Progress 🚧</h2>
 
-<p class="measure-wide">
-  We will be adding our publications here soon. Until then, have a look at
+<p class="measure-wide lh-copy">
+  This is an incomplete list. We will be adding the rest of our publications
+  here soon. Until then, have a look at
   <a href="http://perer.org/">Adam's</a> and
   <a href="https://www.domoritz.de/">Dominik's</a> websites.
 </p>
 
+<div id="facets" class="dn flex flex-row flex-wrap">
+  <div class="facet mr3" id="venue_tags">
+    <strong>Venue</strong>
+    <ul class="list pl0"></ul>
+  </div>
+  <div class="facet mr3" id="authors">
+    <strong>Author</strong>
+    <ul class="list pl0"></ul>
+  </div>
+  <div class="facet mr3" id="tags">
+    <strong>Tag</strong>
+    <ul class="list pl0"></ul>
+  </div>
+  <div class="facet mr3" id="type">
+    <strong>Type</strong>
+    <ul class="list pl0"></ul>
+  </div>
+  <div class="facet mr3" id="awards">
+    <strong>Award</strong>
+    <ul class="list pl0"></ul>
+  </div>
+
+</div>
+
+<label id="only-highlight" class="dn">
+  <input type="checkbox" id="highlight">
+  Show only highlights
+</label>
+
+<p id="clear-filters" class="dn b pointer">
+  <i class="fas fa-times-circle cmu-red" aria-hidden="true"></i> Clear all filters. <span id="count_hidden">X</span> of <span id="count_total">X</span> publications are hidden by the filters.
+</p>
+
 <article>
-  {% for pub in site.publications %}
-  <a href="{{ pub.url }}">{{ pub.title }}</a>
-  {% endfor %}
+  {% assign pubyears = site.publications | group_by:"year" %} {% assign
+  sorted_pubyears = pubyears | reverse %} {% for year in sorted_pubyears %}
+  <h2 class="year f2" id="y{{ year.name }}" class="year">{{ year.name }}</h2>
+  {% for pub in year.items %}
+  {% capture anchor %}{% if pub.id %}{{ pub.id }}{% else %}{{ pub.title | slugify }}{% endif %}{% endcapture %}
+
+  <div class="publication" data-pub='{{ pub | jsonify | escape }}'>
+    <h3 class="f4 measure-wide lh-title mb2" id="{{ anchor }}">{% for award in pub.awards %}<i class="fas fa-{% if award == "Best Paper Award" %}trophy gold{% else %}award cmu-red{% endif %}" title="{{ award }}"></i> {% endfor %}{{ pub.title }}</h3>
+    <div class="fw2 lh-copy">
+      {% for author in pub.authors %}{% include person name=author %}{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </div>
+    {% if pub.venue %}
+      <div class="cmu-dark-gray">
+        {% if pub.venue_url %}
+          <a href="{{ pub.venue_url }}" class="cmu-dark-gray">
+        {% endif %}
+        {{ pub.venue }}<!--
+        {% if pub.venue_location %}
+          --> in {{ pub.venue_location }}<!--
+        {% endif %}
+        -->{% if pub.venue_url %}</a>{% endif %}
+        {{ pub.year }}
+      </div>
+    {% endif %}
+  
+    {% if pub.description %}
+      <p class="lh-copy mt1 mb1">
+        {{ pub.description | markdownify | remove: '<p>' | remove: '</p>' }}
+      </p>
+    {% endif %}
+  
+    {% if pub.tweet %}
+      <div class="mt1 mb1 measure-wide">
+        <a href="https://twitter.com/intent/tweet?text={{ pub.tweet }}&url={{ site.production_url }}/publications/%23{{ anchor }}&via=domoritz&related=domoritz" class="cmu-dark-gray f6">
+          <i class="fab fa-twitter"></i> <span class="i">{{ pub.tweet }}</span>
+        </a>
+      </div>
+    {% endif %}
+  
+    {% if pub.awards %}
+      <div class="cmu-red mt1 mb1">
+        {% for award in pub.awards %}{{ award }}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  
+    {% if pub.link or pub.pdf or pub.video or pub.blog or pub.slides or pub.doi %}
+      <div class="mt2 mb1">
+        {% if pub.pdf %}
+          <a href="{{ pub.pdf }}" class="black link hover-cmu-red mr3 dib">
+            <i class="far fa-file-pdf f6" aria-hidden="true"></i> PDF
+          </a>
+        {% endif %}
+        {% if pub.link %}
+          <a href="{{ pub.link }}" class="black link hover-cmu-red mr3 dib">
+            <i class="fas fa-link f6" aria-hidden="true"></i> Project
+          </a>
+        {% endif %}
+        {% if pub.blog %}
+          <a href="{{ pub.blog }}" class="black link hover-cmu-red mr3 dib">
+            <i class="fas fa-newspaper f6" aria-hidden="true"></i> Article
+          </a>
+        {% endif %}
+        {% if pub.video %}
+          <a href="{{ pub.video }}" class="black link hover-cmu-red mr3 dib">
+            <i class="fas fa-film f6" aria-hidden="true"></i> Video
+          </a>
+        {% endif %}
+        {% if pub.recording %}
+          <a href="{{ pub.recording }}" class="black link hover-cmu-red mr3 dib">
+            <i class="fas fa-video f6" aria-hidden="true"></i> Recording
+          </a>
+        {% endif %}
+        {% if pub.slides %}
+          <a href="{{ pub.slides }}" class="black link hover-cmu-red mr3 dib">
+            <i class="fas fa-window f6-maximize" aria-hidden="true"></i> Slides
+          </a>
+        {% endif %}
+        {% if pub.doi %}
+          <a href="https://www.doi2bib.org/bib/{{ pub.doi }}" class="black link hover-cmu-red mr3 dib">
+            <i class="fas fa-book f6" aria-hidden="true"></i> Bibtex
+          </a>
+        {% elsif pub.arxiv %}
+          <a href="https://arxiv2bibtex.org/?q={{ pub.arxiv | cgi_escape }}" class="black link hover-cmu-red mr3 dib">
+            <i class="fas fa-book f6" aria-hidden="true"></i> Bibtex
+          </a>
+        {% endif %}
+        {% if pub.short_doi %}
+          <a href="http://doi.org/{{ pub.short_doi }}" class="black link hover-cmu-red mr3 dib">
+            <i class="fas fa-anchor f6" aria-hidden="true"></i> DOI: {{ pub.short_doi }}
+          </a>
+        {% endif %}
+        {% if pub.arxiv %}
+          <a href="https://arxiv.org/abs/{{ pub.arxiv }}" class="black link hover-cmu-red mr3 dib">
+            <i class="fas fa-archive f6" aria-hidden="true"></i> arXiv: {{ pub.arxiv }}
+          </a>
+        {% endif %}
+        {% if pub.osf %}
+          <a href="https://osf.io/{{ pub.osf }}" class="black link hover-cmu-red mr3 dib">
+            <i class="fas fa-archive f6" aria-hidden="true"></i> OSF: {{ pub.osf }}
+          </a>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+  {% endfor %} {% endfor %}
 </article>
+
+<script>
+  {% include itemsjs.min.js %}
+  {% include pubfilter.js %}
+</script>

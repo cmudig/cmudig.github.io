@@ -52,6 +52,9 @@ body {
   --text-color: #000;
 }
 
+.cmu-red {
+  color: var(--cmu-red);
+}
 .cmu-dark-gray {
   color: var(--cmu-dark-gray);
 }
@@ -67,6 +70,10 @@ body {
 }
 .bg-cmu-gray {
   background-color: var(--cmu-gray);
+}
+
+.b--cmu-red {
+  border-color: var(--cmu-red);
 }
 
 h1,
