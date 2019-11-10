@@ -1,5 +1,5 @@
 ---
 name: Daniel Halperin
 role: Collaborator
-url: http://www.halper.in/
+website: http://www.halper.in/
 ---

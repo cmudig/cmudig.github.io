@@ -1,5 +1,5 @@
 ---
 name: Chenglong Wang
 role: Collaborator
-url: http://chenglongwang.org/
+website: http://chenglongwang.org/
 ---

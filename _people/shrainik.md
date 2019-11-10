@@ -1,5 +1,5 @@
 ---
 name: Shrainik Jain
 role: Collaborator
-url: https://homes.cs.washington.edu/~shrainik/
+website: https://homes.cs.washington.edu/~shrainik/
 ---

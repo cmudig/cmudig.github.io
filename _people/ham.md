@@ -2,5 +2,5 @@
 name: Kanit Wongsuphasawat
 nickname: Ham
 role: Collaborator
-url: https://kanitw.github.io/
+website: https://kanitw.github.io/
 ---

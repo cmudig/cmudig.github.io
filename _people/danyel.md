@@ -1,5 +1,5 @@
 ---
 name: Danyel Fisher
 role: Collaborator
-url: https://danyelfisher.info/
+website: https://danyelfisher.info/
 ---
