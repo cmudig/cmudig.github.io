@@ -1,6 +1,7 @@
 _site/
-.sass-cache/
+.hidden
 .jekyll-cache/
 .jekyll-metadata
+.sass-cache/
 node_modules/.yarn-integrity
 node_modules/tachyons-custom
