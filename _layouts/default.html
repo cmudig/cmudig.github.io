@@ -7,9 +7,29 @@
         <div
           class="w-100 mw8 ph4-l ph3 center pt3 pb3 flex items-baseline flex flex-column flex-row-l"
         >
-          <a href="/" class="dib f2 f3-ns fw6 link black hover-cmu-red"
-            >CMU DIG</a
-          >
+          <a href="/" class="dib f2 f3-ns fw6 link black hover-cmu-red">
+            CMU DIG
+            <picture>
+              <source
+                srcset="{{ '/assets/logo-light.svg' | relative_url }}"
+                type="image/svg+xml"
+              />
+              <source
+                srcset="{{ '/assets/logo-light.webp' | relative_url }}"
+                type="image/webp"
+              />
+              <source
+                srcset="{{ '/assets/logo-light.png' | relative_url }}"
+                type="image/png"
+              />
+              <img
+                alt="The CMU mascot Scotty, who is a black dog, digging up dirt."
+                width="60"
+                class="pl2"
+                style="margin-bottom: -1.2rem"
+              />
+            </picture>
+          </a>
           <nav
             class="mt3-m ml-auto-ns lh-copy w-auto-ns w-100 flex flex-column flex-row-ns f4 f5-ns"
           >

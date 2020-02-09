@@ -3,5 +3,5 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .sass-cache/
-node_modules/.yarn-integrity
-node_modules/tachyons-custom
+node_modules/*
+!node_modules/tachyons-sass/**/*.scss

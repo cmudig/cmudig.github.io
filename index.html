@@ -72,9 +72,9 @@ layout: default
         {% for pub in site.posts %}
         <li class="pb3">
           <a href="{{ pub.url }}">{{ pub.title }}</a>
-          <time datetime="{{ pub.date }}" class="db f6 black-80">{{
-            pub.date | date: "%b %Y"
-          }}</time>
+          <time datetime="{{ pub.date }}" class="db f6 black-80"
+            >{{ pub.date | date: "%b %Y" }}</time
+          >
         </li>
         {% endfor %}
       </ul>
