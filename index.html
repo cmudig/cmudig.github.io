@@ -33,7 +33,7 @@ layout: default
     </p>
 
     <div class="flex flex-row-ns flex-wrap pt3">
-      <div class="mr2-ns mv2 w-30-l w-40-m flex-auto shadow-4 pa3 br2">
+      <div class="mr2-ns mv2 w-20-l w-40-m flex-auto shadow-4 pa3 br2">
         <h3 class="f4 mt0">Visualization</h3>
         <p class="measure lh-copy">
           Visualization leverages human perception to make (potentially large)
@@ -41,7 +41,7 @@ layout: default
           analysis and communication.
         </p>
       </div>
-      <div class="mh2-ns mr0-m mv2 w-30-l w-40-m flex-auto shadow-4 pa3 br2">
+      <div class="mh2-ns mr0-m mv2 w-20-l w-40-m flex-auto shadow-4 pa3 br2">
         <h3 class="f4 mt0">Human-Centered Data Science</h3>
         <p class="measure lh-copy">
           While computers can help us manage data, human judgment and domain
@@ -50,15 +50,23 @@ layout: default
           integrate the capabilities of both people and machines.
         </p>
       </div>
-      <div class="ml2-l mv2 w-30-l w-40-m flex-auto shadow-4 pa3 br2">
+      <div class="mh2-l mr2-ns mv2 w-20-l w-40-m flex-auto shadow-4 pa3 br2">
+        <h3 class="f4 mt0">Interpretable Machine Learning</h3>
+        <p class="measure lh-copy">
+          Machine learning allows data scientists to summarize, aggregate, and
+          make predictions about their data. But computers don't explain their
+          predictions, which limits interpretability and actionable insights. We
+          create techniques and systems that make models and their decisions
+          understandable.
+        </p>
+      </div>
+      <div class="ml2-ns mv2 w-20-l w-40-m flex-auto shadow-4 pa3 br2">
         <h3 class="f4 mt0">Design for Machine Learning</h3>
         <p class="measure lh-copy">
-          The increasing use of machine learning techniques allows data
-          scientists to summarize, aggregate, and make predictions about their
-          data. While these techniques may be automated and yield high accuracy
-          precision, they are often black-boxes that limit interpretability and
-          actionable insights. We focus on designing novel techniques and
-          systems to keep data scientists and end-users "in-the-loop".
+          To create ML-based applications, we need to understand and design for
+          everyone involved in the development process—the engineers who build
+          the models, the designers who create the experiences, and the people
+          who use the products.
         </p>
       </div>
     </div>
@@ -69,11 +77,12 @@ layout: default
       <h2 class="f3">Posts & Updates</h2>
 
       <ul class="list pl0">
-        {% for pub in site.posts %}
+        {% assign sorted_posts = site.posts | reverse %} {% for post in
+        sorted_posts %}
         <li class="pb3">
-          <a href="{{ pub.url }}">{{ pub.title }}</a>
-          <time datetime="{{ pub.date }}" class="db f6 black-80"
-            >{{ pub.date | date: "%b %Y" }}</time
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          <time datetime="{{ post.date }}" class="db f6 black-80"
+            >{{ post.date | date: "%b %Y" }}</time
           >
         </li>
         {% endfor %}
