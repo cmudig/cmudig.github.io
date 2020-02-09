@@ -117,9 +117,11 @@ layout: default
       {% assign recent_pubs = site.publications | reverse %} {% for pub in
       recent_pubs limit:5 %}
       <div class="mt4 mt3-ns flex flex-row-ns flex-column">
+        {% assign thumb = 'assets' | append: pub.url | replace: '.html',
+        '_thumb.png' %}
         <div
           class="h3 mr3-ns mb2 mb0-ns flex-shrink-0 preview-image ba b--black-05 db"
-          style="background-image: url('{{ pub.teaser | relative_url }}')"
+          style="background-image: url('{{ thumb | relative_url }}')"
         ></div>
         <div class="measure-wide">
           <div class="mb1">

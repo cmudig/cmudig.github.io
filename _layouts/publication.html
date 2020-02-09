@@ -57,9 +57,8 @@ layout: default
   </div>
 
   <div class="w-100 mw8 ph4-l ph3 center mt4">
-    {% if page.teaser %}
-      <img src="{{ page.teaser | relative_url }}" alt="Teaser image" class="mw-100" style="width: 600px">
-    {% endif %}
+    {% assign filename = 'assets' | append: page.url | replace: '.html', '.png' %}
+    <img src="{{ filename | relative_url }}" alt="Teaser image" class="mw-100" style="max-height: 600px">
 
     {% if page.tweet %}
       <p class="measure-wide">
@@ -69,7 +68,7 @@ layout: default
       </p>
     {% endif %}
 
-    {% assign page_content = content | strip_newlines %}
+    {% assign page_content = content %}
     {% if page_content != "" %}
       <h2>Abstract</h2>
       <div class="measure-wide lh-copy">

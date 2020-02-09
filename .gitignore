@@ -1,5 +1,5 @@
 _site/
-.hidden
+_hidden/*
 .jekyll-cache/
 .jekyll-metadata
 .sass-cache/

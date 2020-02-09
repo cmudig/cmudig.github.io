@@ -54,9 +54,11 @@ subtitle: We publish at Visualization, Machine Learning, and Data Science confer
   {% capture anchor %}{% if pub.id %}{{ pub.id }}{% else %}{{ pub.title | slugify }}{% endif %}{% endcapture %}
 
   <div class="publication flex mt4" data-pub='{{ pub | jsonify | escape }}'>
+    {% assign thumb = 'assets' | append: pub.url | replace: '.html',
+      '_thumb.png' %}
     <div
       class="h3 mr4 flex-shrink-0 preview-image ba b--black-05 dn db-ns "
-      style="background-image: url('{{ pub.teaser | relative_url }}')"
+      style="background-image: url('{{ thumb | relative_url }}')"
     ></div>
     <div>
       <h3 class="mt0 f4 measure-wide lh-title mb2" id="{{ anchor }}">{% for award in pub.awards %}<i class="fas fa-{% if award == "Best Paper Award" %}trophy gold{% else %}award cmu-red{% endif %}" title="{{ award }}"></i> {% endfor %}<a href="{{ pub.url }}" class="black link">{{ pub.title }}</a></h3>
