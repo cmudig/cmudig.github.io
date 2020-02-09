@@ -31,3 +31,19 @@ video: https://vimeo.com/127110709
 year: 2015
 teaser: assets/publications/perfopticon.jpg
 ---
+
+Distributed database performance is often unpredictable due to issues such as
+system complexity, network congestion, or imbalanced data distribution. These
+issues are difficult for users to assess in part due to the opaque mapping
+between declaratively specified queries and actual physical execution plans.
+Database developers currently must expend significant time and effort scanning
+log files to isolate and debug the root causes of performance issues. In
+response, we present Perfopticon, an interactive query profiling tool that
+enables rapid insight into common problems such as performance bottlenecks and
+data skew. Perfopticon combines interactive visualizations of (1) query plans,
+(2) overall query execution, (3) data flow among servers, and (4) execution
+traces. These views coordinate multiple levels of abstraction to enable
+detection, isolation, and understanding of performance issues. We evaluate our
+design choices through engagements with system developers, scientists, and
+students. We demonstrate that Perfopticon enables performance debugging for
+real-world tasks.

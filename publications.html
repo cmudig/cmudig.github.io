@@ -79,21 +79,21 @@ subtitle: We publish at Visualization, Machine Learning, and Data Science confer
       {% endif %}
     
       {% if pub.description %}
-        <p class="lh-copy mt1 mb1">
+        <p class="lh-copy mv1">
           {{ pub.description | markdownify | remove: '<p>' | remove: '</p>' }}
         </p>
       {% endif %}
     
       {% if pub.tweet %}
-        <div class="mt1 mb1 measure-wide">
-          <a href="https://twitter.com/intent/tweet?text={{ pub.tweet }}&url={{ site.production_url }}/publications/%23{{ anchor }}&via=domoritz&related=domoritz" class="cmu-dark-gray f6">
+        <div class="mv1 measure-wide">
+          <a href="https://twitter.com/intent/tweet?text={{ pub.tweet }}&url={{ site.production_url }}/publications/%23{{ anchor }}&via=cmudig&related=cmudig" class="cmu-dark-gray f6">
             <i class="fab fa-twitter"></i> <span class="i">{{ pub.tweet }}</span>
           </a>
         </div>
       {% endif %}
     
       {% if pub.awards %}
-        <div class="cmu-red mt1 mb1 b">
+        <div class="cmu-red mv1 b">
           {% for award in pub.awards %}{{ award }}{% unless forloop.last %}, {% endunless %}
           {% endfor %}
         </div>

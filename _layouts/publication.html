@@ -10,7 +10,7 @@ layout: default
       </h1>
 
       {% if page.description %}
-        <p class="lh-copy mt1 mb1">
+        <p class="lh-copy mt3 f4">
           {{ page.description | markdownify | remove: '<p>' | remove: '</p>' }}
         </p>
       {% endif %}
@@ -28,18 +28,54 @@ layout: default
         </div>
       {% endfor %}
       </div>
+
+      {% if page.venue %}
+        <div class="mt3">
+          Published at
+          {% if page.venue_url %}
+            <a href="{{ page.venue_url }}">
+          {% endif %}
+          {{ page.venue }}
+          {% if page.venue_location %}
+            in {{ page.venue_location }}
+          {% endif %}
+          {% if page.venue_url %}</a>{% endif %}
+          {{ page.year }}
+        </div>
+      {% endif %}
+
+      {% if page.awards %}
+        <ul class="list pl0">
+          {% for award in page.awards %}
+          <li class="mt1 {% if award == "Best Paper Award" %}gold{% else %}cmu-red{% endif %}">
+              <i class="fas fa-{% if award == "Best Paper Award" %}trophy{% else %}award{% endif %}"></i> {{ award }}
+          </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
     </div>
   </div>
 
   <div class="w-100 mw8 ph4-l ph3 center mt4">
     {% if page.teaser %}
-    <img src="{{ page.teaser | relative_url }}" alt="Teaser image" class="mw-100" style="width: 600px">
+      <img src="{{ page.teaser | relative_url }}" alt="Teaser image" class="mw-100" style="width: 600px">
     {% endif %}
 
-    <h2>Abstract</h2>
-    <p class="measure-wide lh-copy">
-      {{ content }}
-    </p>
+    {% if page.tweet %}
+      <p class="measure-wide">
+        <a href="https://twitter.com/intent/tweet?text={{ page.tweet }}&url={{ site.production_url }}/pagelications/%23{{ anchor }}&via=cmudig&related=cmudig" class="cmu-dark-gray">
+          <i class="fab fa-twitter"></i> <span class="i">{{ page.tweet }}</span>
+        </a>
+      </p>
+    {% endif %}
+
+    {% assign page_content = content | strip_newlines %}
+    {% if page_content != "" %}
+      <h2>Abstract</h2>
+      <div class="measure-wide lh-copy">
+        {{ page_content }}
+      </div>
+    {% endif %}
 
     {% if page.link or page.pdf or page.video or page.blog or page.slides or page.doi %}
     <h2>Materials</h2>

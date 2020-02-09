@@ -26,3 +26,24 @@ venue_url: http://sigmod2016.org/
 year: 2016
 teaser: assets/publications/sqlshare.jpg
 ---
+
+We analyze the workload from a multi-year deployment of a databaseas-a-service
+platform targeting scientists and data scientists with minimal database
+experience. Our hypothesis was that relatively minor changes to the way
+databases are delivered can increase their use in ad hoc analysis environments.
+The web-based SQLShare system emphasizes easy dataset-at-a-time ingest, relaxed
+schemas and schema inference, easy view creation and sharing, and full SQL
+support. We find that these features have helped attract workloads typically
+associated with scripts and files rather than relational databases: complex
+analytics, routine processing pipelines, data publishing, and collaborative
+analysis. Quantitatively, these workloads are characterized by shorter dataset
+"lifetimes", higher query complexity, and higher data complexity. We report on
+usage scenarios that suggest SQL is being used in place of scripts for one-off
+data analysis and ad hoc data sharing. The workload suggests that a new class of
+relational systems emphasizing short-term, ad hoc analytics over engineered
+schemas may improve uptake of database technology in data science contexts. Our
+contributions include a system design for delivering databases into these
+contexts, a description of a public research query workload dataset released to
+advance research in analytic data systems, and an initial analysis of the
+workload that provides evidence of new use cases under-supported in existing
+systems.

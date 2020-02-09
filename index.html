@@ -113,7 +113,7 @@ layout: default
 
     <a class="cta" href="/publications">Show all</a>
 
-    <div class="mt3">
+    <div class="mv3">
       {% assign recent_pubs = site.publications | reverse %} {% for pub in
       recent_pubs limit:5 %}
       <div class="mt4 mt3-ns flex flex-row-ns flex-column">
@@ -136,5 +136,7 @@ layout: default
       </div>
       {% endfor %}
     </div>
+
+    <a class="cta" href="/publications">Show all</a>
   </div>
 </section>
