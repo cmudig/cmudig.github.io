@@ -1,4 +1,4 @@
-# Lab Website
+# Website for the CMU Data Interaction Group
 
 Deployed at https://dig.cmu.edu/. 
 
