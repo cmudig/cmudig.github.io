@@ -2,27 +2,103 @@
 layout: default
 ---
 
-<section class="w-100 mw8 ph4-l ph3 center">
-  <article>
-    <h2 class="f3">{{ page.title }}</h2>
+<section>
+  <div class="pv4 bg-near-white">
+    <div class="w-100 mw8 ph4-l ph3 pv4-l pv3 center">
+      <h1 class="f2 lh-title measure mt3">
+        {{ page.title }}
+      </h1>
 
-    <div class="lh-copy">
-      {% for author in page.authors %} {{ author }} {% endfor %}
+      {% if page.description %}
+        <p class="lh-copy mt1 mb1">
+          {{ page.description | markdownify | remove: '<p>' | remove: '</p>' }}
+        </p>
+      {% endif %}
+
+      <div class="flex flex-row flex-wrap items-start mt1">
+      {% for name in page.authors %} {% assign author = site.people |
+      where:"name", name | first %}
+        <div class="flex flex-column items-center mt3 mr4">
+          <picture>
+            <source srcset="{{ author.image | relative_url }}"></source>
+            <source srcset="{{ 'assets/person.png' | relative_url }}"></source>
+            <img class="br-100 w3 h3 mb1" alt="Picture of {{ name }}" />
+          </picture>
+          <div class="black mw4 tc">{% include person name=name %}</div>
+        </div>
+      {% endfor %}
+      </div>
     </div>
+  </div>
 
-    <h3 class="f5">Abstract:</h3>
-    <p class="f5 measure-wide lh-copy">
+  <div class="w-100 mw8 ph4-l ph3 center mt4">
+    {% if page.teaser %}
+    <img src="{{ page.teaser | relative_url }}" alt="Teaser image" class="" style="max-width: 500px">
+    {% endif %}
+
+    <h2>Abstract</h2>
+    <p class="measure-wide lh-copy">
       {{ content }}
     </p>
 
-    <h3 class="f5">Materials</h3>
-    <div>
-      TODO
-    </div>
-
-    <h3 class="f5">Citation</h3>
-    <div>
-      TODO
-    </div>
-  </article>
+    {% if page.link or page.pdf or page.video or page.blog or page.slides or page.doi %}
+    <h2>Materials</h2>
+      <ul class="list pl0">
+        {% if page.pdf %}
+          <li class="mt2"><a href="{{ page.pdf }}" class="black link hover-cmu-red">
+            <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
+          </a></li>
+        {% endif %}
+        {% if page.link %}
+          <li class="mt2"><a href="{{ page.link }}" class="black link hover-cmu-red">
+            <i class="fas fa-link" aria-hidden="true"></i> Project
+          </a></li>
+        {% endif %}
+        {% if page.blog %}
+          <li class="mt2"><a href="{{ page.blog }}" class="black link hover-cmu-red">
+            <i class="fas fa-newspaper" aria-hidden="true"></i> Article
+          </a></li>
+        {% endif %}
+        {% if page.video %}
+          <li class="mt2"><a href="{{ page.video }}" class="black link hover-cmu-red">
+            <i class="fas fa-film" aria-hidden="true"></i> Video
+          </a></li>
+        {% endif %}
+        {% if page.recording %}
+          <li class="mt2"><a href="{{ page.recording }}" class="black link hover-cmu-red">
+            <i class="fas fa-video" aria-hidden="true"></i> Recording
+          </a></li>
+        {% endif %}
+        {% if page.slides %}
+          <li class="mt2"><a href="{{ page.slides }}" class="black link hover-cmu-red">
+            <i class="fas fa-window-maximize" aria-hidden="true"></i> Slides
+          </a></li>
+        {% endif %}
+        {% if page.doi %}
+          <li class="mt2"><a href="https://www.doi2bib.org/bib/{{ page.doi }}" class="black link hover-cmu-red">
+            <i class="fas fa-book" aria-hidden="true"></i> Bibtex
+          </a></li>
+        {% elsif page.arxiv %}
+          <li class="mt2"><a href="https://arxiv2bibtex.org/?q={{ page.arxiv | cgi_escape }}" class="black link hover-cmu-red">
+            <i class="fas fa-book" aria-hidden="true"></i> Bibtex
+          </a></li>
+        {% endif %}
+        {% if page.short_doi %}
+          <li class="mt2"><a href="http://doi.org/{{ page.short_doi }}" class="black link hover-cmu-red">
+            <i class="fas fa-anchor" aria-hidden="true"></i> DOI: {{ page.short_doi }}
+          </a></li>
+        {% endif %}
+        {% if page.arxiv %}
+          <li class="mt2"><a href="https://arxiv.org/abs/{{ page.arxiv }}" class="black link hover-cmu-red">
+            <i class="fas fa-archive" aria-hidden="true"></i> arXiv: {{ page.arxiv }}
+          </a></li>
+        {% endif %}
+        {% if page.osf %}
+          <li class="mt2"><a href="https://osf.io/{{ page.osf }}" class="black link hover-cmu-red">
+            <i class="fas fa-archive" aria-hidden="true"></i> OSF: {{ page.osf }}
+          </a></li>
+        {% endif %}
+      </ul>
+    {% endif %}
+  </div>
 </section>

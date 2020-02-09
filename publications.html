@@ -53,49 +53,57 @@ subtitle: We publish at Visualization, Machine Learning, and Data Science confer
   {% for pub in year.items %}
   {% capture anchor %}{% if pub.id %}{{ pub.id }}{% else %}{{ pub.title | slugify }}{% endif %}{% endcapture %}
 
-  <div class="publication" data-pub='{{ pub | jsonify | escape }}'>
-    <h3 class="f4 measure-wide lh-title mb2" id="{{ anchor }}">{% for award in pub.awards %}<i class="fas fa-{% if award == "Best Paper Award" %}trophy gold{% else %}award cmu-red{% endif %}" title="{{ award }}"></i> {% endfor %}{{ pub.title }}</h3>
-    <div class="fw2 lh-copy">
-      {% for author in pub.authors %}{% include person name=author %}{% unless forloop.last %}, {% endunless %}
-      {% endfor %}
-    </div>
-    {% if pub.venue %}
-      <div class="cmu-dark-gray">
-        {% if pub.venue_url %}
-          <a href="{{ pub.venue_url }}" class="cmu-dark-gray">
-        {% endif %}
-        {{ pub.venue }}<!--
-        {% if pub.venue_location %}
-          --> in {{ pub.venue_location }}<!--
-        {% endif %}
-        -->{% if pub.venue_url %}</a>{% endif %}
-        {{ pub.year }}
-      </div>
-    {% endif %}
-  
-    {% if pub.description %}
-      <p class="lh-copy mt1 mb1">
-        {{ pub.description | markdownify | remove: '<p>' | remove: '</p>' }}
-      </p>
-    {% endif %}
-  
-    {% if pub.tweet %}
-      <div class="mt1 mb1 measure-wide">
-        <a href="https://twitter.com/intent/tweet?text={{ pub.tweet }}&url={{ site.production_url }}/publications/%23{{ anchor }}&via=domoritz&related=domoritz" class="cmu-dark-gray f6">
-          <i class="fab fa-twitter"></i> <span class="i">{{ pub.tweet }}</span>
-        </a>
-      </div>
-    {% endif %}
-  
-    {% if pub.awards %}
-      <div class="cmu-red mt1 mb1">
-        {% for award in pub.awards %}{{ award }}{% unless forloop.last %}, {% endunless %}
+  <div class="publication flex mt4" data-pub='{{ pub | jsonify | escape }}'>
+    <div
+      class="h3 mr4 flex-shrink-0 preview-image ba b--black-05"
+      style="background-image: url('{{ pub.teaser | relative_url }}')"
+    ></div>
+    <div>
+      <h3 class="mt0 f4 measure-wide lh-title mb2" id="{{ anchor }}">{% for award in pub.awards %}<i class="fas fa-{% if award == "Best Paper Award" %}trophy gold{% else %}award cmu-red{% endif %}" title="{{ award }}"></i> {% endfor %}<a href="{{ pub.url }}" class="black link">{{ pub.title }}</a></h3>
+      <div class="fw2 lh-copy">
+        {% for author in pub.authors %}{% include person name=author %}{% unless forloop.last %}, {% endunless %}
         {% endfor %}
       </div>
-    {% endif %}
-  
-    {% if pub.link or pub.pdf or pub.video or pub.blog or pub.slides or pub.doi %}
+      {% if pub.venue %}
+        <div class="cmu-dark-gray">
+          {% if pub.venue_url %}
+            <a href="{{ pub.venue_url }}" class="cmu-dark-gray">
+          {% endif %}
+          {{ pub.venue }}
+          {% if pub.venue_location %}
+            in {{ pub.venue_location }}
+          {% endif %}
+          {% if pub.venue_url %}</a>{% endif %}
+          {{ pub.year }}
+        </div>
+      {% endif %}
+    
+      {% if pub.description %}
+        <p class="lh-copy mt1 mb1">
+          {{ pub.description | markdownify | remove: '<p>' | remove: '</p>' }}
+        </p>
+      {% endif %}
+    
+      {% if pub.tweet %}
+        <div class="mt1 mb1 measure-wide">
+          <a href="https://twitter.com/intent/tweet?text={{ pub.tweet }}&url={{ site.production_url }}/publications/%23{{ anchor }}&via=domoritz&related=domoritz" class="cmu-dark-gray f6">
+            <i class="fab fa-twitter"></i> <span class="i">{{ pub.tweet }}</span>
+          </a>
+        </div>
+      {% endif %}
+    
+      {% if pub.awards %}
+        <div class="cmu-red mt1 mb1 b">
+          {% for award in pub.awards %}{{ award }}{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    
       <div class="mt2 mb1">
+        <a href="{{ pub.url }}" class="black link hover-cmu-red mr3 dib">
+          <span class="cta">Show Details</span>
+        </a>
+
         {% if pub.pdf %}
           <a href="{{ pub.pdf }}" class="black link hover-cmu-red mr3 dib">
             <i class="far fa-file-pdf f6" aria-hidden="true"></i> PDF
@@ -123,7 +131,7 @@ subtitle: We publish at Visualization, Machine Learning, and Data Science confer
         {% endif %}
         {% if pub.slides %}
           <a href="{{ pub.slides }}" class="black link hover-cmu-red mr3 dib">
-            <i class="fas fa-window f6-maximize" aria-hidden="true"></i> Slides
+            <i class="fas fa-window-maximize f6" aria-hidden="true"></i> Slides
           </a>
         {% endif %}
         {% if pub.doi %}
@@ -151,7 +159,7 @@ subtitle: We publish at Visualization, Machine Learning, and Data Science confer
           </a>
         {% endif %}
       </div>
-    {% endif %}
+    </div>
   </div>
   {% endfor %} {% endfor %}
 </article>

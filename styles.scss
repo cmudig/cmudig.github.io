@@ -180,6 +180,15 @@ body {
   flex: 1 0 auto;
 }
 
-footer {
-  flex-shrink: 0;
+.preview-image {
+  display: block;
+  width: 10rem;
+  height: 7rem;
+  background-size: cover;
+  background-position: top left;
+  transition: background 1.5s;
+
+  &:hover {
+    background-position: bottom right;
+  }
 }

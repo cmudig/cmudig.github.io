@@ -113,12 +113,28 @@ layout: default
 
     <a class="cta" href="/publications">Show all</a>
 
-    <ul class="list pl0">
-      {% for pub in site.publications %}
-      <li>
-        <a href="{{ pub.url }}">{{ pub.title }}</a>
-      </li>
+    <div class="mt3">
+      {% assign recent_pubs = site.publications | reverse %} {% for pub in
+      recent_pubs limit:5 %}
+      <div class="mt3 flex">
+        <div
+          class="h3 mr3 flex-shrink-0 preview-image ba b--black-05"
+          style="background-image: url('{{ pub.teaser | relative_url }}')"
+        ></div>
+        <div class="measure-wide">
+          <div class="mb1">
+            <a href="{{ pub.url }}" class="b link black hover-cmu-red"
+              >{{ pub.title }}</a
+            >
+            <span class="fw2">
+              {% for author in pub.authors %}{% include person name=author %}{%
+              unless forloop.last %}, {% endunless %}{% endfor %}</span
+            >, <span class="nowrap">{{ pub.venue }} {{ pub.year }}</span>
+          </div>
+          <a href="pub.url" class="cta">Show details</a>
+        </div>
+      </div>
       {% endfor %}
-    </ul>
+    </div>
   </div>
 </section>
