@@ -5,22 +5,22 @@
 
 @import "tachyons-sass/tachyons.scss";
 
-@media only screen and (min-width: 768px) {
-  html,
-  button,
-  input,
-  select,
-  textarea {
-    font-family: "Open Sans", "Helvetica", sans-serif;
-  }
-}
-
 html,
 button,
 input,
 select,
 textarea {
   font-family: sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  html,
+  button,
+  input,
+  select,
+  textarea {
+    font-family: "Open Sans", sans-serif;
+  }
 }
 
 html {
