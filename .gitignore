@@ -5,3 +5,5 @@ _hidden/*
 .sass-cache/
 node_modules/*
 !node_modules/tachyons-sass/**/*.scss
+assets/.DS_Store
+.DS_Store
