@@ -5,5 +5,3 @@ image: /assets/people/youli.jpg
 role: Visiting PhD Student
 order: 3
 ---
-
-
