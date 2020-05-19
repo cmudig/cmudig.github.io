@@ -16,7 +16,8 @@ subtitle: People define this group. <a class="cta" href="https://dig.cmu.edu/201
 
 <div class="flex flex-wrap">
   {% assign sorted_people = site.people | where_exp: "item", "item.role !=
-  'Collaborator'" | sort: 'order' %} {% for person in sorted_people %}
+  'Collaborator'" | sort: 'order' %} {% for person in sorted_people %} {% unless
+  person.alumni_since %}
   <div class="w-25-m w-20-l w-50 ph2 pv2">
     <a href="{{ person.website }}"
       ><span>
@@ -32,5 +33,18 @@ subtitle: People define this group. <a class="cta" href="https://dig.cmu.edu/201
     </a>
     <div class="gray">({{ person.role }})</div>
   </div>
-  {% endfor %}
+  {% endunless %} {% endfor %}
 </div>
+
+<h2>Past Members</h2>
+
+<ul class="list pl0">
+  {% assign sorted_alumni = site.people | sort: 'alumni_since' | reverse %} {%
+  for person in sorted_alumni %} {% if person.alumni_since %}
+  <li>
+    <a href="{{ person.website }}" class="black">{{ person.name }}</a>, alumni
+    since {{ person.alumni_since }}
+    <span class="gray">(used to be {{ person.role }})</span>
+  </li>
+  {% endif %} {% endfor %}
+</ul>
