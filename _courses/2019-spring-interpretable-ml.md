@@ -4,7 +4,8 @@ name: Interpretable Machine Learning
 year: 2019
 semester: Spring
 time: Mini-1 T/H 3:00-4:20pm
-instructor: Adam Perer
+instructors:
+  - Adam Perer
 ---
 
 Machine learning has essentially become ubiquitous for making sense of large and complex data. While these techniques may be automated and yield high accuracy precision, they are often black-boxes that limit interpretability. Interpretability is acknowledged as a critical need for many applications of machine learning, and yet there is limited research to determine how interpretable a model is to humans.

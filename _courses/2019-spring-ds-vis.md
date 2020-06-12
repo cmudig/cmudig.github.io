@@ -4,7 +4,8 @@ name: Data Science and Visualization
 year: 2019
 semester: Spring
 time: Mini-4 T/H 3:00-4:20pm
-instructor: Adam Perer
+instructors:
+  - Adam Perer
 location: Gates 4301
 ---
 
