@@ -6,6 +6,10 @@ semester: Fall
 instructors:
   - Adam Perer
   - Dominik Moritz
+tas:
+  - Kunal Khadilkar
+  - Aditya Anantharaman
+  - Pranav Thombre
 redirect_from:
   - ids2020
 ---

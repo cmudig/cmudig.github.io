@@ -17,19 +17,35 @@ layout: default
         </div>
         {% endif %}
       </div>
-      <div class="flex flex-row flex-wrap items-start mt1">
-      {% for name in page.instructors %} {% assign instructor = site.people |
-      where:"name", name | first %}
-        <div class="flex flex-column items-center mt3 mr4">
-          <img
-            class="br-100 w3 h3 mb1"
-            src="{{ instructor.image | relative_url }}"
-            alt="Picture of {{ instructor.name }}"
-          />
-          <div class="black">{{ instructor.name }}</div>
-          <div class="gray">(Instructor)</div>
+      <div class="flex flex-column flex-row-l">
+        <div class="flex flex-row flex-wrap items-start mt1 mr4">
+          {% for name in page.instructors %} {% assign instructor = site.people |
+            where:"name", name | first %}
+              <div class="flex flex-column items-center mt3 mr4">
+                <img
+                  class="br-100 w3 h3 mb1"
+                  src="{{ instructor.image | relative_url }}"
+                  alt="Picture of {{ instructor.name }}"
+                />
+                <div class="black">{{ instructor.name }}</div>
+                <div class="gray">(Instructor)</div>
+              </div>
+          {% endfor %}
         </div>
-      {% endfor %}
+        <div class="flex flex-row flex-wrap items-start mt1">
+        {% for name in page.tas %} {% assign ta = site.people |
+          where:"name", name | first %}
+            <div class="flex flex-column items-center mt3 mr4">
+              <picture>
+                <source srcset="{{ ta.image | relative_url }}"></source>
+                <source srcset="{{ 'assets/person.png' | relative_url }}"></source>
+                <img class="br-100 w3 h3 mb1" alt="Picture of {{ name }}" />
+              </picture>
+              <div class="black">{{ name }}</div>
+              <div class="gray">(Teaching Assistant)</div>
+            </div>
+        {% endfor %}
+        </div>
       </div>
     </div>
   </div>
