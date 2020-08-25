@@ -66,7 +66,7 @@ Please join me for office hours. My normal office hours will be TBD in Newell-Si
 
 If you are asking a general question, that other students may also benefit from seeing, please ask in the general Slack channel. If you are asking a question specific to you, /e.g./, about a grade you received, about absence from class, an accommodation request, etc., then please ask us individually either in person or via Slack DM.
 
-We try to respond very quickly, but please do email me again if you don’t receive a response within 24 hours.
+We try to respond very quickly, but please do email me again if you don't receive a response within 24 hours.
 
 Accommodations for Students with Disabilities
 If you have a disability and have an accommodations letter from the Disability Resources office, I encourage you to discuss your accommodations and needs with me as early in the semester as possible. I will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with the Office of Disability Resources, I encourage you to contact them at access@andrew.cmu.edu.
@@ -77,4 +77,4 @@ If you or anyone you know experiences any academic stress, difficult life events
 
 If you have questions about this or your coursework, please let me know. Thank you, and have a great semester.
 
-(Some of this helpful content was borrowed from Prof. Jeff Bigham’s [Human-AI Interaction Course](http://www.humanaiclass.org/))
+(Some of this helpful content was borrowed from Prof. Jeff Bigham's [Human-AI Interaction Course](http://www.humanaiclass.org/))

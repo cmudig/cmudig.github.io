@@ -19,7 +19,7 @@ More details on the Schedule and Projects is available for enrolled students on 
 
 The volume and complexity of data continues to increase in the world around us, including science, business, medicine, social media and everyday human activity. This course aims to expose students to data science and visual representation methods and techniques that increase the understanding of complex data. Proper data science and visualizations will not only present an interpretation of data, but do so by improving comprehension, communication, and decision making. In this course, students will learn about the fundamentals of data science, machine learning, perception, the theory of visualization, and good design practices for data visualization. The course will also provide hands-on experience on the process of data communication, from initial data analysis, to identifying appropriate data science techniques, to crafting informative visualizations using tools.
 
-This course will also focus on small data, by which I mean datasets that fit within a spreadsheet or within a computer’s memory. It will focus on techniques rather than on technologies. While software is an essential part of data science and visualization, the goal of this course is to focus on analyzing and communicating information to people, and specific software is merely one means to an end.
+This course will also focus on small data, by which I mean datasets that fit within a spreadsheet or within a computer's memory. It will focus on techniques rather than on technologies. While software is an essential part of data science and visualization, the goal of this course is to focus on analyzing and communicating information to people, and specific software is merely one means to an end.
 
 At the end of this course, you will:
 
@@ -55,7 +55,7 @@ Please join me and the graders for office hours. My normal office hours will be 
 
 If you are asking a general question, that other students may also benefit from seeing, please ask in a Canvas discussion. If you are asking a question specific to you, e.g., about a grade you received, about absence from class, an accommodation request, etc., then please ask us individually either in person or via email.
 
-We try to respond very quickly, but please do email me again if you don’t receive a response within 24 hours.
+We try to respond very quickly, but please do email me again if you don't receive a response within 24 hours.
 
 Collaboration, Cheating and Plagiarism
 Homework must be individual work unless otherwise stated. You are encouraged to consult each other on clarification, technical and conceptual issues, and on interpreting the data but you must do individual problem solving and derive your own solutions, including your own computer and design work. If you have any question concerning whether an act is appropriate please consult me or the appropriate university official before acting. The minimum penalty for cheating on an assignment is zero credit for the work submitted, and the maximum penalty is being failed for the course.
@@ -71,4 +71,4 @@ If you or anyone you know experiences any academic stress, difficult life events
 
 If you have questions about this or your coursework, please let me know. Thank you, and have a great semester.
 
-(Some of this helpful content was borrowed from Prof. Jeff Bigham’s [Human-AI Interaction Course](http://www.humanaiclass.org/))
+(Some of this helpful content was borrowed from Prof. Jeff Bigham's [Human-AI Interaction Course](http://www.humanaiclass.org/))
