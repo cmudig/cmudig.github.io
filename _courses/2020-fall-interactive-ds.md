@@ -9,7 +9,7 @@ instructors:
 tas:
   - Kunal Khadilkar
   - Aditya Anantharaman
-- Pranav Thombre
+  - Pranav Thombre
 redirect_from:
   - ids2020
 ---
