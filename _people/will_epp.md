@@ -1,7 +1,7 @@
 ---
 name: Will Epperson
 website: https://www.willepperson.com
-image: /assets/willepperson.jpg
+image: /assets/people/willepperson.jpg
 role: PhD Student
 ---
 
