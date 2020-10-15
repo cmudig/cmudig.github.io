@@ -1,5 +1,4 @@
 {% assign data = site.people | where:"name", include.name | first %}{% if
 data.website %}<a href="{{ data.website }}" class="black hover-cmu-red link"
-  >{% if data.me %}<strong>{{ include.name }}</strong
-  >{% else %}{{ include.name }}{% endif %}</a
+  >{{ include.name }}{% endif %}</a
 >{% else %}{{ include.name }}{% endif %}
