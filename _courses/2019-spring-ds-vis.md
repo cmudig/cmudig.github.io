@@ -50,7 +50,8 @@ Attendance is mandatory. If you must miss class for illness, family emergency, o
 
 Laptops will be permitted in class, and will be required for use during technology workshops. Please be respectful of the class and your classmates with your use of laptops by avoiding distracting content.
 
-Office Hours
+### Office Hours
+
 Please join me and the graders for office hours. My normal office hours will be TBD in Newell-Simon Hall (second floor). Please also feel free to send a message to him on Slack.
 
 If you are asking a general question, that other students may also benefit from seeing, please ask in a Canvas discussion. If you are asking a question specific to you, e.g., about a grade you received, about absence from class, an accommodation request, etc., then please ask us individually either in person or via email.
