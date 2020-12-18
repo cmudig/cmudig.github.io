@@ -14,7 +14,9 @@ redirect_from:
   - ids2020
 ---
 
-[Canvas Link](https://canvas.cmu.edu/courses/18615).
+[Canvas](https://canvas.cmu.edu/courses/18615).
+
+[Overview of final projects](https://cmu-ids-2020.github.io/)
 
 The goal of this course is to provide you with the tools to understand data and build data-driven interactive systems. You will learn to tell a story with the data and explore opportunities enabled by interactive data analysis through a combination of lectures, readings of current literature, and practical skills development. Over the course of the semester, you will learn about data science and the entire data pipeline from collecting and analyzing to interacting with data. We will also cover human-centered aspects of data science and how HCI methods can enhance the interpretation of data. This course requires comfort with programming, as required projects make use of Python and Git (and if you want JavaScript or others). A series of homework assignments help to lay the groundwork for a final larger group project.
 
