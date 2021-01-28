@@ -10,7 +10,7 @@ tas:
   - Katherine Ye
   - Kunal Khadilkar
 redirect_from:
-  - ids2020
+  - ids2021
 ---
 
 [Canvas](https://canvas.cmu.edu/courses/22110).
