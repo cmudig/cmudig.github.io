@@ -69,27 +69,27 @@ language.
 
 ### List of Topics
 
-Introduction + The Data Pipeline
-Value of Visualization
-Sketching
-Visual Encoding, Colab and Altair
-Data Quality
-Perception
-Interactivity and Streamlit
-Design and Color
-Databases and SQL + Storage
-Tableau Workshop
-Telling Stories with Data
-Data Science Ethics (Vis+ML)
-Sampling and big data / Scalability
-Natural Language Processing
-Interpretability
-Critique Workshop
-Advanced Visualization
-Controlled Experiments + Evaluation
-Uncertainty
-Crowd Computing
-Fairness
+- Introduction + The Data Pipeline
+- Value of Visualization
+- Sketching
+- Visual Encoding, Colab and Altair
+- Data Quality
+- Perception
+- Interactivity and Streamlit
+- Design and Color
+- Databases and SQL + Storage
+- Tableau Workshop
+- Telling Stories with Data
+- Data Science Ethics (Vis+ML)
+- Sampling and big data / Scalability
+- Natural Language Processing
+- Interpretability
+- Critique Workshop
+- Advanced Visualization
+- Controlled Experiments + Evaluation
+- Uncertainty
+- Crowd Computing
+- Fairness
 
 ### Projects
 
