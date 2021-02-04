@@ -18,3 +18,5 @@ We have the following roles: `Professor`, `Postdoc`, `PhD Student`, `Visiting Ph
 Add add a picture, add it to [the assets directory](../assets/people) with around `400x400` pixels and aggressive JPEG compression. Aim for about 30kb.
 
 Once someone leaves the group, add `alumni_since: XXXX` to make them as alumni.
+
+Please send a pull request with the changes and an admin will merge it. 
