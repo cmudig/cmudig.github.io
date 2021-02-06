@@ -15,7 +15,7 @@ Fun fact.
 
 We have the following roles: `Professor`, `Postdoc`, `PhD Student`, `Visiting PhD Student`, `Masters Student`, `Undergraduate Student`, and `Collaborator`. You can also add a new role if it makes sense.
 
-Add add a picture, add it to [the assets directory](../assets/people) with around `400x400` pixels and aggressive JPEG compression. Aim for about 30kb.
+Add add a picture, add it to [the assets directory](../assets/people) with around `400x400` pixels as a JPEG image. Aim for about 40kb and adjust the compression if necessary.
 
 Once someone leaves the group, add `alumni_since: XXXX` to make them as alumni.
 
