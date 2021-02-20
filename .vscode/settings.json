@@ -3,8 +3,5 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "files.associations": {
     "20*.html": "markdown"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
