@@ -1,0 +1,17 @@
+---
+layout: page
+title: Studies
+subtitle: We work directly with visualization, machine learning, and data science practitioners to develop grounded and useful tools. We'd love to work with you to design the future of data science!
+---
+
+<div>
+  {% for study in site.studies %}
+  <article>
+    <h3>{{ study.title }}</h3>
+    <p>{{ study.content }}</p>
+    <a href="google.com" class="black link hover-cmu-red mr3 dib">
+      <span class="cta">Participate</span>
+    </a>
+  </article>
+  {% endfor %}
+</div>

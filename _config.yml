@@ -24,6 +24,8 @@ collections:
     output: false
   courses:
     output: true
+  studies:
+    output: true
 
 # Build settings
 markdown: kramdown
