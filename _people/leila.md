@@ -1,5 +1,5 @@
 ---
 name: Leila Huang
-Role: Masters Student
+role: Masters Student
 alumni_since: 2020
 ---
