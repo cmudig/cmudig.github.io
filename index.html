@@ -77,10 +77,12 @@ layout: default
       <h2 class="f3">Posts & Updates</h2>
 
       <ul class="list pl0">
-        {% assign sorted_posts = site.posts %} {% for post in
-        sorted_posts %}
+        {% assign sorted_posts = site.posts %} {% for post in sorted_posts %}
         <li class="pb3">
-          <a href="{{ post.url }}">{{ post.title }}</a>
+          <a href="{{ post.url }}">
+            {% if post.is_study and post.study_state != "Completed" %} {{
+            post.study_state }}: {% endif %} {{ post.title }}
+          </a>
           <time datetime="{{ post.date }}" class="db f6 black-80"
             >{{ post.date | date: "%b %Y" }}</time
           >

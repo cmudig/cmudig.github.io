@@ -1,0 +1,36 @@
+---
+layout: page
+---
+
+<article class="lh-copy flex flex-row flex-wrap">
+  <div class="w-60-l w-100">
+    <h3 class="mt3">Research Study Description</h3>
+    {{ content }}
+  </div>
+  <div class="w-40-l w-100 pl6-l">
+    {% if page.study_state %}
+      {% if page.study_state == "Recruiting" %}
+        {% if page.enrollment_link %}
+          <a class="link dim ph3 pv2 mb2 dib white bg-cmu-red" href="{{ page.enrollment_link }}" target="_blank">Participate</a>
+        {% endif %}
+        {% if page.contact_email %}
+          <a class="link dim ph3 pv2 mb2 dib white bg-cmu-dark-gray" href="mailto:{{ page.contact_email }}">Contact</a>
+        {% endif %}
+      {% elsif page.study_state == "Completed" %}
+        <p>This study is <strong>no longer recruiting</strong>.
+          {% if page.contact_email %}
+            <a href="mailto:{{ page.contact_email }}">Contact the study organizers</a> with any questions.
+          {% endif %}
+        </p>
+      {% elsif page.study_state == "Upcoming" %}
+        <p>This study isn't recruiting yet!
+          {% if page.contact_email %}
+            Check back soon, or <a href="mailto:{{ page.contact_email }}">contact the study organizers</a> with any questions.
+          {% else %}
+            Check back soon.
+          {% endif %}
+        </p>
+      {% endif %}
+    {% endif %}
+  </div>
+  </article>

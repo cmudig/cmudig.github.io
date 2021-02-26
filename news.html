@@ -5,9 +5,10 @@ title: Posts & Updates
 
 <div class="flex flex-wrap">
   {% for post in site.posts %}
-  <div class="responsive-post-preview">
-    <div class="responsive-post-excerpt">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <div class="flex flex-row-ns flex-wrap">
+    <div class="{% if post.thumbnail %} w-70-ns w-100-s {% else %} w-100 {% endif %}">
+      <h3><a href="{{ post.url }}">{% if post.is_study and post.study_state != "Completed" %} {{
+        post.study_state }}: {% endif %} {{ post.title }}</a></h2>
       <p>
         {{ post.excerpt | remove: "<p>" | remove: "</p>" }}
         {% if post.content.size > post.excerpt.size %}
@@ -16,7 +17,7 @@ title: Posts & Updates
       </p>
     </div>
     {% if post.thumbnail %}
-    <div class="responsive-post-thumbnail ml4">
+    <div class="w-30-ns w-100-s pl4">
       <a href="{{ post.url }}">
         <img src="{{ post.thumbnail }}" alt="{{ post.thumbnail_alt | default: 'Thumbnail image' }}"/>
       </a>
