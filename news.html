@@ -8,7 +8,7 @@ title: Posts & Updates
   <div class="flex flex-row-ns flex-wrap">
     <div class="{% if post.thumbnail %} w-70-ns w-100-s {% else %} w-100 {% endif %}">
       <h3><a href="{{ post.url }}">{% if post.is_study and post.study_state != "Completed" %} {{
-        post.study_state }}: {% endif %} {{ post.title }}</a></h2>
+        post.study_state }}: {% endif %} {{ post.title }}</a></h3>
       <p>
         {{ post.excerpt | remove: "<p>" | remove: "</p>" }}
         {% if post.content.size > post.excerpt.size %}

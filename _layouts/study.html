@@ -4,12 +4,13 @@ layout: page
 
 <article class="lh-copy flex flex-row flex-wrap">
   <div class="w-60-l w-100">
-    <h3 class="mt3">Research Study Description</h3>
+    <h3 class="mt2">Research Study Description</h3>
     {{ content }}
   </div>
   <div class="w-40-l w-100 pl6-l">
     {% if page.study_state %}
       {% if page.study_state == "Recruiting" %}
+        <p>This study is <strong>recruiting</strong>!</p>
         {% if page.enrollment_link %}
           <a class="link dim ph3 pv2 mb2 dib white bg-cmu-red" href="{{ page.enrollment_link }}" target="_blank">Participate</a>
         {% endif %}
@@ -30,6 +31,11 @@ layout: page
             Check back soon.
           {% endif %}
         </p>
+      {% endif %}
+      {% if page.last_updated %}
+      <p class="f6">Last updated:
+        {{ page.last_updated | date: "%B %-d, %Y" }}
+      </p>
       {% endif %}
     {% endif %}
   </div>

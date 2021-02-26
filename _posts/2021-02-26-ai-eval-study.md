@@ -6,6 +6,7 @@ is_study: true
 study_state: "Recruiting"
 contact_email: "cabrera@cmu.edu"
 enrollment_link: "https://google.com"
+last_updated: 2021-02-26 12:00:00 -0400
 ---
 
 We're looking at how data scientists evaluate their AI systems.

@@ -1,0 +1,31 @@
+---
+layout: page
+title: Participate
+subtitle: We work directly with visualization, machine learning, and data science practitioners to develop grounded and useful tools. We'd love to work with you to design the future of data science!
+---
+
+<div class="flex flex-wrap">
+  {% for post in site.posts %}
+    {% if post.is_study %}
+      <div class="flex flex-row-ns flex-wrap">
+        <div class="{% if post.thumbnail %} w-70-ns w-100-s {% else %} w-100 {% endif %}">
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <h5 class="mt0">{{ post.study_state }} (last updated {{ post.last_updated | date: "%B %-d, %Y" }})</h5>
+          <p>
+            {{ post.excerpt | remove: "<p>" | remove: "</p>" }}
+            {% if post.content.size > post.excerpt.size %}
+              <a href="{{ post.url }}">Read more...</a>
+            {% endif %}
+          </p>
+        </div>
+        {% if post.thumbnail %}
+        <div class="w-30-ns w-100-s pl4">
+          <a href="{{ post.url }}">
+            <img src="{{ post.thumbnail }}" alt="{{ post.thumbnail_alt | default: 'Thumbnail image' }}"/>
+          </a>
+        </div>
+        {% endif %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
