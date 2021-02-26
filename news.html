@@ -1,0 +1,27 @@
+---
+layout: page
+title: Posts & Updates
+---
+
+<div class="flex flex-wrap">
+  {% for post in site.posts %}
+  <div class="responsive-post-preview">
+    <div class="responsive-post-excerpt">
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>
+        {{ post.excerpt | remove: "<p>" | remove: "</p>" }}
+        {% if post.content.size > post.excerpt.size %}
+          <a href="{{ post.url }}">Read more...</a>
+        {% endif %}
+      </p>
+    </div>
+    {% if post.thumbnail %}
+    <div class="responsive-post-thumbnail ml4">
+      <a href="{{ post.url }}">
+        <img src="{{ post.thumbnail }}" alt="{{ post.thumbnail_alt | default: 'Thumbnail image' }}"/>
+      </a>
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>

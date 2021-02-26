@@ -191,3 +191,29 @@ body {
     background-position: bottom right;
   }
 }
+
+@media (min-width: 768px) {
+  .responsive-post-preview {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .responsive-post-excerpt {
+    flex: 1 1;
+  }
+  .responsive-post-thumbnail {
+    flex: 1 0;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-post-preview {
+    display: block;
+  }
+  .responsive-post-excerpt {
+    width: 100%;
+  }
+  .responsive-post-thumbnail {
+    width: 100%;
+  }
+}
