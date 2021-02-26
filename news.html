@@ -1,19 +1,21 @@
 ---
 layout: page
-title: Studies
-subtitle: We work directly with data scientists to understand how they work and develop new tools and visualizations. We would love to work with you on any of our ongoing studies!
+title: News
+subtitle: Check out our latest work, notable events, and ongoing studies!
 ---
 
 <div>
-  {% for post in site.posts %} {%if post.studyLink %}
+  {% for post in site.posts %}
   <article class="pb2 measure-wide lh-copy">
     <h2 class="mb2"><a href="{{ post.url }}">{{ post.title }}</a></h2>
     <h4 class="mt0">{{ post.date | date: "%B %-d, %Y" }}</h4>
     <p>{{ post.content }}</p>
+    {%if post.studyLink %}
     <a href="{{post.studyLink}}" class="black link hover-cmu-red mr3 dib">
       <span class="cta">Participate</span>
     </a>
+    {%endif%}
   </article>
   <hr />
-  {%endif%} {% endfor %}
+  {% endfor %}
 </div>
