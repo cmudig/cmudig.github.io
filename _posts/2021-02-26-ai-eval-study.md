@@ -7,10 +7,11 @@ study_state: "Recruiting"
 contact_email: "cabrera@cmu.edu"
 enrollment_link: "https://forms.gle/vP4WLzKvzVbDaCEQ9"
 last_updated: 2021-02-22 11:00:00 -0700
+excerpt_separator: <!--more-->
 ---
 
 We're interviewing data scientists who work with AI to understand the challenges they face when developing and evaluating their models.
 We're especially interested in how data scientists analyze their models beyond aggregate metrics like accuracy.
 
-The interview lasts up to an hour over Zoom and is compensated by a $20 Amazon gift card.
+The interview lasts up to an hour over Zoom and is compensated by a $20 Amazon gift card. <!--more-->
 If you are interested in participating please fill out [this interest form](https://forms.gle/vP4WLzKvzVbDaCEQ9)!
