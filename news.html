@@ -6,7 +6,7 @@ subtitle: Check out our latest work, notable events, and ongoing studies!
 
 <div>
   {% for post in site.posts %}
-  <article class="pb2 measure-wide lh-copy">
+  <article class="pb4 measure-wide lh-copy">
     <h2 class="mb2"><a href="{{ post.url }}">{{ post.title }}</a></h2>
     <h4 class="mt0">{{ post.date | date: "%B %-d, %Y" }}</h4>
     <p>{{ post.excerpt }}</p>
@@ -16,6 +16,5 @@ subtitle: Check out our latest work, notable events, and ongoing studies!
     </a>
     {% endif %}
   </article>
-  <hr />
   {% endfor %}
 </div>
