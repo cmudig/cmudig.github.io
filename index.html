@@ -77,7 +77,7 @@ layout: default
       <h2 class="f3">News</h2>
 
       <ul class="list pl0">
-        {% assign sorted_posts = site.posts %} {% for post in sorted_posts %}
+        {% assign sorted_posts = site.posts %} {% for post in sorted_posts | limit:5 %}
         <li class="pb3">
           <a href="{{ post.url }}">{{ post.title }}</a>
           <time datetime="{{ post.date }}" class="db f6 black-80"
