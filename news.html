@@ -1,20 +1,26 @@
 ---
 layout: page
-title: Posts & Updates
+title: News
+subtitle: Check out our latest work, notable events, and ongoing studies!
 ---
 
 <div class="flex flex-wrap">
   {% for post in site.posts %}
   <div class="flex flex-row-ns flex-wrap">
     <div class="{% if post.thumbnail %} w-70-ns w-100-s {% else %} w-100 {% endif %}">
-      <h3><a href="{{ post.url }}">{% if post.is_study and post.study_state != "Completed" %} {{
-        post.study_state }}: {% endif %} {{ post.title }}</a></h3>
+      <h3 class="mb0"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      {% if post.is_study %}
+      <h5 class="mt0">Research Study - {{ post.study_state }} (last updated {{ post.last_updated | date: "%B %-d, %Y" }})</h5>
+      {% endif %}
       <p>
         {{ post.excerpt | remove: "<p>" | remove: "</p>" }}
-        {% if post.content.size > post.excerpt.size %}
+        {% if post.is_study != true and post.content.size > post.excerpt.size %}
           <a href="{{ post.url }}">Read more...</a>
         {% endif %}
       </p>
+      {% if post.is_study and post.study_state == "Recruiting" %}
+        <a class="link dim ph3 pv2 mb2 dib white bg-cmu-red" href="{{ post.url }}">Learn More</a>
+      {% endif %}
     </div>
     {% if post.thumbnail %}
     <div class="w-30-ns w-100-s pl4">
