@@ -4,4 +4,9 @@ layout: page
 
 <article class="measure-wide lh-copy">
   {{ content }}
+  {% if page.studyLink %}
+  <a href="{{page.studyLink}}" class="black link hover-cmu-red mr3 dib">
+    <span class="cta">Participate</span>
+  </a>
+  {%endif%}
 </article>

@@ -74,11 +74,11 @@ layout: default
 
   <div class="flex flex-row-ns flex-column pv3">
     <div class="pr3 w-two-thirds-l w-50-m">
-      <h2 class="f3">Posts & Updates</h2>
+      <h2 class="f3">News</h2>
 
       <ul class="list pl0">
-        {% assign sorted_posts = site.posts %} {% for post in
-        sorted_posts %}
+        {% assign sorted_posts = site.posts %} {% for post in sorted_posts
+        limit:5 %}
         <li class="pb3">
           <a href="{{ post.url }}">{{ post.title }}</a>
           <time datetime="{{ post.date }}" class="db f6 black-80"
@@ -87,6 +87,7 @@ layout: default
         </li>
         {% endfor %}
       </ul>
+      <a class="cta" href="/news">Show all</a>
     </div>
 
     <div class="pl3-ns w-third-l w-50-m">

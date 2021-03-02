@@ -181,3 +181,10 @@ body {
     background-position: bottom right;
   }
 }
+
+@media screen and (max-width: 30em) {
+  .center-s {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
