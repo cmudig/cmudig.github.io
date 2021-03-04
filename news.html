@@ -9,12 +9,12 @@ subtitle: Check out our latest work, notable events, and ongoing studies!
   <article class="pb1 measure-wide lh-copy">
     <h2 class="mb2"><a href="{{ post.url }}">{{ post.title }}</a></h2>
     <h4 class="mt0">{{ post.date | date: "%B %-d, %Y" }}</h4>
-    <p>
-      {{ post.excerpt | strip_html }}
+    <div class="mb2">
+      <p class="mb0">{{ post.excerpt | strip_html }}</p>
       <a href="{{ post.url }}" class="gray link hover-cmu-red"
-        >...continue reading</a
+        >continue reading...</a
       >
-    </p>
+    </div>
     {% if post.studyLink %}
     <a href="{{ post.studyLink }}" class="cta"> Participate </a>
     {% endif %}
