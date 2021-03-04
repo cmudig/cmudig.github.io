@@ -6,13 +6,29 @@ subtitle: We work directly with data scientists to understand how they work and 
 
 <div>
   {% for post in site.posts %} {% if post.studyLink %}
-  <article class="pb1 measure-wide lh-copy">
-    <h2 class="mb2"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <h4 class="mt0">{{ post.date | date: "%B %-d, %Y" }}</h4>
-    <p>{{ post.content }}</p>
-    <a href="{{ post.studyLink }}" class="black link hover-cmu-red mr3 dib">
-      <span class="cta">Participate</span>
-    </a>
-  </article>
+  <div class="flex flex-row-ns flex-wrap">
+    <div class="{% if post.side_image %} w-70-ns w-100-s {% else %} w-100 {% endif %}">
+      <h3 class="mb0"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h4 class="mt0">{{ post.date | date: "%B %-d, %Y" }}</h4>
+      <p>
+        {{ post.excerpt | strip_html }}
+        {% if post.content.size > post.excerpt.size %}
+          <a href="{{ post.url }}">Read more...</a>
+        {% endif %}
+      </p>
+      {% if post.studyLink %}
+      <a href="{{post.studyLink}}" class="black link hover-cmu-red mr3 dib">
+        <span class="cta">Participate</span>
+      </a>
+      {% endif %}
+    </div>
+    {% if post.side_image %}
+      <div class="w-30-ns w-100-s pl4">
+        <a href="{{ post.url }}">
+          <img src="{{ post.side_image }}" alt="{{ post.blah | default: post.title }}"/>
+        </a>
+      </div>
+    {% endif %}
+  </div>
   {% endif %} {% endfor %}
 </div>
