@@ -6,33 +6,6 @@ subtitle: We work directly with data scientists to understand how they work and 
 
 <div>
   {% for post in site.posts %} {% if post.studyLink %}
-  <div class="flex flex-row-ns flex-wrap pb1 ">
-    <div class="{% if post.side_image %} w-70-ns w-100-s {% else %} w-100 {% endif %}">
-      <article class="lh-copy">
-        <h3 class="mb0"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        <h4 class="mt0">{{ post.date | date: "%B %-d, %Y" }}</h4>
-        <div class="mb2">
-          <p class="mb0">{{ post.excerpt | strip_html }}</p>
-          {% if post.content.size > post.excerpt.size %}
-          <a href="{{ post.url }}" class="gray link hover-cmu-red"
-            >continue reading...</a
-          >
-          {% endif %}
-        </div>
-        {% if post.studyLink %}
-        <a href="{{post.studyLink}}" class="black link hover-cmu-red mr3 dib">
-          <span class="cta">Participate</span>
-        </a>
-        {% endif %}
-      </article>
-    </div>
-    {% if post.side_image %}
-      <div class="w-30-ns w-100-s pl4">
-        <a href="{{ post.url }}">
-          <img src="{{ post.side_image }}" alt="{{ post.side_image_alt | default: post.title }}"/>
-        </a>
-      </div>
-    {% endif %}
-  </div>
+  {% include post-preview.html post=post %}
   {% endif %} {% endfor %}
 </div>

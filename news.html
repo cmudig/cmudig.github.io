@@ -6,31 +6,6 @@ subtitle: Check out our latest work, notable events, and ongoing studies!
 
 <div>
   {% for post in site.posts %}
-    <article>
-      <h2 class="mb2"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <h4 class="mt0">{{ post.date | date: "%B %-d, %Y" }}</h4>
-      <div class="flex flex-row-ns flex-wrap">
-        <div class="flex-grow-1 measure-wide">
-          <div class="mb2 lh-copy">
-            <p class="mb0">{{ post.excerpt | strip_html }}</p>
-            {% if post.content.size > post.excerpt.size %}
-            <a href="{{ post.url }}" class="gray link hover-cmu-red"
-              >continue reading...</a
-            >
-            {% endif %}
-          </div>
-          {% if post.studyLink %}
-            <a href="{{ post.studyLink }}" class="cta"> Participate </a>
-          {% endif %}  
-        </div>
-        {% if post.side_image %}
-          <div class="ml4-ns mt2 mw4">
-            <a href="{{ post.url }}">
-              <img src="{{ post.side_image }}" alt="{{ post.side_image_alt | default: post.title }}"/>
-            </a>
-          </div>
-        {% endif %}
-      </div>
-    </article>
+    {% include post-preview.html post=post %}
   {% endfor %}
 </div>
