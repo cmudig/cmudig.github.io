@@ -1,16 +1,11 @@
 ---
 layout: page
 title: Studies
-subtitle: We work directly with data scientists to understand how they work and develop new tools and visualizations. We would love to work with you on any of our ongoing studies!
+subtitle: We work directly with data scientists to understand how they work and develop new tools and visualizations. We would love to work with you on any of our ongoing studies! In addition, you can fill out this quick <a href="https://docs.google.com/forms/d/e/1FAIpQLSdm-uNPqktKc97vOOJDTkbnF0fg8oPltbrqrjqHxWGIhudnHA/viewform?usp=sf_link" target="_blank">interest form</a> to be notified if you're eligible for a future study.
 ---
 
 <div>
   {% for post in site.posts %} {% if post.studyLink %}
-  <article class="pb1 measure-wide lh-copy">
-    <h2 class="mb2"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <h4 class="mt0">{{ post.date | date: "%B %-d, %Y" }}</h4>
-    <p>{{ post.content }}</p>
-    <a href="{{ post.studyLink }}" class="cta">Participate </a>
-  </article>
+  {% include post-preview.html post=post %}
   {% endif %} {% endfor %}
 </div>
