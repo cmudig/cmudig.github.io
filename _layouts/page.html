@@ -8,7 +8,12 @@ layout: default
       <h1 class="f2 lh-title measure mt3">
         {{ page.title }}
       </h1>
-      <p class="f4 measure lh-copy">{{ page.subtitle }}</p>
+      {%if page.subtitle %}
+        <p class="f4 measure lh-copy">{{ page.subtitle }}</p>
+      {% endif %}
+      {% if page.date %}
+        <p class="f4 measure lh-copy mt1">{{ page.date | date: "%B %-d, %Y" }}</p>
+      {% endif %}
     </div>
   </div>
 

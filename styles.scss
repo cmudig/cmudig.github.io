@@ -10,17 +10,7 @@ button,
 input,
 select,
 textarea {
-  font-family: sans-serif;
-}
-
-@media only screen and (min-width: 768px) {
-  html,
-  button,
-  input,
-  select,
-  textarea {
-    font-family: "Open Sans", sans-serif;
-  }
+  font-family: "Open Sans", sans-serif;
 }
 
 html {
@@ -189,5 +179,12 @@ body {
 
   &:hover {
     background-position: bottom right;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .center-s {
+    margin-right: auto;
+    margin-left: auto;
   }
 }

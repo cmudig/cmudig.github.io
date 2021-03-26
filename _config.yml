@@ -6,7 +6,9 @@
 title: CMU Data Interaction Group
 email: dig@cmu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Website of the Data Interaction Group at Carnegie Mellon University in Pittsburgh.
+  We are a research group at the Human-Computer Interaction Institute at 
+  Carnegie Mellon University. Our mission is to empower everyone to analyze and 
+  communicate data with interactive systems.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dig.cmu.edu" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cmudig
