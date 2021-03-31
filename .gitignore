@@ -6,3 +6,4 @@ _hidden/*
 node_modules/*
 !node_modules/tachyons-sass/**/*.scss
 .DS_Store
+node_modules
