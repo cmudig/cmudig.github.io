@@ -1,5 +1,7 @@
 ---
-name: Zhendong Yuan
+name: Zhendong (Mike) Yuan
 image: /assets/people/zhendong.jpg
-role: Undergraduate Student
+role: Masters Student
+advisors:
+    - Adam Perer
 ---

@@ -3,6 +3,5 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "files.associations": {
     "20*.html": "markdown"
-  },
-  "git.ignoreLimitWarning": true
+  }
 }

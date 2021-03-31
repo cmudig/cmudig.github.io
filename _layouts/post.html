@@ -2,6 +2,18 @@
 layout: page
 ---
 
-<article class="measure-wide lh-copy">
-  {{ content }}
-</article>
+<div class="flex flex-row flex-wrap justify-between">
+  <article class="lh-copy {% if page.side_image %} w-60-ns {% endif %} w-100">
+    {{ content }}
+    {% if page.studyLink %}
+    <a href="{{page.studyLink}}" class="black link hover-cmu-red mr3 dib">
+      <span class="cta">Participate</span>
+    </a>
+    {%endif%}
+  </article> 
+  {% if page.side_image %}
+  <div class="w-30-ns w-100">
+    <img src="{{ page.side_image }}" alt="{{ post.side_image_alt | default: post.title }}" class="fr"/>
+  </div>
+  {% endif %} 
+</div>
