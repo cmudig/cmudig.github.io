@@ -6,7 +6,7 @@
   var highlightElem = document.getElementById("highlight");
 
   var data = [];
-  var allYears = {};
+  var allYears = new Set();
 
   pubElems.forEach(function(element) {
     var item = JSON.parse(element.getAttribute("data-pub"));
@@ -15,7 +15,7 @@
       item.highlight = "Yes";
     }
 
-    allYears[item.year] = 1;
+    allYears.add(item.year);
 
     item.element = element;
 
@@ -42,10 +42,26 @@
       type: {
         size: 5
       }
-    }
+    },
+    searchableFields: ["authors", "awards", "tags", "type", "title", "content"]
   });
 
-  var query = { filters: {} };
+  // get default search from URL
+  var hash = decodeURIComponent(window.location.hash.substr(1));
+
+  var result = hash.split('&').reduce(function (res, item) {
+      var [key, value] = item.split('=');
+      if (key && value) {
+        if (key in res) {
+          res[key].push(value)
+        } else {
+          res[key] = [value];
+        }
+      }
+      return res;
+  }, {});
+
+  var query = { filters: result };
 
   function setAggs(aggs) {
     document.querySelectorAll("#facets > .facet").forEach(function(facet) {
@@ -130,25 +146,23 @@
     });
   }
 
-  // full text search is broken
-  // var ftSearch = document.getElementById("ft-search");
-  // ftSearch.oninput = function() {
-  //   var val = ftSearch.value;
+  var ftSearch = document.getElementById("ft-search");
+  ftSearch.oninput = function() {
+    var val = ftSearch.value;
 
-  //   if (val) {
-  //     query.query = val;
-  //   } else {
-  //     delete query.val;
-  //   }
+    if (val) {
+      query.query = val;
+    } else {
+      delete query.query;
+    }
 
-  //   console.log(query);
-  //   search(query);
-  // }
+    search(query);
+  }
 
   function search(query) {
     console.time("Search");
 
-    var result = engine.search(Object.assign({ per_page: 1000 }, query));
+    var result = engine.search(Object.assign({ per_page: data.length }, query));
 
     setAggs(result.data.aggregations);
 
@@ -170,7 +184,7 @@
     yearElems.forEach(function(element) {
       element.classList.add("dn");
     });
-    Object.keys(allYears).forEach(function(year) {
+    allYears.forEach(function(year) {
       if (year in visibleYears) {
         document.getElementById("y" + year).classList.remove("dn");
       }
@@ -199,6 +213,7 @@
 
   clearElem.onclick = function() {
     query = { filters: {} };
+    ftSearch.value = "";
     search(query);
   };
 
