@@ -12,7 +12,7 @@ redirect_from:
   - vis2021
 ---
 
-[Canvas](https://canvas.cmu.edu/courses/22110).
+[Canvas](https://canvas.cmu.edu/courses/24179).
 
 TODO
 
