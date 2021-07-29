@@ -36,18 +36,7 @@ roles:
 
 <h2>Past Members</h2>
 
-<!-- <ul class="list pl0">
-  {% assign sorted_alumni = site.people | sort: 'alumni_since' | reverse %} {%
-  for person in sorted_alumni %} {% if person.alumni_since %}
-  <li>
-    <a href="{{ person.website }}" class="black">{{ person.name }}</a>, alumni
-    since {{ person.alumni_since }}
-    <span class="gray">(formerly a {{ person.role }})</span>
-  </li>
-  {% endif %} {% endfor %}
-</ul> -->
-
-<div class="flex flex-wrap">
+<div class="mb4 flex flex-wrap">
   {% assign alumni = site.people | where_exp: 'p', 'p.alumni_since' %}
   {% assign sorted_alumni = alumni | sort: 'alumni_since' | reverse %} 
   {% for role in page.roles %}
@@ -75,5 +64,4 @@ roles:
 
 </div>
 
-<div class="mb4"></div>
 You can find instructions for editing this list <a href="https://github.com/cmudig/cmudig.github.io/tree/master/_people#adding-a-person">in the repository for this website</a>.
