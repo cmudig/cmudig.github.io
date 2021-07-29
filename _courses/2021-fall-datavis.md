@@ -10,41 +10,46 @@ tas:
   - Alex Cabrera
 redirect_from:
   - vis2021
+
+schedule:
+  - date: 2021-08-31
+    title: "Introduction and the Value of Visualization"
+    readings:
+      - name: Readings in Infovis Chapter 1
+        required: true
+      - name: Intro to Vega Lite
+        required: true
+  - date: 2021-09-02
+    title: "Sketching"
+    readings:
+      - name: Draw a f*** owl
 ---
 
 [Canvas](https://canvas.cmu.edu/courses/24179).
 
 TODO
 
-## Syllabus
+By the end of this course, you should expect to be able to:
 
-### Course Goals
+- TODO
 
-#### The learning goals of the course are as follows:
+## Schedule and Readings
 
-TODO
+{% for lecture in page.schedule %}
 
-#### Concepts
+<div>
+  <p class=" mb0 gray">{{ lecture.date | date: "%a, %b %d" }}</p>
+  <p class="mt0 mb1 f4">{{ lecture.title }}</p>
+  <ul class="list pl0 mt0">
+  {% for reading in lecture.readings %}
+    <li>{% if reading.required %}<small class="br2 white bg-gray ph1">Required</small>{% else %}<small>Optional</small>{% endif %} {{ reading.name }}</li>
+  {% endfor %}
+  </ul>
+</div>
 
-TODO
+{% endfor %}
 
-#### Skills
-
-TODO
-
-#### Some of the specific skills that will be covered in projects include:
-
-- Display data from an API on a data-driven application you create
-- Create interactive visualizations of data
-- Answer a series of intriguing questions from both the data and corresponding visualizations
-
-### Prerequisites
-
-TODO
-
-### List of Topics
-
-TODO
+## Details
 
 ### Projects
 
@@ -57,10 +62,6 @@ All homework assignments are to be done as individual work. It is expected that 
 This will not be an exam-heavy course. Instead, much of the work will focus on projects. The course will focus on understanding the techniques of data science and visualization through developing creative analyses and visualizations using tools to solve defined problems.
 
 There is no final exam in this course. Students who do well will be invited to continue on an independent project on topics related to the course, working with Prof. Perer or Prof. Moritz during a future semester.
-
-### Course Material
-
-Readings will be made available on this CMU Canvas site.
 
 ### Readings
 
@@ -84,16 +85,29 @@ The tentative breakdown for grading is below. As a reminder, here is the [univer
 - 60% Final Project
 - 10% Participation and Attendance
 
+## Policies
+
 ### Respect for Diversity
 
 It is our intent that students from all diverse backgrounds and perspectives be well served by this course, that students’ learning needs be addressed both in and out of class, and that the diversity that students bring to this class be viewed as a resource, strength and benefit. It is our intent to present materials and activities that are respectful of diversity: gender, sexuality, disability, age, socioeconomic status, ethnicity, race, and culture. Your suggestions are encouraged and appreciated. Please let us know ways to improve the effectiveness of the course for you personally or for other students or student groups. In addition, if any of our class meetings conflict with your religious events, please let us know so that we can make arrangements for you.
 
 ### Accommodations for Students with Disabilities
 
-If you have a disability and are registered with the Office of Disability Resources, we encourage you to use their online system to notify us of your accommodations and discuss your needs with us as early in the semester as possible. We will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with the Office of Disability Resources, we encourage you to contact them at access@andrew.cmu.edu.
+If you have a disability and are registered with the Office of Disability Resources, we encourage you to use their online system to notify us of your accommodations and discuss your needs with us as early in the semester as possible. We will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with the Office of Disability Resources, we encourage you to contact them at [access@andrew.cmu.edu](mailto:access@andrew.cmu.edu).
 
 ### Health and Well-being
 
-If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help: call 412-268-2922 and visit their website at http://www.cmu.edu/counseling/. Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help. If you or someone you know is feeling suicidal or in danger of self-harm, call someone immediately, day or night: CaPS: 412-268-2922 Re:solve Crisis Network: 888-796-8226 If the situation is life threatening, call the police On campus: CMU Police: 412-268-2323 Off campus: 911.
+If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help; call [412-268-2922](tel:412-268-2922) and visit their website at [www.cmu.edu/counseling/](http://www.cmu.edu/counseling/). Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help. If you or someone you know is feeling suicidal or in danger of self-harm, call someone immediately, day or night:
+
+- CaPS: [412-268-2922](tel:412-268-2922)
+- Re:solve Crisis Network: [888-796-8226](tel:888-796-8226)
+
+If the situation is life threatening, call the police. On campus call CMU Police: [412-268-2323](tel:412-268-2323). Off campus: [911](tel:911).
 
 If you have questions about this or your coursework, please let the instructors know. Thank you, and have a great semester.
+
+## Acknolwedgements
+
+Material for this class has been adapted from classes taught by Jeffrey Heer at the University of Washington, and Arvind Satyanarayan at MIT, which in turn build on materials from many others.
+
+The class draws heavily on materials and examples found online, and we try our best to give credit by linking to the original source. Please contact us if you find materials where credit is missing or that you would rather have removed.
