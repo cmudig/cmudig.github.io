@@ -22,7 +22,16 @@ schedule:
   - date: 2021-09-02
     title: "Sketching"
     readings:
-      - name: Draw a f*** owl
+      - name: The Anatomy of Sketching (Chapter 9)
+        author: Bill Buxton
+        book: Sketching User Experiences
+        required: true
+        url: https://drive.google.com/file/d/1-1Xlvni3_NFoSiNs8JDuDQV8bFLDuJcj/view?usp=sharing
+      - name: Sketching with Data Opens the Mind's Eye
+        author: Giorgia Lupi
+        required: true
+        url: https://drive.google.com/file/d/1--4iqyEJNSly0arOTpdE9ppotdHSTz9W/view?usp=sharing
+      
 ---
 
 [Canvas](https://canvas.cmu.edu/courses/24179).
@@ -42,7 +51,14 @@ By the end of this course, you should expect to be able to:
   <p class="mt0 mb1 f4">{{ lecture.title }}</p>
   <ul class="list pl0 mt0">
   {% for reading in lecture.readings %}
-    <li>{% if reading.required %}<small class="br2 white bg-gray ph1">Required</small>{% else %}<small>Optional</small>{% endif %} {{ reading.name }}</li>
+    <li>{% if reading.required %}<small class="br2 white bg-gray ph1">Required</small>{% else %}<small>Optional</small>{% endif %} <a href="{{reading.url}}"> {{ reading.name }} </a> 
+    {% if reading.author %}
+      by {{reading.author}} 
+    {% endif %}
+    {% if reading.book %}
+      in <i>{{reading.book}}</i>
+    {% endif %}
+    </li>
   {% endfor %}
   </ul>
 </div>
