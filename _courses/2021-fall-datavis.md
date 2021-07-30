@@ -122,7 +122,7 @@ If the situation is life threatening, call the police. On campus call CMU Police
 
 If you have questions about this or your coursework, please let the instructors know. Thank you, and have a great semester.
 
-## Acknolwedgements
+## Acknowledgements
 
 Material for this class has been adapted from classes taught by Jeffrey Heer at the University of Washington, and Arvind Satyanarayan at MIT, which in turn build on materials from many others.
 
