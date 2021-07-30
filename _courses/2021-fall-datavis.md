@@ -36,11 +36,36 @@ schedule:
 
 [Canvas](https://canvas.cmu.edu/courses/24179).
 
-TODO
+The volume and complexity of data continues to increase in the world around us, including science, business, medicine, social media and everyday human activity. This course aims to expose students to visual representation methods and techniques that increase the understanding of complex data. Good visualizations not only present a visual interpretation of data, but do so by improving comprehension, communication, and decision making. In this course, students will learn about the fundamentals of perception, the theory of visualization, and good design practices for data visualization. The course will also provide hands-on experience on the process of data communication, from initial data analysis, to identifying appropriate visualization techniques, to crafting and implementing informative visualizations.
 
-By the end of this course, you should expect to be able to:
+## Course Objectives 
 
-- TODO
+This course is an introduction to key design principles and techniques for interactively visualizing data. The major goals of this course are to understand how visual representations can help in the analysis and understanding of complex data, how to design effective visualizations, and how to create your own interactive visualizations using modern web-based frameworks.
+
+After successful completion of the course you will be able to:
+* Understand the value of visualization
+* Critically evaluate visualizations and suggest improvements and refinements 
+* Use best practices from design to create effective visualizations 
+* Use principles of human perception and cognition in visualization design 
+* Learn how to use visualization as a communication tool
+* Conduct exploratory data analysis and transform data
+* Create web-based interactive visualizations using frameworks such as Vega-Lite and D3
+* Be prepared to do research in visualization
+ 
+
+## Prerequisites
+
+Expected skills you should have before entering the course:
+* Programming
+* Git (collaborative software development)
+
+Skills that can be learned during the course:
+* JavaScript
+* HTML, CSS, DOM
+* Observable
+* Vega, D3
+* SQL
+
 
 ## Schedule and Readings
 
