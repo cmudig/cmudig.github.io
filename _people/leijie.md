@@ -1,6 +1,6 @@
 ---
 name: Leijie Wang
-image: /assets/people/
+image: /assets/people/leijiewang.jpg
 role: Undergraduate Student
 advisors:
     - Adam Perer
