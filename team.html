@@ -39,29 +39,22 @@ roles:
 <div class="mb4 flex flex-wrap">
   {% assign alumni = site.people | where_exp: 'p', 'p.alumni_since' %}
   {% assign sorted_alumni = alumni | sort: 'alumni_since' | reverse %} 
-  {% for role in page.roles %}
-    {% assign sorted_alumni_current_role = sorted_alumni | where: 'role', role %} 
-    {% if sorted_alumni_current_role.size > 0 %}
-      <h3>{{role}}s</h3>
-      <div class="flex flex-wrap">
-      {% for person in sorted_alumni_current_role %} 
-          <div class="w-25-m w-10-l w-50 ph2 pv2">
-            <a href="{{ person.website }}"><span>
-                <img src="{{ person.image | relative_url }}" alt="Picture of {{ person.name }}" loading="lazy" class="br3" />
-                <span class="black">
-                  {{ person.name }}
-                </span>
-                <span class="gray">
-                  ({{ person.alumni_since }})
-                </span>
-              </span>
-            </a>
-          </div>
-      {% endfor %} 
-      </div> 
-      {% endif %}
-      {% endfor %}
-
+  <div class="flex flex-wrap">
+  {% for person in sorted_alumni %} 
+      <div class="w-25-m w-10-l w-50 ph2 pv2">
+        <a href="{{ person.website }}"><span title="{{person.name}} ({{person.role}})">
+            <img src="{{ person.image | relative_url }}" alt="Picture of {{ person.name }}" loading="lazy" class="br3" />
+            <span class="black">
+              {{ person.name }}
+            </span>
+            <span class="gray">
+              ({{ person.alumni_since }})
+            </span>
+          </span>
+        </a>
+      </div>
+  {% endfor %} 
+  </div> 
 </div>
 
 You can find instructions for editing this list <a href="https://github.com/cmudig/cmudig.github.io/tree/master/_people#adding-a-person">in the repository for this website</a>.
