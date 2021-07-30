@@ -36,9 +36,6 @@ schedule:
 
 [Canvas](https://canvas.cmu.edu/courses/24179).
 
-The volume and complexity of data continues to increase in the world around us, including science, business, medicine, social media and everyday human activity. This course aims to expose students to visual representation methods and techniques that increase the understanding of complex data. Good visualizations not only present a visual interpretation of data, but do so by improving comprehension, communication, and decision making. In this course, students will learn about the fundamentals of perception, the theory of visualization, and good design practices for data visualization. The course will also provide hands-on experience on the process of data communication, from initial data analysis, to identifying appropriate visualization techniques, to crafting and implementing informative visualizations.
-
-## Course Objectives 
 
 This course is an introduction to key design principles and techniques for interactively visualizing data. The major goals of this course are to understand how visual representations can help in the analysis and understanding of complex data, how to design effective visualizations, and how to create your own interactive visualizations using modern web-based frameworks.
 
