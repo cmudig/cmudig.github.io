@@ -24,13 +24,33 @@ schedule:
     readings:
       - name: The Anatomy of Sketching (Chapter 9)
         author: Bill Buxton
-        book: Sketching User Experiences
+        venue: Sketching User Experiences
         required: true
+        type: pdf
         url: https://drive.google.com/file/d/1-1Xlvni3_NFoSiNs8JDuDQV8bFLDuJcj/view?usp=sharing
       - name: Sketching with Data Opens the Mind's Eye
         author: Giorgia Lupi
         required: true
+        type: pdf
         url: https://drive.google.com/file/d/1--4iqyEJNSly0arOTpdE9ppotdHSTz9W/view?usp=sharing
+      - name: The Shape of My Thoughts
+        author: Giorgia Lupi
+        venue: Eyeo 2014
+        required: false
+        type: video
+        url: https://vimeo.com/109954123
+  - date: 2021-09-07
+    title: "Data and Image Models"
+  - date: 2021-09-09
+    title: "Effective Visual Encodings"
+    readings:
+      - name: Basic Principles of Visualization (Chapter 5)
+        author: Alberto Cairo
+        venue: The Truthful Art
+        required: true
+        type: pdf
+        url: https://drive.google.com/open?id=171tAFZLofETfiOm4OElpHcWSlWQ8Yven&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
+      
       
 ---
 
@@ -73,12 +93,19 @@ Skills that can be learned during the course:
   <p class="mt0 mb1 f4">{{ lecture.title }}</p>
   <ul class="list pl0 mt0">
   {% for reading in lecture.readings %}
-    <li>{% if reading.required %}<small class="br2 white bg-gray ph1">Required</small>{% else %}<small>Optional</small>{% endif %} <a href="{{reading.url}}"> {{ reading.name }} </a> 
+    <li>{% if reading.required %}<small class="br2 white bg-gray ph1">Required</small>{% else %}<small>Optional</small>{% endif %} 
+    <a href="{{reading.url}}"> {{ reading.name }} </a> 
+    {% if reading.type == "video" %}
+      <i class="fas fa-film" aria-hidden="true"></i>
+    {% endif %}
+    {% if reading.type == "pdf" %}
+      <i class="far fa-file-pdf" aria-hidden="true"></i>
+    {% endif %}
     {% if reading.author %}
       by {{reading.author}} 
     {% endif %}
-    {% if reading.book %}
-      in <i>{{reading.book}}</i>
+    {% if reading.venue %}
+      in <i>{{reading.venue}}</i>
     {% endif %}
     </li>
   {% endfor %}
