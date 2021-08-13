@@ -132,7 +132,7 @@ There is no final exam in this course. Students who do well will be invited to c
 
 You will be expected to read assigned readings before the lecture they pertain to. These may include chapters drawn from textbooks about data, or readings about the research literature. To incentivize this, each student will be required to make at least one relevant postings to the discussion group before the class on which each reading is due. This participation will count toward the Participation and Attendance portion of their grade.
 
-All students are required to submit at least 1 substantive discussion post per lecture on Piazza related to the course readings. Each student has 1 pass for skipping comments.
+All students are required to submit at least 1 substantive discussion post per lecture related to the course readings. Each student has 1 pass for skipping comments.
 
 Good comments typically exhibit one or more of the following:
 
@@ -162,12 +162,23 @@ If you have a disability and are registered with the Office of Disability Resour
 
 ### Health and Well-being
 
+This year is unlike any other. We are all under a lot of stress and uncertainty at this time. Make sure to move regularly, eat well, and reach out to your support system or us if you need to. We can all benefit from support in times of stress, and this semester is no exception. 
+
+Due to the ongoing pandemic, **do not under any circumstances physically come to class sick** to keep your fellow students and instructors safe.  Reach out to the instructors to determine a way to participate remotely and/or catch-up.
+
 If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help; call [412-268-2922](tel:412-268-2922) and visit their website at [www.cmu.edu/counseling/](http://www.cmu.edu/counseling/). Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help. If you or someone you know is feeling suicidal or in danger of self-harm, call someone immediately, day or night:
 
 - CaPS: [412-268-2922](tel:412-268-2922)
 - Re:solve Crisis Network: [888-796-8226](tel:888-796-8226)
 
 If the situation is life threatening, call the police. On campus call CMU Police: [412-268-2323](tel:412-268-2323). Off campus: [911](tel:911).
+
+
+### Food Insecurity
+
+If you are worried about affording food or feeling insecure about food, there are resources on campus who can help. Email the CMU Food Pantry Coordinator to schedule an appointment:
+Pantry Coordinator: [cmu-pantry@andrew.cmu.edu](mailto:cmu-pantry@andrew.cmu.edu)
+SLICE office: [412-268-8704](tel:412-268-8704) 
 
 If you have questions about this or your coursework, please let the instructors know. Thank you, and have a great semester.
 
