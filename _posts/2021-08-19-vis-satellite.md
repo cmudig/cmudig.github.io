@@ -14,4 +14,4 @@ We organize the event following CMU's COVID regulations. We expect everyone to b
 
 If you want to attend or sponsor the VIS Satellite, we will provide contact information here shortly.
 
-The organizers of the event are Adam Perer, Yu-Ru Lin, and Dominik Moritz.
+The organizers of the event are Adam Perer (CMU), Yu-Ru Lin (University of Pittsburgh), and Dominik Moritz (CMU).
