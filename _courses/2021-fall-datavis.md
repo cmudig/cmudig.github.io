@@ -15,10 +15,16 @@ schedule:
   - date: 2021-08-31
     title: "Introduction and the Value of Visualization"
     readings:
-      - name: Readings in Infovis Chapter 1
+      - name: Information Visualization (Chapter 1)
+        author: Stuart Card, Jock Mackinlay, and Ben Shneiderman
+        year: 1999
         required: true
       - name: Intro to Vega Lite
         required: true
+      - name: The Value of Visualization
+        author: Jarke van Wijk
+        year: 2005
+        required: false
   - date: 2021-09-02
     title: "Sketching"
     readings:
@@ -41,6 +47,9 @@ schedule:
         url: https://vimeo.com/109954123
   - date: 2021-09-07
     title: "Data and Image Models"
+    readings:
+      - name: Foo
+        required: true
   - date: 2021-09-09
     title: "Effective Visual Encodings"
     readings:
@@ -50,12 +59,57 @@ schedule:
         required: true
         type: pdf
         url: https://drive.google.com/open?id=171tAFZLofETfiOm4OElpHcWSlWQ8Yven&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
-      
-      
+  - date: 2021-09-14
+    title: Exploratory Data Analysis
+    readings:
+      - name: Foo
+        required: true
+  - date: 2021-09-16
+    title: Transform Data with SQL
+    readings:
+      - name: Foo
+        required: true
+  - date: 2021-09-21
+    title: Interactivity
+    readings:
+      - name: Foo
+        required: true
+  - date: 2021-09-23
+    title: Visualization Tools
+    readings:
+      - name: Foo
+        required: true
+  - date: 2021-09-28
+    title: D3 Deep Dive
+    readings:
+      - name: Foo
+        required: true
+  - date: 2021-09-30
+    title: Final Project Introduction
+    readings:
+      - name: Foo
+        required: true
+  - date: 2021-10-05
+    title: Narrative Visualization
+    readings:
+      - name: Foo
+        required: true
+  - date: 2021-10-07
+    title: Designing for Perception
+    readings:
+      - name: Foo
+        required: true
+  - date: 2021-10-12
+    title: Color + Interactive Visualization Fast Forwards
+    readings:
+      - name: What to consider when choosing colors for data visualization
+        author: Lisa Charlotte Rost
+        year: 2018
+        url: https://blog.datawrapper.de/colors/
+        required: true
 ---
 
-[Canvas](https://canvas.cmu.edu/courses/24179).
-
+Submit assignments and discussions on [Canvas](https://canvas.cmu.edu/courses/24179).
 
 This course is an introduction to key design principles and techniques for interactively visualizing data. The major goals of this course are to understand how visual representations can help in the analysis and understanding of complex data, how to design effective visualizations, and how to create your own interactive visualizations using modern web-based frameworks.
 
@@ -88,28 +142,35 @@ Skills that can be learned during the course:
 
 {% for lecture in page.schedule %}
 
-<div>
-  <p class=" mb0 gray">{{ lecture.date | date: "%a, %b %d" }}</p>
-  <p class="mt0 mb1 f4">{{ lecture.title }}</p>
-  <ul class="list pl0 mt0">
-  {% for reading in lecture.readings %}
-    <li>{% if reading.required %}<small class="br2 white bg-gray ph1">Required</small>{% else %}<small>Optional</small>{% endif %} 
-    <a href="{{reading.url}}"> {{ reading.name }} </a> 
-    {% if reading.type == "video" %}
-      <i class="fas fa-film" aria-hidden="true"></i>
-    {% endif %}
-    {% if reading.type == "pdf" %}
-      <i class="far fa-file-pdf" aria-hidden="true"></i>
-    {% endif %}
-    {% if reading.author %}
-      by {{reading.author}} 
-    {% endif %}
-    {% if reading.venue %}
-      in <i>{{reading.venue}}</i>
-    {% endif %}
-    </li>
-  {% endfor %}
-  </ul>
+<div class="flex left-0 mw8">
+  <div class="w-20">
+    <span class="mb0 gray">{{ lecture.date | date: "%a, %b %d" }}</span>
+  </div>
+  <div class="w-80 measure-wide lh-copy">
+    <p class="mt0 mb1 f4">{{ lecture.title }}</p>
+    <ul class="list pl0 mt0 ">
+    {% for reading in lecture.readings %}
+      <li>{% if reading.required %}<small class="br2 white bg-gray ph1">Required</small>{% else %}<small>Optional</small>{% endif %} 
+      <a href="{{reading.url}}"> {{ reading.name }} </a> 
+      {% if reading.type == "video" %}
+        <i class="fas fa-film" aria-hidden="true"></i>
+      {% endif %}
+      {% if reading.type == "pdf" %}
+        <i class="far fa-file-pdf" aria-hidden="true"></i>
+      {% endif %}
+      {% if reading.author %}
+        by {{reading.author}} 
+      {% endif %}
+      {% if reading.venue %}
+        in <i>{{reading.venue}}</i>
+      {% endif %}
+      {% if reading.year %}
+        <i>{{reading.year}}</i>
+      {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
 </div>
 
 {% endfor %}
