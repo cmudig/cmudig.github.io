@@ -35,3 +35,5 @@ plugins:
   - jekyll-seo-tag
   - jekyll-mentions
   - jekyll-redirect-from
+kramdown:
+  toc_levels: 1..2

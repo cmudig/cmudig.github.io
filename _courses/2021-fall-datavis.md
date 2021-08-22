@@ -19,12 +19,14 @@ schedule:
         author: Stuart Card, Jock Mackinlay, and Ben Shneiderman
         year: 1999
         required: true
-      - name: Intro to Vega Lite
+        url: https://drive.google.com/file/d/1-SrBG2PonDK4kPxIr6qaY1quYeyozZ0c/view
+      - name: Introduction to Vega Lite
         required: true
       - name: The Value of Visualization
         author: Jarke van Wijk
         year: 2005
         required: false
+        url: https://drive.google.com/file/d/1-SU83DmAqUdflBjCbmaE00bsDn7evJJE/view
   - date: 2021-09-02
     title: "Sketching"
     readings:
@@ -33,12 +35,12 @@ schedule:
         venue: Sketching User Experiences
         required: true
         type: pdf
-        url: https://drive.google.com/file/d/1-1Xlvni3_NFoSiNs8JDuDQV8bFLDuJcj/view?usp=sharing
+        url: https://drive.google.com/file/d/1-1Xlvni3_NFoSiNs8JDuDQV8bFLDuJcj/view
       - name: Sketching with Data Opens the Mind's Eye
         author: Giorgia Lupi
         required: true
         type: pdf
-        url: https://drive.google.com/file/d/1--4iqyEJNSly0arOTpdE9ppotdHSTz9W/view?usp=sharing
+        url: https://drive.google.com/file/d/1--4iqyEJNSly0arOTpdE9ppotdHSTz9W/view
       - name: The Shape of My Thoughts
         author: Giorgia Lupi
         venue: Eyeo 2014
@@ -48,8 +50,6 @@ schedule:
   - date: 2021-09-07
     title: "Data and Image Models"
     readings:
-      - name: Foo
-        required: true
   - date: 2021-09-09
     title: "Effective Visual Encodings"
     readings:
@@ -58,47 +58,31 @@ schedule:
         venue: The Truthful Art
         required: true
         type: pdf
-        url: https://drive.google.com/open?id=171tAFZLofETfiOm4OElpHcWSlWQ8Yven&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
+        url: https://drive.google.com/open?id=171tAFZLofETfiOm4OElpHcWSlWQ8Yven
   - date: 2021-09-14
     title: Exploratory Data Analysis
     readings:
-      - name: Foo
-        required: true
   - date: 2021-09-16
     title: Transform Data with SQL
     readings:
-      - name: Foo
-        required: true
   - date: 2021-09-21
     title: Interactivity
     readings:
-      - name: Foo
-        required: true
   - date: 2021-09-23
     title: Visualization Tools
     readings:
-      - name: Foo
-        required: true
   - date: 2021-09-28
     title: D3 Deep Dive
     readings:
-      - name: Foo
-        required: true
   - date: 2021-09-30
     title: Final Project Introduction
     readings:
-      - name: Foo
-        required: true
   - date: 2021-10-05
     title: Narrative Visualization
     readings:
-      - name: Foo
-        required: true
   - date: 2021-10-07
     title: Designing for Perception
     readings:
-      - name: Foo
-        required: true
   - date: 2021-10-12
     title: Color + Interactive Visualization Fast Forwards
     readings:
@@ -106,6 +90,7 @@ schedule:
         author: Lisa Charlotte Rost
         year: 2018
         url: https://blog.datawrapper.de/colors/
+        type: website
         required: true
 ---
 
@@ -113,30 +98,21 @@ Submit assignments and discussions on [Canvas](https://canvas.cmu.edu/courses/24
 
 This course is an introduction to key design principles and techniques for interactively visualizing data. The major goals of this course are to understand how visual representations can help in the analysis and understanding of complex data, how to design effective visualizations, and how to create your own interactive visualizations using modern web-based frameworks.
 
-After successful completion of the course you will be able to:
+After you successfully complete the course you will be able to:
 * Understand the value of visualization
 * Critically evaluate visualizations and suggest improvements and refinements 
 * Use best practices from design to create effective visualizations 
 * Use principles of human perception and cognition in visualization design 
 * Learn how to use visualization as a communication tool
 * Conduct exploratory data analysis and transform data
-* Create web-based interactive visualizations using frameworks such as Vega-Lite and D3
+* Create web-based interactive visualizations using frameworks such as [Vega-Lite](https://vega.github.io/vega-lite/) and [D3](https://d3js.org)
 * Be prepared to do research in visualization
- 
 
-## Prerequisites
+{: .no_toc }
+## Jump to
 
-Expected skills you should have before entering the course:
-* Programming
-* Git (collaborative software development)
-
-Skills that can be learned during the course:
-* JavaScript
-* HTML, CSS, DOM
-* Observable
-* Vega, D3
-* SQL
-
+* TOC
+{:toc}
 
 ## Schedule and Readings
 
@@ -150,14 +126,22 @@ Skills that can be learned during the course:
     <p class="mt0 mb1 f4">{{ lecture.title }}</p>
     <ul class="list pl0 mt0 ">
     {% for reading in lecture.readings %}
-      <li>{% if reading.required %}<small class="br2 white bg-gray ph1">Required</small>{% else %}<small>Optional</small>{% endif %} 
-      <a href="{{reading.url}}"> {{ reading.name }} </a> 
+      <li>
+      {% if reading.required %}
+        <small class="br2 white bg-gray ph1 mr1">Required</small>
+      {% else %}
+        <small class="br2 ba b--gray ph1 mr1">Optional</small>
+      {% endif %} 
+
       {% if reading.type == "video" %}
         <i class="fas fa-film" aria-hidden="true"></i>
-      {% endif %}
-      {% if reading.type == "pdf" %}
+      {% elsif reading.type == "pdf" %}
         <i class="far fa-file-pdf" aria-hidden="true"></i>
+      {% elsif reading.type == "website" %}
+        <i class="far fa-globe" aria-hidden="true"></i>
       {% endif %}
+
+      <a href="{{reading.url}}">{{ reading.name }}</a>
       {% if reading.author %}
         by {{reading.author}} 
       {% endif %}
@@ -176,6 +160,18 @@ Skills that can be learned during the course:
 {% endfor %}
 
 ## Details
+
+## Prerequisites
+
+Expected skills you should have before entering the course:
+* Programming
+* [Git](https://git-scm.com) (collaborative software development)
+
+Skills that can be learned during the course:
+* JavaScript
+* HTML, CSS, DOM
+* Vega, Vega-Lite, D3
+* SQL
 
 ### Projects
 
@@ -210,6 +206,12 @@ The tentative breakdown for grading is below. As a reminder, here is the [univer
 - 30% Homework Assignments
 - 60% Final Project
 - 10% Participation and Attendance
+
+## Resources
+
+[The MDN web docs](https://developer.mozilla.org/en-US/docs/Web) are the go-to guide for web technolgies such as HTML, CSS, and JavaScript.
+
+To learn about D3, check out [D3's documentation](https://github.com/d3/d3/wiki).
 
 ## Policies
 
