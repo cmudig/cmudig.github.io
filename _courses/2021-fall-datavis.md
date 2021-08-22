@@ -19,14 +19,14 @@ schedule:
         author: Stuart Card, Jock Mackinlay, and Ben Shneiderman
         year: 1999
         required: true
-        url: https://drive.google.com/file/d/1-SrBG2PonDK4kPxIr6qaY1quYeyozZ0c/view
+        url: https://drive.google.com/file/d/1-SrBG2PonDK4kPxIr6qaY1quYeyozZ0c
       - name: Introduction to Vega Lite
         required: true
       - name: The Value of Visualization
         author: Jarke van Wijk
         year: 2005
         required: false
-        url: https://drive.google.com/file/d/1-SU83DmAqUdflBjCbmaE00bsDn7evJJE/view
+        url: https://drive.google.com/file/d/1-SU83DmAqUdflBjCbmaE00bsDn7evJJE
   - date: 2021-09-02
     title: "Sketching"
     readings:
@@ -35,12 +35,12 @@ schedule:
         venue: Sketching User Experiences
         required: true
         type: pdf
-        url: https://drive.google.com/file/d/1-1Xlvni3_NFoSiNs8JDuDQV8bFLDuJcj/view
+        url: https://drive.google.com/file/d/1-1Xlvni3_NFoSiNs8JDuDQV8bFLDuJcj
       - name: Sketching with Data Opens the Mind's Eye
         author: Giorgia Lupi
         required: true
         type: pdf
-        url: https://drive.google.com/file/d/1--4iqyEJNSly0arOTpdE9ppotdHSTz9W/view
+        url: https://drive.google.com/file/d/1--4iqyEJNSly0arOTpdE9ppotdHSTz9W
       - name: The Shape of My Thoughts
         author: Giorgia Lupi
         venue: Eyeo 2014
@@ -62,6 +62,23 @@ schedule:
   - date: 2021-09-14
     title: Exploratory Data Analysis
     readings:
+      - name: "Data analysis and statistics: An expository overview"
+        author: "Tukey, Wilk"
+        type: pdf
+        url: https://drive.google.com/file/d/1-SqSkvMhLHCkUrMGd-we3BAFtG2Xe3YF
+        year: 1966
+      - name: "Voyager: Exploratory Analysis via Faceted Browsing of Visualization Recommendations"
+        author: Kanit Wongsuphasawat, Dominik Moritz, Anushka Anand, Jock Mackinlay, Bill Howe, and Jeffrey Heer
+        venue: IEEE Transactions on Visualization and Computer Graphics
+        year: 2016
+        required: false
+        type: pdf
+        url: https://drive.google.com/file/d/1-dDFEcSHeM-1nlsNskZ1Ni_-GUhuKoTC
+      - name: "Polaris: A System for Query, Analysis and Visualization of Multi-dimensional Relational Databases"
+        author: Stolte, Tang, and Hanrahan
+        venue: IEEE TVCG
+        type: pdf
+        year: 2002
   - date: 2021-09-16
     title: Transform Data with SQL
     readings:
@@ -141,7 +158,12 @@ After you successfully complete the course you will be able to:
         <i class="far fa-globe" aria-hidden="true"></i>
       {% endif %}
 
-      <a href="{{reading.url}}">{{ reading.name }}</a>
+      {% if reading.url %}
+        <a href="{{reading.url}}">{{ reading.name }}</a>
+      {% else %}
+        {{ reading.name }}
+      {% endif %}
+
       {% if reading.author %}
         by {{reading.author}} 
       {% endif %}
