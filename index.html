@@ -4,7 +4,7 @@ layout: default
 
 <div class="jumbotron">
   <div class="w-100 mw8 ph4-l ph3 pv5-l pv3 center">
-    <h1 class="f1 lh-title measure mt3">CMU Data Interaction Group</h1>
+    <h1 class="f1 measure mt3">CMU Data Interaction Group</h1>
     <p class="f4 measure lh-copy">
       We are a research group at the
       <a href="https://www.hcii.cmu.edu/"
@@ -22,8 +22,8 @@ layout: default
   </div>
 </div>
 
-<section class="w-100 mw8 ph4-l ph3 center">
-  <div class="pv3">
+<div class="w-100 mw8 ph4-l ph3 center">
+  <section class="pv3">
     <h2 class="f2">Research Areas</h2>
 
     <p class="f4 measure-wide lh-copy">
@@ -70,16 +70,16 @@ layout: default
         </p>
       </div>
     </div>
-  </div>
+  </section>
 
   <div class="flex flex-row-ns flex-column pv3">
-    <div class="pr3 w-two-thirds-l w-50-m">
+    <section class="pr3 w-two-thirds-l w-50-m">
       <h2 class="f3">News</h2>
 
       <ul class="list pl0">
         {% assign sorted_posts = site.posts %} {% for post in sorted_posts
         limit:5 %}
-        <li class="pb3">
+        <li class="pb2">
           <a href="{{ post.url }}">{{ post.title }}</a>
           <time datetime="{{ post.date }}" class="db f6 black-80"
             >{{ post.date | date: "%b %Y" }}</time
@@ -88,9 +88,9 @@ layout: default
         {% endfor %}
       </ul>
       <a class="cta" href="/news">Show all</a>
-    </div>
+    </section>
 
-    <div class="pl3-ns w-third-l w-50-m">
+    <section class="pl3-ns w-third-l w-50-m">
       <h2 class="f3">Courses</h2>
 
       <ul class="list pl0">
@@ -98,7 +98,7 @@ layout: default
         sorted_years = years | reverse %}{% for year in sorted_years %} {%
         assign sorted_courses = year.items | sort: 'semester' %} {% for course
         in sorted_courses %}
-        <li class="pb3">
+        <li class="pb2">
           <a href="{{ course.url }}">{{ course.name }}</a>
           <span class="db f6 black-80"
             >{{ course.semester }} {{ course.year }}</span
@@ -106,7 +106,7 @@ layout: default
         </li>
         {% endfor %} {% endfor %}
       </ul>
-    </div>
+    </section>
   </div>
 
   <div class="mv3 measure-wide">
@@ -119,7 +119,7 @@ layout: default
     <a class="link dim dib cta" href="/studies"> Learn More </a>
   </div>
 
-  <div class="pv3">
+  <section class="pv3">
     <h2 class="f3">Recent Publications</h2>
 
     <a class="cta" href="/publications">Show all</a>
@@ -151,5 +151,5 @@ layout: default
     </div>
 
     <a class="cta" href="/publications">Show all</a>
-  </div>
-</section>
+  </section>
+</div>
