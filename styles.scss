@@ -166,8 +166,12 @@ body {
   flex-direction: column;
 }
 
-.content {
+.wrapper{
   flex: 1 0 auto;
+}
+
+p, ul, ol {
+  @extend .measure-wide, .lh-copy;
 }
 
 .preview-image {
