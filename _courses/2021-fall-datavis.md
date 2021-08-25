@@ -50,6 +50,10 @@ schedule:
   - date: 2021-09-07
     title: "Data and Image Models"
     readings:
+  - date: 2021-09-07
+    type: assignment
+    title: "Assignment 1:  Sketching Data"
+    url: https://docs.google.com/document/d/146odOXGMrAxR5Eovw3o2Z0NzfLOAD6yxyLGcBcypUlM/edit?usp=sharing
   - date: 2021-09-09
     title: "Effective Visual Encodings"
     readings:
@@ -88,6 +92,10 @@ schedule:
   - date: 2021-09-23
     title: Visualization Tools
     readings:
+  - date: 2021-09-23
+    title: "Assignment 2:  Exploratory Data Analysis"
+    url: https://
+    type: assignment
   - date: 2021-09-28
     title: D3 Deep Dive
     readings:
@@ -109,6 +117,52 @@ schedule:
         url: https://blog.datawrapper.de/colors/
         type: website
         required: true
+  - date: 2021-10-12
+    title: "Assignment 3:  Interactive Visualization"
+    url: https://
+    type: assignment
+  - date: 2021-10-19
+    title: "Final Project Proposal"
+    url: https://
+    type: assignment
+  - date: 2021-11-04
+    title: "Final Project Design Review"
+    url: https://
+    type: assignment
+  - date: 2021-11-30
+    title: "Final Project Presentation"
+    url: https://
+    type: assignment
+  - date: 2021-11-30
+    title: "Final Project Report"
+    url: https://
+    type: assignment
+
+assignments:
+  - date: 2021-09-07
+    title: "Assignment 1:  Sketching Data"
+    url: https://docs.google.com/document/d/146odOXGMrAxR5Eovw3o2Z0NzfLOAD6yxyLGcBcypUlM/edit?usp=sharing
+  - date: 2021-09-23
+    title: "Assignment 2:  Exploratory Data Analysis"
+    url: https://
+  - date: 2021-10-12
+    title: "Assignment 3:  Interactive Visualization"
+    url: https://
+
+finalproject:
+  - date: 2021-10-19
+    title: "Final Project Proposal"
+    url: https://
+  - date: 2021-11-04
+    title: "Final Project Design Review"
+    url: https://
+  - date: 2021-11-30
+    title: "Final Project Presentation"
+    url: https://
+  - date: 2021-11-30
+    title: "Final Project Report"
+    url: https://
+
 ---
 
 Submit assignments and discussions on [Canvas](https://canvas.cmu.edu/courses/24179).
@@ -135,12 +189,32 @@ After you successfully complete the course you will be able to:
 
 {% for lecture in page.schedule %}
 
+  {% if lecture.type == "assignment" %}
+
+<div class="flex left-0 mw8">
+  <div class="w-20">
+    <span class="mb0 gray"><i>Due {{ lecture.date | date: "%a, %b %d" }}</i></span>
+  </div>
+  <div class="w-80 measure-wide lh-copy">
+    <ul class="list pl0 mt0 ">
+       <li> <i class="far fa-certificate" aria-hidden="true"></i>
+        <a href="{{lecture.url}}">{{ lecture.title }}</a>
+        </li>
+    </ul>
+  </div>
+</div>
+
+  {% else %}
+
 <div class="flex left-0 mw8">
   <div class="w-20">
     <span class="mb0 gray">{{ lecture.date | date: "%a, %b %d" }}</span>
   </div>
   <div class="w-80 measure-wide lh-copy">
     <p class="mt0 mb1 f4">{{ lecture.title }}</p>
+
+    
+
     <ul class="list pl0 mt0 ">
     {% for reading in lecture.readings %}
       <li>
@@ -178,6 +252,8 @@ After you successfully complete the course you will be able to:
     </ul>
   </div>
 </div>
+
+{% endif %}
 
 {% endfor %}
 
