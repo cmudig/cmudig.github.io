@@ -14,6 +14,7 @@ redirect_from:
 schedule:
   - date: 2021-08-31
     title: "Introduction and the Value of Visualization"
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/345118
     readings:
       - name: Information Visualization (Chapter 1)
         author: Stuart Card, Jock Mackinlay, and Ben Shneiderman
@@ -249,7 +250,17 @@ After you successfully complete the course you will be able to:
       {% endif %}
       </li>
     {% endfor %}
-    </ul>
+    
+
+  {% if lecture.discussion %}
+
+  <li>
+    <i class="far fa-comments" aria-hidden="true"></i>
+    <a href="{{lecture.discussion}}">Discussion of Readings</a>
+  </li>
+  {% endif %}
+
+  </ul>
   </div>
 </div>
 
