@@ -16,21 +16,30 @@ schedule:
     title: "Introduction and the Value of Visualization"
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/345118
     readings:
+      - name: Introduction to Vega-Lite
+        required: true
+        type: notebook
+        url: https://observablehq.com/@uwdata/introduction-to-vega-lite
       - name: Information Visualization (Chapter 1)
         author: Stuart Card, Jock Mackinlay, and Ben Shneiderman
         year: 1999
+        type: pdf
         required: true
+        type: pdf
         url: https://drive.google.com/file/d/1-SrBG2PonDK4kPxIr6qaY1quYeyozZ0c
-      - name: Introduction to Vega Lite
-        required: true
       - name: The Value of Visualization
         author: Jarke van Wijk
         year: 2005
         required: false
+        type: pdf
         url: https://drive.google.com/file/d/1-SU83DmAqUdflBjCbmaE00bsDn7evJJE
   - date: 2021-09-02
     title: "Sketching"
     readings:
+      - name: Data Types, Graphical Marks, and Visual Encoding Channels
+        required: true
+        type: notebook
+        url: https://observablehq.com/@uwdata/data-types-graphical-marks-and-visual-encoding-channels
       - name: The Anatomy of Sketching (Chapter 9)
         author: Bill Buxton
         venue: Sketching User Experiences
@@ -50,14 +59,21 @@ schedule:
         url: https://vimeo.com/109954123
   - date: 2021-09-07
     title: "Data and Image Models"
+    due:
+      - name: "Assignment 1:  Sketching Data"
+        url: https://docs.google.com/document/d/146odOXGMrAxR5Eovw3o2Z0NzfLOAD6yxyLGcBcypUlM/edit?usp=sharing
     readings:
-  - date: 2021-09-07
-    type: assignment
-    title: "Assignment 1:  Sketching Data"
-    url: https://docs.google.com/document/d/146odOXGMrAxR5Eovw3o2Z0NzfLOAD6yxyLGcBcypUlM/edit?usp=sharing
+      - name: Scales, Axes, and Legends
+        required: true
+        type: notebook
+        url: https://observablehq.com/@uwdata/scales-axes-and-legends
   - date: 2021-09-09
     title: "Effective Visual Encodings"
     readings:
+      - name: Data Transformation
+        required: true
+        type: notebook
+        url: https://observablehq.com/@uwdata/data-transformation
       - name: Basic Principles of Visualization (Chapter 5)
         author: Alberto Cairo
         venue: The Truthful Art
@@ -67,11 +83,16 @@ schedule:
   - date: 2021-09-14
     title: Exploratory Data Analysis
     readings:
+      - name: Multi-View Composition.
+        required: true
+        type: notebook
+        url: https://observablehq.com/@uwdata/multi-view-composition
       - name: "Data analysis and statistics: An expository overview"
         author: "Tukey, Wilk"
         type: pdf
         url: https://drive.google.com/file/d/1-SqSkvMhLHCkUrMGd-we3BAFtG2Xe3YF
         year: 1966
+        required: true
       - name: "Voyager: Exploratory Analysis via Faceted Browsing of Visualization Recommendations"
         author: Kanit Wongsuphasawat, Dominik Moritz, Anushka Anand, Jock Mackinlay, Bill Howe, and Jeffrey Heer
         venue: IEEE Transactions on Visualization and Computer Graphics
@@ -87,16 +108,21 @@ schedule:
   - date: 2021-09-16
     title: Transform Data with SQL
     readings:
+      - name: Introduction to SQL
+        required: true
+        type: notebook
   - date: 2021-09-21
     title: Interactivity
     readings:
+      - name: Interaction
+        required: true
+        type: notebook
+        url: https://observablehq.com/@uwdata/interaction
   - date: 2021-09-23
     title: Visualization Tools
+    due:
+      - name: "Assignment 2: Exploratory Data Analysis"
     readings:
-  - date: 2021-09-23
-    title: "Assignment 2:  Exploratory Data Analysis"
-    url: https://
-    type: assignment
   - date: 2021-09-28
     title: D3 Deep Dive
     readings:
@@ -111,6 +137,8 @@ schedule:
     readings:
   - date: 2021-10-12
     title: Color + Interactive Visualization Fast Forwards
+    due:
+      - name: "Assignment 3: Interactive Visualization"
     readings:
       - name: What to consider when choosing colors for data visualization
         author: Lisa Charlotte Rost
@@ -118,52 +146,54 @@ schedule:
         url: https://blog.datawrapper.de/colors/
         type: website
         required: true
-  - date: 2021-10-12
-    title: "Assignment 3:  Interactive Visualization"
-    url: https://
-    type: assignment
   - date: 2021-10-19
-    title: "Final Project Proposal"
-    url: https://
-    type: assignment
+    title: Ethical Data Visualization I
+    due:
+      - name: Final Project Proposal
+    readings:
+  - date: 2021-10-21
+    title: Ethical Data Visualization II
+    readings:
+  - date: 2021-10-26
+    title: Virtual VIS Week I
+    readings:
+  - date: 2021-10-28
+    title: Virtual VIS Week II
+    readings:
+  - date: 2021-11-02
+    title: Geographic Visualization
+    readings:
+      - name: Cartographic Visualization
+        url: https://observablehq.com/@uwdata/cartographic-visualization
+        type: notebook
+        required: true
   - date: 2021-11-04
-    title: "Final Project Design Review"
-    url: https://
-    type: assignment
+    title: Network Visualization
+    due:
+      - name: Final Project Design Review
+    readings:
+  - date: 2021-11-09
+    title: Scalable Visualization
+    readings:
+  - date: 2021-11-11
+    title: Accessibility
+    readings:
+  - date: 2021-11-16
+    title: Animation
+    readings:
+  - date: 2021-11-18
+    title: Uncertianty
+    readings:
+  - date: 2021-11-23
+    title: Visualization and Machine Learning
+    readings:
   - date: 2021-11-30
-    title: "Final Project Presentation"
-    url: https://
-    type: assignment
-  - date: 2021-11-30
-    title: "Final Project Report"
-    url: https://
-    type: assignment
-
-assignments:
-  - date: 2021-09-07
-    title: "Assignment 1:  Sketching Data"
-    url: https://docs.google.com/document/d/146odOXGMrAxR5Eovw3o2Z0NzfLOAD6yxyLGcBcypUlM/edit?usp=sharing
-  - date: 2021-09-23
-    title: "Assignment 2:  Exploratory Data Analysis"
-    url: https://
-  - date: 2021-10-12
-    title: "Assignment 3:  Interactive Visualization"
-    url: https://
-
-finalproject:
-  - date: 2021-10-19
-    title: "Final Project Proposal"
-    url: https://
-  - date: 2021-11-04
-    title: "Final Project Design Review"
-    url: https://
-  - date: 2021-11-30
-    title: "Final Project Presentation"
-    url: https://
-  - date: 2021-11-30
-    title: "Final Project Report"
-    url: https://
-
+    title: Final Project Presentations
+    due:
+      - name: Final Project Presentation
+      - name: Final Project Report
+  - date: 2021-12-02
+    title: Final Project Presentations
 ---
 
 Submit assignments and discussions on [Canvas](https://canvas.cmu.edu/courses/24179).
@@ -189,34 +219,35 @@ After you successfully complete the course you will be able to:
 ## Schedule and Readings
 
 {% for lecture in page.schedule %}
+<div class="flex mt1">
+  <span class="w-10 gray">{{ lecture.date | date: "%a, %b %d" }}</span>
+  <div class="w-90 measure-wide lh-copy">
+    <h3 class="f5 normal mt0">
+      <span class="b black">
+      {{ lecture.title }}
+      </span>
 
-  {% if lecture.type == "assignment" %}
+      {% if lecture.discussion %}
+        <a class="fr" href="{{ lecture.discussion }}" title="Discussion"><i class="fas fa-comments"></i></a>
+      {% else %}
+        <span class="fr"><i class="fas fa-comments" aria-hidden="true" title="Discussion link coming"></i></span>
+      {% endif %}
 
-<div class="flex left-0 mw8">
-  <div class="w-20">
-    <span class="mb0 gray"><i>Due {{ lecture.date | date: "%a, %b %d" }}</i></span>
-  </div>
-  <div class="w-80 measure-wide lh-copy">
-    <ul class="list pl0 mt0 ">
-       <li> <i class="far fa-certificate" aria-hidden="true"></i>
-        <a href="{{lecture.url}}">{{ lecture.title }}</a>
-        </li>
+      {% if lecture.slides %}
+        <a class="fr" href="{{ lecture.slides }}"><i class="fas fa-comments" aria-hidden="true"></i> Slides</a>
+      {% else %}
+        <span class="fr mr2"><i class="fas fa-window-maximize" aria-hidden="true" title="Slides link coming"></i> Slides</span>
+      {% endif %}
+    </h3>
+    <ul class="list pl0">
+    {% for due in lecture.due %}
+      <li>
+        <small class="br2 white bg-orange ph1 mr1">Due</small>
+        <a href="{{ due.url }}">{{ due.name }}</a>
+      </li>
+    {% endfor %}
     </ul>
-  </div>
-</div>
-
-  {% else %}
-
-<div class="flex left-0 mw8">
-  <div class="w-20">
-    <span class="mb0 gray">{{ lecture.date | date: "%a, %b %d" }}</span>
-  </div>
-  <div class="w-80 measure-wide lh-copy">
-    <p class="mt0 mb1 f4">{{ lecture.title }}</p>
-
-    
-
-    <ul class="list pl0 mt0 ">
+    <ul class="list pl0">
     {% for reading in lecture.readings %}
       <li>
       {% if reading.required %}
@@ -226,11 +257,13 @@ After you successfully complete the course you will be able to:
       {% endif %} 
 
       {% if reading.type == "video" %}
-        <i class="fas fa-film" aria-hidden="true"></i>
+        <i class="far fa-film" aria-hidden="true"></i>
       {% elsif reading.type == "pdf" %}
         <i class="far fa-file-pdf" aria-hidden="true"></i>
       {% elsif reading.type == "website" %}
         <i class="far fa-globe" aria-hidden="true"></i>
+      {% elsif reading.type == "notebook" %}
+        <i class="far fa-code" aria-hidden="true"></i>
       {% endif %}
 
       {% if reading.url %}
@@ -250,22 +283,9 @@ After you successfully complete the course you will be able to:
       {% endif %}
       </li>
     {% endfor %}
-    
-
-  {% if lecture.discussion %}
-
-  <li>
-    <i class="far fa-comments" aria-hidden="true"></i>
-    <a href="{{lecture.discussion}}">Discussion of Readings</a>
-  </li>
-  {% endif %}
-
   </ul>
   </div>
 </div>
-
-{% endif %}
-
 {% endfor %}
 
 ## Details
@@ -356,6 +376,6 @@ If you have questions about this or your coursework, please let the instructors 
 
 ## Acknowledgements
 
-Material for this class has been adapted from classes taught by Jeffrey Heer at the University of Washington, and Arvind Satyanarayan at MIT, which in turn build on materials from many others.
+Material for this class has been adapted from classes taught by [Jeffrey Heer at the University of Washington](https://courses.cs.washington.edu/courses/cse512/), and [Arvind Satyanarayan at MIT](http://vis.csail.mit.edu/classes/6.859/), which in turn build on materials from many others.
 
 The class draws heavily on materials and examples found online, and we try our best to give credit by linking to the original source. Please contact us if you find materials where credit is missing or that you would rather have removed.
