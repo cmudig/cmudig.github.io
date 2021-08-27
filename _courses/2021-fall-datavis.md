@@ -8,6 +8,7 @@ instructors:
   - Dominik Moritz
 tas:
   - Alex Cabrera
+location: POS 152
 redirect_from:
   - vis2021
 
