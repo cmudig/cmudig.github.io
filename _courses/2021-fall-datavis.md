@@ -35,6 +35,7 @@ schedule:
         url: https://drive.google.com/file/d/1-SU83DmAqUdflBjCbmaE00bsDn7evJJE
   - date: 2021-09-02
     title: "Sketching"
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346257
     readings:
       - name: Data Types, Graphical Marks, and Visual Encoding Channels
         required: true
@@ -59,6 +60,7 @@ schedule:
         url: https://vimeo.com/109954123
   - date: 2021-09-07
     title: "Data and Image Models"
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346258
     due:
       - name: "Assignment 1:  Sketching Data"
         url: https://docs.google.com/document/d/146odOXGMrAxR5Eovw3o2Z0NzfLOAD6yxyLGcBcypUlM/edit?usp=sharing
@@ -69,6 +71,7 @@ schedule:
         url: https://observablehq.com/@uwdata/scales-axes-and-legends
   - date: 2021-09-09
     title: "Effective Visual Encodings"
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346261
     readings:
       - name: Data Transformation
         required: true
@@ -82,6 +85,7 @@ schedule:
         url: https://drive.google.com/open?id=171tAFZLofETfiOm4OElpHcWSlWQ8Yven
   - date: 2021-09-14
     title: Exploratory Data Analysis
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346266
     readings:
       - name: Multi-View Composition.
         required: true
@@ -107,12 +111,14 @@ schedule:
         year: 2002
   - date: 2021-09-16
     title: Transform Data with SQL
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346267
     readings:
       - name: Introduction to SQL
         required: true
         type: notebook
   - date: 2021-09-21
     title: Interactivity
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346268
     readings:
       - name: Interaction
         required: true
@@ -120,23 +126,29 @@ schedule:
         url: https://observablehq.com/@uwdata/interaction
   - date: 2021-09-23
     title: Visualization Tools
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346271
     due:
       - name: "Assignment 2: Exploratory Data Analysis"
     readings:
   - date: 2021-09-28
     title: D3 Deep Dive
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346272
     readings:
   - date: 2021-09-30
     title: Final Project Introduction
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346273
     readings:
   - date: 2021-10-05
     title: Narrative Visualization
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346274
     readings:
   - date: 2021-10-07
     title: Designing for Perception
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346276
     readings:
   - date: 2021-10-12
     title: Color + Interactive Visualization Fast Forwards
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346277
     due:
       - name: "Assignment 3: Interactive Visualization"
     readings:
@@ -148,20 +160,25 @@ schedule:
         required: true
   - date: 2021-10-19
     title: Ethical Data Visualization I
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346278
     due:
       - name: Final Project Proposal
     readings:
   - date: 2021-10-21
     title: Ethical Data Visualization II
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346280
     readings:
   - date: 2021-10-26
     title: Virtual VIS Week I
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346282
     readings:
   - date: 2021-10-28
     title: Virtual VIS Week II
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346283
     readings:
   - date: 2021-11-02
     title: Geographic Visualization
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346285
     readings:
       - name: Cartographic Visualization
         url: https://observablehq.com/@uwdata/cartographic-visualization
@@ -169,30 +186,38 @@ schedule:
         required: true
   - date: 2021-11-04
     title: Network Visualization
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346286
     due:
       - name: Final Project Design Review
     readings:
   - date: 2021-11-09
     title: Scalable Visualization
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346288
     readings:
   - date: 2021-11-11
     title: Accessibility
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346289
     readings:
   - date: 2021-11-16
     title: Animation
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346291
     readings:
   - date: 2021-11-18
-    title: Uncertianty
+    title: Uncertainty
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346292
     readings:
   - date: 2021-11-23
     title: Visualization and Machine Learning
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346295
     readings:
   - date: 2021-11-30
     title: Final Project Presentations
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346294
     due:
       - name: Final Project Presentation
       - name: Final Project Report
   - date: 2021-12-02
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346296
     title: Final Project Presentations
 ---
 
@@ -201,24 +226,27 @@ Submit assignments and discussions on [Canvas](https://canvas.cmu.edu/courses/24
 This course is an introduction to key design principles and techniques for interactively visualizing data. The major goals of this course are to understand how visual representations can help in the analysis and understanding of complex data, how to design effective visualizations, and how to create your own interactive visualizations using modern web-based frameworks.
 
 After you successfully complete the course you will be able to:
-* Understand the value of visualization
-* Critically evaluate visualizations and suggest improvements and refinements 
-* Use best practices from design to create effective visualizations 
-* Use principles of human perception and cognition in visualization design 
-* Learn how to use visualization as a communication tool
-* Conduct exploratory data analysis and transform data
-* Create web-based interactive visualizations using frameworks such as [Vega-Lite](https://vega.github.io/vega-lite/) and [D3](https://d3js.org)
-* Be prepared to do research in visualization
+
+- Understand the value of visualization
+- Critically evaluate visualizations and suggest improvements and refinements
+- Use best practices from design to create effective visualizations
+- Use principles of human perception and cognition in visualization design
+- Learn how to use visualization as a communication tool
+- Conduct exploratory data analysis and transform data
+- Create web-based interactive visualizations using frameworks such as [Vega-Lite](https://vega.github.io/vega-lite/) and [D3](https://d3js.org)
+- Be prepared to do research in visualization
 
 {: .no_toc }
+
 ## Jump to
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ## Schedule and Readings
 
 {% for lecture in page.schedule %}
+
 <div class="flex mt1">
   <span class="w-10 gray">{{ lecture.date | date: "%a, %b %d" }}</span>
   <div class="w-90 measure-wide lh-copy">
@@ -254,7 +282,7 @@ After you successfully complete the course you will be able to:
         <small class="br2 white bg-gray ph1 mr1">Required</small>
       {% else %}
         <small class="br2 ba b--gray ph1 mr1">Optional</small>
-      {% endif %} 
+      {% endif %}
 
       {% if reading.type == "video" %}
         <i class="far fa-film" aria-hidden="true"></i>
@@ -273,7 +301,7 @@ After you successfully complete the course you will be able to:
       {% endif %}
 
       {% if reading.author %}
-        by {{reading.author}} 
+        by {{reading.author}}
       {% endif %}
       {% if reading.venue %}
         in <i>{{reading.venue}}</i>
@@ -283,6 +311,7 @@ After you successfully complete the course you will be able to:
       {% endif %}
       </li>
     {% endfor %}
+
   </ul>
   </div>
 </div>
@@ -293,14 +322,16 @@ After you successfully complete the course you will be able to:
 ## Prerequisites
 
 Expected skills you should have before entering the course:
-* Programming
-* [Git](https://git-scm.com) (collaborative software development)
+
+- Programming
+- [Git](https://git-scm.com) (collaborative software development)
 
 Skills that can be learned during the course:
-* JavaScript
-* HTML, CSS, DOM
-* Vega, Vega-Lite, D3
-* SQL
+
+- JavaScript
+- HTML, CSS, DOM
+- Vega, Vega-Lite, D3
+- SQL
 
 ### Projects
 
@@ -354,9 +385,9 @@ If you have a disability and are registered with the Office of Disability Resour
 
 ### Health and Well-being
 
-This year is unlike any other. We are all under a lot of stress and uncertainty at this time. Make sure to move regularly, eat well, and reach out to your support system or us if you need to. We can all benefit from support in times of stress, and this semester is no exception. 
+This year is unlike any other. We are all under a lot of stress and uncertainty at this time. Make sure to move regularly, eat well, and reach out to your support system or us if you need to. We can all benefit from support in times of stress, and this semester is no exception.
 
-Due to the ongoing pandemic, **do not under any circumstances physically come to class sick** to keep your fellow students and instructors safe.  Reach out to the instructors to determine a way to participate remotely and/or catch-up.
+Due to the ongoing pandemic, **do not under any circumstances physically come to class sick** to keep your fellow students and instructors safe. Reach out to the instructors to determine a way to participate remotely and/or catch-up.
 
 If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help; call [412-268-2922](tel:412-268-2922) and visit their website at [www.cmu.edu/counseling/](http://www.cmu.edu/counseling/). Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help. If you or someone you know is feeling suicidal or in danger of self-harm, call someone immediately, day or night:
 
@@ -365,12 +396,11 @@ If you or anyone you know experiences any academic stress, difficult life events
 
 If the situation is life threatening, call the police. On campus call CMU Police: [412-268-2323](tel:412-268-2323). Off campus: [911](tel:911).
 
-
 ### Food Insecurity
 
 If you are worried about affording food or feeling insecure about food, there are resources on campus who can help. Email the CMU Food Pantry Coordinator to schedule an appointment:
 Pantry Coordinator: [cmu-pantry@andrew.cmu.edu](mailto:cmu-pantry@andrew.cmu.edu)
-SLICE office: [412-268-8704](tel:412-268-8704) 
+SLICE office: [412-268-8704](tel:412-268-8704)
 
 If you have questions about this or your coursework, please let the instructors know. Thank you, and have a great semester.
 
