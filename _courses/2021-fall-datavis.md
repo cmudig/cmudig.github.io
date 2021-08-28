@@ -107,6 +107,7 @@ schedule:
         venue: IEEE TVCG
         type: pdf
         year: 2002
+        url: https://drive.google.com/file/d/1ZMwEHi6d-54OAMfBZkEcF6ttUvr85IQV/view?usp=sharing
   - date: 2021-09-16
     title: Transform Data with SQL
     readings:
