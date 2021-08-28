@@ -236,11 +236,9 @@ After you successfully complete the course you will be able to:
 - Create web-based interactive visualizations using frameworks such as [Vega-Lite](https://vega.github.io/vega-lite/) and [D3](https://d3js.org)
 - Be prepared to do research in visualization
 
-{: .no_toc }
-
 ## Jump to
 
-* TOC
+- TOC
   {:toc}
 
 ## Schedule and Readings
