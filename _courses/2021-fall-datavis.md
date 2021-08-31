@@ -74,6 +74,9 @@ schedule:
   - date: 2021-09-09
     title: "Effective Visual Encodings"
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346261
+    due:
+      - name: "Assignment 0: Setup Github"
+        url: https://canvas.cmu.edu/courses/24179/assignments/407761
     readings:
       - name: Data Transformation
         required: true
