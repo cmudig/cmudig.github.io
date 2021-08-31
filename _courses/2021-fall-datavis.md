@@ -293,7 +293,7 @@ After you successfully complete the course you will be able to:
       {% elsif reading.type == "website" %}
         <i class="far fa-globe" aria-hidden="true"></i>
       {% elsif reading.type == "notebook" %}
-        <i class="far fa-code" aria-hidden="true"></i>
+        <i class="fas fa-laptop-code"  aria-hidden="true"></i>
       {% endif %}
 
       {% if reading.url %}
