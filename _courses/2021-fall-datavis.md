@@ -7,7 +7,7 @@ instructors:
   - Adam Perer
   - Dominik Moritz
 tas:
-  - Alex Cabrera
+  - Ángel Alexander Cabrera
 time: T/H 11:50am-1:10pm
 location: POS 152
 redirect_from:
@@ -240,10 +240,11 @@ After you successfully complete the course you will be able to:
 - Be prepared to do research in visualization
 
 {: .no_toc }
+
 ## Jump to
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ## Schedule and Readings
 

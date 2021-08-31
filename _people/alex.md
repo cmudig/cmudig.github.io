@@ -1,5 +1,5 @@
 ---
-name: Alex Cabrera
+name: Ángel Alexander Cabrera
 website: https://cabreraalex.com
 image: /assets/people/alex.jpg
 role: PhD Student
