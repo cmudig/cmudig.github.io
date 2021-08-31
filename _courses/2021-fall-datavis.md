@@ -123,6 +123,12 @@ schedule:
     title: Interactivity
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346268
     readings:
+      - name: "Interactive Dynamics for Visual Analysis"
+        url: https://queue.acm.org/detail.cfm?id=2146416
+        type: pdf
+        year: 2012
+        venue: ACM Queue
+        required: true
       - name: Interaction
         required: true
         type: notebook
