@@ -72,6 +72,18 @@ schedule:
         required: true
         type: notebook
         url: https://observablehq.com/@uwdata/scales-axes-and-legends
+      - name: "The Eyes Have It: A Task by Data Type Taxonomy for Information Visualizations"
+        url: https://drive.google.com/file/d/13NseKgMXbwXVqIqxAuZ16xmWJ-8JRA1M/view?usp=sharing
+        author: Ben Shneiderman
+        year: 1996
+        required: true
+        venue: IEEE Symposium on Visual Languages
+      - name: "A Tour through the Visualization Zoo"
+        url: https://queue.acm.org/detail.cfm?id=1805128
+        type: pdf
+        year: 2010
+        venue: ACM Queue
+        author: Jeffrey Heer, Michael Bostock, and Vadim Ogievetsky
   - date: 2021-09-09
     title: "Effective Visual Encodings"
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346261
@@ -133,6 +145,7 @@ schedule:
         year: 2012
         venue: ACM Queue
         required: true
+        author: Jeffrey Heer and Ben Shneiderman
       - name: Interaction
         required: true
         type: notebook
@@ -275,7 +288,7 @@ After you successfully complete the course you will be able to:
       {% endif %}
 
       {% if lecture.slides %}
-        <a class="fr" href="{{ lecture.slides }}"><i class="fas fa-comments" aria-hidden="true"></i> Slides</a>
+        <a class="fr mr2" href="{{ lecture.slides }}"><i class="fas fa-window-maximize" aria-hidden="true"></i> Slides</a>
       {% else %}
         <span class="fr mr2"><i class="fas fa-window-maximize" aria-hidden="true" title="Slides link coming"></i> Slides</span>
       {% endif %}
