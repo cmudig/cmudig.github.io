@@ -78,6 +78,7 @@ schedule:
         year: 1996
         required: true
         venue: IEEE Symposium on Visual Languages
+        type: pdf
       - name: "A Tour through the Visualization Zoo"
         url: https://queue.acm.org/detail.cfm?id=1805128
         type: pdf
