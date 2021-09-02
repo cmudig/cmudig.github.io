@@ -17,6 +17,7 @@ schedule:
   - date: 2021-08-31
     title: "Introduction and the Value of Visualization"
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/345118
+    slides: https://drive.google.com/file/d/10-2wX14UA2BKimjCxtLYceX1O2jDzHUZ
     readings:
       - name: Introduction to Vega-Lite
         required: true
