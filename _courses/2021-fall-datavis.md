@@ -39,6 +39,7 @@ schedule:
   - date: 2021-09-02
     title: "Sketching"
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346257
+    slides: https://drive.google.com/file/d/10W5WXa831GUx4Y5amRQws0HOpkEgjan7/view?usp=sharing
     readings:
       - name: Data Types, Graphical Marks, and Visual Encoding Channels
         required: true
