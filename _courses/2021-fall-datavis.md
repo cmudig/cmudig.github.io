@@ -158,6 +158,35 @@ schedule:
     due:
       - name: "Assignment 2: Exploratory Data Analysis"
     readings:
+      - name: "A Minimal Introduction to JavaScript and Observable."
+        note: Read this first if you are new to JavaScript and/or Observable notebooks!
+        url: https://observablehq.com/@uwdata/a-minimal-introduction-to-javascript-and-observable
+        type: notebook
+      - name: "Introduction to D3, Part 1"
+        url: https://observablehq.com/@uwdata/introduction-to-d3-part-1
+        type: notebook
+        required: true
+      - name: "D3: Data-Driven Documents"
+        author: Michael Bostock, Vadim Ogievetsky, Jeffrey Heer
+        venue: IEEE Trans. Visualization & Comp. Graphics (Proc. InfoVis)
+        year: 2011
+        type: pdf
+        required: true
+        url: https://drive.google.com/file/d/1FH5OzFAF0TMtMM4I7cIrHCS0aDq3VR6p/view?usp=sharing
+      - name: " Vega-Lite: A Grammar of Interactive Graphics"
+        url: https://www.youtube.com/watch?v=9uaHRWj04D4
+        author: Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, and Jeffrey Heer
+        venue: OpenVis Conf
+        year: 2017
+        required: false
+        type: video
+      - name: "Vega-Lite: A Grammar of Interactive Graphics"
+        url: https://drive.google.com/file/d/1dYDgsR_XqZQ8CLZUHwmQ4Jue-3GMz8Mr/view?usp=sharing
+        author: Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, and Jeffrey Heer
+        venue: IEEE Trans. Visualization & Comp. Graphics (Proc. InfoVis)
+        year: 2017
+        required: false
+        type: pdf
   - date: 2021-09-28
     title: D3 Deep Dive
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346272
@@ -295,17 +324,17 @@ After you successfully complete the course you will be able to:
         <span class="fr mr2"><i class="fas fa-window-maximize" aria-hidden="true" title="Slides link coming"></i> Slides</span>
       {% endif %}
     </h3>
-    <ul class="list pl0">
+    <ul class="list pl0 mv0">
     {% for due in lecture.due %}
-      <li>
+      <li class="mt1">
         <small class="br2 white bg-orange ph1 mr1">Due</small>
         <a href="{{ due.url }}">{{ due.name }}</a>
       </li>
     {% endfor %}
     </ul>
-    <ul class="list pl0">
+    <ul class="list pl0 mt0">
     {% for reading in lecture.readings %}
-      <li>
+      <li class="mt1">
       {% if reading.required %}
         <small class="br2 white bg-gray ph1 mr1">Required</small>
       {% else %}
@@ -336,6 +365,10 @@ After you successfully complete the course you will be able to:
       {% endif %}
       {% if reading.year %}
         <i>{{reading.year}}</i>
+      {% endif %}
+      {% if reading.note %}
+        <br/>
+        <small class="dark-gray">{{reading.note}}</small>
       {% endif %}
       </li>
     {% endfor %}
