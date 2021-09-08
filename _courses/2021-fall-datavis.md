@@ -64,6 +64,7 @@ schedule:
         url: https://vimeo.com/109954123
   - date: 2021-09-07
     title: "Data and Image Models"
+    slides: https://drive.google.com/file/d/10hOjYxml_TAXhX1nyZWWmF80lfitCofa/view?usp=sharing
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346258
     due:
       - name: "Assignment 1:  Sketching Data"
