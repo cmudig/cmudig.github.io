@@ -39,7 +39,7 @@ schedule:
   - date: 2021-09-02
     title: "Sketching"
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346257
-    slides: https://drive.google.com/file/d/10W5WXa831GUx4Y5amRQws0HOpkEgjan7/view?usp=sharing
+    slides: https://drive.google.com/file/d/10W5WXa831GUx4Y5amRQws0HOpkEgjan7
     readings:
       - name: Data Types, Graphical Marks, and Visual Encoding Channels
         required: true
@@ -64,7 +64,7 @@ schedule:
         url: https://vimeo.com/109954123
   - date: 2021-09-07
     title: "Data and Image Models"
-    slides: https://drive.google.com/file/d/10hOjYxml_TAXhX1nyZWWmF80lfitCofa/view?usp=sharing
+    slides: https://drive.google.com/file/d/10hOjYxml_TAXhX1nyZWWmF80lfitCofa
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346258
     due:
       - name: "Assignment 1:  Sketching Data"
@@ -89,6 +89,7 @@ schedule:
         author: Jeffrey Heer, Michael Bostock, and Vadim Ogievetsky
   - date: 2021-09-09
     title: "Effective Visual Encodings"
+    sldies: https://drive.google.com/file/d/10iSaRizlqmh_IEzfePuhxwY6WJ2VM8yc
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346261
     due:
       - name: "Assignment 0: Setup Github"
