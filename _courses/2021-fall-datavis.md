@@ -127,7 +127,7 @@ schedule:
         type: pdf
         url: https://drive.google.com/file/d/1-dDFEcSHeM-1nlsNskZ1Ni_-GUhuKoTC
       - name: "Polaris: A System for Query, Analysis and Visualization of Multi-dimensional Relational Databases"
-        author: Stolte, Tang, and Hanrahan
+        author: Chris Stolte, Diane Tang, and Pat Hanrahan
         venue: IEEE TVCG
         type: pdf
         year: 2002
@@ -139,6 +139,12 @@ schedule:
       - name: Introduction to SQL
         required: true
         type: notebook
+      - name: "A Relational Model of Data for Large Shared Data Banks"
+        author: Edgar F. Codd
+        required: true
+        type: pdf
+        year: 1970
+        url: https://drive.google.com/file/d/1AlYklRsLKEOC_3_Y1ssbLoDyTqM6CvFo
   - date: 2021-09-21
     title: Interactivity
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346268
