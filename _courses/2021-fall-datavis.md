@@ -109,7 +109,7 @@ schedule:
     title: Exploratory Data Analysis
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346266
     readings:
-      - name: Multi-View Composition.
+      - name: Multi-View Composition
         required: true
         type: notebook
         url: https://observablehq.com/@uwdata/multi-view-composition
@@ -139,6 +139,7 @@ schedule:
       - name: Introduction to SQL
         required: true
         type: notebook
+        url: https://observablehq.com/@cmudig/introducing-sql-with-duckdb 
       - name: "A Relational Model of Data for Large Shared Data Banks"
         author: Edgar F. Codd
         required: true
