@@ -200,6 +200,10 @@ schedule:
     title: D3 Deep Dive
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346272
     readings:
+      - name: "Introduction to D3, Part 2"
+        url: https://observablehq.com/@uwdata/introduction-to-d3-part-2
+        type: notebook
+        required: true
   - date: 2021-09-30
     title: Final Project Introduction
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346273
@@ -441,7 +445,9 @@ The tentative breakdown for grading is below. As a reminder, here is the [univer
 
 [The MDN web docs](https://developer.mozilla.org/en-US/docs/Web) are the go-to guide for web technolgies such as HTML, CSS, and JavaScript.
 
-To learn about D3, check out [D3's documentation](https://github.com/d3/d3/wiki).
+For D3 questions, check out [D3's documentation](https://github.com/d3/d3/wiki).
+
+For Vega-Lite questions, check out [the Vega-Lite documentation](https://vega.github.io/vega-lite/docs/) and the examples in the [online editor](https://vega.github.io/editor/).
 
 ## Policies
 
