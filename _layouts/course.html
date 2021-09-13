@@ -16,6 +16,9 @@ layout: default
           %}
         </div>
         {% endif %}
+        {% if page.office_hours_time %}
+        <div>Office hours: {{ page.office_hours_time }} in {{page.office_hours_location}} </div>
+        {% endif %}
       </div>
       <div class="flex flex-column flex-row-l">
         <div class="flex flex-row flex-wrap items-start mt1 mr4">
