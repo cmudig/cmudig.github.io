@@ -9,6 +9,8 @@ instructors:
 tas:
   - Ángel Alexander Cabrera
 time: T/H 11:50am-1:10pm
+office_hours_time: T 10:30am-11:40am
+office_hours_location: NSH 4607
 location: POS 152
 redirect_from:
   - vis2021
@@ -310,8 +312,8 @@ After you successfully complete the course you will be able to:
 
 ## Jump to
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ## Schedule and Readings
 
