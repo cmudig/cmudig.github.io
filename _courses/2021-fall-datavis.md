@@ -109,6 +109,7 @@ schedule:
         url: https://drive.google.com/open?id=171tAFZLofETfiOm4OElpHcWSlWQ8Yven
   - date: 2021-09-14
     title: Exploratory Data Analysis
+    slides: https://drive.google.com/file/d/1dvuVpPL7KQ-vGduezO8Clcdf45X9NFJv
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346266
     readings:
       - name: Multi-View Composition
