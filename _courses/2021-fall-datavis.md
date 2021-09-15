@@ -169,6 +169,7 @@ schedule:
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346271
     due:
       - name: "Assignment 2: Exploratory Data Analysis"
+        url: https://canvas.cmu.edu/courses/24179/assignments/409982
     readings:
       - name: "A Minimal Introduction to JavaScript and Observable."
         note: Read this first if you are new to JavaScript and/or Observable notebooks!
@@ -252,6 +253,9 @@ schedule:
   - date: 2021-11-02
     title: Geographic Visualization
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346285
+    due:
+      - name: Notes from Virtual VIS Week
+        url: https://canvas.cmu.edu/courses/24179/assignments/412266
     readings:
       - name: Cartographic Visualization
         url: https://observablehq.com/@uwdata/cartographic-visualization
@@ -313,8 +317,8 @@ After you successfully complete the course you will be able to:
 
 ## Jump to
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ## Schedule and Readings
 
