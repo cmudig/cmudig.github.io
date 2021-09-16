@@ -137,6 +137,7 @@ schedule:
         url: https://drive.google.com/file/d/1ZMwEHi6d-54OAMfBZkEcF6ttUvr85IQV/view?usp=sharing
   - date: 2021-09-16
     title: Transform Data with SQL
+    slides: https://drive.google.com/file/d/1fEDv5RbuJyIbuIAuuuW023Bv0XNPGEiD
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346267
     readings:
       - name: Introduction to SQL
@@ -317,8 +318,8 @@ After you successfully complete the course you will be able to:
 
 ## Jump to
 
-- TOC
-  {:toc}
+* TOC
+{:toc}
 
 ## Schedule and Readings
 
