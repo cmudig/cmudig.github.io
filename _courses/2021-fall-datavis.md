@@ -165,6 +165,18 @@ schedule:
         required: true
         type: notebook
         url: https://observablehq.com/@uwdata/interaction
+      - name: "The death of interactive infographics?"
+        author: "Dominikus Baur"
+        year: 2017
+        required: false
+        url: https://medium.com/@dominikus/the-end-of-interactive-visualizations-52c585dcafcb
+        type: blog
+      - name: "In Defense of Interactive Graphics"
+        author: "Gregor Aisch"
+        year: 2017
+        required: false
+        url: https://www.vis4.net/blog/2017/03/in-defense-of-interactive-graphics/
+        type: blog
   - date: 2021-09-23
     title: Visualization Tools
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346271
@@ -318,8 +330,8 @@ After you successfully complete the course you will be able to:
 
 ## Jump to
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ## Schedule and Readings
 
