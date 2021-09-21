@@ -237,8 +237,6 @@ schedule:
   - date: 2021-10-12
     title: Color + Interactive Visualization Fast Forwards
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346277
-    due:
-      - name: "Assignment 3: Interactive Visualization"
     readings:
       - name: What to consider when choosing colors for data visualization
         author: Lisa Charlotte Rost
@@ -250,11 +248,15 @@ schedule:
     title: Ethical Data Visualization I
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346278
     due:
-      - name: Final Project Proposal
+      - name: "Assignment 3: Interactive Visualization"
+        url: https://canvas.cmu.edu/courses/24179/assignments/413333
     readings:
   - date: 2021-10-21
     title: Ethical Data Visualization II
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346280
+    due:
+      - name: Final Project Proposal
+        url: https://canvas.cmu.edu/courses/24179/assignments/413344
     readings:
   - date: 2021-10-26
     title: Virtual VIS Week I
@@ -280,6 +282,7 @@ schedule:
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346286
     due:
       - name: Final Project Design Review
+        url: https://canvas.cmu.edu/courses/24179/assignments/413345
     readings:
   - date: 2021-11-09
     title: Scalable Visualization
@@ -307,6 +310,7 @@ schedule:
     due:
       - name: Final Project Presentation
       - name: Final Project Report
+        url: https://canvas.cmu.edu/courses/24179/assignments/413347
   - date: 2021-12-02
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346296
     title: Final Project Presentations
