@@ -181,9 +181,6 @@ schedule:
   - date: 2021-09-23
     title: Visualization Tools
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346271
-    due:
-      - name: "Assignment 2: Exploratory Data Analysis"
-        url: https://canvas.cmu.edu/courses/24179/assignments/409982
     readings:
       - name: "A Minimal Introduction to JavaScript and Observable."
         note: Read this first if you are new to JavaScript and/or Observable notebooks!
@@ -217,6 +214,9 @@ schedule:
   - date: 2021-09-28
     title: D3 Deep Dive
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346272
+    due:
+      - name: "Assignment 2: Exploratory Data Analysis"
+        url: https://canvas.cmu.edu/courses/24179/assignments/409982
     readings:
       - name: "Introduction to D3, Part 2"
         url: https://observablehq.com/@uwdata/introduction-to-d3-part-2
