@@ -152,6 +152,7 @@ schedule:
         url: https://drive.google.com/file/d/1AlYklRsLKEOC_3_Y1ssbLoDyTqM6CvFo
   - date: 2021-09-21
     title: Interactivity
+    slides: https://drive.google.com/file/d/1zve8rCxEcBL2tauVp3P7Wi5rgkYHtY2N
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346268
     readings:
       - name: "Interactive Dynamics for Visual Analysis"
