@@ -180,6 +180,7 @@ schedule:
         type: blog
   - date: 2021-09-23
     title: Visualization Tools
+    slides: https://drive.google.com/file/d/16-LUSpwXgTYJS_bMhdiy3qu1LH-OfqjL
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346271
     readings:
       - name: "A Minimal Introduction to JavaScript and Observable."
