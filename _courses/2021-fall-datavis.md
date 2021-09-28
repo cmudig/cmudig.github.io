@@ -232,10 +232,23 @@ schedule:
     title: Narrative Visualization
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346274
     readings:
+      - name: "Narrative Visualization: Telling Stories with Data"
+        url: https://drive.google.com/file/d/1eNlLqJf7Gxphwa7ct4MbendVyoAkpPs8/view?usp=sharing
+        author: Edward Segel, Jeffrey Heer
+        venue: IEEE Trans. Visualization & Comp. Graphics (Proc. InfoVis)
+        year: 2010
+        required: true
+        type: pdf   
   - date: 2021-10-07
     title: Designing for Perception
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346276
     readings:
+      - name: "Layering and Seperation (Chapter 3)"
+        url: https://drive.google.com/file/d/1--k-IiRxcYJWADUo9EvthaG8pgTzxwaz/view?usp=sharing
+        author: Edward Tufte
+        venue: Envisioning Information
+        required: true
+        type: pdf   
   - date: 2021-10-12
     title: Color + Interactive Visualization Fast Forwards
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346277
