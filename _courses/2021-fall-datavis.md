@@ -214,6 +214,7 @@ schedule:
         type: pdf
   - date: 2021-09-28
     title: D3 Deep Dive
+    slides: https://drive.google.com/file/d/1jNoZoP0JV94Agc97yANifrT4gE4u1qfL
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346272
     due:
       - name: "Assignment 2: Exploratory Data Analysis"
