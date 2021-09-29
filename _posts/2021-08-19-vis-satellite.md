@@ -14,6 +14,7 @@ We will be live-streaming the opening and closing sessions on October 26 and 29 
 ## Schedule
 
 On Tuesday, October 26, 8:30am—3pm we will show the VIS opening, awards, best paper presentations, keynote, and have time to meet.
+
 On Friday, October 29, 12pm—3pm we will show the VIS capstone, closing, and have time to meet.
 
 ## Attending
