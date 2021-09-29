@@ -19,7 +19,27 @@ On Friday, October 29, 12pm—3pm we will show the VIS capstone, closing, and ha
 
 ## Attending
 
-Please regsiter for the event on [this website](https://www.eventbrite.com/e/ieee-vis-satellite-in-pittsburgh-tickets-182053917167).
+Please regsiter for the event below or on [this website](https://www.eventbrite.com/e/ieee-vis-satellite-in-pittsburgh-tickets-182053917167).
+
+<div id="eventbrite-widget-container-182053917167"></div>
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '182053917167',
+        iframeContainerId: 'eventbrite-widget-container-182053917167',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+
+</script>
 
 ## Details
 
