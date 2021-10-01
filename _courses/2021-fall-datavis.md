@@ -109,6 +109,7 @@ schedule:
         url: https://drive.google.com/open?id=171tAFZLofETfiOm4OElpHcWSlWQ8Yven
   - date: 2021-09-14
     title: Exploratory Data Analysis
+    slides: https://drive.google.com/file/d/1dvuVpPL7KQ-vGduezO8Clcdf45X9NFJv
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346266
     readings:
       - name: Multi-View Composition
@@ -136,6 +137,7 @@ schedule:
         url: https://drive.google.com/file/d/1ZMwEHi6d-54OAMfBZkEcF6ttUvr85IQV/view?usp=sharing
   - date: 2021-09-16
     title: Transform Data with SQL
+    slides: https://drive.google.com/file/d/1fEDv5RbuJyIbuIAuuuW023Bv0XNPGEiD
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346267
     readings:
       - name: Introduction to SQL
@@ -150,6 +152,7 @@ schedule:
         url: https://drive.google.com/file/d/1AlYklRsLKEOC_3_Y1ssbLoDyTqM6CvFo
   - date: 2021-09-21
     title: Interactivity
+    slides: https://drive.google.com/file/d/1zve8rCxEcBL2tauVp3P7Wi5rgkYHtY2N
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346268
     readings:
       - name: "Interactive Dynamics for Visual Analysis"
@@ -163,11 +166,22 @@ schedule:
         required: true
         type: notebook
         url: https://observablehq.com/@uwdata/interaction
+      - name: "The death of interactive infographics?"
+        author: "Dominikus Baur"
+        year: 2017
+        required: false
+        url: https://medium.com/@dominikus/the-end-of-interactive-visualizations-52c585dcafcb
+        type: blog
+      - name: "In Defense of Interactive Graphics"
+        author: "Gregor Aisch"
+        year: 2017
+        required: false
+        url: https://www.vis4.net/blog/2017/03/in-defense-of-interactive-graphics/
+        type: blog
   - date: 2021-09-23
     title: Visualization Tools
+    slides: https://drive.google.com/file/d/16-LUSpwXgTYJS_bMhdiy3qu1LH-OfqjL
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346271
-    due:
-      - name: "Assignment 2: Exploratory Data Analysis"
     readings:
       - name: "A Minimal Introduction to JavaScript and Observable."
         note: Read this first if you are new to JavaScript and/or Observable notebooks!
@@ -200,7 +214,11 @@ schedule:
         type: pdf
   - date: 2021-09-28
     title: D3 Deep Dive
+    slides: https://drive.google.com/file/d/1jNoZoP0JV94Agc97yANifrT4gE4u1qfL
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346272
+    due:
+      - name: "Assignment 2: Exploratory Data Analysis"
+        url: https://canvas.cmu.edu/courses/24179/assignments/409982
     readings:
       - name: "Introduction to D3, Part 2"
         url: https://observablehq.com/@uwdata/introduction-to-d3-part-2
@@ -214,15 +232,26 @@ schedule:
     title: Narrative Visualization
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346274
     readings:
+      - name: "Narrative Visualization: Telling Stories with Data"
+        url: https://drive.google.com/file/d/1eNlLqJf7Gxphwa7ct4MbendVyoAkpPs8/view?usp=sharing
+        author: Edward Segel, Jeffrey Heer
+        venue: IEEE Trans. Visualization & Comp. Graphics (Proc. InfoVis)
+        year: 2010
+        required: true
+        type: pdf   
   - date: 2021-10-07
     title: Designing for Perception
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346276
     readings:
+      - name: "Layering and Seperation (Chapter 3)"
+        url: https://drive.google.com/file/d/1--k-IiRxcYJWADUo9EvthaG8pgTzxwaz/view?usp=sharing
+        author: Edward Tufte
+        venue: Envisioning Information
+        required: true
+        type: pdf   
   - date: 2021-10-12
     title: Color + Interactive Visualization Fast Forwards
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346277
-    due:
-      - name: "Assignment 3: Interactive Visualization"
     readings:
       - name: What to consider when choosing colors for data visualization
         author: Lisa Charlotte Rost
@@ -234,11 +263,15 @@ schedule:
     title: Ethical Data Visualization I
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346278
     due:
-      - name: Final Project Proposal
+      - name: "Assignment 3: Interactive Visualization"
+        url: https://canvas.cmu.edu/courses/24179/assignments/413333
     readings:
   - date: 2021-10-21
     title: Ethical Data Visualization II
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346280
+    due:
+      - name: Final Project Proposal
+        url: https://canvas.cmu.edu/courses/24179/assignments/413344
     readings:
   - date: 2021-10-26
     title: Virtual VIS Week I
@@ -251,6 +284,9 @@ schedule:
   - date: 2021-11-02
     title: Geographic Visualization
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346285
+    due:
+      - name: Notes from Virtual VIS Week
+        url: https://canvas.cmu.edu/courses/24179/assignments/412266
     readings:
       - name: Cartographic Visualization
         url: https://observablehq.com/@uwdata/cartographic-visualization
@@ -261,6 +297,7 @@ schedule:
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346286
     due:
       - name: Final Project Design Review
+        url: https://canvas.cmu.edu/courses/24179/assignments/413345
     readings:
   - date: 2021-11-09
     title: Scalable Visualization
@@ -288,6 +325,7 @@ schedule:
     due:
       - name: Final Project Presentation
       - name: Final Project Report
+        url: https://canvas.cmu.edu/courses/24179/assignments/413347
   - date: 2021-12-02
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346296
     title: Final Project Presentations
@@ -312,8 +350,8 @@ After you successfully complete the course you will be able to:
 
 ## Jump to
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ## Schedule and Readings
 

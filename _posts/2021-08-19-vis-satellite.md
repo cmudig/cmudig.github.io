@@ -14,11 +14,32 @@ We will be live-streaming the opening and closing sessions on October 26 and 29 
 ## Schedule
 
 On Tuesday, October 26, 8:30am—3pm we will show the VIS opening, awards, best paper presentations, keynote, and have time to meet.
+
 On Friday, October 29, 12pm—3pm we will show the VIS capstone, closing, and have time to meet.
 
 ## Attending
 
-If you want to attend or sponsor the VIS Satellite, we will provide contact information here shortly.
+Please register for the event below or on [this website](https://www.eventbrite.com/e/ieee-vis-satellite-in-pittsburgh-tickets-182053917167).
+
+<div id="eventbrite-widget-container-182053917167"></div>
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '182053917167',
+        iframeContainerId: 'eventbrite-widget-container-182053917167',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+
+</script>
 
 ## Details
 
