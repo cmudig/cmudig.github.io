@@ -226,6 +226,7 @@ schedule:
         required: true
   - date: 2021-09-30
     title: Final Project Introduction
+    slides: https://drive.google.com/file/d/1-2RAMU62jy82UdpwavNRV3t6MNwx_S9d
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346273
     readings:
   - date: 2021-10-05
