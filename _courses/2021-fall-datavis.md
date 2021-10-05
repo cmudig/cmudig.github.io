@@ -231,6 +231,7 @@ schedule:
     readings:
   - date: 2021-10-05
     title: Narrative Visualization
+    slides: https://drive.google.com/file/d/13bV7srf1LxWOfOVw_ycd7707CTSL4UMW
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346274
     readings:
       - name: "Narrative Visualization: Telling Stories with Data"
@@ -363,8 +364,8 @@ After you successfully complete the course you will be able to:
 
 ## Jump to
 
-- TOC
-  {:toc}
+* TOC
+{:toc}
 
 ## Schedule and Readings
 
