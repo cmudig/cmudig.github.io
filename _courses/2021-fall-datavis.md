@@ -243,6 +243,7 @@ schedule:
         type: pdf   
   - date: 2021-10-07
     title: Designing for Perception
+    slides: https://drive.google.com/file/d/19qi_QaAFPEvZD60-si-wDDpBvB-MRS80
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346276
     readings:
       - name: "Layering and Seperation (Chapter 3)"
