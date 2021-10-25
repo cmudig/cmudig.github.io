@@ -226,10 +226,12 @@ schedule:
         required: true
   - date: 2021-09-30
     title: Final Project Introduction
+    slides: https://drive.google.com/file/d/1-2RAMU62jy82UdpwavNRV3t6MNwx_S9d
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346273
     readings:
   - date: 2021-10-05
     title: Narrative Visualization
+    slides: https://drive.google.com/file/d/13bV7srf1LxWOfOVw_ycd7707CTSL4UMW
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346274
     readings:
       - name: "Narrative Visualization: Telling Stories with Data"
@@ -241,6 +243,7 @@ schedule:
         type: pdf   
   - date: 2021-10-07
     title: Designing for Perception
+    slides: https://drive.google.com/file/d/19qi_QaAFPEvZD60-si-wDDpBvB-MRS80
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346276
     readings:
       - name: "Layering and Seperation (Chapter 3)"
@@ -249,16 +252,28 @@ schedule:
         venue: Envisioning Information
         required: true
         type: pdf   
-  - date: 2021-10-12
-    title: Color + Interactive Visualization Fast Forwards
-    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346277
-    readings:
       - name: What to consider when choosing colors for data visualization
         author: Lisa Charlotte Rost
         year: 2018
         url: https://blog.datawrapper.de/colors/
         type: website
+        required: false
+  - date: 2021-10-12
+    title: Ethics in Visualization
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346277
+    readings:
+      - name: "Ethical Dimensions of Visualization Research"
+        url: https://drive.google.com/open?id=1-MtB7C2lG6sdULgShQkQcnQZBngAe1S6&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
+        author: Michael Correll
+        venue: "CHI '19: Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems"
         required: true
+        type: pdf
+      - name: "Introduction"
+        url: https://drive.google.com/open?id=1-8SYdSKFBGyn0kLy4N_yjhLsOnx-zPpZ&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
+        author: Catherine D'Ignazio and Lauren F. Klein
+        venue: "Data Feminism"
+        required: false
+        type: pdf   
   - date: 2021-10-19
     title: Ethical Data Visualization I
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346278
@@ -350,8 +365,8 @@ After you successfully complete the course you will be able to:
 
 ## Jump to
 
-- TOC
-  {:toc}
+* TOC
+{:toc}
 
 ## Schedule and Readings
 
