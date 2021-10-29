@@ -143,7 +143,7 @@ schedule:
       - name: Introduction to SQL
         required: true
         type: notebook
-        url: https://observablehq.com/@cmudig/introducing-sql-with-duckdb 
+        url: https://observablehq.com/@cmudig/introducing-sql-with-duckdb
       - name: "A Relational Model of Data for Large Shared Data Banks"
         author: Edgar F. Codd
         required: true
@@ -240,7 +240,7 @@ schedule:
         venue: IEEE Trans. Visualization & Comp. Graphics (Proc. InfoVis)
         year: 2010
         required: true
-        type: pdf   
+        type: pdf
   - date: 2021-10-07
     title: Designing for Perception
     slides: https://drive.google.com/file/d/19qi_QaAFPEvZD60-si-wDDpBvB-MRS80
@@ -251,9 +251,9 @@ schedule:
         author: Edward Tufte
         venue: Envisioning Information
         required: true
-        type: pdf   
+        type: pdf
       - name: What to consider when choosing colors for data visualization
-        author: Lisa Charlotte Rost
+        author: Lisa Charlotte Muth
         year: 2018
         url: https://blog.datawrapper.de/colors/
         type: website
@@ -273,29 +273,25 @@ schedule:
         author: Catherine D'Ignazio and Lauren F. Klein
         venue: "Data Feminism"
         required: false
-        type: pdf   
+        type: pdf
   - date: 2021-10-19
     title: Ethical Data Visualization I
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346278
     due:
       - name: "Assignment 3: Interactive Visualization"
         url: https://canvas.cmu.edu/courses/24179/assignments/413333
-    readings:
   - date: 2021-10-21
     title: Ethical Data Visualization II
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346280
     due:
       - name: Final Project Proposal
         url: https://canvas.cmu.edu/courses/24179/assignments/413344
-    readings:
   - date: 2021-10-26
     title: Virtual VIS Week I
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346282
-    readings:
   - date: 2021-10-28
     title: Virtual VIS Week II
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346283
-    readings:
   - date: 2021-11-02
     title: Geographic Visualization
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346285
@@ -307,6 +303,12 @@ schedule:
         url: https://observablehq.com/@uwdata/cartographic-visualization
         type: notebook
         required: true
+      - name: What to consider when creating choropleth maps
+        type: website
+        author: Lisa Charlotte Muth
+        required: true
+        year: 2018
+        url: https://blog.datawrapper.de/choroplethmaps/
   - date: 2021-11-04
     title: Network Visualization
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346286
@@ -318,6 +320,25 @@ schedule:
     title: Scalable Visualization
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346288
     readings:
+      - name: "imMens: Real-time Visual Querying of Big Data"
+        author: Zhicheng Liu, Biye Jiang, Jeffrey Heer
+        venue: EuroVis
+        year: 2013
+        required: true
+        url: https://idl.cs.washington.edu/files/2013-imMens-EuroVis.pdf
+        type: pdf
+      - name: "Bin-summarise-smooth: A framework for visualising large data"
+        author: Hadley Wickham
+        year: 2013
+        required: true
+        url: https://vita.had.co.nz/papers/bigvis.pdf
+        type: pdf
+      - name: "Falcon: Balancing Interactive Latency and Resolution Sensitivity for Scalable Linked Visualizations"
+        author: Dominik Moritz, Bill Howe, Jeffrey Heer
+        venue: ACM CHI
+        year: 2019
+        url: https://www.domoritz.de/papers/2019-Falcon-CHI.pdf
+        type: pdf
   - date: 2021-11-11
     title: Accessibility
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346289
