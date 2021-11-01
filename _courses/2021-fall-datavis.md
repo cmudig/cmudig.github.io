@@ -316,6 +316,12 @@ schedule:
       - name: Final Project Design Review
         url: https://canvas.cmu.edu/courses/24179/assignments/413345
     readings:
+      - name: "Chapter 2: Networks"
+        url: https://drive.google.com/open?id=10CLJs0yw-r4KF7oaMWPOdNcNjnUTXR8Z&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
+        author: Isabel Meirelles
+        venue: "Design for Information"
+        required: true
+        type: pdf
   - date: 2021-11-09
     title: Scalable Visualization
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346288
