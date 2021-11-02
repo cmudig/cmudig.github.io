@@ -294,6 +294,7 @@ schedule:
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346283
   - date: 2021-11-02
     title: Geographic Visualization
+    slides: https://drive.google.com/file/d/12aHnqhDc82ekgW9zaQzJziEpRz0yX5cf
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346285
     due:
       - name: Notes from Virtual VIS Week
