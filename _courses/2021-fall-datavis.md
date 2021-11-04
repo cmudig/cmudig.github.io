@@ -312,6 +312,7 @@ schedule:
         url: https://blog.datawrapper.de/choroplethmaps/
   - date: 2021-11-04
     title: Network Visualization
+    slides: https://drive.google.com/file/d/12ag3gxkpxAZr-8LfFfMTCzv2CAz9vB7q
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346286
     due:
       - name: Final Project Design Review
