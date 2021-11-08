@@ -351,6 +351,23 @@ schedule:
     title: Accessibility
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346289
     readings:
+      - name: "Sociotechnical Considerations for Accessible Visualization Design"
+        url: https://arxiv.org/pdf/1909.05118.pdf
+        type: pdf
+        author: Alan Lundgard, Crystal Lee, Arvind Satyanarayan
+        venue: IEEE VIS
+        required: true
+        year: 2019
+      - name: "Social Model Of Disability"
+        url: https://pwd.org.au/resources/disability-info/social-model-of-disability/
+        type: video
+        required: true
+      - name: "Are Your Data Visualizations Excluding People?"
+        url: https://youtu.be/SWB-KLXN-Ok?t=1206
+        type: video
+        required: false
+        year: 2021
+        author: Frank Elavsky, Larene Le Gassick, Sarah Fossheim
   - date: 2021-11-16
     title: Animation
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346291
