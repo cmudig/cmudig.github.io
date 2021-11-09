@@ -326,6 +326,7 @@ schedule:
         type: pdf
   - date: 2021-11-09
     title: Scalable Visualization
+    slides: https://drive.google.com/file/d/12dplQJ2q_-brixAvSO0ZM8gghH1m5ZPm
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346288
     readings:
       - name: "imMens: Real-time Visual Querying of Big Data"
