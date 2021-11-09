@@ -373,13 +373,25 @@ schedule:
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346291
     readings:
   - date: 2021-11-18
-    title: Uncertainty
-    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346292
-    readings:
-  - date: 2021-11-23
     title: Visualization and Machine Learning
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346295
     readings:
+  - date: 2021-11-23
+    title: Uncertainty
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346292
+    readings:
+      - name: "The Curious Absence of Uncertainty from Many (Most?) Visualizations"
+        url: https://medium.com/multiple-views-visualization-research-explained/the-curious-absence-of-uncertainty-from-many-most-visualizations-f0c7f89e8d84
+        type: website
+        author: Jessica Hullman
+        required: true
+        year: 2019
+      - name: "The effects of communicating uncertainty on public trust in facts and numbers"
+        url: https://www.pnas.org/content/pnas/117/14/7672.full.pdf
+        type: pdf
+        required: false
+        year: 2020
+        author: Anne Marthe van der Bles, Sander van der Linden, Alexandra L. J. Freeman, and David J. Spiegelhalter
   - date: 2021-11-30
     title: Final Project Presentations
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346294
