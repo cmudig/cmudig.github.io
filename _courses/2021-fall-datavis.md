@@ -350,6 +350,7 @@ schedule:
         type: pdf
   - date: 2021-11-11
     title: Accessibility
+    slides: https://drive.google.com/file/d/12e8ZeFqQoqR-rHbj44n9m7BW-IYcv521
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346289
     readings:
       - name: "Sociotechnical Considerations for Accessible Visualization Design"
