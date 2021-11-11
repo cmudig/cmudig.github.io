@@ -377,6 +377,25 @@ schedule:
     title: Visualization and Machine Learning
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346295
     readings:
+      - name: "The Myth of the Impartial Machine"
+        url: https://parametric.press/issue-01/the-myth-of-the-impartial-machine/
+        type: website
+        author: Alice Feng, Shuyan Wu
+        required: true
+        year: 2019
+      - name: "The Beginner's Guide to Dimensionality Reduction"
+        url: https://parametric.press/issue-01/the-myth-of-the-impartial-machine/
+        type: website
+        author: Matthew Conlen, Fred Hohman
+        required: true
+        year: 2018
+      - name: "Gamut: A Design Probe to Understand How Data Scientists Understand Machine Learning Models"
+        url: https://fredhohman.com/papers/19-gamut-chi.pdf
+        type: pdf
+        required: false
+        year: 2019
+        venue: ACM CHI
+        author: Fred Hohman, Andrew Head, Rich Caruana, Robert DeLine, Steven Drucker
   - date: 2021-11-23
     title: Uncertainty
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346292
