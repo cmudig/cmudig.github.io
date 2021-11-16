@@ -386,7 +386,7 @@ schedule:
         required: true
         year: 2019
       - name: "The Beginner's Guide to Dimensionality Reduction"
-        url: https://parametric.press/issue-01/the-myth-of-the-impartial-machine/
+        url: https://dimensionality-reduction-293e465c2a3443e8941b016d.vercel.app/
         type: website
         author: Matthew Conlen, Fred Hohman
         required: true
