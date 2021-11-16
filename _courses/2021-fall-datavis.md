@@ -372,6 +372,7 @@ schedule:
         author: Frank Elavsky, Larene Le Gassick, Sarah Fossheim
   - date: 2021-11-16
     title: Animation
+    slides: https://drive.google.com/file/d/12f3mrAtruVQpjk4F8P00U9u0fqcsEe_e
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346291
     readings:
   - date: 2021-11-18
