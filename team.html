@@ -19,13 +19,14 @@ roles:
       {% if person.role == role %}
         {% unless person.alumni_since %}
           <div class="w-25-m w-20-l w-50 ph2 pv2">
-            <a href="{{ person.website }}"><span>
+            {% if person.website %}<a href="{{ person.website }}">{% endif %}
+              <span>
                 <img src="{{ person.image | relative_url }}" alt="Picture of {{ person.name }}" loading="lazy" class="br3" />
                 <span class="black">
                   {{ person.name }}
                 </span>
               </span>
-            </a>
+              {% if person.website %}</a>{% endif %}
             <div class="gray">({{ person.role }})</div>
           </div>
         {% endunless %}
@@ -42,7 +43,8 @@ roles:
   <div class="flex flex-wrap">
   {% for person in sorted_alumni %} 
       <div class="w-25-m w-10-l w-50 ph2 pv2">
-        <a href="{{ person.website }}"><span title="{{person.name}} ({{person.role}})">
+        {% if person.website %}<a href="{{ person.website }}">{% endif %}
+          <span title="{{person.name}} ({{person.role}})">
             <img src="{{ person.image | relative_url }}" alt="Picture of {{ person.name }}" loading="lazy" class="br3" />
             <span class="black">
               {{ person.name }}
@@ -51,7 +53,7 @@ roles:
               ({{ person.alumni_since }})
             </span>
           </span>
-        </a>
+          {% if person.website %}</a>{% endif %}
       </div>
   {% endfor %} 
   </div> 
