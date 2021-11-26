@@ -416,13 +416,11 @@ schedule:
         author: Anne Marthe van der Bles, Sander van der Linden, Alexandra L. J. Freeman, and David J. Spiegelhalter
   - date: 2021-11-30
     title: Final Project Presentations
-    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346294
     due:
       - name: Final Project Presentation
       - name: Final Project Report
         url: https://canvas.cmu.edu/courses/24179/assignments/413347
   - date: 2021-12-02
-    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346296
     title: Final Project Presentations
 ---
 
