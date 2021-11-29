@@ -401,6 +401,7 @@ schedule:
   - date: 2021-11-23
     title: Uncertainty
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346292
+    slides: https://drive.google.com/file/d/14ObHUucfe08E1q1RWsVJw1niiO3yBeAm
     readings:
       - name: "The Curious Absence of Uncertainty from Many (Most?) Visualizations"
         url: https://medium.com/multiple-views-visualization-research-explained/the-curious-absence-of-uncertainty-from-many-most-visualizations-f0c7f89e8d84
@@ -415,7 +416,7 @@ schedule:
         year: 2020
         author: Anne Marthe van der Bles, Sander van der Linden, Alexandra L. J. Freeman, and David J. Spiegelhalter
   - date: 2021-11-30
-    title: Final Project Presentations
+    title: No Class
     due:
       - name: Final Project Presentation
       - name: Final Project Report
