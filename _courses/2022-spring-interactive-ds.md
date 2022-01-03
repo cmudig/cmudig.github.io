@@ -67,7 +67,10 @@ schedule:
         type: video
         url: https://vimeo.com/109954123
   - date: 2022-01-27
+    due:
+    - name: "Assignment 0:  Setup Github"
     title: "Exploratory Data Analysis with Tableau"
+    
     #discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346257
     #slides: https://drive.google.com/file/d/10W5WXa831GUx4Y5amRQws0HOpkEgjan7
     readings:
@@ -79,6 +82,9 @@ schedule:
     title: "Visual Encodings with Colab and Altair"
     #discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346257
     #slides: https://drive.google.com/file/d/10W5WXa831GUx4Y5amRQws0HOpkEgjan7
+    due:
+    - name: "Assignment 1:  Sketching Data"
+      #url: https://docs.google.com/document/d/146odOXGMrAxR5Eovw3o2Z0NzfLOAD6yxyLGcBcypUlM/edit?usp=sharing
     readings:
       - name: Getting Started
         author: Marian Dörk
@@ -112,12 +118,12 @@ schedule:
     title: "Interpretability 1"
   - date: 2022-02-22
     title: "Interpretability 2"
-  - date: 2022-02-22
-    title: "Interpretability 2"
   - date: 2022-02-24
     title: "Data Science Ethics"
   - date: 2022-03-01
     title: "Critique Workshop 1"
+    due:
+     - name: "Assignment 2: Design and Build an Interactive Data Science Application"
   - date: 2022-03-03
     title: "Critique Workshop 2"
   - date: 2022-03-08
@@ -126,6 +132,8 @@ schedule:
     title: "No class - Spring Break"
   - date: 2022-03-15
     title: "Perception"
+    due:
+     - name: "Final Project Proposals"
   - date: 2022-03-17
     title: "Design and Color"
   - date: 2022-03-22
@@ -138,6 +146,8 @@ schedule:
     title: "Images and Data Science"
   - date: 2022-04-05
     title: "TBD"
+    due:
+     - name: "Final Project Sketches"
   - date: 2022-04-07
     title: "No Class - Spring Carnival"
   - date: 2022-04-12
@@ -150,15 +160,19 @@ schedule:
     title: "TBD"
   - date: 2022-04-26
     title: "Team Project Presentations"
+    due:
+     - name: "Final Project Presentations"
   - date: 2022-04-28
     title: "Team Project Presentations"
+    due:
+     - name: "Final Project Report"
 ---
 
 <!-- [Canvas](https://canvas.cmu.edu/courses/22110). -->
 
 <!-- [Overview of final projects](https://cmu-ids-2020.github.io/) -->
 
-The goal of this course is to provide you with the tools to understand data and build data-driven interactive systems. You will learn to tell a story with the data and explore opportunities enabled by interactive data analysis through a combination of lectures, readings of current literature, and practical skills development. Over the course of the semester, you will learn about data science and the entire data pipeline from collecting and analyzing to interacting with data. We will also cover human-centered aspects of data science and how HCI methods can enhance the interpretation of data. This course requires comfort with programming, as required projects make use of Python and Git (and if you want JavaScript or others). A series of homework assignments help to lay the groundwork for a final larger group project.
+The goal of this course is to provide you with the tools to understand data and build data-driven interactive systems. You will learn to tell a story with the data and explore opportunities enabled by interactive data analysis through a combination of lectures, readings of current literature, and practical skills development. Over the course of the semester, you will learn about data science and the entire data pipeline from collecting and analyzing to interacting with data. We will also cover human-centered aspects of data science and how HCI methods can enhance the interpretation of data. This course requires comfort with programming, as required projects make use of Python and Git.  A series of homework assignments help to lay the groundwork for a final larger group project.
 
 {: .no_toc }
 
@@ -268,9 +282,8 @@ The goal of this course is to provide you with the tools to understand data and 
 - Structured vs unstructured data
 - Dealing with heterogeneous data
 - Sampling and Bias in Data Collection
-- Sensed Data
 - Data transformation and analysis
-- Data Visualization
+- Data visualization
 - Current research in information driven interfaces
 
 #### Skills
@@ -291,8 +304,7 @@ The goal of this course is to provide you with the tools to understand data and 
 
 ## Prerequisites
 
-The class will involve programming and debugging. However, you should not take the course if you find programming or debugging extremely difficult because you will have to master several very different programming languages/concepts in very short order (projects make use use of web programming frameworks including Pandas, Altair, [Streamlit](https://www.streamlit.io/); and multiple languages including Python, JavaScript, and SQL). That being said, the assignments will mostly require Python unless you decide on a project using any other
-language.
+The class will involve programming and debugging. If you find programming or debugging extremely difficult, this course may not be for you as you will have to master several very different programming languages/libraries/concepts in very short order (projects make use use of web programming frameworks including Pandas, Altair, [Streamlit](https://www.streamlit.io/); and multiple languages including Python, JavaScript, and SQL). That being said, the assignments will mostly only require Python unless you decide on a project using any other language.
 
 <!-- ## List of Topics
 
@@ -320,9 +332,9 @@ language.
 
 ## Projects
 
-The course is project oriented. It includes a large final group-defined project along with 2 homework assignments designed to provide the stepping stones needed to complete the final project. Tentative due dates for these projects can be found at the bottom of this syllabus under the 'Course Summary' heading. Your work will be evaluated relative to your background and level of effort. This is a graduate class, and the assumption is that you are a mature and motivated student, and that you will define your work so that you learn and grow, given your background. Students who are taking this course as a part of a technical requirement (such as the computer science course requirement in the HCI PhD) will need to do more advanced or ambitious projects, and should consult with the instructor to make sure they are meeting this bar.
+The course is project-oriented. It includes a large final group-defined project along with 2 homework assignments designed to provide the stepping stones needed to complete the final project. Tentative due dates for these projects can be found in the schedule above. Your work will be evaluated relative to your background and level of effort. This is a graduate-level class, and the assumption is that you are a mature and motivated student, and that you will define your work so that you learn and grow, given your background.
 
-All homework assignments are to be done as individual work. It is expected that students may assist each other with conceptual issues, but not provide code. If you use example code, you must explicitly acknowledge this in your assignment submission. If you are unsure about these boundaries, ask.
+All homework assignments are to be done as individual work. It is expected that students may assist each other with conceptual issues, but not provide code. If you use example code, you must explicitly acknowledge this in your assignment submission. If you are unsure about these boundaries, please ask the instructors.
 
 ### Work Required
 
@@ -333,8 +345,6 @@ There is no final exam in this course. Students who do well will be invited to c
 ### Course Material
 
 Readings will be made available on the schedule listed above.
-
-### Readings
 
 You will be expected to read assigned readings before the lecture they pertain to. These may include chapters drawn from textbooks about data, or readings about the research literature. To incentivize this, each student will be required to make at least one relevant postings to the discussion group before the class on which each reading is due. This participation will count toward the Participation and Attendance portion of their grade.
 
@@ -365,6 +375,8 @@ It is our intent that students from all diverse backgrounds and perspectives be 
 If you have a disability and are registered with the Office of Disability Resources, we encourage you to use their online system to notify us of your accommodations and discuss your needs with us as early in the semester as possible. We will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with the Office of Disability Resources, we encourage you to contact them at [access@andrew.cmu.edu](mailto:access@andrew.cmu.edu).
 
 ### Health and Well-being
+
+If you are experiencing COVID-like symptoms or have a recent COVID exposure, do not attend class if we are meeting in-person.  Please email the instructors for accomodations.
 
 If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help; call [412-268-2922](tel:412-268-2922) and visit their website at [www.cmu.edu/counseling/](http://www.cmu.edu/counseling/). Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help. If you or someone you know is feeling suicidal or in danger of self-harm, call someone immediately, day or night:
 
