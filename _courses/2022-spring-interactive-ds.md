@@ -7,6 +7,7 @@ instructors:
   - Adam Perer
 tas:
   - Venkat Sivaraman
+  - Aditi Sharma
   - Jingyi Zhang
 time: T/H 11:50am-1:10pm
 location: Gates 4307
