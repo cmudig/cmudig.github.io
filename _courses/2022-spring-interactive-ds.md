@@ -169,7 +169,7 @@ schedule:
      - name: "Final Project Report"
 ---
 
-<!-- [Canvas](https://canvas.cmu.edu/courses/22110). -->
+*Additional course information available on [Canvas](https://canvas.cmu.edu/courses/27195).*
 
 <!-- [Overview of final projects](https://cmu-ids-2020.github.io/) -->
 
