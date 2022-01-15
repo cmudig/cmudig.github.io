@@ -113,7 +113,7 @@ schedule:
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392477
   - date: 2022-02-10
     title: "Interactivity 2"
-    discussion:https://canvas.cmu.edu/courses/27195/discussion_topics/392478
+    discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392478
   - date: 2022-02-15
     title: "Practical Machine Learning"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392479
@@ -158,7 +158,7 @@ schedule:
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392490"
   - date: 2022-04-05
     title: "TBD"
-    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392485"
+    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392497"
     due:
      - name: "Final Project Sketches"
   - date: 2022-04-07
