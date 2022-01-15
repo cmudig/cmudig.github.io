@@ -17,7 +17,7 @@ redirect_from:
 schedule:
   - date: 2022-01-18
     title: "Introduction and the Data Science Pipeline"
-    #discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/345118
+    discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392397
     #slides: https://drive.google.com/file/d/10-2wX14UA2BKimjCxtLYceX1O2jDzHUZ
     readings:
       - name: "Data Analysis and Statistics: An Expository Overview"
