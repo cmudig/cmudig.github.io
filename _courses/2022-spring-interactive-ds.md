@@ -29,7 +29,7 @@ schedule:
         url: https://drive.google.com/file/d/1_cUaVNMqBm1JIA-UGQlAHAXiD3G9AdAY/view?usp=sharing
   - date: 2022-01-20
     title: "Value of Visualization"
-    #discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/345118
+    discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392472
     #slides: https://drive.google.com/file/d/10-2wX14UA2BKimjCxtLYceX1O2jDzHUZ
     readings:
       - name: Information Visualization (Chapter 1)
@@ -47,7 +47,7 @@ schedule:
         url: https://drive.google.com/file/d/1-SU83DmAqUdflBjCbmaE00bsDn7evJJE
   - date: 2022-01-25
     title: "Sketching"
-    #discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346257
+    discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392473
     #slides: https://drive.google.com/file/d/10W5WXa831GUx4Y5amRQws0HOpkEgjan7
     readings:
       - name: The Anatomy of Sketching (Chapter 9)
@@ -71,8 +71,7 @@ schedule:
     due:
     - name: "Assignment 0:  Setup Github"
     title: "Exploratory Data Analysis with Tableau"
-    
-    #discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346257
+    discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392474
     #slides: https://drive.google.com/file/d/10W5WXa831GUx4Y5amRQws0HOpkEgjan7
     readings:
       - name: Download and Install Tableau Public (before class)
@@ -81,7 +80,7 @@ schedule:
         url: https://public.tableau.com/en-us/s/
   - date: 2022-02-01
     title: "Visual Encodings with Colab and Altair"
-    #discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346257
+    discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392475
     #slides: https://drive.google.com/file/d/10W5WXa831GUx4Y5amRQws0HOpkEgjan7
     due:
     - name: "Assignment 1:  Sketching Data"
@@ -99,7 +98,7 @@ schedule:
         url: https://colab.research.google.com/github/uwdata/visualization-curriculum/blob/master/altair_marks_encoding.ipynb
   - date: 2022-02-03
     title: "Data Quality"
-    #discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346257
+    discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392476
     #slides: https://drive.google.com/file/d/10W5WXa831GUx4Y5amRQws0HOpkEgjan7
     readings:
       - name: "Voyager: Exploratory Analysis via Faceted Browsing of Visualization Recommendations"
@@ -111,16 +110,22 @@ schedule:
         url: https://drive.google.com/file/d/1-dDFEcSHeM-1nlsNskZ1Ni_-GUhuKoTC
   - date: 2022-02-08
     title: "Interactivity 1"
+    discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392477
   - date: 2022-02-10
     title: "Interactivity 2"
+    discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392478
   - date: 2022-02-15
     title: "Practical Machine Learning"
+    discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392479
   - date: 2022-02-17
     title: "Interpretability 1"
+    discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392480
   - date: 2022-02-22
     title: "Interpretability 2"
+    discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392481
   - date: 2022-02-24
     title: "Data Science Ethics"
+    discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392482
   - date: 2022-03-01
     title: "Critique Workshop 1"
     due:
@@ -133,32 +138,43 @@ schedule:
     title: "No class - Spring Break"
   - date: 2022-03-15
     title: "Perception"
+    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392485"
     due:
      - name: "Final Project Proposals"
   - date: 2022-03-17
     title: "Design and Color"
+    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392486"
   - date: 2022-03-22
     title: "Telling Stories with Data"
+    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392487"
   - date: 2022-03-24
     title: "Natural Language Processing"
+    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392488"
   - date: 2022-03-29
     title: "Sampling and Scalability"
+    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392489"
   - date: 2022-03-31
     title: "Images and Data Science"
+    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392490"
   - date: 2022-04-05
     title: "TBD"
+    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392497"
     due:
      - name: "Final Project Sketches"
   - date: 2022-04-07
     title: "No Class - Spring Carnival"
   - date: 2022-04-12
     title: "Controlled Experiments + Evaluation"
+    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392492"
   - date: 2022-04-14
     title: "Uncertainty"
+    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392493"
   - date: 2022-04-19
     title: "Fairness"
+    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392494"
   - date: 2022-04-21
     title: "TBD"
+    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392495"
   - date: 2022-04-26
     title: "Team Project Presentations"
     due:
