@@ -18,7 +18,7 @@ schedule:
   - date: 2022-01-18
     title: "Introduction and the Data Science Pipeline"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392397
-    #slides: https://drive.google.com/file/d/10-2wX14UA2BKimjCxtLYceX1O2jDzHUZ
+    slides: https://drive.google.com/open?id=1f35-ZjB3o5Qzm1XH_d9wng1G1GuBRfWj&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
     readings:
       - name: "Data Analysis and Statistics: An Expository Overview"
         author: J.W. Tukey and M.B. Wilk
@@ -30,7 +30,7 @@ schedule:
   - date: 2022-01-20
     title: "Value of Visualization"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392472
-    #slides: https://drive.google.com/file/d/10-2wX14UA2BKimjCxtLYceX1O2jDzHUZ
+    slides: https://drive.google.com/open?id=1ex45fd0VKfvRy66zwsg_qeGJB9ZeMNT9&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
     readings:
       - name: Information Visualization (Chapter 1)
         author: Stuart Card, Jock Mackinlay, and Ben Shneiderman
