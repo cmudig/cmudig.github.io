@@ -48,7 +48,7 @@ schedule:
   - date: 2022-01-25
     title: "Sketching"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392473
-    #slides: https://drive.google.com/file/d/10W5WXa831GUx4Y5amRQws0HOpkEgjan7
+    slides: https://drive.google.com/open?id=1h9rUk93tNbbPjLygIMgxWv4xXUvM-ZTz&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
     readings:
       - name: The Anatomy of Sketching (Chapter 9)
         author: Bill Buxton
