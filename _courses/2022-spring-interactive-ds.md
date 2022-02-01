@@ -81,7 +81,7 @@ schedule:
   - date: 2022-02-01
     title: "Visual Encodings with Colab and Altair"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392475
-    #slides: https://drive.google.com/file/d/10W5WXa831GUx4Y5amRQws0HOpkEgjan7
+    slides: https://drive.google.com/open?id=1hlBSpBTLmJapHSF8YmsRkafBZXx1Grlx&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
     due:
     - name: "Assignment 1:  Sketching Data"
       #url: https://docs.google.com/document/d/146odOXGMrAxR5Eovw3o2Z0NzfLOAD6yxyLGcBcypUlM/edit?usp=sharing
@@ -108,6 +108,11 @@ schedule:
         required: true
         type: pdf
         url: https://drive.google.com/file/d/1-dDFEcSHeM-1nlsNskZ1Ni_-GUhuKoTC
+      - name: Live-coding Altair from Tuesday's Class (Feb 1)
+        author: Adam Perer
+        required: false
+        type: website
+        url: https://colab.research.google.com/drive/1FnxN-vZAIH8K44iYhtKm5rNC3y2XDu_l?usp=sharing
   - date: 2022-02-08
     title: "Interactivity 1"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392477
