@@ -99,7 +99,7 @@ schedule:
   - date: 2022-02-03
     title: "Data Quality"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392476
-    #slides: https://drive.google.com/file/d/10W5WXa831GUx4Y5amRQws0HOpkEgjan7
+    slides: https://drive.google.com/open?id=1i9ZDNTPhvaoTBd0rWc4fs8nW86SdzGlQ&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
     readings:
       - name: "Voyager: Exploratory Analysis via Faceted Browsing of Visualization Recommendations"
         author: Kanit Wongsuphasawat, Dominik Moritz, Anushka Anand, Jock Mackinlay, Bill Howe, and Jeffrey Heer
@@ -109,13 +109,24 @@ schedule:
         type: pdf
         url: https://drive.google.com/file/d/1-dDFEcSHeM-1nlsNskZ1Ni_-GUhuKoTC
       - name: Live-coding Altair from Tuesday's Class (Feb 1)
-        author: Adam Perer
         required: false
         type: website
         url: https://colab.research.google.com/drive/1FnxN-vZAIH8K44iYhtKm5rNC3y2XDu_l?usp=sharing
   - date: 2022-02-08
     title: "Interactivity 1"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392477
+    readings:
+    - name: "Toward a Deeper Understanding of the Role of Interaction in Information Visualization"
+        author: Ji Soo Yi, Youn ah Kang, John T. Stasko, Member, IEEE, and Julie A. Jacko
+        venue: IEEE Transactions on Visualization and Computer Graphics
+        year: 2007
+        required: true
+        type: pdf
+        url: https://drive.google.com/open?id=1iCwsWp8h3zC2_LtjBa4S-JrVEFjz3_10&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
+      - name: Live-coding Data Quality with Pandas from Thursday's Class (Feb 3)
+        required: false
+        type: website
+        url: https://colab.research.google.com/drive/1S1YNiQF1UGqkSxViBZ6e3U_wsvBXq1R7?usp=sharing          
   - date: 2022-02-10
     title: "Interactivity 2"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392478
