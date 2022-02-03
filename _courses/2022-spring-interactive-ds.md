@@ -116,7 +116,7 @@ schedule:
     title: "Interactivity 1"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392477
     readings:
-    - name: "Toward a Deeper Understanding of the Role of Interaction in Information Visualization"
+      - name: "Toward a Deeper Understanding of the Role of Interaction in Information Visualization"
         author: Ji Soo Yi, Youn ah Kang, John T. Stasko, Member, IEEE, and Julie A. Jacko
         venue: IEEE Transactions on Visualization and Computer Graphics
         year: 2007
