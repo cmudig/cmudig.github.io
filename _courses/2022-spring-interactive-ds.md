@@ -84,7 +84,7 @@ schedule:
     slides: https://drive.google.com/open?id=1hlBSpBTLmJapHSF8YmsRkafBZXx1Grlx&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
     due:
     - name: "Assignment 1:  Sketching Data"
-      #url: https://docs.google.com/document/d/146odOXGMrAxR5Eovw3o2Z0NzfLOAD6yxyLGcBcypUlM/edit?usp=sharing
+      url: https://docs.google.com/document/d/1Yt8BgEABC572yuJ1B1-c3Ovz2CrGHekfaZTy066hb90/edit?usp=sharing
     readings:
       - name: Getting Started
         author: Marian Dörk
@@ -130,6 +130,11 @@ schedule:
   - date: 2022-02-10
     title: "Interactivity 2"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392478
+    readings:
+      - name: "Set-up Interactive Lab Repo on Github Classrooms (only do Part 0)"
+        required: true
+        type: website
+        url: https://classroom.github.com/a/cv_uD5Ev
   - date: 2022-02-15
     title: "Practical Machine Learning"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392479
@@ -146,6 +151,7 @@ schedule:
     title: "Critique Workshop 1"
     due:
      - name: "Assignment 2: Design and Build an Interactive Data Science Application"
+     # url: https://docs.google.com/document/d/1JKsJSZetieW7udPA_xE4oXgitNdazt6QVaohgu4_N2I/edit#heading=h.yzj98ymxeeyi
   - date: 2022-03-03
     title: "Critique Workshop 2"
   - date: 2022-03-08
