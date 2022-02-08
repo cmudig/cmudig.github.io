@@ -150,8 +150,8 @@ schedule:
   - date: 2022-03-01
     title: "Critique Workshop 1"
     due:
-     - name: "Assignment 2: Design and Build an Interactive Data Science Application"
-     # url: https://docs.google.com/document/d/1JKsJSZetieW7udPA_xE4oXgitNdazt6QVaohgu4_N2I/edit#heading=h.yzj98ymxeeyi
+    - name: "Assignment 2: Design and Build an Interactive Data Science Application"
+      url: "https://docs.google.com/document/d/1JKsJSZetieW7udPA_xE4oXgitNdazt6QVaohgu4_N2I/edit?usp=sharing"
   - date: 2022-03-03
     title: "Critique Workshop 2"
   - date: 2022-03-08
