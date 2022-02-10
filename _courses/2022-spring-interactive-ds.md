@@ -130,6 +130,7 @@ schedule:
         url: https://colab.research.google.com/drive/1S1YNiQF1UGqkSxViBZ6e3U_wsvBXq1R7?usp=sharing          
   - date: 2022-02-10
     title: "Interactivity 2"
+    slides: https://drive.google.com/file/d/1jdAm0NLf-xtdYa0BgLx6JYNLPS4MYsm2/view?usp=sharing
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392478
     readings:
       - name: "Set-up Interactive Lab Repo on Github Classrooms (only do Part 0)"
