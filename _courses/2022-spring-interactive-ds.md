@@ -114,6 +114,7 @@ schedule:
         url: https://colab.research.google.com/drive/1FnxN-vZAIH8K44iYhtKm5rNC3y2XDu_l?usp=sharing
   - date: 2022-02-08
     title: "Interactivity 1"
+    slides: https://drive.google.com/file/d/1jY25rWyzd-d1xHKY9Q8i1Ncoxc2AzplM/view?usp=sharing
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392477
     readings:
       - name: "Toward a Deeper Understanding of the Role of Interaction in Information Visualization"
