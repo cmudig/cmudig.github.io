@@ -138,11 +138,29 @@ schedule:
         type: website
         url: https://classroom.github.com/a/cv_uD5Ev
   - date: 2022-02-15
-    title: "Practical Machine Learning"
+    title: "Interactivity Lab"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392479
+    readings:
+      - name: "Review Streamlit Code from Thursday's Class"
+        required: false
+        type: website
+        url: https://github.com/CMU-IDS-2022/streamlit_demo
   - date: 2022-02-17
-    title: "Interpretability 1"
+    title: "Practical Machine Learning + Interpretability 1"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392480
+    readings:
+      - name: "Black Boxes are not Required"
+        required: true
+        type: audio
+        author: Cynthia Rudin
+        venue: Data Skeptic Podcast
+        url: https://dataskeptic.com/blog/episodes/2020/black-boxes-are-not-required
+      - name: "Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead"
+        required: false
+        type: pdf
+        author: Cynthia Rudin
+        venue: Nature Machine Intelligence
+        url: https://dataskeptic.com/blog/episodes/2020/black-boxes-are-not-required
   - date: 2022-02-22
     title: "Interpretability 2"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392481
@@ -270,6 +288,8 @@ The goal of this course is to provide you with the tools to understand data and 
         <i class="far fa-file-pdf" aria-hidden="true"></i>
       {% elsif reading.type == "website" %}
         <i class="far fa-globe" aria-hidden="true"></i>
+      {% elsif reading.type == "audio" %}
+        <i class="far fa-podcast" aria-hidden="true"></i>
       {% elsif reading.type == "notebook" %}
         <i class="fas fa-laptop-code"  aria-hidden="true"></i>
       {% endif %}
