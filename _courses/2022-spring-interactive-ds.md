@@ -166,7 +166,7 @@ schedule:
     title: "Interpretability"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392481
     readings:
-        - name: Live-coding Practical ML from Thursday's Class (Feb 17)
+      - name: Live-coding Practical ML from Thursday's Class (Feb 17)
         required: false
         type: website
         url: https://colab.research.google.com/drive/1WtziegWec_AEW20obyjVN69XHcDaln-L?usp=sharing
