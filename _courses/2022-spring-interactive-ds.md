@@ -146,7 +146,8 @@ schedule:
         type: website
         url: https://github.com/CMU-IDS-2022/streamlit_demo
   - date: 2022-02-17
-    title: "Practical Machine Learning + Interpretability 1"
+    title: "Practical Machine Learning"
+    slides: https://drive.google.com/file/d/1jr68md659u-Sj-fZeyKDqXztYHP79Grn/view?usp=sharing
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392480
     readings:
       - name: "Black Boxes are not Required"
@@ -162,8 +163,13 @@ schedule:
         venue: Nature Machine Intelligence
         url: https://dataskeptic.com/blog/episodes/2020/black-boxes-are-not-required
   - date: 2022-02-22
-    title: "Interpretability 2"
+    title: "Interpretability"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392481
+    readings:
+        - name: Live-coding Practical ML from Thursday's Class (Feb 17)
+        required: false
+        type: website
+        url: https://colab.research.google.com/drive/1WtziegWec_AEW20obyjVN69XHcDaln-L?usp=sharing
   - date: 2022-02-24
     title: "Data Science Ethics"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392482
