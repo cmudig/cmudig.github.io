@@ -161,7 +161,7 @@ schedule:
         type: pdf
         author: Cynthia Rudin
         venue: Nature Machine Intelligence
-        url: https://dataskeptic.com/blog/episodes/2020/black-boxes-are-not-required
+        url: https://arxiv.org/abs/1811.10154
   - date: 2022-02-22
     title: "Interpretability"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392481
