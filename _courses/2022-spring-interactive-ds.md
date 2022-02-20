@@ -171,32 +171,65 @@ schedule:
         type: website
         url: https://colab.research.google.com/drive/1WtziegWec_AEW20obyjVN69XHcDaln-L?usp=sharing
   - date: 2022-02-24
-    title: "Data Science Ethics"
+    title: "Perception"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392482
+    readings:
+      - name: "Layering and Seperation (Chapter 3)"
+        url: https://drive.google.com/file/d/1--k-IiRxcYJWADUo9EvthaG8pgTzxwaz/view?usp=sharing
+        author: Edward Tufte
+        venue: Envisioning Information
+        required: true
+        type: pdf
   - date: 2022-03-01
-    title: "Critique Workshop 1"
+    title: "Designing with Effective Visual Encodings"
+    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392485"
+    readings:
+      - name: Basic Principles of Visualization (Chapter 5)
+        author: Alberto Cairo
+        venue: The Truthful Art
+        required: true
+        type: pdf
+        url: https://drive.google.com/open?id=171tAFZLofETfiOm4OElpHcWSlWQ8Yven
+      - name: What to consider when choosing colors for data visualization
+        author: Lisa Charlotte Muth
+        year: 2018
+        url: https://blog.datawrapper.de/colors/
+        type: website
+        required: false
     due:
     - name: "Assignment 2: Design and Build an Interactive Data Science Application"
       url: "https://docs.google.com/document/d/1JKsJSZetieW7udPA_xE4oXgitNdazt6QVaohgu4_N2I/edit?usp=sharing"
   - date: 2022-03-03
-    title: "Critique Workshop 2"
+    title: "Data Science Ethics"
+    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392486"
+    readings:
+      - name: "Introduction"
+        url: https://drive.google.com/file/d/1-8SYdSKFBGyn0kLy4N_yjhLsOnx-zPpZ/view?usp=sharing
+        author: Catherine D'Ignazio and Lauren F. Klein
+        venue: "Data Feminism"
+        required: true
+        type: pdf
+      - name: "Chapter 1"
+        url: https://drive.google.com/file/d/1-9E6m3o63ruubdrCKEKwKjZjKAFYoMuD/view?usp=sharing
+        author: Catherine D'Ignazio and Lauren F. Klein
+        venue: "Data Feminism"
+        required: false
+        type: pdf
   - date: 2022-03-08
     title: "No class - Spring Break"
   - date: 2022-03-10
     title: "No class - Spring Break"
   - date: 2022-03-15
-    title: "Perception"
-    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392485"
+    title: "Critique Workshop 1"
     due:
      - name: "Final Project Proposals"
   - date: 2022-03-17
-    title: "Design and Color"
-    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392486"
+    title: "Critique Workshop 2"
   - date: 2022-03-22
-    title: "Telling Stories with Data"
+    title: "Natural Language Processing"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392487"
   - date: 2022-03-24
-    title: "Natural Language Processing"
+    title: "Telling Stories with Data"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392488"
   - date: 2022-03-29
     title: "Sampling and Scalability"
