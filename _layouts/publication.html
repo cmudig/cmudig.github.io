@@ -93,6 +93,11 @@ layout: default
           <i class="fas fa-newspaper" aria-hidden="true"></i> Article
         </a></li>
       {% endif %}
+      {% if page.arxiv %}
+        <li class="mt2"><a href="https://ar5iv.org/html/{{ page.arxiv | cgi_escape }}" class="black link hover-cmu-red">
+          <i class="fab fa-html5" aria-hidden="true"></i> HTML
+        </a></li>
+      {% endif %}
       {% if page.video %}
         <li class="mt2"><a href="{{ page.video }}" class="black link hover-cmu-red">
           <i class="fas fa-film" aria-hidden="true"></i> Video
