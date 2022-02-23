@@ -171,7 +171,6 @@ schedule:
         required: false
         type: website
         url: https://colab.research.google.com/drive/1WtziegWec_AEW20obyjVN69XHcDaln-L?usp=sharing
-        https://colab.research.google.com/drive/1dlgxHRQP9pTrs2q5vu1w09ckpsjmPfmU?usp=sharing
   - date: 2022-02-24
     title: "Perception"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392482
