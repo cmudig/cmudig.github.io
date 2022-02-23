@@ -172,7 +172,7 @@ schedule:
         type: website
         url: https://colab.research.google.com/drive/1WtziegWec_AEW20obyjVN69XHcDaln-L?usp=sharing
   - date: 2022-02-24
-    title: "Perception"
+    title: "Intepretability 2 + Perception"
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392482
     readings:
       - name: "Layering and Seperation (Chapter 3)"
