@@ -176,18 +176,30 @@ schedule:
     discussion: https://canvas.cmu.edu/courses/27195/discussion_topics/392482
     slides: https://drive.google.com/file/d/1k1W6vc0TkJxQHgW2xIzlvXzoiHQDHWok/view?usp=sharing
     readings:
+      - name: Live-coding Practical+Interpretable ML from Tuesday's Class (Feb 22)
+        required: false
+        type: website
+        url: https://colab.research.google.com/drive/1dlgxHRQP9pTrs2q5vu1w09ckpsjmPfmU?usp=sharing
+  - date: 2022-03-01
+    title: "Perception"
+    slides: https://drive.google.com/file/d/1k49xVuGXGlT-aPcxPD6yCZlfmAxsTIeu/view?usp=sharing
+    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392485"
+    readings:
       - name: "Layering and Seperation (Chapter 3)"
         url: https://drive.google.com/file/d/1--k-IiRxcYJWADUo9EvthaG8pgTzxwaz/view?usp=sharing
         author: Edward Tufte
         venue: Envisioning Information
         required: true
         type: pdf
-      - name: Live-coding Practical+Interpretable ML from Tuesday's Class (Feb 22)
+      - name: Live-coding Practical+Interpretable ML from Thursday's Class (Feb 24)
         required: false
         type: website
-        url: https://colab.research.google.com/drive/1dlgxHRQP9pTrs2q5vu1w09ckpsjmPfmU?usp=sharing
-  - date: 2022-03-01
-    title: "Perception + Designing with Effective Visual Encodings"
+        url: https://colab.research.google.com/drive/1r59BM9jiR0ofn3Aw5BcrV4NAWyoHYlGI?usp=sharing
+    due:
+    - name: "Assignment 2: Design and Build an Interactive Data Science Application"
+      url: "https://docs.google.com/document/d/1JKsJSZetieW7udPA_xE4oXgitNdazt6QVaohgu4_N2I/edit?usp=sharing"
+  - date: 2022-03-03
+    title: "Designing with Effective Visual Encodings"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392485"
     readings:
       - name: Basic Principles of Visualization (Chapter 5)
@@ -202,14 +214,15 @@ schedule:
         url: https://blog.datawrapper.de/colors/
         type: website
         required: false
-      - name: Live-coding Practical+Interpretable ML from Thursday's Class (Feb 24)
-        required: false
-        type: website
-        url: https://colab.research.google.com/drive/1r59BM9jiR0ofn3Aw5BcrV4NAWyoHYlGI?usp=sharing
-    due:
-    - name: "Assignment 2: Design and Build an Interactive Data Science Application"
-      url: "https://docs.google.com/document/d/1JKsJSZetieW7udPA_xE4oXgitNdazt6QVaohgu4_N2I/edit?usp=sharing"
-  - date: 2022-03-03
+  - date: 2022-03-08
+    title: "No class - Spring Break"
+  - date: 2022-03-10
+    title: "No class - Spring Break"
+  - date: 2022-03-15
+    title: "Critique Workshop 1"
+  # - date: 2022-03-17
+  #   title: "Critique Workshop 2"
+  - date: 2022-03-17
     title: "Data Science Ethics"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392486"
     readings:
@@ -225,19 +238,12 @@ schedule:
         venue: "Data Feminism"
         required: false
         type: pdf
-  - date: 2022-03-08
-    title: "No class - Spring Break"
-  - date: 2022-03-10
-    title: "No class - Spring Break"
-  - date: 2022-03-15
-    title: "Critique Workshop 1"
-    due:
-     - name: "Final Project Proposals"
-  - date: 2022-03-17
-    title: "Critique Workshop 2"
   - date: 2022-03-22
     title: "Natural Language Processing"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392487"
+    due:
+     - name: "Final Project Proposals"
+       url: https://docs.google.com/document/d/1b1m_QVsQaqg-Ei9B0037RpWCUg0IetTJMcs-o3KkicA/edit?usp=sharing
   - date: 2022-03-24
     title: "Telling Stories with Data"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392488"
@@ -250,13 +256,14 @@ schedule:
   - date: 2022-04-05
     title: "TBD"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392497"
-    due:
-     - name: "Final Project Sketches"
   - date: 2022-04-07
     title: "No Class - Spring Carnival"
   - date: 2022-04-12
     title: "Controlled Experiments + Evaluation"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392492"
+    due:
+     - name: "Final Project Sketches"
+       url: https://docs.google.com/document/d/1b1m_QVsQaqg-Ei9B0037RpWCUg0IetTJMcs-o3KkicA/edit?usp=sharing
   - date: 2022-04-14
     title: "Uncertainty"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392493"
@@ -270,10 +277,12 @@ schedule:
     title: "Team Project Presentations"
     due:
      - name: "Final Project Presentations"
+       url: https://docs.google.com/document/d/1b1m_QVsQaqg-Ei9B0037RpWCUg0IetTJMcs-o3KkicA/edit?usp=sharing
   - date: 2022-04-28
     title: "Team Project Presentations"
     due:
      - name: "Final Project Report"
+       url: https://docs.google.com/document/d/1b1m_QVsQaqg-Ei9B0037RpWCUg0IetTJMcs-o3KkicA/edit?usp=sharing
 ---
 
 *Additional course information available on [Canvas](https://canvas.cmu.edu/courses/27195).*
