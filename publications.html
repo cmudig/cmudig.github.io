@@ -119,6 +119,11 @@ description: Recent publications from the Data Interaction Group at Visualizatio
           <i class="fas fa-newspaper f6" aria-hidden="true"></i> Article
         </a>
         {% endif %}
+        {% if pub.arxiv %}
+        <a href="https://ar5iv.org/html/{{ pub.arxiv | cgi_escape }}" class="black link hover-cmu-red mr3 dib">
+          <i class="fab fa-html5" aria-hidden="true"></i> HTML
+        </a>
+        {% endif %}
         {% if pub.video %}
         <a href="{{ pub.video }}" class="black link hover-cmu-red mr3 dib">
           <i class="fas fa-film f6" aria-hidden="true"></i> Video
