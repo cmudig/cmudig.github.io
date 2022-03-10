@@ -199,7 +199,8 @@ schedule:
     - name: "Assignment 2: Design and Build an Interactive Data Science Application"
       url: "https://docs.google.com/document/d/1JKsJSZetieW7udPA_xE4oXgitNdazt6QVaohgu4_N2I/edit?usp=sharing"
   - date: 2022-03-03
-    title: "Designing with Effective Visual Encodings"
+    title: "Final Project Introduction + Designing with Effective Visual Encodings"
+    slides: https://drive.google.com/file/d/1kLnY0Aw7ap0HoDv8mpLJnK_TsN7YFwg-/view?usp=sharing
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392485"
     readings:
       - name: Basic Principles of Visualization (Chapter 5)
@@ -219,10 +220,36 @@ schedule:
   - date: 2022-03-10
     title: "No class - Spring Break"
   - date: 2022-03-15
-    title: "Critique Workshop 1"
+    title: "Telling Stories with Data"
+    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392488"
+    readings:
+      - name: "Chapter 8 - Storytelling with Data"
+        url: https://drive.google.com/file/d/1kOCT5PqRPdWlPJRVAMyFQ4UobCmLQqgc/view?usp=sharing
+        author: Cecilia Aragon, Shion Guha, Marina Kogan, Michael Muller and Gina Neff
+        venue: "Human-Centered Data Science: An Introduction"
+        required: true
+        type: pdf
+      - name: "Narrative Visualization: Telling Stories with Data"
+        url: https://drive.google.com/file/d/1eNlLqJf7Gxphwa7ct4MbendVyoAkpPs8/view?usp=sharing
+        author: Edward Segel, Jeffrey Heer
+        venue: IEEE Trans. Visualization & Comp. Graphics (Proc. InfoVis)
+        year: 2010
+        required: false
+        type: pdf
+  - date: 2022-03-17
+    title: "Sampling and Scalability"
+  # discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392489"
+  # - date: 2022-03-15
+  #   title: "Critique Workshop 1"
   # - date: 2022-03-17
   #   title: "Critique Workshop 2"
-  - date: 2022-03-17
+  - date: 2022-03-22
+    title: "Natural Language Processing"
+    # discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392487"
+    due:
+     - name: "Final Project Proposals"
+       url: https://docs.google.com/document/d/1b1m_QVsQaqg-Ei9B0037RpWCUg0IetTJMcs-o3KkicA/edit?usp=sharing
+  - date: 2022-03-24
     title: "Data Science Ethics"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392486"
     readings:
@@ -238,21 +265,13 @@ schedule:
         venue: "Data Feminism"
         required: false
         type: pdf
-  - date: 2022-03-22
-    title: "Natural Language Processing"
-    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392487"
-    due:
-     - name: "Final Project Proposals"
-       url: https://docs.google.com/document/d/1b1m_QVsQaqg-Ei9B0037RpWCUg0IetTJMcs-o3KkicA/edit?usp=sharing
-  - date: 2022-03-24
-    title: "Telling Stories with Data"
-    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392488"
   - date: 2022-03-29
-    title: "Sampling and Scalability"
-    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392489"
+    title: "Critique Workshop 1"
+    #discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392489"
   - date: 2022-03-31
-    title: "Images and Data Science"
-    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392490"
+    title: "Critique Workshop 2"
+    #title: "Images and Data Science"
+    #discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392490"
   - date: 2022-04-05
     title: "TBD"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392497"
