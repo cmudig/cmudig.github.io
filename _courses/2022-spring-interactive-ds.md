@@ -244,7 +244,7 @@ schedule:
   # - date: 2022-03-17
   #   title: "Critique Workshop 2"
   - date: 2022-03-22
-    title: "Natural Language Processing"
+    title: "Natural Language Processing (guest lecture by Dr. Hendrik Strobelt @ MIT-IBM Watson AI Lab)"
     # discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392487"
     due:
      - name: "Final Project Proposals"
@@ -287,11 +287,31 @@ schedule:
     title: "Uncertainty"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392493"
   - date: 2022-04-19
-    title: "Fairness"
+    title: "Fairness (guest lecture by Prof. Ken Holstein)"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392494"
   - date: 2022-04-21
-    title: "TBD"
+    title: "Visualization and Machine Learning (guest lecture by Dr. Fred Hohman @ Apple)"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392495"
+    readings:
+      - name: "The Myth of the Impartial Machine"
+        url: https://parametric.press/issue-01/the-myth-of-the-impartial-machine/
+        type: website
+        author: Alice Feng, Shuyan Wu
+        required: true
+        year: 2019
+      - name: "The Beginner's Guide to Dimensionality Reduction"
+        url: https://dimensionality-reduction-293e465c2a3443e8941b016d.vercel.app/
+        type: website
+        author: Matthew Conlen, Fred Hohman
+        required: true
+        year: 2018
+      - name: "Gamut: A Design Probe to Understand How Data Scientists Understand Machine Learning Models"
+        url: https://fredhohman.com/papers/19-gamut-chi.pdf
+        type: pdf
+        required: false
+        year: 2019
+        venue: ACM CHI
+        author: Fred Hohman, Andrew Head, Rich Caruana, Robert DeLine, Steven Drucker
   - date: 2022-04-26
     title: "Team Project Presentations"
     due:
