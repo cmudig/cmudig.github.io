@@ -7,6 +7,6 @@
     "fix": "prettier '**/*.{md,html,scss,yml}' --write"
   },
   "devDependencies": {
-    "prettier": "^2.5.1"
+    "prettier": "^2.6.0"
   }
 }
