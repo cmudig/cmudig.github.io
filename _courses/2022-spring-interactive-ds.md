@@ -222,6 +222,7 @@ schedule:
   - date: 2022-03-15
     title: "Telling Stories with Data"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392488"
+    slides: https://drive.google.com/file/d/1l0lGJWHNTpcahDEwdmJ42l5DON8rHfre/view?usp=sharing
     readings:
       - name: "Chapter 8 - Storytelling with Data"
         url: https://drive.google.com/file/d/1kOCT5PqRPdWlPJRVAMyFQ4UobCmLQqgc/view?usp=sharing
@@ -237,7 +238,8 @@ schedule:
         required: false
         type: pdf
   - date: 2022-03-17
-    title: "Sampling and Scalability"
+    title: "Telling Stories with Data Part 2"
+    slides: https://drive.google.com/file/d/1l0lGJWHNTpcahDEwdmJ42l5DON8rHfre/view?usp=sharing
   # discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392489"
   # - date: 2022-03-15
   #   title: "Critique Workshop 1"
@@ -304,7 +306,6 @@ schedule:
         author: Sharad Goel, Julian Nyarko, Roseanna Sommers
         required: true
         year: 2020
-    
   - date: 2022-04-21
     title: "Visualization and Machine Learning (guest lecture by Dr. Fred Hohman @ Apple)"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392495"
