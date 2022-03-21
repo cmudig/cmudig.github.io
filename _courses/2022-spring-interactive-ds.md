@@ -289,6 +289,22 @@ schedule:
   - date: 2022-04-19
     title: "Fairness (guest lecture by Prof. Ken Holstein)"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392494"
+    readings:
+      - name: "Chapter 1: Introduction"
+        url: https://drive.google.com/file/d/1kpEqdnUHE9UXhcPmcmRHLb9c5Ipi-mbd/view?usp=sharing
+        venue: "Fairness and Machine Learning: Limitations and Opportunities"
+        type: pdf
+        author: Solon Barocas, Moritz Hardt, Arvind Narayanan
+        required: true
+        year: 2019
+      - name: "Predictions — whether algorithmic or human — may not be fair"
+        url: https://drive.google.com/file/d/1kfQVlvGMG_xLumAydsItIFh67a1eLPYi/view?usp=sharing
+        venue: The Boston Globe
+        type: pdf
+        author: Sharad Goel, Julian Nyarko, Roseanna Sommers
+        required: true
+        year: 2020
+    
   - date: 2022-04-21
     title: "Visualization and Machine Learning (guest lecture by Dr. Fred Hohman @ Apple)"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392495"
