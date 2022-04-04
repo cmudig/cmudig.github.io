@@ -275,7 +275,7 @@ schedule:
     #title: "Images and Data Science"
     #discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392490"
   - date: 2022-04-05
-    title: "TBD"
+    title: "Final Project Feedback Session (optional)"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392497"
   - date: 2022-04-07
     title: "No Class - Spring Carnival"
