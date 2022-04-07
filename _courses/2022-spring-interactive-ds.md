@@ -276,18 +276,31 @@ schedule:
     #discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392490"
   - date: 2022-04-05
     title: "Final Project Feedback Session (optional)"
-    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392497"
+    #discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392497"
   - date: 2022-04-07
     title: "No Class - Spring Carnival"
   - date: 2022-04-12
     title: "Controlled Experiments + Evaluation"
-    discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392492"
-    due:
-     - name: "Final Project Sketches"
-       url: https://docs.google.com/document/d/1b1m_QVsQaqg-Ei9B0037RpWCUg0IetTJMcs-o3KkicA/edit?usp=sharing
+    #discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392492"
   - date: 2022-04-14
     title: "Uncertainty"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392493"
+    readings:
+      - name: "The Curious Absence of Uncertainty from Many (Most?) Visualizations"
+        url: https://medium.com/multiple-views-visualization-research-explained/the-curious-absence-of-uncertainty-from-many-most-visualizations-f0c7f89e8d84
+        type: website
+        author: Jessica Hullman
+        required: true
+        year: 2019
+      - name: "The effects of communicating uncertainty on public trust in facts and numbers"
+        url: https://www.pnas.org/content/pnas/117/14/7672.full.pdf
+        type: pdf
+        required: false
+        year: 2020
+        author: Anne Marthe van der Bles, Sander van der Linden, Alexandra L. J. Freeman, and David J. Spiegelhalter
+    due:
+     - name: "Final Project Sketches (Due on 4/15)"
+       url: https://docs.google.com/document/d/1b1m_QVsQaqg-Ei9B0037RpWCUg0IetTJMcs-o3KkicA/edit?usp=sharing
   - date: 2022-04-19
     title: "Fairness (guest lecture by Prof. Ken Holstein)"
     discussion: "https://canvas.cmu.edu/courses/27195/discussion_topics/392494"
