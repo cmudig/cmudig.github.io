@@ -37,3 +37,6 @@ plugins:
   - jekyll-redirect-from
 kramdown:
   toc_levels: 1..2
+
+exclude:
+  - _publications/2022-afst-designs.html
