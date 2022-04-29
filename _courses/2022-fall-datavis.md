@@ -34,7 +34,7 @@ After you successfully complete the course you will be able to:
 
 ## Schedule and Readings
 
-Please see {% link _courses/2021-fall-datavis.md %} for last year's schedule. It will be similar this year.
+Please see [last year's schedule for now]({% link _courses/2021-fall-datavis.md %}). It will be similar this year.
 
 ## Details
 
