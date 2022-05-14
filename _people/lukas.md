@@ -1,8 +1,9 @@
 ---
 name: Lukas Hermann 
-website: https://lukashermann.me 
+website: https://lukashermann.com 
 image: /assets/people/lukas.jpg
 role: Undergraduate Student
+alumni_since: 2022
 ---
 
-Architecture student that loves WebGL.
+Developer and designer that loves GPU programming and data visualization.
