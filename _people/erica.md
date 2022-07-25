@@ -1,7 +1,7 @@
 ---
 name: Erica Fu
 website: https://ericafu.me/
-image: /assets/people/erica.jpeg
+image: /assets/people/ericaf.jpeg
 role: Undergraduate Student
 ---
 
