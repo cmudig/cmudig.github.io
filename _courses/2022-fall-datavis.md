@@ -6,11 +6,412 @@ semester: Fall
 instructors:
   - Dominik Moritz
 tas:
+  - Ádeep Biswas
 time: T/H 03:05pm-04:25pm
 location: HH B103
 redirect_from:
   - vis2022
+
+schedule:
+
+- date: 2022-08-30
+  title: "Introduction and the Value of Visualization"
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441462
+  slides: https://drive.google.com/file/d/10-2wX14UA2BKimjCxtLYceX1O2jDzHUZ
+  readings:
+  - name: Introduction to Vega-Lite
+    required: true
+    type: notebook
+    url: https://observablehq.com/@uwdata/introduction-to-vega-lite
+  - name: Information Visualization (Chapter 1)
+    author: Stuart Card, Jock Mackinlay, and Ben Shneiderman
+    year: 1999
+    type: pdf
+    required: true
+    type: pdf
+    url: https://drive.google.com/file/d/1-SrBG2PonDK4kPxIr6qaY1quYeyozZ0c
+  - name: The Value of Visualization
+    author: Jarke van Wijk
+    year: 2005
+    required: false
+    type: pdf
+    url: https://drive.google.com/file/d/1-SU83DmAqUdflBjCbmaE00bsDn7evJJE
+- date: 2022-09-01
+  title: "Sketching"
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441461
+  slides: https://drive.google.com/file/d/10W5WXa831GUx4Y5amRQws0HOpkEgjan7
+  readings:
+  - name: Data Types, Graphical Marks, and Visual Encoding Channels
+    required: true
+    type: notebook
+    url: https://observablehq.com/@uwdata/data-types-graphical-marks-and-visual-encoding-channels
+  - name: The Anatomy of Sketching (Chapter 9)
+    author: Bill Buxton
+    venue: Sketching User Experiences
+    required: true
+    type: pdf
+    url: https://drive.google.com/file/d/1-1Xlvni3_NFoSiNs8JDuDQV8bFLDuJcj
+  - name: Sketching with Data Opens the Mind's Eye
+    author: Giorgia Lupi
+    required: true
+    type: pdf
+    url: https://drive.google.com/file/d/1--4iqyEJNSly0arOTpdE9ppotdHSTz9W
+  - name: The Shape of My Thoughts
+    author: Giorgia Lupi
+    venue: Eyeo 2014
+    required: false
+    type: video
+    url: https://vimeo.com/109954123
+- date: 2022-09-06
+  title: "Data and Image Models"
+  slides: https://drive.google.com/file/d/10hOjYxml_TAXhX1nyZWWmF80lfitCofa
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441460
+  readings:
+  - name: Scales, Axes, and Legends
+    required: true
+    type: notebook
+    url: https://observablehq.com/@uwdata/scales-axes-and-legends
+  - name: "The Eyes Have It: A Task by Data Type Taxonomy for Information Visualizations"
+    url: https://drive.google.com/file/d/13NseKgMXbwXVqIqxAuZ16xmWJ-8JRA1M/view?usp=sharing
+    author: Ben Shneiderman
+    year: 1996
+    required: true
+    venue: IEEE Symposium on Visual Languages
+    type: pdf
+  - name: "A Tour through the Visualization Zoo"
+    url: https://queue.acm.org/detail.cfm?id=1805128
+    type: pdf
+    year: 2010
+    venue: ACM Queue
+    author: Jeffrey Heer, Michael Bostock, and Vadim Ogievetsky
+- date: 2022-09-07
+  title: "Assignment 1"
+  due:
+  - name: "Assignment 1:  Sketching Data"
+    url: https://docs.google.com/document/d/146odOXGMrAxR5Eovw3o2Z0NzfLOAD6yxyLGcBcypUlM/edit?usp=sharing
+- date: 2022-09-08
+  title: "Effective Visual Encodings"
+  slides: https://drive.google.com/file/d/10iSaRizlqmh_IEzfePuhxwY6WJ2VM8yc
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441459
+  readings:
+  - name: Data Transformation
+    required: true
+    type: notebook
+    url: https://observablehq.com/@uwdata/data-transformation
+  - name: Basic Principles of Visualization (Chapter 5)
+    author: Alberto Cairo
+    venue: The Truthful Art
+    required: true
+    type: pdf
+    url: https://drive.google.com/open?id=171tAFZLofETfiOm4OElpHcWSlWQ8Yven
+- date: 2022-09-09
+  title: "Assignment 0"
+  due:
+  - name: "Assignment 0: Setup Github"
+    url: https://canvas.cmu.edu/courses/30777/assignments/508246
+- date: 2022-09-13
+  title: Exploratory Data Analysis
+  slides: https://drive.google.com/file/d/1dvuVpPL7KQ-vGduezO8Clcdf45X9NFJv
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441458
+  readings:
+  - name: Multi-View Composition
+    required: true
+    type: notebook
+    url: https://observablehq.com/@uwdata/multi-view-composition
+  - name: "Data analysis and statistics: An expository overview"
+    author: "Tukey, Wilk"
+    type: pdf
+    url: https://drive.google.com/file/d/1-SqSkvMhLHCkUrMGd-we3BAFtG2Xe3YF
+    year: 1966
+    required: true
+  - name: "Voyager: Exploratory Analysis via Faceted Browsing of Visualization Recommendations"
+    author: Kanit Wongsuphasawat, Dominik Moritz, Anushka Anand, Jock Mackinlay, Bill Howe, and Jeffrey Heer
+    venue: IEEE Transactions on Visualization and Computer Graphics
+    year: 2016
+    required: false
+    type: pdf
+    url: https://drive.google.com/file/d/1-dDFEcSHeM-1nlsNskZ1Ni_-GUhuKoTC
+  - name: "Polaris: A System for Query, Analysis and Visualization of Multi-dimensional Relational Databases"
+    author: Chris Stolte, Diane Tang, and Pat Hanrahan
+    venue: IEEE TVCG
+    type: pdf
+    year: 2002
+    url: https://drive.google.com/file/d/1ZMwEHi6d-54OAMfBZkEcF6ttUvr85IQV/view?usp=sharing
+- date: 2022-09-15
+  title: Transform Data with SQL
+  slides: https://drive.google.com/file/d/1fEDv5RbuJyIbuIAuuuW023Bv0XNPGEiD
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441457
+  readings:
+  - name: Introduction to SQL
+    required: true
+    type: notebook
+    url: https://observablehq.com/@cmudig/introducing-sql-with-duckdb
+  - name: "A Relational Model of Data for Large Shared Data Banks"
+    author: Edgar F. Codd
+    required: true
+    type: pdf
+    year: 1970
+    url: https://drive.google.com/file/d/1AlYklRsLKEOC_3_Y1ssbLoDyTqM6CvFo
+- date: 2022-09-20
+  title: Interactivity
+  slides: https://drive.google.com/file/d/1zve8rCxEcBL2tauVp3P7Wi5rgkYHtY2N
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441456
+  readings:
+  - name: "Interactive Dynamics for Visual Analysis"
+    url: https://queue.acm.org/detail.cfm?id=2146416
+    type: pdf
+    year: 2012
+    venue: ACM Queue
+    required: true
+    author: Jeffrey Heer and Ben Shneiderman
+  - name: Interaction
+    required: true
+    type: notebook
+    url: https://observablehq.com/@uwdata/interaction
+  - name: "The death of interactive infographics?"
+    author: "Dominikus Baur"
+    year: 2017
+    required: false
+    url: https://medium.com/@dominikus/the-end-of-interactive-visualizations-52c585dcafcb
+    type: blog
+  - name: "In Defense of Interactive Graphics"
+    author: "Gregor Aisch"
+    year: 2017
+    required: false
+    url: https://www.vis4.net/blog/2017/03/in-defense-of-interactive-graphics/
+    type: blog
+- date: 2022-09-22
+  title: Visualization Tools
+  slides: https://drive.google.com/file/d/16-LUSpwXgTYJS_bMhdiy3qu1LH-OfqjL
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441455
+  readings:
+  - name: "A Minimal Introduction to JavaScript and Observable."
+    note: Read this first if you are new to JavaScript and/or Observable notebooks!
+    url: https://observablehq.com/@uwdata/a-minimal-introduction-to-javascript-and-observable
+    type: notebook
+  - name: "Introduction to D3, Part 1"
+    url: https://observablehq.com/@uwdata/introduction-to-d3-part-1
+    type: notebook
+    required: true
+  - name: "D3: Data-Driven Documents"
+    author: Michael Bostock, Vadim Ogievetsky, Jeffrey Heer
+    venue: IEEE Trans. Visualization & Comp. Graphics (Proc. InfoVis)
+    year: 2011
+    type: pdf
+    required: true
+    url: https://drive.google.com/file/d/1FH5OzFAF0TMtMM4I7cIrHCS0aDq3VR6p/view?usp=sharing
+  - name: " Vega-Lite: A Grammar of Interactive Graphics"
+    url: https://www.youtube.com/watch?v=9uaHRWj04D4
+    author: Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, and Jeffrey Heer
+    venue: OpenVis Conf
+    year: 2017
+    required: false
+    type: video
+  - name: "Vega-Lite: A Grammar of Interactive Graphics"
+    url: https://drive.google.com/file/d/1dYDgsR_XqZQ8CLZUHwmQ4Jue-3GMz8Mr/view?usp=sharing
+    author: Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, and Jeffrey Heer
+    venue: IEEE Trans. Visualization & Comp. Graphics (Proc. InfoVis)
+    year: 2017
+    required: false
+    type: pdf
+- date: 2022-09-27
+  title: D3 Deep Dive
+  slides: https://drive.google.com/file/d/1jNoZoP0JV94Agc97yANifrT4gE4u1qfL
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441454
+  readings:
+  - name: "Introduction to D3, Part 2"
+    url: https://observablehq.com/@uwdata/introduction-to-d3-part-2
+    type: notebook
+    required: true
+- date: 2022-09-08
+  title: "Assignment 2"
+  due:
+  - name: "Assignment 2: Exploratory Data Analysis"
+    url: https://canvas.cmu.edu/courses/30777/assignments/508248
+- date: 2022-09-29
+  title: Final Project Introduction
+  slides: https://drive.google.com/file/d/1-2RAMU62jy82UdpwavNRV3t6MNwx_S9d
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441453
+  readings:
+- date: 2022-10-04
+  title: Narrative Visualization
+  slides: https://drive.google.com/file/d/13bV7srf1LxWOfOVw_ycd7707CTSL4UMW
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441452
+  readings:
+  - name: "Narrative Visualization: Telling Stories with Data"
+    url: https://drive.google.com/file/d/1eNlLqJf7Gxphwa7ct4MbendVyoAkpPs8/view?usp=sharing
+    author: Edward Segel, Jeffrey Heer
+    venue: IEEE Trans. Visualization & Comp. Graphics (Proc. InfoVis)
+    year: 2010
+    required: true
+    type: pdf
+- date: 2022-10-06
+  title: Designing for Perception
+  slides: https://drive.google.com/file/d/19qi_QaAFPEvZD60-si-wDDpBvB-MRS80
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441451
+  readings:
+  - name: "Layering and Seperation (Chapter 3)"
+    url: https://drive.google.com/file/d/1--k-IiRxcYJWADUo9EvthaG8pgTzxwaz/view?usp=sharing
+    author: Edward Tufte
+    venue: Envisioning Information
+    required: true
+    type: pdf
+  - name: What to consider when choosing colors for data visualization
+    author: Lisa Charlotte Muth
+    year: 2018
+    url: https://blog.datawrapper.de/colors/
+    type: website
+    required: false
+- date: 2022-10-11
+  title: Ethics in Visualization
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441450
+  readings:
+  - name: "Ethical Dimensions of Visualization Research"
+    url: https://drive.google.com/open?id=1-MtB7C2lG6sdULgShQkQcnQZBngAe1S6&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
+    author: Michael Correll
+    venue: "CHI '19: Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems"
+    required: true
+    type: pdf
+  - name: "Introduction"
+    url: https://drive.google.com/open?id=1-8SYdSKFBGyn0kLy4N_yjhLsOnx-zPpZ&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
+    author: Catherine D'Ignazio and Lauren F. Klein
+    venue: "Data Feminism"
+    required: false
+    type: pdf
+- date: 2022-10-13
+  title: Ethical Data Visualization I
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441449
+- date: 2022-10-21
+  title: "Assignment 3, Final Project Proposal"
+  due:
+  - name: "Assignment 3: Interactive Visualization"
+    url: https://canvas.cmu.edu/courses/30777/assignments/508249
+  - name: "Final Project Proposal"
+    url: https://canvas.cmu.edu/courses/30777/assignments/508254
+- date: 2022-10-25
+  title: Ethical Data Visualization II
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441448
+- date: 2022-10-27
+  title: Virtual VIS Week I
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441447
+- date: 2022-11-01
+  title: Virtual VIS Week II
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441446
+- date: 2022-11-03
+  title: Geographic Visualization
+  slides: https://drive.google.com/file/d/12aHnqhDc82ekgW9zaQzJziEpRz0yX5cf
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441445
+  due:
+  - name: Notes from Virtual VIS Week
+    url: https://canvas.cmu.edu/courses/24179/assignments/412266
+    readings:
+  - name: Cartographic Visualization
+    url: https://observablehq.com/@uwdata/cartographic-visualization
+    type: notebook
+    required: true
+  - name: What to consider when creating choropleth maps
+    type: website
+    author: Lisa Charlotte Muth
+    required: true
+    year: 2018
+    url: https://blog.datawrapper.de/choroplethmaps/
+- date: 2022-11-04
+  title: "Final Project Design Review"
+  due:
+  - name: "Final Project Design Review"
+    url: https://canvas.cmu.edu/courses/30777/assignments/508249
+- date: 2022-11-08
+  title: Network Visualization
+  slides: https://drive.google.com/file/d/12ag3gxkpxAZr-8LfFfMTCzv2CAz9vB7q
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441444
+  readings:
+  - name: "Chapter 2: Networks"
+    url: https://drive.google.com/open?id=10CLJs0yw-r4KF7oaMWPOdNcNjnUTXR8Z&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
+    author: Isabel Meirelles
+    venue: "Design for Information"
+    required: true
+    type: pdf
+- date: 2022-11-10
+  title: Scalable Visualization
+  slides: https://drive.google.com/file/d/12dplQJ2q_-brixAvSO0ZM8gghH1m5ZPm
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441443
+  readings:
+  - name: "imMens: Real-time Visual Querying of Big Data"
+    author: Zhicheng Liu, Biye Jiang, Jeffrey Heer
+    venue: EuroVis
+    year: 2013
+    required: true
+    url: https://idl.cs.washington.edu/files/2013-imMens-EuroVis.pdf
+    type: pdf
+  - name: "Bin-summarise-smooth: A framework for visualising large data"
+    author: Hadley Wickham
+    year: 2013
+    required: true
+    url: https://vita.had.co.nz/papers/bigvis.pdf
+    type: pdf
+  - name: "Falcon: Balancing Interactive Latency and Resolution Sensitivity for Scalable Linked Visualizations"
+    author: Dominik Moritz, Bill Howe, Jeffrey Heer
+    venue: ACM CHI
+    year: 2019
+    url: https://www.domoritz.de/papers/2019-Falcon-CHI.pdf
+    type: pdf
+- date: 2022-11-15
+  title: Accessibility
+  slides: https://drive.google.com/file/d/12e8ZeFqQoqR-rHbj44n9m7BW-IYcv521
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441442
+  readings:
+  - name: "Sociotechnical Considerations for Accessible Visualization Design"
+    url: https://arxiv.org/pdf/1909.05118.pdf
+    type: pdf
+    author: Alan Lundgard, Crystal Lee, Arvind Satyanarayan
+    venue: IEEE VIS
+    required: true
+    year: 2019
+  - name: "Social Model Of Disability"
+    url: https://pwd.org.au/resources/disability-info/social-model-of-disability/
+    type: video
+    required: true
+  - name: "Are Your Data Visualizations Excluding People?"
+    url: https://youtu.be/SWB-KLXN-Ok?t=1206
+    type: video
+    required: false
+    year: 2021
+    author: Frank Elavsky, Larene Le Gassick, Sarah Fossheim
+- date: 2022-11-17
+  title: Animation
+  slides: https://drive.google.com/file/d/12f3mrAtruVQpjk4F8P00U9u0fqcsEe_e
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441441
+  readings:
+- date: 2022-11-22
+  title: Uncertainty
+  discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346292
+  slides: https://canvas.cmu.edu/courses/30777/discussion_topics/441440
+  readings:
+  - name: "The Curious Absence of Uncertainty from Many (Most?) Visualizations"
+    url: https://medium.com/multiple-views-visualization-research-explained/the-curious-absence-of-uncertainty-from-many-most-visualizations-f0c7f89e8d84
+    type: website
+    author: Jessica Hullman
+    required: true
+    year: 2019
+  - name: "The effects of communicating uncertainty on public trust in facts and numbers"
+    url: https://www.pnas.org/content/pnas/117/14/7672.full.pdf
+    type: pdf
+    required: false
+    year: 2020
+    author: Anne Marthe van der Bles, Sander van der Linden, Alexandra L. J. Freeman, and David J. Spiegelhalter
+- date: 2022-11-29
+  title: Final Project Presentations
+- date: 2022-12-01
+  title: Final Project Presentations
+  due: 
+  - name: "Final Project Video Presentation"
+    url: https://canvas.cmu.edu/courses/30777/assignments/508255
+  - name: "Final Project Report"
+    url: https://canvas.cmu.edu/courses/30777/assignments/508252
+
 ---
+
+Submit assignments and discussions on [Canvas](https://canvas.cmu.edu/courses/30777).
 
 This course is an introduction to key design principles and techniques for interactively visualizing data. The major goals of this course are to understand how visual representations can help in the analysis and understanding of complex data, how to design effective visualizations, and how to create your own interactive visualizations using modern web-based frameworks.
 
@@ -30,11 +431,81 @@ After you successfully complete the course you will be able to:
 ## Jump to
 
 * TOC
-{:toc}
+  {:toc}
 
 ## Schedule and Readings
 
-Please see [last year's schedule for now]({% link _courses/2021-fall-datavis.md %}). It will be similar this year.
+{% for lecture in page.schedule %}
+
+<div class="flex mt1">
+  <span class="w-10 gray">{{ lecture.date | date: "%a, %b %d" }}</span>
+  <div class="w-90 measure-wide lh-copy">
+    <h3 class="f5 normal mt0">
+      <span class="b black">
+      {{ lecture.title }}
+      </span>
+
+    {% if lecture.discussion %}`<a class="fr" href="{{ lecture.discussion }}" title="Discussion"><i class="fas fa-comments">``</i></a>`
+      {% else %}
+        `<span class="fr"><i class="fas fa-comments" aria-hidden="true" title="Discussion link coming">``</i>`
+      {% endif %}
+
+    {% if lecture.slides %}`<a class="fr mr2" href="{{ lecture.slides }}"><i class="fas fa-window-maximize" aria-hidden="true">``</i>` Slides `</a>`
+      {% else %}
+        `<span class="fr mr2"><i class="fas fa-window-maximize" aria-hidden="true" title="Slides link coming">``</i>` Slides
+      {% endif %}
+    `</h3>`
+    `<ul class="list pl0 mv0">`
+    {% for due in lecture.due %}
+      `<li class="mt1">`
+        `<small class="br2 white bg-orange ph1 mr1">`Due `</small>`
+        `<a href="{{ due.url }}">`{{ due.name }}`</a>`
+      `</li>`
+    {% endfor %}
+    `</ul>`
+    `<ul class="list pl0 mt0">`
+    {% for reading in lecture.readings %}
+      `<li class="mt1">`
+      {% if reading.required %}
+        `<small class="br2 white bg-gray ph1 mr1">`Required `</small>`
+      {% else %}
+        `<small class="br2 ba b--gray ph1 mr1">`Optional `</small>`
+      {% endif %}
+
+      {% if reading.type == "video" %}`<i class="far fa-film" aria-hidden="true"></i>`
+      {% elsif reading.type == "pdf" %}
+        `<i class="far fa-file-pdf" aria-hidden="true"></i>`
+      {% elsif reading.type == "website" %}
+        `<i class="far fa-globe" aria-hidden="true"></i>`
+      {% elsif reading.type == "notebook" %}
+        `<i class="fas fa-laptop-code"  aria-hidden="true"></i>`
+      {% endif %}
+
+      {% if reading.url %}`<a href="{{reading.url}}">`{{ reading.name }}`</a>`
+      {% else %}
+        {{ reading.name }}
+      {% endif %}
+
+      {% if reading.author %}
+        by {{reading.author}}
+      {% endif %}
+      {% if reading.venue %}
+        in`<i>`{{reading.venue}}`</i>`
+      {% endif %}
+      {% if reading.year %}
+        `<i>`{{reading.year}}`</i>`
+      {% endif %}
+      {% if reading.note %}
+        `<br/>`
+        `<small class="dark-gray">`{{reading.note}}`</small>`
+      {% endif %}
+      `</li>`
+    {% endfor %}
+
+  </ul>
+  </div>
+</div>
+{% endfor %}
 
 ## Details
 
@@ -90,7 +561,7 @@ The tentative breakdown for grading is below. As a reminder, here is the [univer
 
 [The MDN web docs](https://developer.mozilla.org/en-US/docs/Web) are the go-to guide for web technolgies such as HTML, CSS, and JavaScript.
 
-For D3 questions, check out [D3's documentation](https://github.com/d3/d3/wiki).
+For D3 questions, check out [D3&#39;s documentation](https://github.com/d3/d3/wiki).
 
 For Vega-Lite questions, check out [the Vega-Lite documentation](https://vega.github.io/vega-lite/docs/) and the examples in the [online editor](https://vega.github.io/editor/).
 
