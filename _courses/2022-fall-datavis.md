@@ -40,6 +40,9 @@ schedule:
   title: "Sketching"
   discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441461
   slides: https://drive.google.com/file/d/10W5WXa831GUx4Y5amRQws0HOpkEgjan7
+  due:
+  - name: "Assignment 0: Setup Github"
+    url: https://canvas.cmu.edu/courses/30777/assignments/508246
   readings:
   - name: Data Types, Graphical Marks, and Visual Encoding Channels
     required: true
@@ -66,6 +69,9 @@ schedule:
   title: "Data and Image Models"
   slides: https://drive.google.com/file/d/10hOjYxml_TAXhX1nyZWWmF80lfitCofa
   discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441460
+  due:
+  - name: "Assignment 1:  Sketching Data"
+    url: https://docs.google.com/document/d/146odOXGMrAxR5Eovw3o2Z0NzfLOAD6yxyLGcBcypUlM/edit?usp=sharing
   readings:
   - name: Scales, Axes, and Legends
     required: true
@@ -84,11 +90,6 @@ schedule:
     year: 2010
     venue: ACM Queue
     author: Jeffrey Heer, Michael Bostock, and Vadim Ogievetsky
-- date: 2022-09-07
-  title: "Assignment 1"
-  due:
-  - name: "Assignment 1:  Sketching Data"
-    url: https://docs.google.com/document/d/146odOXGMrAxR5Eovw3o2Z0NzfLOAD6yxyLGcBcypUlM/edit?usp=sharing
 - date: 2022-09-08
   title: "Effective Visual Encodings"
   slides: https://drive.google.com/file/d/10iSaRizlqmh_IEzfePuhxwY6WJ2VM8yc
@@ -104,11 +105,6 @@ schedule:
     required: true
     type: pdf
     url: https://drive.google.com/open?id=171tAFZLofETfiOm4OElpHcWSlWQ8Yven
-- date: 2022-09-09
-  title: "Assignment 0"
-  due:
-  - name: "Assignment 0: Setup Github"
-    url: https://canvas.cmu.edu/courses/30777/assignments/508246
 - date: 2022-09-13
   title: Exploratory Data Analysis
   slides: https://drive.google.com/file/d/1dvuVpPL7KQ-vGduezO8Clcdf45X9NFJv
@@ -218,16 +214,14 @@ schedule:
   title: D3 Deep Dive
   slides: https://drive.google.com/file/d/1jNoZoP0JV94Agc97yANifrT4gE4u1qfL
   discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441454
+  due:
+  - name: "Assignment 2: Exploratory Data Analysis"
+    url: https://canvas.cmu.edu/courses/30777/assignments/508248
   readings:
   - name: "Introduction to D3, Part 2"
     url: https://observablehq.com/@uwdata/introduction-to-d3-part-2
     type: notebook
     required: true
-- date: 2022-09-08
-  title: "Assignment 2"
-  due:
-  - name: "Assignment 2: Exploratory Data Analysis"
-    url: https://canvas.cmu.edu/courses/30777/assignments/508248
 - date: 2022-09-29
   title: Final Project Introduction
   slides: https://drive.google.com/file/d/1-2RAMU62jy82UdpwavNRV3t6MNwx_S9d
@@ -281,16 +275,14 @@ schedule:
 - date: 2022-10-13
   title: Ethical Data Visualization I
   discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441449
-- date: 2022-10-21
-  title: "Assignment 3, Final Project Proposal"
+- date: 2022-10-25
+  title: Ethical Data Visualization II
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441448
   due:
   - name: "Assignment 3: Interactive Visualization"
     url: https://canvas.cmu.edu/courses/30777/assignments/508249
   - name: "Final Project Proposal"
     url: https://canvas.cmu.edu/courses/30777/assignments/508254
-- date: 2022-10-25
-  title: Ethical Data Visualization II
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441448
 - date: 2022-10-27
   title: Virtual VIS Week I
   discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441447
@@ -304,7 +296,9 @@ schedule:
   due:
   - name: Notes from Virtual VIS Week
     url: https://canvas.cmu.edu/courses/24179/assignments/412266
-    readings:
+  - name: "Final Project Design Review"
+    url: https://canvas.cmu.edu/courses/30777/assignments/508249
+  readings:
   - name: Cartographic Visualization
     url: https://observablehq.com/@uwdata/cartographic-visualization
     type: notebook
@@ -315,11 +309,6 @@ schedule:
     required: true
     year: 2018
     url: https://blog.datawrapper.de/choroplethmaps/
-- date: 2022-11-04
-  title: "Final Project Design Review"
-  due:
-  - name: "Final Project Design Review"
-    url: https://canvas.cmu.edu/courses/30777/assignments/508249
 - date: 2022-11-08
   title: Network Visualization
   slides: https://drive.google.com/file/d/12ag3gxkpxAZr-8LfFfMTCzv2CAz9vB7q
