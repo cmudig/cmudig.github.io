@@ -431,7 +431,7 @@ After you successfully complete the course you will be able to:
 ## Jump to
 
 * TOC
-  {:toc}
+{:toc}
 
 ## Schedule and Readings
 
@@ -445,43 +445,47 @@ After you successfully complete the course you will be able to:
       {{ lecture.title }}
       </span>
 
-    {% if lecture.discussion %}`<a class="fr" href="{{ lecture.discussion }}" title="Discussion"><i class="fas fa-comments">``</i></a>`
+      {% if lecture.discussion %}
+        <a class="fr" href="{{ lecture.discussion }}" title="Discussion"><i class="fas fa-comments"></i></a>
       {% else %}
-        `<span class="fr"><i class="fas fa-comments" aria-hidden="true" title="Discussion link coming">``</i>`
+        <span class="fr"><i class="fas fa-comments" aria-hidden="true" title="Discussion link coming"></i></span>
       {% endif %}
 
-    {% if lecture.slides %}`<a class="fr mr2" href="{{ lecture.slides }}"><i class="fas fa-window-maximize" aria-hidden="true">``</i>` Slides `</a>`
+      {% if lecture.slides %}
+        <a class="fr mr2" href="{{ lecture.slides }}"><i class="fas fa-window-maximize" aria-hidden="true"></i> Slides</a>
       {% else %}
-        `<span class="fr mr2"><i class="fas fa-window-maximize" aria-hidden="true" title="Slides link coming">``</i>` Slides
+        <span class="fr mr2"><i class="fas fa-window-maximize" aria-hidden="true" title="Slides link coming"></i> Slides</span>
       {% endif %}
-    `</h3>`
-    `<ul class="list pl0 mv0">`
+    </h3>
+    <ul class="list pl0 mv0">
     {% for due in lecture.due %}
-      `<li class="mt1">`
-        `<small class="br2 white bg-orange ph1 mr1">`Due `</small>`
-        `<a href="{{ due.url }}">`{{ due.name }}`</a>`
-      `</li>`
+      <li class="mt1">
+        <small class="br2 white bg-orange ph1 mr1">Due</small>
+        <a href="{{ due.url }}">{{ due.name }}</a>
+      </li>
     {% endfor %}
-    `</ul>`
-    `<ul class="list pl0 mt0">`
+    </ul>
+    <ul class="list pl0 mt0">
     {% for reading in lecture.readings %}
-      `<li class="mt1">`
+      <li class="mt1">
       {% if reading.required %}
-        `<small class="br2 white bg-gray ph1 mr1">`Required `</small>`
+        <small class="br2 white bg-gray ph1 mr1">Required</small>
       {% else %}
-        `<small class="br2 ba b--gray ph1 mr1">`Optional `</small>`
+        <small class="br2 ba b--gray ph1 mr1">Optional</small>
       {% endif %}
 
-      {% if reading.type == "video" %}`<i class="far fa-film" aria-hidden="true"></i>`
+      {% if reading.type == "video" %}
+        <i class="far fa-film" aria-hidden="true"></i>
       {% elsif reading.type == "pdf" %}
-        `<i class="far fa-file-pdf" aria-hidden="true"></i>`
+        <i class="far fa-file-pdf" aria-hidden="true"></i>
       {% elsif reading.type == "website" %}
-        `<i class="far fa-globe" aria-hidden="true"></i>`
+        <i class="far fa-globe" aria-hidden="true"></i>
       {% elsif reading.type == "notebook" %}
-        `<i class="fas fa-laptop-code"  aria-hidden="true"></i>`
+        <i class="fas fa-laptop-code"  aria-hidden="true"></i>
       {% endif %}
 
-      {% if reading.url %}`<a href="{{reading.url}}">`{{ reading.name }}`</a>`
+      {% if reading.url %}
+        <a href="{{reading.url}}">{{ reading.name }}</a>
       {% else %}
         {{ reading.name }}
       {% endif %}
@@ -490,16 +494,16 @@ After you successfully complete the course you will be able to:
         by {{reading.author}}
       {% endif %}
       {% if reading.venue %}
-        in`<i>`{{reading.venue}}`</i>`
+        in <i>{{reading.venue}}</i>
       {% endif %}
       {% if reading.year %}
-        `<i>`{{reading.year}}`</i>`
+        <i>{{reading.year}}</i>
       {% endif %}
       {% if reading.note %}
-        `<br/>`
-        `<small class="dark-gray">`{{reading.note}}`</small>`
+        <br/>
+        <small class="dark-gray">{{reading.note}}</small>
       {% endif %}
-      `</li>`
+      </li>
     {% endfor %}
 
   </ul>
