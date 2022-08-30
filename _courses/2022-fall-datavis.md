@@ -263,13 +263,13 @@ schedule:
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441450
   readings:
   - name: "Ethical Dimensions of Visualization Research"
-    url: https://drive.google.com/open?id=1-MtB7C2lG6sdULgShQkQcnQZBngAe1S6&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
+    url: https://drive.google.com/open?id=1-MtB7C2lG6sdULgShQkQcnQZBngAe1S6
     author: Michael Correll
     venue: "CHI '19: Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems"
     required: true
     type: pdf
   - name: "Introduction"
-    url: https://drive.google.com/open?id=1-8SYdSKFBGyn0kLy4N_yjhLsOnx-zPpZ&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
+    url: https://drive.google.com/open?id=1-8SYdSKFBGyn0kLy4N_yjhLsOnx-zPpZ
     author: Catherine D'Ignazio and Lauren F. Klein
     venue: "Data Feminism"
     required: false
@@ -317,7 +317,7 @@ schedule:
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441444
   readings:
   - name: "Chapter 2: Networks"
-    url: https://drive.google.com/open?id=10CLJs0yw-r4KF7oaMWPOdNcNjnUTXR8Z&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
+    url: https://drive.google.com/open?id=10CLJs0yw-r4KF7oaMWPOdNcNjnUTXR8Z
     author: Isabel Meirelles
     venue: "Design for Information"
     required: true
@@ -532,7 +532,7 @@ All homework assignments are to be done as individual work. It is expected that 
 
 This will not be an exam-heavy course. Instead, much of the work will focus on projects. The course will focus on understanding the techniques of data science and visualization through developing creative analyses and visualizations using tools to solve defined problems.
 
-There is no final exam in this course. Students who do well will be invited to continue on an independent project on topics related to the course, working with Prof. Perer or Prof. Moritz during a future semester.
+There is no final exam in this course. Students who do well will be invited to continue on an independent project on topics related to the course, working with Prof. Moritz during a future semester.
 
 ### Readings
 
