@@ -16,8 +16,8 @@ redirect_from:
 schedule:
 - date: 2022-08-30
   title: "Introduction and the Value of Visualization"
-  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441462
-  _slides: https://drive.google.com/file/d/10-2wX14UA2BKimjCxtLYceX1O2jDzHUZ
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441462
+  slides: https://drive.google.com/open?id=14VaF566J0PIWQxhL8vUBzOCVeINwcXWw
   readings:
   - name: Introduction to Vega-Lite
     required: true
