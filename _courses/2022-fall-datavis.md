@@ -257,6 +257,8 @@ schedule:
     type: website
     required: false
 - date: 2022-10-11
+  title: TBA
+- date: 2022-10-13
   title: Ethics in Visualization
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441450
   readings:
@@ -272,10 +274,16 @@ schedule:
     venue: "Data Feminism"
     required: false
     type: pdf
-- date: 2022-10-13
+- date: 2022-10-18
+  title: Virtual VIS Week I
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441447
+- date: 2022-10-20
+  title: Virtual VIS Week II
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441446
+- date: 2022-10-25
   title: Ethical Data Visualization I
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441449
-- date: 2022-10-25
+- date: 2022-10-27
   title: Ethical Data Visualization II
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441448
   due:
@@ -283,13 +291,7 @@ schedule:
     url: https://canvas.cmu.edu/courses/30777/assignments/508249
   - name: "Final Project Proposal"
     url: https://canvas.cmu.edu/courses/30777/assignments/508254
-- date: 2022-10-27
-  title: Virtual VIS Week I
-  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441447
 - date: 2022-11-01
-  title: Virtual VIS Week II
-  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441446
-- date: 2022-11-03
   title: Geographic Visualization
   _slides: https://drive.google.com/file/d/12aHnqhDc82ekgW9zaQzJziEpRz0yX5cf
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441445
@@ -309,7 +311,7 @@ schedule:
     required: true
     year: 2018
     url: https://blog.datawrapper.de/choroplethmaps/
-- date: 2022-11-08
+- date: 2022-11-03
   title: Network Visualization
   _slides: https://drive.google.com/file/d/12ag3gxkpxAZr-8LfFfMTCzv2CAz9vB7q
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441444
@@ -389,8 +391,12 @@ schedule:
     year: 2020
     author: Anne Marthe van der Bles, Sander van der Linden, Alexandra L. J. Freeman, and David J. Spiegelhalter
 - date: 2022-11-29
-  title: Final Project Presentations
+  title: TBA
 - date: 2022-12-01
+  title: TBA
+- date: 2022-12-06
+  title: Final Project Presentations
+- date: 2022-12-08
   title: Final Project Presentations
   due: 
   - name: "Final Project Video Presentation"
