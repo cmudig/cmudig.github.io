@@ -38,7 +38,7 @@ schedule:
     url: https://drive.google.com/file/d/1-SU83DmAqUdflBjCbmaE00bsDn7evJJE
 - date: 2022-09-01
   title: "Sketching"
-  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441461
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441461
   _slides: https://drive.google.com/file/d/10W5WXa831GUx4Y5amRQws0HOpkEgjan7
   due:
   - name: "Assignment 0: Setup Github"
