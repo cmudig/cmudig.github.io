@@ -7,17 +7,17 @@ instructors:
   - Dominik Moritz
 tas:
   - Ádeep Biswas
+  - Fernie Qin
 time: T/H 03:05pm-04:25pm
 location: HH B103
 redirect_from:
   - vis2022
 
 schedule:
-
 - date: 2022-08-30
   title: "Introduction and the Value of Visualization"
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441462
-  slides: https://drive.google.com/file/d/10-2wX14UA2BKimjCxtLYceX1O2jDzHUZ
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441462
+  _slides: https://drive.google.com/file/d/10-2wX14UA2BKimjCxtLYceX1O2jDzHUZ
   readings:
   - name: Introduction to Vega-Lite
     required: true
@@ -38,8 +38,8 @@ schedule:
     url: https://drive.google.com/file/d/1-SU83DmAqUdflBjCbmaE00bsDn7evJJE
 - date: 2022-09-01
   title: "Sketching"
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441461
-  slides: https://drive.google.com/file/d/10W5WXa831GUx4Y5amRQws0HOpkEgjan7
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441461
+  _slides: https://drive.google.com/file/d/10W5WXa831GUx4Y5amRQws0HOpkEgjan7
   due:
   - name: "Assignment 0: Setup Github"
     url: https://canvas.cmu.edu/courses/30777/assignments/508246
@@ -67,8 +67,8 @@ schedule:
     url: https://vimeo.com/109954123
 - date: 2022-09-06
   title: "Data and Image Models"
-  slides: https://drive.google.com/file/d/10hOjYxml_TAXhX1nyZWWmF80lfitCofa
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441460
+  _slides: https://drive.google.com/file/d/10hOjYxml_TAXhX1nyZWWmF80lfitCofa
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441460
   due:
   - name: "Assignment 1:  Sketching Data"
     url: https://docs.google.com/document/d/146odOXGMrAxR5Eovw3o2Z0NzfLOAD6yxyLGcBcypUlM/edit?usp=sharing
@@ -92,8 +92,8 @@ schedule:
     author: Jeffrey Heer, Michael Bostock, and Vadim Ogievetsky
 - date: 2022-09-08
   title: "Effective Visual Encodings"
-  slides: https://drive.google.com/file/d/10iSaRizlqmh_IEzfePuhxwY6WJ2VM8yc
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441459
+  _slides: https://drive.google.com/file/d/10iSaRizlqmh_IEzfePuhxwY6WJ2VM8yc
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441459
   readings:
   - name: Data Transformation
     required: true
@@ -107,8 +107,8 @@ schedule:
     url: https://drive.google.com/open?id=171tAFZLofETfiOm4OElpHcWSlWQ8Yven
 - date: 2022-09-13
   title: Exploratory Data Analysis
-  slides: https://drive.google.com/file/d/1dvuVpPL7KQ-vGduezO8Clcdf45X9NFJv
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441458
+  _slides: https://drive.google.com/file/d/1dvuVpPL7KQ-vGduezO8Clcdf45X9NFJv
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441458
   readings:
   - name: Multi-View Composition
     required: true
@@ -135,8 +135,8 @@ schedule:
     url: https://drive.google.com/file/d/1ZMwEHi6d-54OAMfBZkEcF6ttUvr85IQV/view?usp=sharing
 - date: 2022-09-15
   title: Transform Data with SQL
-  slides: https://drive.google.com/file/d/1fEDv5RbuJyIbuIAuuuW023Bv0XNPGEiD
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441457
+  _slides: https://drive.google.com/file/d/1fEDv5RbuJyIbuIAuuuW023Bv0XNPGEiD
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441457
   readings:
   - name: Introduction to SQL
     required: true
@@ -150,8 +150,8 @@ schedule:
     url: https://drive.google.com/file/d/1AlYklRsLKEOC_3_Y1ssbLoDyTqM6CvFo
 - date: 2022-09-20
   title: Interactivity
-  slides: https://drive.google.com/file/d/1zve8rCxEcBL2tauVp3P7Wi5rgkYHtY2N
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441456
+  _slides: https://drive.google.com/file/d/1zve8rCxEcBL2tauVp3P7Wi5rgkYHtY2N
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441456
   readings:
   - name: "Interactive Dynamics for Visual Analysis"
     url: https://queue.acm.org/detail.cfm?id=2146416
@@ -178,8 +178,8 @@ schedule:
     type: blog
 - date: 2022-09-22
   title: Visualization Tools
-  slides: https://drive.google.com/file/d/16-LUSpwXgTYJS_bMhdiy3qu1LH-OfqjL
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441455
+  _slides: https://drive.google.com/file/d/16-LUSpwXgTYJS_bMhdiy3qu1LH-OfqjL
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441455
   readings:
   - name: "A Minimal Introduction to JavaScript and Observable."
     note: Read this first if you are new to JavaScript and/or Observable notebooks!
@@ -212,8 +212,8 @@ schedule:
     type: pdf
 - date: 2022-09-27
   title: D3 Deep Dive
-  slides: https://drive.google.com/file/d/1jNoZoP0JV94Agc97yANifrT4gE4u1qfL
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441454
+  _slides: https://drive.google.com/file/d/1jNoZoP0JV94Agc97yANifrT4gE4u1qfL
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441454
   due:
   - name: "Assignment 2: Exploratory Data Analysis"
     url: https://canvas.cmu.edu/courses/30777/assignments/508248
@@ -224,13 +224,13 @@ schedule:
     required: true
 - date: 2022-09-29
   title: Final Project Introduction
-  slides: https://drive.google.com/file/d/1-2RAMU62jy82UdpwavNRV3t6MNwx_S9d
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441453
+  _slides: https://drive.google.com/file/d/1-2RAMU62jy82UdpwavNRV3t6MNwx_S9d
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441453
   readings:
 - date: 2022-10-04
   title: Narrative Visualization
-  slides: https://drive.google.com/file/d/13bV7srf1LxWOfOVw_ycd7707CTSL4UMW
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441452
+  _slides: https://drive.google.com/file/d/13bV7srf1LxWOfOVw_ycd7707CTSL4UMW
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441452
   readings:
   - name: "Narrative Visualization: Telling Stories with Data"
     url: https://drive.google.com/file/d/1eNlLqJf7Gxphwa7ct4MbendVyoAkpPs8/view?usp=sharing
@@ -241,8 +241,8 @@ schedule:
     type: pdf
 - date: 2022-10-06
   title: Designing for Perception
-  slides: https://drive.google.com/file/d/19qi_QaAFPEvZD60-si-wDDpBvB-MRS80
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441451
+  _slides: https://drive.google.com/file/d/19qi_QaAFPEvZD60-si-wDDpBvB-MRS80
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441451
   readings:
   - name: "Layering and Seperation (Chapter 3)"
     url: https://drive.google.com/file/d/1--k-IiRxcYJWADUo9EvthaG8pgTzxwaz/view?usp=sharing
@@ -258,7 +258,7 @@ schedule:
     required: false
 - date: 2022-10-11
   title: Ethics in Visualization
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441450
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441450
   readings:
   - name: "Ethical Dimensions of Visualization Research"
     url: https://drive.google.com/open?id=1-MtB7C2lG6sdULgShQkQcnQZBngAe1S6&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
@@ -274,10 +274,10 @@ schedule:
     type: pdf
 - date: 2022-10-13
   title: Ethical Data Visualization I
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441449
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441449
 - date: 2022-10-25
   title: Ethical Data Visualization II
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441448
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441448
   due:
   - name: "Assignment 3: Interactive Visualization"
     url: https://canvas.cmu.edu/courses/30777/assignments/508249
@@ -285,14 +285,14 @@ schedule:
     url: https://canvas.cmu.edu/courses/30777/assignments/508254
 - date: 2022-10-27
   title: Virtual VIS Week I
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441447
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441447
 - date: 2022-11-01
   title: Virtual VIS Week II
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441446
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441446
 - date: 2022-11-03
   title: Geographic Visualization
-  slides: https://drive.google.com/file/d/12aHnqhDc82ekgW9zaQzJziEpRz0yX5cf
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441445
+  _slides: https://drive.google.com/file/d/12aHnqhDc82ekgW9zaQzJziEpRz0yX5cf
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441445
   due:
   - name: Notes from Virtual VIS Week
     url: https://canvas.cmu.edu/courses/24179/assignments/412266
@@ -311,8 +311,8 @@ schedule:
     url: https://blog.datawrapper.de/choroplethmaps/
 - date: 2022-11-08
   title: Network Visualization
-  slides: https://drive.google.com/file/d/12ag3gxkpxAZr-8LfFfMTCzv2CAz9vB7q
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441444
+  _slides: https://drive.google.com/file/d/12ag3gxkpxAZr-8LfFfMTCzv2CAz9vB7q
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441444
   readings:
   - name: "Chapter 2: Networks"
     url: https://drive.google.com/open?id=10CLJs0yw-r4KF7oaMWPOdNcNjnUTXR8Z&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
@@ -322,8 +322,8 @@ schedule:
     type: pdf
 - date: 2022-11-10
   title: Scalable Visualization
-  slides: https://drive.google.com/file/d/12dplQJ2q_-brixAvSO0ZM8gghH1m5ZPm
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441443
+  _slides: https://drive.google.com/file/d/12dplQJ2q_-brixAvSO0ZM8gghH1m5ZPm
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441443
   readings:
   - name: "imMens: Real-time Visual Querying of Big Data"
     author: Zhicheng Liu, Biye Jiang, Jeffrey Heer
@@ -346,8 +346,8 @@ schedule:
     type: pdf
 - date: 2022-11-15
   title: Accessibility
-  slides: https://drive.google.com/file/d/12e8ZeFqQoqR-rHbj44n9m7BW-IYcv521
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441442
+  _slides: https://drive.google.com/file/d/12e8ZeFqQoqR-rHbj44n9m7BW-IYcv521
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441442
   readings:
   - name: "Sociotechnical Considerations for Accessible Visualization Design"
     url: https://arxiv.org/pdf/1909.05118.pdf
@@ -368,13 +368,13 @@ schedule:
     author: Frank Elavsky, Larene Le Gassick, Sarah Fossheim
 - date: 2022-11-17
   title: Animation
-  slides: https://drive.google.com/file/d/12f3mrAtruVQpjk4F8P00U9u0fqcsEe_e
-  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441441
+  _slides: https://drive.google.com/file/d/12f3mrAtruVQpjk4F8P00U9u0fqcsEe_e
+  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441441
   readings:
 - date: 2022-11-22
   title: Uncertainty
-  discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346292
-  slides: https://canvas.cmu.edu/courses/30777/discussion_topics/441440
+  _discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346292
+  _slides: https://canvas.cmu.edu/courses/30777/discussion_topics/441440
   readings:
   - name: "The Curious Absence of Uncertainty from Many (Most?) Visualizations"
     url: https://medium.com/multiple-views-visualization-research-explained/the-curious-absence-of-uncertainty-from-many-most-visualizations-f0c7f89e8d84
