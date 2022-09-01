@@ -39,7 +39,7 @@ schedule:
 - date: 2022-09-01
   title: "Sketching"
   discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441461
-  _slides: https://drive.google.com/file/d/10W5WXa831GUx4Y5amRQws0HOpkEgjan7
+  slides: https://drive.google.com/file/d/14a0277ZJn-o-Kh0RymekuTGlMqBboaKl
   due:
   - name: "Assignment 0: Setup Github"
     url: https://canvas.cmu.edu/courses/30777/assignments/508246
@@ -71,7 +71,7 @@ schedule:
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441460
   due:
   - name: "Assignment 1:  Sketching Data"
-    url: https://docs.google.com/document/d/146odOXGMrAxR5Eovw3o2Z0NzfLOAD6yxyLGcBcypUlM/edit?usp=sharing
+    url: https://canvas.cmu.edu/courses/30777/assignments/508247
   readings:
   - name: Scales, Axes, and Legends
     required: true
@@ -425,8 +425,8 @@ After you successfully complete the course you will be able to:
 
 ## Jump to
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ## Schedule and Readings
 
