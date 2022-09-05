@@ -67,10 +67,10 @@ schedule:
     url: https://vimeo.com/109954123
 - date: 2022-09-06
   title: "Data and Image Models"
-  _slides: https://drive.google.com/file/d/10hOjYxml_TAXhX1nyZWWmF80lfitCofa
-  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441460
+  slides: https://drive.google.com/open?id=12Cqvqh7HynekZAldErD_WRISw8jwxyxI
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441460
   due:
-  - name: "Assignment 1:  Sketching Data"
+  - name: "Assignment 1: Sketching Data"
     url: https://canvas.cmu.edu/courses/30777/assignments/508247
   readings:
   - name: Scales, Axes, and Legends
