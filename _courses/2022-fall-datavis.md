@@ -93,7 +93,7 @@ schedule:
 - date: 2022-09-08
   title: "Effective Visual Encodings"
   _slides: https://drive.google.com/file/d/10iSaRizlqmh_IEzfePuhxwY6WJ2VM8yc
-  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441459
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441459
   readings:
   - name: Data Transformation
     required: true
@@ -108,7 +108,7 @@ schedule:
 - date: 2022-09-13
   title: Exploratory Data Analysis
   _slides: https://drive.google.com/file/d/1dvuVpPL7KQ-vGduezO8Clcdf45X9NFJv
-  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441458
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441458
   readings:
   - name: Multi-View Composition
     required: true
