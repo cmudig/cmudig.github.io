@@ -92,7 +92,7 @@ schedule:
     author: Jeffrey Heer, Michael Bostock, and Vadim Ogievetsky
 - date: 2022-09-08
   title: "Effective Visual Encodings"
-  _slides: https://drive.google.com/file/d/10iSaRizlqmh_IEzfePuhxwY6WJ2VM8yc
+  slides: https://drive.google.com/file/d/14rj0_nd8XtIiEkBFWB-sHAQYHMpOOMtG
   discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441459
   readings:
   - name: Data Transformation
@@ -107,7 +107,7 @@ schedule:
     url: https://drive.google.com/open?id=171tAFZLofETfiOm4OElpHcWSlWQ8Yven
 - date: 2022-09-13
   title: Exploratory Data Analysis
-  _slides: https://drive.google.com/file/d/1dvuVpPL7KQ-vGduezO8Clcdf45X9NFJv
+  slides: https://drive.google.com/file/d/1SDfTXjg3Kj0nfa2KI6tC7ND_jU3_SxS8
   discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441458
   readings:
   - name: Multi-View Composition
