@@ -270,6 +270,8 @@ schedule:
   due:
   - name: "Final Project Proposal"
     url: https://canvas.cmu.edu/courses/30777/assignments/508254
+  - name: "Assignment 3: Interactive Visualization"
+    url: https://canvas.cmu.edu/courses/30777/assignments/508249
   readings:
   - name: "Ethical Dimensions of Visualization Research"
     url: https://drive.google.com/open?id=1-MtB7C2lG6sdULgShQkQcnQZBngAe1S6
@@ -289,16 +291,10 @@ schedule:
 - date: 2022-10-27
   title: Ethical Data Visualization II
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441448
-  due:
-  - name: "Assignment 3: Interactive Visualization"
-    url: https://canvas.cmu.edu/courses/30777/assignments/508249
 - date: 2022-11-01
   title: Geographic Visualization
   _slides: https://drive.google.com/file/d/12aHnqhDc82ekgW9zaQzJziEpRz0yX5cf
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441445
-  due:
-  - name: "Final Project Design Review"
-    url: https://canvas.cmu.edu/courses/30777/assignments/508249
   readings:
   - name: Cartographic Visualization
     url: https://observablehq.com/@uwdata/cartographic-visualization
@@ -314,6 +310,9 @@ schedule:
   title: Network Visualization
   _slides: https://drive.google.com/file/d/12ag3gxkpxAZr-8LfFfMTCzv2CAz9vB7q
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441444
+  due:
+  - name: "Final Project Design Review"
+    url: https://canvas.cmu.edu/courses/30777/assignments/508249
   readings:
   - name: "Chapter 2: Networks"
     url: https://drive.google.com/open?id=10CLJs0yw-r4KF7oaMWPOdNcNjnUTXR8Z
