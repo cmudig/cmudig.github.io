@@ -135,8 +135,8 @@ schedule:
     url: https://drive.google.com/file/d/1ZMwEHi6d-54OAMfBZkEcF6ttUvr85IQV/view?usp=sharing
 - date: 2022-09-15
   title: Transform Data with SQL
-  _slides: https://drive.google.com/file/d/1fEDv5RbuJyIbuIAuuuW023Bv0XNPGEiD
-  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441457
+  slides: https://drive.google.com/file/d/113F2x8wR1g5gNPpggeZCLwGBTjHhwmmq
+  discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441457
   readings:
   - name: Introduction to SQL
     required: true
@@ -228,6 +228,8 @@ schedule:
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441453
   readings:
 - date: 2022-10-04
+  title: Building Interactive Visualization Applications
+- date: 2022-10-06
   title: Narrative Visualization
   _slides: https://drive.google.com/file/d/13bV7srf1LxWOfOVw_ycd7707CTSL4UMW
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441452
@@ -239,7 +241,7 @@ schedule:
     year: 2010
     required: true
     type: pdf
-- date: 2022-10-06
+- date: 2022-10-11
   title: Designing for Perception
   _slides: https://drive.google.com/file/d/19qi_QaAFPEvZD60-si-wDDpBvB-MRS80
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441451
@@ -250,17 +252,24 @@ schedule:
     venue: Envisioning Information
     required: true
     type: pdf
+  - name: Which color scale to use when visualizing data
+    url: https://blog.datawrapper.de/which-color-scale-to-use-in-data-vis/
+    author: Lisa Charlotte Muth
+    year: 2021
+    type: website
+    required: true
   - name: What to consider when choosing colors for data visualization
     author: Lisa Charlotte Muth
     year: 2018
     url: https://blog.datawrapper.de/colors/
     type: website
     required: false
-- date: 2022-10-11
-  title: TBA
 - date: 2022-10-13
   title: Ethics in Visualization
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441450
+  due:
+  - name: "Final Project Proposal"
+    url: https://canvas.cmu.edu/courses/30777/assignments/508254
   readings:
   - name: "Ethical Dimensions of Visualization Research"
     url: https://drive.google.com/open?id=1-MtB7C2lG6sdULgShQkQcnQZBngAe1S6
@@ -274,12 +283,6 @@ schedule:
     venue: "Data Feminism"
     required: false
     type: pdf
-- date: 2022-10-18
-  title: Virtual VIS Week I
-  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441447
-- date: 2022-10-20
-  title: Virtual VIS Week II
-  _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441446
 - date: 2022-10-25
   title: Ethical Data Visualization I
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441449
@@ -289,15 +292,11 @@ schedule:
   due:
   - name: "Assignment 3: Interactive Visualization"
     url: https://canvas.cmu.edu/courses/30777/assignments/508249
-  - name: "Final Project Proposal"
-    url: https://canvas.cmu.edu/courses/30777/assignments/508254
 - date: 2022-11-01
   title: Geographic Visualization
   _slides: https://drive.google.com/file/d/12aHnqhDc82ekgW9zaQzJziEpRz0yX5cf
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441445
   due:
-  - name: Notes from Virtual VIS Week
-    url: https://canvas.cmu.edu/courses/24179/assignments/412266
   - name: "Final Project Design Review"
     url: https://canvas.cmu.edu/courses/30777/assignments/508249
   readings:
@@ -373,6 +372,19 @@ schedule:
   _slides: https://drive.google.com/file/d/12f3mrAtruVQpjk4F8P00U9u0fqcsEe_e
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441441
   readings:
+  - name: "Effectiveness of Animation in Trend Visualization"
+    author: George Robertson, Roland Fernandez, Danyel Fisher, Bongshin Lee, John Stasko
+    venue: InfoVis
+    year: 2008
+    required: true
+    type: pdf
+    url: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tvcg2008-trendvis.pdf
+  - name: Animated Transitions in Statistical Data Graphics
+    author: Jeffrey Heer, George Robertson
+    venue: IEEE InfoVis
+    year: 2007
+    type: pdf
+    url: https://drive.google.com/file/d/14KUkL6BsDhpKMUPw3vgOS8FDHMjF8TsN/view
 - date: 2022-11-22
   title: Uncertainty
   _discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346292
@@ -425,8 +437,8 @@ After you successfully complete the course you will be able to:
 
 ## Jump to
 
-- TOC
-  {:toc}
+* TOC
+{:toc}
 
 ## Schedule and Readings
 
