@@ -403,14 +403,35 @@ schedule:
     year: 2020
     author: Anne Marthe van der Bles, Sander van der Linden, Alexandra L. J. Freeman, and David J. Spiegelhalter
 - date: 2022-11-29
-  title: TBA
+  title: Visualization and Machine Learning
+  discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346295
+  readings:
+    - name: "The Myth of the Impartial Machine"
+      url: https://parametric.press/issue-01/the-myth-of-the-impartial-machine/
+      type: website
+      author: Alice Feng, Shuyan Wu
+      required: true
+      year: 2019
+    - name: "The Beginner's Guide to Dimensionality Reduction"
+      url: https://dimensionality-reduction-293e465c2a3443e8941b016d.vercel.app/
+      type: website
+      author: Matthew Conlen, Fred Hohman
+      required: true
+      year: 2018
+    - name: "Gamut: A Design Probe to Understand How Data Scientists Understand Machine Learning Models"
+      url: https://fredhohman.com/papers/19-gamut-chi.pdf
+      type: pdf
+      required: false
+      year: 2019
+      venue: ACM CHI
+      author: Fred Hohman, Andrew Head, Rich Caruana, Robert DeLine, Steven Drucker
 - date: 2022-12-01
-  title: TBA
+  title: Final Project Presentations
 - date: 2022-12-06
   title: Final Project Presentations
 - date: 2022-12-08
   title: Final Project Presentations
-  due: 
+  due:
   - name: "Final Project Video Presentation"
     url: https://canvas.cmu.edu/courses/30777/assignments/508255
   - name: "Final Project Report"
