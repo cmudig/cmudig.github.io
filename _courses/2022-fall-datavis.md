@@ -385,24 +385,7 @@ schedule:
     type: pdf
     url: https://drive.google.com/file/d/14KUkL6BsDhpKMUPw3vgOS8FDHMjF8TsN/view
 - date: 2022-11-22
-  title: Uncertainty
-  _discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346292
-  _slides: https://canvas.cmu.edu/courses/30777/discussion_topics/441440
-  readings:
-  - name: "The Curious Absence of Uncertainty from Many (Most?) Visualizations"
-    url: https://medium.com/multiple-views-visualization-research-explained/the-curious-absence-of-uncertainty-from-many-most-visualizations-f0c7f89e8d84
-    type: website
-    author: Jessica Hullman
-    required: true
-    year: 2019
-  - name: "The effects of communicating uncertainty on public trust in facts and numbers"
-    url: https://www.pnas.org/content/pnas/117/14/7672.full.pdf
-    type: pdf
-    required: false
-    year: 2020
-    author: Anne Marthe van der Bles, Sander van der Linden, Alexandra L. J. Freeman, and David J. Spiegelhalter
-- date: 2022-11-29
-  title: Visualization and Machine Learning
+  title: Visualization and Machine Learning (with Sherry Tongshuang Wu)
   discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346295
   readings:
     - name: "The Myth of the Impartial Machine"
@@ -424,6 +407,23 @@ schedule:
       year: 2019
       venue: ACM CHI
       author: Fred Hohman, Andrew Head, Rich Caruana, Robert DeLine, Steven Drucker
+- date: 2022-11-29
+  title: Uncertainty
+  _discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346292
+  _slides: https://canvas.cmu.edu/courses/30777/discussion_topics/441440
+  readings:
+  - name: "The Curious Absence of Uncertainty from Many (Most?) Visualizations"
+    url: https://medium.com/multiple-views-visualization-research-explained/the-curious-absence-of-uncertainty-from-many-most-visualizations-f0c7f89e8d84
+    type: website
+    author: Jessica Hullman
+    required: true
+    year: 2019
+  - name: "The effects of communicating uncertainty on public trust in facts and numbers"
+    url: https://www.pnas.org/content/pnas/117/14/7672.full.pdf
+    type: pdf
+    required: false
+    year: 2020
+    author: Anne Marthe van der Bles, Sander van der Linden, Alexandra L. J. Freeman, and David J. Spiegelhalter
 - date: 2022-12-01
   title: Final Project Presentations
 - date: 2022-12-06
