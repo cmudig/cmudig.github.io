@@ -78,7 +78,7 @@ schedule:
     type: notebook
     url: https://observablehq.com/@uwdata/scales-axes-and-legends
   - name: "The Eyes Have It: A Task by Data Type Taxonomy for Information Visualizations"
-    url: https://drive.google.com/file/d/13NseKgMXbwXVqIqxAuZ16xmWJ-8JRA1M/view?usp=sharing
+    url: https://drive.google.com/file/d/13NseKgMXbwXVqIqxAuZ16xmWJ-8JRA1M
     author: Ben Shneiderman
     year: 1996
     required: true
@@ -132,7 +132,7 @@ schedule:
     venue: IEEE TVCG
     type: pdf
     year: 2002
-    url: https://drive.google.com/file/d/1ZMwEHi6d-54OAMfBZkEcF6ttUvr85IQV/view?usp=sharing
+    url: https://drive.google.com/file/d/1ZMwEHi6d-54OAMfBZkEcF6ttUvr85IQV
 - date: 2022-09-15
   title: Transform Data with SQL
   slides: https://drive.google.com/file/d/113F2x8wR1g5gNPpggeZCLwGBTjHhwmmq
@@ -150,7 +150,7 @@ schedule:
     url: https://drive.google.com/file/d/1AlYklRsLKEOC_3_Y1ssbLoDyTqM6CvFo
 - date: 2022-09-20
   title: Interactivity
-  _slides: https://drive.google.com/file/d/1zve8rCxEcBL2tauVp3P7Wi5rgkYHtY2N
+  slides: https://drive.google.com/file/d/1yLkQwGcfKHnJG8HtExqVWXeLNclu3zwb
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441456
   readings:
   - name: "Interactive Dynamics for Visual Analysis"
@@ -195,7 +195,7 @@ schedule:
     year: 2011
     type: pdf
     required: true
-    url: https://drive.google.com/file/d/1FH5OzFAF0TMtMM4I7cIrHCS0aDq3VR6p/view?usp=sharing
+    url: https://drive.google.com/file/d/1FH5OzFAF0TMtMM4I7cIrHCS0aDq3VR6p
   - name: " Vega-Lite: A Grammar of Interactive Graphics"
     url: https://www.youtube.com/watch?v=9uaHRWj04D4
     author: Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, and Jeffrey Heer
@@ -204,7 +204,7 @@ schedule:
     required: false
     type: video
   - name: "Vega-Lite: A Grammar of Interactive Graphics"
-    url: https://drive.google.com/file/d/1dYDgsR_XqZQ8CLZUHwmQ4Jue-3GMz8Mr/view?usp=sharing
+    url: https://drive.google.com/file/d/1dYDgsR_XqZQ8CLZUHwmQ4Jue-3GMz8Mr
     author: Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, and Jeffrey Heer
     venue: IEEE Trans. Visualization & Comp. Graphics (Proc. InfoVis)
     year: 2017
@@ -235,7 +235,7 @@ schedule:
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441452
   readings:
   - name: "Narrative Visualization: Telling Stories with Data"
-    url: https://drive.google.com/file/d/1eNlLqJf7Gxphwa7ct4MbendVyoAkpPs8/view?usp=sharing
+    url: https://drive.google.com/file/d/1eNlLqJf7Gxphwa7ct4MbendVyoAkpPs8
     author: Edward Segel, Jeffrey Heer
     venue: IEEE Trans. Visualization & Comp. Graphics (Proc. InfoVis)
     year: 2010
@@ -247,7 +247,7 @@ schedule:
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441451
   readings:
   - name: "Layering and Seperation (Chapter 3)"
-    url: https://drive.google.com/file/d/1--k-IiRxcYJWADUo9EvthaG8pgTzxwaz/view?usp=sharing
+    url: https://drive.google.com/file/d/1--k-IiRxcYJWADUo9EvthaG8pgTzxwaz
     author: Edward Tufte
     venue: Envisioning Information
     required: true
