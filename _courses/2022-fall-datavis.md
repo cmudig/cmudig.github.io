@@ -178,7 +178,7 @@ schedule:
     type: blog
 - date: 2022-09-22
   title: Visualization Tools
-  _slides: https://drive.google.com/file/d/16-LUSpwXgTYJS_bMhdiy3qu1LH-OfqjL
+  slides: https://drive.google.com/file/d/1XfPo7t8JIFnGBafw7NRyyEA_Op2sAfFL
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441455
   readings:
   - name: "A Minimal Introduction to JavaScript and Observable."
