@@ -214,9 +214,6 @@ schedule:
   title: D3 Deep Dive
   _slides: https://drive.google.com/file/d/1jNoZoP0JV94Agc97yANifrT4gE4u1qfL
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441454
-  due:
-  - name: "Assignment 2: Exploratory Data Analysis"
-    url: https://canvas.cmu.edu/courses/30777/assignments/508248
   readings:
   - name: "Introduction to D3, Part 2"
     url: https://observablehq.com/@uwdata/introduction-to-d3-part-2
@@ -226,9 +223,15 @@ schedule:
   title: Final Project Introduction
   _slides: https://drive.google.com/file/d/1-2RAMU62jy82UdpwavNRV3t6MNwx_S9d
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441453
-  readings:
+  due:
+  - name: "Assignment 2: Exploratory Data Analysis"
+    url: https://canvas.cmu.edu/courses/30777/assignments/508248
 - date: 2022-10-04
   title: Building Interactive Visualization Applications
+  readings:
+  - name: "Hello Swift Charts"
+    url: https://developer.apple.com/wwdc22/10136
+    type: video
 - date: 2022-10-06
   title: Narrative Visualization
   _slides: https://drive.google.com/file/d/13bV7srf1LxWOfOVw_ycd7707CTSL4UMW
