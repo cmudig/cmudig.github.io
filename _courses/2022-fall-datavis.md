@@ -460,8 +460,8 @@ After you successfully complete the course you will be able to:
 
 ## Jump to
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ## Schedule and Readings
 
@@ -588,7 +588,7 @@ Good comments typically exhibit one or more of the following:
 The tentative breakdown for grading is below. As a reminder, here is the [university policy on academic integrity](http://www.cmu.edu/policies/documents/AcademicIntegrity.htm).
 
 - 40% Homework Assignments
-- 60% Final Project
+- 50% Final Project
 - 10% Participation and Attendance
 
 ## Resources
