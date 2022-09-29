@@ -221,7 +221,7 @@ schedule:
     required: true
 - date: 2022-09-29
   title: Final Project Introduction
-  _slides: https://drive.google.com/file/d/1-2RAMU62jy82UdpwavNRV3t6MNwx_S9d
+  slides: https://drive.google.com/file/d/1ciK3J6ldIjK5NvWrwHx15CI5elL_KCdr/view
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441453
   due:
   - name: "Assignment 2: Exploratory Data Analysis"
