@@ -244,6 +244,11 @@ schedule:
     year: 2010
     required: true
     type: pdf
+  - name: "What to consider when using text in data visualizations"
+    author: Lisa Charlotte Muth 
+    url: https://blog.datawrapper.de/text-in-data-visualizations/
+    type: website
+    year: 2022
 - date: 2022-10-11
   title: Designing for Perception
   _slides: https://drive.google.com/file/d/19qi_QaAFPEvZD60-si-wDDpBvB-MRS80
