@@ -318,9 +318,6 @@ schedule:
   title: Network Visualization
   _slides: https://drive.google.com/file/d/12ag3gxkpxAZr-8LfFfMTCzv2CAz9vB7q
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441444
-  due:
-  - name: "Final Project Design Review"
-    url: https://canvas.cmu.edu/courses/30777/assignments/508249
   readings:
   - name: "Chapter 2: Networks"
     url: https://drive.google.com/open?id=10CLJs0yw-r4KF7oaMWPOdNcNjnUTXR8Z
@@ -328,6 +325,11 @@ schedule:
     venue: "Design for Information"
     required: true
     type: pdf
+- date: 2022-11-08
+  title: "<i>No Class: Election Day 🗳️</i>"
+  due:
+  - name: "Final Project Design Review"
+    url: https://canvas.cmu.edu/courses/30777/assignments/508249
 - date: 2022-11-10
   title: Scalable Visualization
   _slides: https://drive.google.com/file/d/12dplQJ2q_-brixAvSO0ZM8gghH1m5ZPm
