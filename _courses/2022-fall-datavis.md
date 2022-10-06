@@ -234,7 +234,7 @@ schedule:
     type: video
 - date: 2022-10-06
   title: Narrative Visualization
-  _slides: https://drive.google.com/file/d/13bV7srf1LxWOfOVw_ycd7707CTSL4UMW
+  slides: https://drive.google.com/file/d/1JvKCsXrYUNo_e8yLM2AgyZ4qvtr3hdcr/view
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441452
   readings:
   - name: "Narrative Visualization: Telling Stories with Data"
