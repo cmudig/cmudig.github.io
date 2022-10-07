@@ -244,6 +244,11 @@ schedule:
     year: 2010
     required: true
     type: pdf
+  - name: "Storytelling and Science"
+    url: https://dl.acm.org/doi/pdf/10.1145/3526100
+    author: Titus Barik, Sumit Gulwani, and Mario Juarez
+    type: pdf
+    year: 2022
   - name: "What to consider when using text in data visualizations"
     author: Lisa Charlotte Muth 
     url: https://blog.datawrapper.de/text-in-data-visualizations/
