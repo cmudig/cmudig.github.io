@@ -256,7 +256,7 @@ schedule:
     year: 2022
 - date: 2022-10-11
   title: Designing for Perception
-  _slides: https://drive.google.com/file/d/19qi_QaAFPEvZD60-si-wDDpBvB-MRS80
+  slides: https://drive.google.com/file/d/1POllI65jVNXf6VQj12xurP8W0lj6phXY
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441451
   readings:
   - name: "Layering and Seperation (Chapter 3)"
