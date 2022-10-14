@@ -472,8 +472,11 @@ After you successfully complete the course you will be able to:
 
 ## Jump to
 
+<!-- prettier-ignore-start -->
+
 - TOC
-  {:toc}
+{:toc}
+<!-- prettier-ignore-end -->
 
 ## Schedule and Readings
 
