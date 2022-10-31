@@ -12,16 +12,12 @@ We will be having Chancey Fleet visit to help us host a workshop on braille and 
 While our lab is specifically interested in accessible data representation authoring and accessible analytical work, we want to focus this workshop on the connections we hope to form with our community related to graphics (as a broader topic) and braille and tactile media and set the groundwork for better understanding the materials and tools we have available to us.
 
 ### Our workshop has 2 high level goals:
-<ol>
-    <li>Bring the local community of researchers and interested BVI and deafblind experts together.</li>
-    <li>Explore:
-        <ul>
-            <li><em>challenges</em> around braille and tactile graphics for BVI and deafblind individuals,</li>
-            <li><em>limitations</em> of our current materials and tools,</li>
-            <li><em>considerations</em> for research and collaboration.</li>
-        </ul>
-    </li>
-</ol>
+
+1. Bring the local community of researchers and interested BVI and deafblind experts together.
+2. Explore:
+    - <em>challenges</em> around braille and tactile graphics for BVI and deafblind individuals,
+    - <em>limitations</em> of our current materials and tools,
+    - <em>considerations</em> for research and collaboration.
 
 This workshop is invite-only, but you're more than welcome to email [Frank Elavsky](mailto:fje@cmu.edu) if you think there is someone who should be present who has additional expertise to offer. If you're wondering whether you're invited or not, you should have already received an email.
 
@@ -33,39 +29,18 @@ The specifics of the agenda and details are subject to change, but roughly will 
 
 ### Summary information for attendees:
 
-<ul>
-    <li>
-        <strong>When</strong>: Thursday, November 17th from 11am - 3pm Eastern Time, with breaks at 12 and 2.
-    </li>
-    <li>
-        <strong>Where</strong>: DIG Lab, A408 NSH (that's on Floor A).
-    </li>
-    <li>
-        <strong>Who</strong> is welcome: Members of the local community who identify as blind or visually impaired, are researchers here at CMU, or are practitioners in braille or tactile media design and production.
-    </li>
-</ul>
+- <strong>When</strong>: Thursday, November 17th from 11am - 3pm Eastern Time, with breaks at 12 and 2.
+- <strong>Where</strong>: DIG Lab, A408 NSH (that's on Floor A).
+- <strong>Who</strong> is welcome: Members of the local community who identify as blind or visually impaired, are researchers here at CMU, or are practitioners in braille or tactile media design and production.
 
 ### The agenda (details pending and subject to updates):
 
-<ul>
-    <li>
-        <strong>Introduction and demo</strong>, 11am - 12pm: The first hour will be for folks to introduce themselves to the group and share why they are attending. Then we will have an introductory talk and discussion led by Chancey Fleet and a demo of our <a href="https://pad.dotincorp.com/">Dot Pad</a>, a refreshable tactile display.
-    </li>
-    <li>
-        <strong>Lunch</strong>, 12pm - 1pm: We will be providing lunch. Please <a href="https://docs.google.com/forms/d/e/1FAIpQLSflkynRvIlmYU0nBLHZsES9TMQ4IHRPSbI2-HuuB6wQq9J0Yg/viewform?usp=sf_link">provide us with your dietary needs and information about any accommodations</a> you require. We'll do our best to make sure you're well taken care of.
-    </li>
-    <li>
-        <strong>Second topic</strong>, 1pm - 2pm: "What are the limits and potential in our current tools and materials?" Activities for defining the scope of problems BVI and deafblind individuals face with braille and tactile materials and limitations of our current materials and tools.
-    </li>
-    <li>
-        <strong>Break</strong>, 2pm - 2:15pm: A short break.
-    </li>
-    <li>
-        <strong>Final topic</strong>, 2:15pm - 3pm: "What are the considerations and needs for forming collaborations in this space?" Activities for defining the scope of challenges in terms of research and collaboration efforts with braille and tactile tools and materials.
-    </li>
-</ul>
+- <strong>Introduction and demo</strong>, 11am - 12pm: The first hour will be for folks to introduce themselves to the group and share why they are attending. Then we will have an introductory talk and discussion led by Chancey Fleet and a demo of our [Dot Pad](https://pad.dotincorp.com/), a refreshable tactile display.
+- <strong>Lunch</strong>, 12pm - 1pm: We will be providing lunch. Please [provide us with your dietary needs and information about any accommodations](https://docs.google.com/forms/d/e/1FAIpQLSflkynRvIlmYU0nBLHZsES9TMQ4IHRPSbI2-HuuB6wQq9J0Yg/viewform?usp=sf_link) you require. We'll do our best to make sure you're well taken care of.
+- <strong>Second topic</strong>, 1pm - 2pm: "What are the limits and potential in our current tools and materials?" Activities for defining the scope of problems BVI and deafblind individuals face with braille and tactile materials and limitations of our current materials and tools.
+- <strong>Break</strong>, 2pm - 2:15pm: A short break.
+- <strong>Final topic</strong>, 2:15pm - 3pm: "What are the considerations and needs for forming collaborations in this space?" Activities for defining the scope of challenges in terms of research and collaboration efforts with braille and tactile tools and materials.
 
-<br>
 <hr>
 
 Note, if you are an attendee and haven't already responded to us by using the link above: Please [provide us with your dietary needs and information about any accommodations](https://docs.google.com/forms/d/e/1FAIpQLSflkynRvIlmYU0nBLHZsES9TMQ4IHRPSbI2-HuuB6wQq9J0Yg/viewform?usp=sf_link) you require. We'll do our best to make sure you're well taken care of.
