@@ -70,7 +70,7 @@ description: Recent publications from the Data Interaction Group at Visualizatio
           {% endif %}
           {{ pub.venue }}
           {% if pub.venue_location %}
-          in {{ pub.venue_location }}
+            | {{ pub.venue_location }}
           {% endif %}
           {% if pub.venue_url %}</a>{% endif %}
         {{ pub.year }}
