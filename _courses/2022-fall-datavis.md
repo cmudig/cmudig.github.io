@@ -306,7 +306,7 @@ schedule:
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441448
 - date: 2022-11-01
   title: Geographic Visualization
-  _slides: https://drive.google.com/file/d/12aHnqhDc82ekgW9zaQzJziEpRz0yX5cf
+  slides: https://drive.google.com/file/d/1PJ56ulVvn_Nce5CPs89hCI40O0i5ih4d/view
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441445
   readings:
   - name: Cartographic Visualization
