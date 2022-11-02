@@ -11,7 +11,9 @@ layout: default
       <p class="f4 measure lh-copy">{{ page.subtitle }}</p>
     {% endif %}
     {% if page.date %}
-      <p class="f4 measure lh-copy mt1">{{ page.date | date: "%B %-d, %Y" }}</p>
+      <p class="f4 measure lh-copy mt1">
+        Published on <time datetime="{{ page.date }}">{{ page.date | date: "%B %-d, %Y" }}</date>
+      </p>
     {% endif %}
   </div>
 </div>
