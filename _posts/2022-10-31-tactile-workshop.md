@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Workshop: Tactile Graphics Tech and Media"
-date: 2022-11-17
+date: 2022-10-31 13:00:00 -0400
 excerpt_separator: <!--more-->
 side_image: "/assets/posts/dot.png"
 side_image_alt: "A refreshable tactile graphics display. It has an array of 40 by 60 braille pins above 6 buttons. Beneath the buttons is a standard single line braille reader. It is made of a smooth appearing material and looks similar in width and heigh to a small laptop."
@@ -15,9 +15,9 @@ While our lab is specifically interested in accessible data representation autho
 
 1. Bring the local community of researchers and interested BVI and deafblind experts together.
 2. Explore:
-   - _challenges_ around braille and tactile graphics for BVI and deafblind individuals,
-   - _limitations_ of our current materials and tools,
-   - _considerations_ for research and collaboration.
+    - *challenges* around braille and tactile graphics for BVI and deafblind individuals,
+    - *limitations* of our current materials and tools,
+    - *considerations* for research and collaboration.
 
 This workshop is invite-only, but you're more than welcome to email [Frank Elavsky](mailto:fje@cmu.edu) if you think there is someone who should be present who has additional expertise to offer. If you're wondering whether you're invited or not, you should have already received an email.
 
