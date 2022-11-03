@@ -321,7 +321,7 @@ schedule:
     url: https://blog.datawrapper.de/choroplethmaps/
 - date: 2022-11-03
   title: Network Visualization
-  _slides: https://drive.google.com/file/d/12ag3gxkpxAZr-8LfFfMTCzv2CAz9vB7q
+  slides: https://drive.google.com/file/d/1W5hwhA_StK0EvDAppdhppKXNMPldv1SQ
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441444
   readings:
   - name: "Chapter 2: Networks"
