@@ -337,7 +337,7 @@ schedule:
     url: https://canvas.cmu.edu/courses/30777/assignments/508249
 - date: 2022-11-10
   title: Scalable Visualization
-  _slides: https://drive.google.com/file/d/12dplQJ2q_-brixAvSO0ZM8gghH1m5ZPm
+  slides: https://drive.google.com/file/d/19K-3m3CEeAumVYGy0WV9amUxqD0lwa9T/view
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441443
   readings:
   - name: "imMens: Real-time Visual Querying of Big Data"
