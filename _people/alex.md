@@ -5,7 +5,7 @@ image: /assets/people/alex.jpg
 role: PhD Student
 advisors:
   - Adam Perer
-  - Jason Hong
+  - Jason I. Hong
 ---
 
 Loves Milka.
