@@ -361,7 +361,7 @@ schedule:
     type: pdf
 - date: 2022-11-15
   title: Accessibility
-  _slides: https://drive.google.com/file/d/12e8ZeFqQoqR-rHbj44n9m7BW-IYcv521
+  slides: https://drive.google.com/open?id=15Key7uKAV9pzAN6vF1qc4rNjrI1wMtWY
   _discussion: https://canvas.cmu.edu/courses/30777/discussion_topics/441442
   readings:
   - name: "Sociotechnical Considerations for Accessible Visualization Design"
