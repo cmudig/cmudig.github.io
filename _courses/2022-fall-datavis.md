@@ -402,6 +402,7 @@ schedule:
 - date: 2022-11-22
   title: Visualization and Machine Learning (with Sherry Tongshuang Wu)
   discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346295
+  slides: https://drive.google.com/file/d/1f0OygzawDy8_hf-e--2Kref20FUnB73G/view
   readings:
     - name: "The Myth of the Impartial Machine"
       url: https://parametric.press/issue-01/the-myth-of-the-impartial-machine/
