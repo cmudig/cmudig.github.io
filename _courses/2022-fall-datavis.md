@@ -426,7 +426,7 @@ schedule:
 - date: 2022-11-29
   title: Uncertainty
   _discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346292
-  _slides: https://canvas.cmu.edu/courses/30777/discussion_topics/441440
+  slides: https://drive.google.com/file/d/1Ej2rYSp51TwMrIvtEYVQmPE3SwOUCpM5/view
   readings:
   - name: "The Curious Absence of Uncertainty from Many (Most?) Visualizations"
     url: https://medium.com/multiple-views-visualization-research-explained/the-curious-absence-of-uncertainty-from-many-most-visualizations-f0c7f89e8d84
