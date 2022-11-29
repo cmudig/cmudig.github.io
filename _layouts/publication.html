@@ -36,7 +36,7 @@ layout: default
         {% endif %}
         {{ page.venue }}
         {% if page.venue_location %}
-          in {{ page.venue_location }}
+          | {{ page.venue_location }}
         {% endif %}
         {% if page.venue_url %}</a>{% endif %}
         {{ page.year }}
@@ -91,6 +91,11 @@ layout: default
       {% if page.blog %}
         <li class="mt2"><a href="{{ page.blog }}" class="black link hover-cmu-red">
           <i class="fas fa-newspaper" aria-hidden="true"></i> Article
+        </a></li>
+      {% endif %}
+      {% if page.arxiv %}
+        <li class="mt2"><a href="https://ar5iv.org/html/{{ page.arxiv | cgi_escape }}" class="black link hover-cmu-red">
+          <i class="fab fa-html5" aria-hidden="true"></i> HTML
         </a></li>
       {% endif %}
       {% if page.video %}

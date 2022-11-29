@@ -1,6 +1,6 @@
 ---
 name: Venkat Sivaraman
-website: https://venkats.portfoliobox.net
+website: https://venkatesh-sivaraman.github.io
 image: /assets/people/venkat.jpg
 role: PhD Student
 advisors:

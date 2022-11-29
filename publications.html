@@ -70,7 +70,7 @@ description: Recent publications from the Data Interaction Group at Visualizatio
           {% endif %}
           {{ pub.venue }}
           {% if pub.venue_location %}
-          in {{ pub.venue_location }}
+            | {{ pub.venue_location }}
           {% endif %}
           {% if pub.venue_url %}</a>{% endif %}
         {{ pub.year }}
@@ -117,6 +117,11 @@ description: Recent publications from the Data Interaction Group at Visualizatio
         {% if pub.blog %}
         <a href="{{ pub.blog }}" class="black link hover-cmu-red mr3 dib">
           <i class="fas fa-newspaper f6" aria-hidden="true"></i> Article
+        </a>
+        {% endif %}
+        {% if pub.arxiv %}
+        <a href="https://ar5iv.org/html/{{ pub.arxiv | cgi_escape }}" class="black link hover-cmu-red mr3 dib">
+          <i class="fab fa-html5" aria-hidden="true"></i> HTML
         </a>
         {% endif %}
         {% if pub.video %}

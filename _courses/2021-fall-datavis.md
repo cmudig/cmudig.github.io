@@ -143,7 +143,7 @@ schedule:
       - name: Introduction to SQL
         required: true
         type: notebook
-        url: https://observablehq.com/@cmudig/introducing-sql-with-duckdb 
+        url: https://observablehq.com/@cmudig/introducing-sql-with-duckdb
       - name: "A Relational Model of Data for Large Shared Data Banks"
         author: Edgar F. Codd
         required: true
@@ -240,9 +240,10 @@ schedule:
         venue: IEEE Trans. Visualization & Comp. Graphics (Proc. InfoVis)
         year: 2010
         required: true
-        type: pdf   
+        type: pdf
   - date: 2021-10-07
     title: Designing for Perception
+    slides: https://drive.google.com/file/d/19qi_QaAFPEvZD60-si-wDDpBvB-MRS80
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346276
     readings:
       - name: "Layering and Seperation (Chapter 3)"
@@ -250,9 +251,9 @@ schedule:
         author: Edward Tufte
         venue: Envisioning Information
         required: true
-        type: pdf   
+        type: pdf
       - name: What to consider when choosing colors for data visualization
-        author: Lisa Charlotte Rost
+        author: Lisa Charlotte Muth
         year: 2018
         url: https://blog.datawrapper.de/colors/
         type: website
@@ -272,31 +273,28 @@ schedule:
         author: Catherine D'Ignazio and Lauren F. Klein
         venue: "Data Feminism"
         required: false
-        type: pdf   
+        type: pdf
   - date: 2021-10-19
     title: Ethical Data Visualization I
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346278
     due:
       - name: "Assignment 3: Interactive Visualization"
         url: https://canvas.cmu.edu/courses/24179/assignments/413333
-    readings:
   - date: 2021-10-21
     title: Ethical Data Visualization II
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346280
     due:
       - name: Final Project Proposal
         url: https://canvas.cmu.edu/courses/24179/assignments/413344
-    readings:
   - date: 2021-10-26
     title: Virtual VIS Week I
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346282
-    readings:
   - date: 2021-10-28
     title: Virtual VIS Week II
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346283
-    readings:
   - date: 2021-11-02
     title: Geographic Visualization
+    slides: https://drive.google.com/file/d/12aHnqhDc82ekgW9zaQzJziEpRz0yX5cf
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346285
     due:
       - name: Notes from Virtual VIS Week
@@ -306,42 +304,124 @@ schedule:
         url: https://observablehq.com/@uwdata/cartographic-visualization
         type: notebook
         required: true
+      - name: What to consider when creating choropleth maps
+        type: website
+        author: Lisa Charlotte Muth
+        required: true
+        year: 2018
+        url: https://blog.datawrapper.de/choroplethmaps/
   - date: 2021-11-04
     title: Network Visualization
+    slides: https://drive.google.com/file/d/12ag3gxkpxAZr-8LfFfMTCzv2CAz9vB7q
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346286
     due:
       - name: Final Project Design Review
         url: https://canvas.cmu.edu/courses/24179/assignments/413345
     readings:
+      - name: "Chapter 2: Networks"
+        url: https://drive.google.com/open?id=10CLJs0yw-r4KF7oaMWPOdNcNjnUTXR8Z&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
+        author: Isabel Meirelles
+        venue: "Design for Information"
+        required: true
+        type: pdf
   - date: 2021-11-09
     title: Scalable Visualization
+    slides: https://drive.google.com/file/d/12dplQJ2q_-brixAvSO0ZM8gghH1m5ZPm
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346288
     readings:
+      - name: "imMens: Real-time Visual Querying of Big Data"
+        author: Zhicheng Liu, Biye Jiang, Jeffrey Heer
+        venue: EuroVis
+        year: 2013
+        required: true
+        url: https://idl.cs.washington.edu/files/2013-imMens-EuroVis.pdf
+        type: pdf
+      - name: "Bin-summarise-smooth: A framework for visualising large data"
+        author: Hadley Wickham
+        year: 2013
+        required: true
+        url: https://vita.had.co.nz/papers/bigvis.pdf
+        type: pdf
+      - name: "Falcon: Balancing Interactive Latency and Resolution Sensitivity for Scalable Linked Visualizations"
+        author: Dominik Moritz, Bill Howe, Jeffrey Heer
+        venue: ACM CHI
+        year: 2019
+        url: https://www.domoritz.de/papers/2019-Falcon-CHI.pdf
+        type: pdf
   - date: 2021-11-11
     title: Accessibility
+    slides: https://drive.google.com/file/d/12e8ZeFqQoqR-rHbj44n9m7BW-IYcv521
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346289
     readings:
+      - name: "Sociotechnical Considerations for Accessible Visualization Design"
+        url: https://arxiv.org/pdf/1909.05118.pdf
+        type: pdf
+        author: Alan Lundgard, Crystal Lee, Arvind Satyanarayan
+        venue: IEEE VIS
+        required: true
+        year: 2019
+      - name: "Social Model Of Disability"
+        url: https://pwd.org.au/resources/disability-info/social-model-of-disability/
+        type: video
+        required: true
+      - name: "Are Your Data Visualizations Excluding People?"
+        url: https://youtu.be/SWB-KLXN-Ok?t=1206
+        type: video
+        required: false
+        year: 2021
+        author: Frank Elavsky, Larene Le Gassick, Sarah Fossheim
   - date: 2021-11-16
     title: Animation
+    slides: https://drive.google.com/file/d/12f3mrAtruVQpjk4F8P00U9u0fqcsEe_e
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346291
     readings:
   - date: 2021-11-18
-    title: Uncertainty
-    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346292
-    readings:
-  - date: 2021-11-23
     title: Visualization and Machine Learning
     discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346295
     readings:
+      - name: "The Myth of the Impartial Machine"
+        url: https://parametric.press/issue-01/the-myth-of-the-impartial-machine/
+        type: website
+        author: Alice Feng, Shuyan Wu
+        required: true
+        year: 2019
+      - name: "The Beginner's Guide to Dimensionality Reduction"
+        url: https://dimensionality-reduction-293e465c2a3443e8941b016d.vercel.app/
+        type: website
+        author: Matthew Conlen, Fred Hohman
+        required: true
+        year: 2018
+      - name: "Gamut: A Design Probe to Understand How Data Scientists Understand Machine Learning Models"
+        url: https://fredhohman.com/papers/19-gamut-chi.pdf
+        type: pdf
+        required: false
+        year: 2019
+        venue: ACM CHI
+        author: Fred Hohman, Andrew Head, Rich Caruana, Robert DeLine, Steven Drucker
+  - date: 2021-11-23
+    title: Uncertainty
+    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346292
+    slides: https://drive.google.com/file/d/14ObHUucfe08E1q1RWsVJw1niiO3yBeAm
+    readings:
+      - name: "The Curious Absence of Uncertainty from Many (Most?) Visualizations"
+        url: https://medium.com/multiple-views-visualization-research-explained/the-curious-absence-of-uncertainty-from-many-most-visualizations-f0c7f89e8d84
+        type: website
+        author: Jessica Hullman
+        required: true
+        year: 2019
+      - name: "The effects of communicating uncertainty on public trust in facts and numbers"
+        url: https://www.pnas.org/content/pnas/117/14/7672.full.pdf
+        type: pdf
+        required: false
+        year: 2020
+        author: Anne Marthe van der Bles, Sander van der Linden, Alexandra L. J. Freeman, and David J. Spiegelhalter
   - date: 2021-11-30
-    title: Final Project Presentations
-    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346294
+    title: No Class
     due:
       - name: Final Project Presentation
       - name: Final Project Report
         url: https://canvas.cmu.edu/courses/24179/assignments/413347
   - date: 2021-12-02
-    discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346296
     title: Final Project Presentations
 ---
 
