@@ -402,6 +402,7 @@ schedule:
 - date: 2022-11-22
   title: Visualization and Machine Learning (with Sherry Tongshuang Wu)
   discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346295
+  slides: https://drive.google.com/file/d/1f0OygzawDy8_hf-e--2Kref20FUnB73G/view
   readings:
     - name: "The Myth of the Impartial Machine"
       url: https://parametric.press/issue-01/the-myth-of-the-impartial-machine/
@@ -425,7 +426,7 @@ schedule:
 - date: 2022-11-29
   title: Uncertainty
   _discussion: https://canvas.cmu.edu/courses/24179/discussion_topics/346292
-  _slides: https://canvas.cmu.edu/courses/30777/discussion_topics/441440
+  slides: https://drive.google.com/file/d/1Ej2rYSp51TwMrIvtEYVQmPE3SwOUCpM5/view
   readings:
   - name: "The Curious Absence of Uncertainty from Many (Most?) Visualizations"
     url: https://medium.com/multiple-views-visualization-research-explained/the-curious-absence-of-uncertainty-from-many-most-visualizations-f0c7f89e8d84
