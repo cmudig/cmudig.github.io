@@ -5,8 +5,9 @@ year: 2023
 semester: Spring
 instructors:
   - Adam Perer
-# tas:
-#   - Venkat Sivaraman
+tas:
+  - Gabrielle Augustin
+  - Valeria Cordova Mulvany
 time: M/W 12:30-1:50 PM
 location: 3SC 172
 redirect_from:
@@ -172,12 +173,6 @@ schedule:
         required: true
         type: pdf
         url: https://drive.google.com/file/d/15WH1rYfknY1Yq_Glp8pZMdPj_2T-TiS4/view?usp=sharing
-      - name: The Use of Stories in User Experience Design
-        author: Dan Gruen, Thyra Rauch, Sarah Redpath, Stefan Ruettinger
-        venue: International Journal of Human-Computer Interaction
-        required: true
-        type: pdf
-        url: https://drive.google.com/file/d/15WH1rYfknY1Yq_Glp8pZMdPj_2T-TiS4/view?usp=sharing
       - name: Rapidly Exploring Application Design Through Speed Dating
         author: Scott Davidoff, Min Kyung Lee, Anind K. Dey, and John Zimmerman
         venue: Ubicomp
@@ -185,12 +180,79 @@ schedule:
         type: pdf
         url: https://drive.google.com/file/d/15VWbDO3E4srFt8bHQFeYD2eNG0Vnwg0O/view?usp=sharing
   - date: 2023-02-15
-    title: "Special Topic:  TBD"
+    title: "TBD"
   - date: 2023-02-20
     due: 
     - name: "Assignment 5: Storyboard, Sketch, Low Fidelity, and Usability"
       url: https://canvas.cmu.edu/courses/32469/assignments/545075
-    title: "No Class"
+    title: "TBD"
+  - date: 2023-02-22
+    title: "Usability Testing and Think Aloud"
+    readings:
+      - name: Turn User Goals into Task Scenarios for Usability Testing
+        author: Marieke McCloskey
+        venue: Nielsen Norman Group
+        required: true
+        type: website
+        url: https://www.nngroup.com/articles/task-scenarios-usability-testing/
+      - name: Thinking Aloud- The Number 1 Usability Tool
+        author: Jakob Nielsen
+        venue: Nielsen Norman Group
+        required: true
+        type: website
+        url: https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/
+      - name: Think−Aloud Usability Testing
+        author: Bonnie John
+        venue: User−Centered Design and Testing
+        required: true
+        type: pdf
+        url: https://drive.google.com/file/d/15vzXqtN1LyEreJccUFmPDYr_DpssGS-g/view?usp=sharing
+      - name: General Concepts of Usability Testing 
+        author: James Hom
+        venue: The Usability Methods Toolbox
+        required: true
+        type: website
+        url: http://usability.jameshom.com/general.htm
+      - name: Thinking Aloud Protocol  
+        author: James Hom
+        venue: The Usability Methods Toolbox
+        required: true
+        type: website
+        url: http://usability.jameshom.com/thnkalod.htm
+  - date: 2023-02-27
+    due: 
+    - name: "Assignment 6: Interactive Prototype & Visual Design"
+      url: https://canvas.cmu.edu/courses/32469/assignments/545071
+    title: "UI Design"
+    readings:
+      - name: The Psychology of Everyday Things (Chapter 2)
+        author: Don Norman
+        venue: The Design of Everyday Things
+        required: true
+        type: pdf
+        url: https://drive.google.com/file/d/16AQQ2M9TlNMcbTsCPAdAzrysQGCEjURx/view?usp=sharing
+      - name: Prototyping (Chapter 11)
+        author: Rex Hartson and Pardha S. Pyla
+        venue: The UX Book - Process and Guidelines for Ensuring a Quality User Experience
+        required: true
+        type: pdf
+        url: https://drive.google.com/file/d/16Gs0ts6WVm6O5ac0MVFtgZUnWkV2cqHR/view?usp=sharing
+      - name: Mental Models
+        author: Jakob Nielsen
+        venue: Nielsen Norman Group
+        required: true
+        type: website
+        url: https://www.nngroup.com/articles/mental-models/
+      - name: The Grid System- Building a Solid Design Layout
+        author: Mads Soegaard
+        venue: Interaction Design Foundation
+        required: true
+        type: website
+        url: https://www.interaction-design.org/literature/article/the-grid-system-building-a-solid-design-layout
+  - date: 2023-03-01
+    title: "TBD"
+
+
 
 
 
