@@ -357,7 +357,7 @@ In this course, students will develop skills drawn from the field of HCI to rese
 
 ## Prerequisites
 
-None. Assignments will involve conducting interviews and observations, doing synthesis and analysis, ideation, paper prototyping, and implementing a prototype of a working design, using some computational medium. However, you can select how to implement your solutions, and you can choose whether to use web-based programming or any interactive design tools like Figma, Miro, or even PowerPoint/Keynote. No background in HCI is expected.
+None. Assignments will involve conducting interviews and observations, doing synthesis and analysis, ideation, paper prototyping, and implementing a prototype of a working design, using some computational medium. We will use the interactive design tool Figma for some assignemnts. No background in HCI is expected.
 
 ## Required Textbooks
 There is no required textbook for this course. Readings are drawn from a variety of books, readings and online postings, and will be provided by the instructor.
@@ -389,13 +389,7 @@ Participation includes interaction during classroom activities, as well as shari
 
 ## Late Policy
 
-Assignments are due before the beginning of class (12:30 PM EST) on the specified day. A penalty of 10 points out of 100 (one letter grade) will be immediately applied after the start time of class. An additional 5 points will be subtracted for each additional 24-hour period late.  You are responsible to confirm that your Canvas submittal was successfully uploaded.
-
-## Projects
-
-The course is project-oriented. It includes a large final group-defined project along with 2 homework assignments designed to provide the stepping stones needed to complete the final project. Tentative due dates for these projects can be found in the schedule above. Your work will be evaluated relative to your background and level of effort. This is a graduate-level class, and the assumption is that you are a mature and motivated student, and that you will define your work so that you learn and grow, given your background.
-
-All homework assignments are to be done as individual work. It is expected that students may assist each other with conceptual issues, but not provide code. If you use example code, you must explicitly acknowledge this in your assignment submission. If you are unsure about these boundaries, please ask the instructors.
+Assignments are due before the beginning of class (12:30 PM ET) on the specified day. A penalty of 10 points out of 100 (one letter grade) will be immediately applied after the start time of class. An additional 5 points will be subtracted for each additional 24-hour period late.  You are responsible to confirm that your Canvas submittal was successfully uploaded.
 
 ### Respect for Diversity
 
