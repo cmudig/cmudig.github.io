@@ -16,6 +16,7 @@ redirect_from:
 schedule:
   - date: 2023-01-18
     title: "Course Introduction"
+    slides: https://drive.google.com/file/d/18aGmMup-Kv5hrvs9oDMv3n2PTBiMof2f/view?usp=sharing
     readings:
       - name: "What it takes to become a great product manager"
         author: Julia Austin
@@ -35,6 +36,7 @@ schedule:
         url: https://www.youtube.com/watch?v=mIBccpqUcgY
   - date: 2023-01-23
     title: "Heuristic Evaluation"
+    slides: https://drive.google.com/file/d/18VGfjIuN_OeeGHKnAOnZbMIl5RMidBZ3/view?usp=sharing
     due:
     - name: "Assignment 1:  Problem Statement"
       url: https://canvas.cmu.edu/courses/32469/assignments/545072
