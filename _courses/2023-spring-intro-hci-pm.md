@@ -59,6 +59,7 @@ schedule:
         url: https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/
   - date: 2023-01-25
     title: "Contextual Inquiry"
+    slides: https://drive.google.com/file/d/18nW4RiBv0beMkX_F-G8T-Sjkeg43fFD4/view?usp=sharing
     readings:
       - name: The Value of Rapid Ethnography (Chapter 5)
         author: Ellen Isaacs
