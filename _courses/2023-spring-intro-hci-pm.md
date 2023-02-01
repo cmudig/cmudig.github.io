@@ -82,6 +82,7 @@ schedule:
     - name: "Assignment 2: Heuristic Evaluation"
       url: https://canvas.cmu.edu/courses/32469/assignments/545070
     title: "User Interviews"
+    slides: https://drive.google.com/file/d/199PxdTY--Pdu1-d7vHDoabzRdNwdVHwi/view?usp=sharing
     readings:
       - name: Universal tools- Recruiting and Interviewing (Chapter 6)
         author: Elizabeth Goodman, Mike Kuniavsky and Andrea Moed
