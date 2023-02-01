@@ -102,6 +102,7 @@ schedule:
         url: https://drive.google.com/file/d/15IpRXStf4W1vsKPr_qrpImzPETdVILHm/view?usp=sharing
   - date: 2023-02-01
     title: "Stakeholders"
+    slides: https://drive.google.com/file/d/19H69aZ-HZdkBvY4-A-sZKamp-ppzLQ5h/view?usp=sharing
     readings:
       - name: Surveys (Chapter 12)
         author: Elizabeth Goodman, Mike Kuniavsky and Andrea Moed
