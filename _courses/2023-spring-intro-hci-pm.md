@@ -126,6 +126,7 @@ schedule:
     - name: "Assignment 3: User Interview"
       url: https://canvas.cmu.edu/courses/32469/assignments/545078
     title: "Synthesis & Ideation I"
+    slides: https://drive.google.com/file/d/19h9g8GkzgOzQzvZyJMWVHCyRktEacyvB/view?usp=sharing
     readings:
       - name: Personas and the Advantage of Designing for Yourself
         author: Joshua Porter
