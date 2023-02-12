@@ -146,6 +146,7 @@ schedule:
         url: https://drive.google.com/file/d/15V2AgjUvn_OFoIAxWBnsp_1bTEBOtyGJ/view?usp=sharing
   - date: 2023-02-08
     title: "Synthesis & Ideation II"
+    slides: https://drive.google.com/file/d/19ijAlnIhilLQO_xkY_zlL4c2DuCNvok7/view?usp=sharing
     readings:
       - name: Abductive Thinking and Sensemaking- The Drivers of Design Synthesis
         author: Jon Kolko
