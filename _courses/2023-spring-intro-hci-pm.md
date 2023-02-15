@@ -165,6 +165,7 @@ schedule:
     - name: "Assignment 4: Synthesis and Ideation"
       url: https://canvas.cmu.edu/courses/32469/assignments/545064
     title: "Low Fidelity Prototype & Storyboard"
+    slides: https://drive.google.com/file/d/19k84YtMsZZ2iFYuPw_feJBRymGwrHSJ3/view?usp=sharing
     readings:
       - name: Storyboarding- An Empirical Determination of Best Practices and Effective Guidelines
         author: Khai Truong, Gillian Hayes & Gregory Abowd
@@ -185,13 +186,13 @@ schedule:
         type: pdf
         url: https://drive.google.com/file/d/15VWbDO3E4srFt8bHQFeYD2eNG0Vnwg0O/view?usp=sharing
   - date: 2023-02-15
-    title: "TBD"
+    title: "Guest Lecture by Max Friedman (Google)"
   - date: 2023-02-20
-    due: 
-    - name: "Assignment 5: Low Fidelity Prototype and Usability"
-      url: https://canvas.cmu.edu/courses/32469/assignments/545075
-    title: "TBD"
+    title: "No Class"
   - date: 2023-02-22
+    due: 
+    - name: "Assignment 5: Storyboards and Sketches"
+      url: https://canvas.cmu.edu/courses/32469/assignments/545075
     title: "Usability Testing and Think Aloud"
     readings:
       - name: Turn User Goals into Task Scenarios for Usability Testing
