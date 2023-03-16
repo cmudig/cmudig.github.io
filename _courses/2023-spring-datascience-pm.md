@@ -16,7 +16,9 @@ redirect_from:
 schedule:
   - date: 2023-03-13
     title: "Introduction and the Data Science Pipeline"
+    slides: https://drive.google.com/file/d/1AY85ddlbe8K0_fHMgN2qBGJFNfUVcJVh/view?usp=sharing
   - date: 2023-03-15
+    slides: https://drive.google.com/file/d/1AUZMim4LA7fLR5zsQtSMaRZUvokli1vC/view?usp=sharing
     title: "Value of Visualization"
     readings:
       - name: Information Visualization (Chapter 1)
