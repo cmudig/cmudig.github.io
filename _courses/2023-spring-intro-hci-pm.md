@@ -194,6 +194,7 @@ schedule:
     - name: "Assignment 5: Storyboards and Sketches"
       url: https://canvas.cmu.edu/courses/32469/assignments/545075
     title: "Usability Testing and Think Aloud"
+    slides: https://drive.google.com/file/d/1AYMlC8KZU_-0Uw5MPRzV7-fDsQbCZ7ok/view?usp=sharing
     readings:
       - name: Turn User Goals into Task Scenarios for Usability Testing
         author: Marieke McCloskey
