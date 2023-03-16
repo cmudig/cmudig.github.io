@@ -29,9 +29,6 @@ schedule:
         type: pdf
         url: https://drive.google.com/file/d/1-SrBG2PonDK4kPxIr6qaY1quYeyozZ0c
   - date: 2023-03-20
-    due:
-    - name: "Assignment 0: Collecting Data"
-      url: https://canvas.cmu.edu/courses/34292/assignments/577858
     title: "Exploratory Data Analysis with Tableau"
     readings:
       - name: Download and Install Tableau Public (before class)
@@ -39,6 +36,9 @@ schedule:
         type: website
         url: https://public.tableau.com/en-us/s/
   - date: 2023-03-22
+    due:
+      - name: "Assignment 0: Collecting Data"
+        url: https://canvas.cmu.edu/courses/34292/assignments/577858
     title: "Visual Encodings with Colab and Altair"
     readings:
       - name: Getting Started
@@ -53,6 +53,9 @@ schedule:
         url: https://colab.research.google.com/github/uwdata/visualization-curriculum/blob/master/altair_marks_encoding.ipynb
   - date: 2023-03-27
     title: "Data Quality"
+    due:
+      - name: "Assignment 1: Dashboard Creation"
+        url: https://canvas.cmu.edu/courses/34292/assignments/578463
   - date: 2023-03-29
     title: "Practical Machine Learning"
     readings:
@@ -69,6 +72,9 @@ schedule:
         venue: Nature Machine Intelligence
         url: https://arxiv.org/abs/1811.10154
   - date: 2023-04-03
+    due:
+      - name: "Assignment 2: Data Cleaning and Exploratory Data Analysis"
+        url: https://canvas.cmu.edu/courses/34292/assignments/577859
     title: "Interpretability I"
   - date: 2023-04-05
     title: "Interpretability II"
@@ -76,6 +82,9 @@ schedule:
     title: "No Class"
   - date: 2023-04-12
     title: "Interactivity"
+    due:
+      - name: "Assignment 3: Classifiers and Prediction"
+        url: https://canvas.cmu.edu/courses/34292/assignments/577860
     readings:
       - name: "Toward a Deeper Understanding of the Role of Interaction in Information Visualization"
         author: Ji Soo Yi, Youn ah Kang, John T. Stasko and Julie A. Jacko
@@ -112,6 +121,9 @@ schedule:
     title: "TBD"
   - date: 2023-04-26
     title: "TBD"  
+    due:
+      - name: "Assignment 4: Answering Data Science Questions with EDA"
+        url: https://canvas.cmu.edu/courses/34292/assignments/577862
 
 ---
 
