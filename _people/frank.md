@@ -1,7 +1,7 @@
 ---
 name: Frank Elavsky
 image: /assets/people/frank.jpg
-website: https://www.afrankportfolio.com
+website: https://www.frank.computer
 role: PhD Student
 advisors:
   - Dominik Moritz
