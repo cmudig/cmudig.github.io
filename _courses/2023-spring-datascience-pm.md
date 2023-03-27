@@ -29,6 +29,7 @@ schedule:
         type: pdf
         url: https://drive.google.com/file/d/1-SrBG2PonDK4kPxIr6qaY1quYeyozZ0c
   - date: 2023-03-20
+    slides: https://drive.google.com/file/d/1BhNGMC6CNSrncBEYAatmuE8LstjwwY1O/view?usp=sharing
     title: "Exploratory Data Analysis with Tableau"
     readings:
       - name: Download and Install Tableau Public (before class)
@@ -40,6 +41,7 @@ schedule:
       - name: "Assignment 0: Collecting Data"
         url: https://canvas.cmu.edu/courses/34292/assignments/577858
     title: "Visual Encodings with Colab and Altair"
+    slides: https://colab.research.google.com/drive/1FzgtewZ2nWbxD6dV7XrSjWYHP1-5l4QF?usp=sharing
     readings:
       - name: Getting Started
         author: Marian Dörk
