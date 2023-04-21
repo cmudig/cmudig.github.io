@@ -55,11 +55,13 @@ schedule:
         url: https://colab.research.google.com/github/uwdata/visualization-curriculum/blob/master/altair_marks_encoding.ipynb
   - date: 2023-03-27
     title: "Data Quality"
+    slides: https://drive.google.com/file/d/1CP_thQG4bBcBVs1geCUAlBNM80OMA7M-/view?usp=sharing
     due:
       - name: "Assignment 1: Dashboard Creation"
         url: https://canvas.cmu.edu/courses/34292/assignments/578463
   - date: 2023-03-29
     title: "Practical Machine Learning"
+    slides: https://drive.google.com/file/d/1CXyXHIjh7i9SYpdZWCt173c4AdUobZM4/view?usp=sharing
     readings:
       - name: "Black Boxes are not Required"
         required: true
@@ -77,13 +79,15 @@ schedule:
     due:
       - name: "Assignment 2: Data Cleaning and Exploratory Data Analysis"
         url: https://canvas.cmu.edu/courses/34292/assignments/577859
-    title: "Interpretability I"
+    title: "Practical Machine Learning II"
+    slides: https://drive.google.com/file/d/1CXyXHIjh7i9SYpdZWCt173c4AdUobZM4/view?usp=sharing
   - date: 2023-04-05
-    title: "Interpretability II"
+    title: "Interpretability (Guest Lecture)"
   - date: 2023-04-10
-    title: "No Class"
+    title: "Optional TA session"
   - date: 2023-04-12
-    title: "Interactivity"
+    title: "Effective Visual Encodings"
+    slides: https://drive.google.com/file/d/1CZKXgItegl3q1M0dp-AXYRJdwNnNkOIc/view?usp=sharing
     due:
       - name: "Assignment 3: Classifiers and Prediction"
         url: https://canvas.cmu.edu/courses/34292/assignments/577860
@@ -96,7 +100,8 @@ schedule:
         type: pdf
         url: https://drive.google.com/open?id=1iCwsWp8h3zC2_LtjBa4S-JrVEFjz3_10&authuser=aperer1%40andrew.cmu.edu&usp=drive_fs
   - date: 2023-04-17
-    title: "Perception"
+    title: "Effective Visual Encodings II"
+    slides: https://drive.google.com/file/d/1CZKXgItegl3q1M0dp-AXYRJdwNnNkOIc/view?usp=sharing
     readings:
       - name: "Layering and Seperation (Chapter 3)"
         url: https://drive.google.com/file/d/1--k-IiRxcYJWADUo9EvthaG8pgTzxwaz/view?usp=sharing
@@ -105,7 +110,8 @@ schedule:
         required: true
         type: pdf
   - date: 2023-04-19
-    title: "Designing with Effective Visual Encodings"
+    title: "Telling Stories with Data"
+    slides: https://drive.google.com/file/d/1CayQcIfPP1GJq2UKicIJdPwUYXeNiI-9/view?usp=sharing
     readings:
       - name: Basic Principles of Visualization (Chapter 5)
         author: Alberto Cairo
@@ -120,9 +126,10 @@ schedule:
         type: website
         required: false
   - date: 2023-04-24
-    title: "TBD"
+    title: "Guest Lecture:  Kunal Khadilkar (Data Scientist at Abobe)"
   - date: 2023-04-26
-    title: "TBD"  
+    title: "Optional TA help session"  
+  - date: 2023-04-28
     due:
       - name: "Assignment 4: Answering Data Science Questions with EDA"
         url: https://canvas.cmu.edu/courses/34292/assignments/577862
