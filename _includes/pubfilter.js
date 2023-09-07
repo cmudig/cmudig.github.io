@@ -3,17 +3,12 @@
   var yearElems = document.querySelectorAll(".year");
 
   var clearElem = document.getElementById("clear-filters");
-  var highlightElem = document.getElementById("highlight");
 
   var data = [];
   var allYears = new Set();
 
   pubElems.forEach(function(element) {
     var item = JSON.parse(element.getAttribute("data-pub"));
-
-    if (item.highlight) {
-      item.highlight = "Yes";
-    }
 
     allYears.add(item.year);
 
@@ -32,9 +27,6 @@
       },
       awards: {
         size: 5
-      },
-      highlight: {
-        size: 1
       },
       tags: {
         size: 6
@@ -197,19 +189,8 @@
       clearElem.classList.add("dn");
     }
 
-    highlightElem.checked = !!query.filters.highlight;
-
     console.timeEnd("Search");
   }
-
-  highlightElem.onchange = function() {
-    if (highlightElem.checked) {
-      query.filters.highlight = ["Yes"];
-    } else {
-      delete query.filters.highlight;
-    }
-    search(query);
-  };
 
   clearElem.onclick = function() {
     query = { filters: {} };
@@ -220,5 +201,4 @@
   search(query);
 
   document.getElementById("facets").classList.remove("dn");
-  document.getElementById("only-highlight").classList.remove("dn");
 })();

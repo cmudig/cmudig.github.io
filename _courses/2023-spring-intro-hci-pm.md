@@ -38,8 +38,8 @@ schedule:
     title: "Heuristic Evaluation"
     slides: https://drive.google.com/file/d/18VGfjIuN_OeeGHKnAOnZbMIl5RMidBZ3/view?usp=sharing
     due:
-    - name: "Assignment 1:  Problem Statement"
-      url: https://canvas.cmu.edu/courses/32469/assignments/545072
+      - name: "Assignment 1:  Problem Statement"
+        url: https://canvas.cmu.edu/courses/32469/assignments/545072
     readings:
       - name: Rapid Evaluation (Chapter 13)
         author: Rex Hartson and Pardha S. Pyla
@@ -78,9 +78,9 @@ schedule:
         type: website
         url: https://digital.gov/2014/08/18/how-to-choose-a-user-experience-technique/
   - date: 2023-01-30
-    due: 
-    - name: "Assignment 2: Heuristic Evaluation"
-      url: https://canvas.cmu.edu/courses/32469/assignments/545070
+    due:
+      - name: "Assignment 2: Heuristic Evaluation"
+        url: https://canvas.cmu.edu/courses/32469/assignments/545070
     title: "User Interviews"
     slides: https://drive.google.com/file/d/199PxdTY--Pdu1-d7vHDoabzRdNwdVHwi/view?usp=sharing
     readings:
@@ -95,7 +95,7 @@ schedule:
         required: true
         type: pdf
         url: https://drive.google.com/file/d/15AqklSlc3pBWYC46597EN7VPDtyjqFXF/view?usp=sharing
-      - name: Example Interview Guide- Designer Information Search / Use Field Study Script 
+      - name: Example Interview Guide- Designer Information Search / Use Field Study Script
         author: Dan Russell
         required: true
         type: pdf
@@ -122,9 +122,9 @@ schedule:
         type: website
         url: https://www.interaction-design.org/literature/article/map-the-stakeholders
   - date: 2023-02-06
-    due: 
-    - name: "Assignment 3: User Interview"
-      url: https://canvas.cmu.edu/courses/32469/assignments/545078
+    due:
+      - name: "Assignment 3: User Interview"
+        url: https://canvas.cmu.edu/courses/32469/assignments/545078
     title: "Synthesis & Ideation I"
     slides: https://drive.google.com/file/d/19h9g8GkzgOzQzvZyJMWVHCyRktEacyvB/view?usp=sharing
     readings:
@@ -161,9 +161,9 @@ schedule:
         type: website
         url: https://uxmag.com/articles/love-hate-and-empathy-why-we-still-need-personas
   - date: 2023-02-13
-    due: 
-    - name: "Assignment 4: Synthesis and Ideation"
-      url: https://canvas.cmu.edu/courses/32469/assignments/545064
+    due:
+      - name: "Assignment 4: Synthesis and Ideation"
+        url: https://canvas.cmu.edu/courses/32469/assignments/545064
     title: "Low Fidelity Prototype & Storyboard"
     slides: https://drive.google.com/file/d/19k84YtMsZZ2iFYuPw_feJBRymGwrHSJ3/view?usp=sharing
     readings:
@@ -190,9 +190,9 @@ schedule:
   - date: 2023-02-20
     title: "No Class"
   - date: 2023-02-22
-    due: 
-    - name: "Assignment 5: Storyboards and Sketches"
-      url: https://canvas.cmu.edu/courses/32469/assignments/545075
+    due:
+      - name: "Assignment 5: Storyboards and Sketches"
+        url: https://canvas.cmu.edu/courses/32469/assignments/545075
     title: "Usability Testing and Think Aloud"
     slides: https://drive.google.com/file/d/1AYMlC8KZU_-0Uw5MPRzV7-fDsQbCZ7ok/view?usp=sharing
     readings:
@@ -214,22 +214,22 @@ schedule:
         required: true
         type: pdf
         url: https://drive.google.com/file/d/15vzXqtN1LyEreJccUFmPDYr_DpssGS-g/view?usp=sharing
-      - name: General Concepts of Usability Testing 
+      - name: General Concepts of Usability Testing
         author: James Hom
         venue: The Usability Methods Toolbox
         required: true
         type: website
         url: http://usability.jameshom.com/general.htm
-      - name: Thinking Aloud Protocol  
+      - name: Thinking Aloud Protocol
         author: James Hom
         venue: The Usability Methods Toolbox
         required: true
         type: website
         url: http://usability.jameshom.com/thnkalod.htm
   - date: 2023-02-27
-    due: 
-    - name: "Assignment 6: Interactive Prototype & Visual Design"
-      url: https://canvas.cmu.edu/courses/32469/assignments/545071
+    due:
+      - name: "Assignment 6: Interactive Prototype & Visual Design"
+        url: https://canvas.cmu.edu/courses/32469/assignments/545071
     title: "UI Design"
     readings:
       - name: The Psychology of Everyday Things (Chapter 2)
@@ -258,31 +258,24 @@ schedule:
         url: https://www.interaction-design.org/literature/article/the-grid-system-building-a-solid-design-layout
   - date: 2023-03-01
     title: "TBD"
-
-
-
-
-
 ---
 
-*Additional course information available on [Canvas](https://canvas.cmu.edu/courses/32469).*
-
+_Additional course information available on [Canvas](https://canvas.cmu.edu/courses/32469)._
 
 Product managers are ultimately responsible for developing products that meet customer needs. The field of Human-Computer Interaction (HCI) has developed techniques to understand user needs and design human-centered technology that directly addresses those needs. In this course, students will learn and practice these techniques through a course-long project.
 
 In this course, students will develop skills drawn from the field of HCI to research, ideate, evaluate and define a new software application, culminating with the presentation of a document specifying use cases and functionality. This course provides an overview and introduction to the field of human-computer interaction, focusing on how it applies to product managers.  Particular emphasis will be placed on what HCI methods and HCI-trained specialists can bring to design and development teams. The course will provide a hands-on introduction to proven tools and techniques for creating and improving user interfaces, such as Contextual Interviewing, Rapid Prototyping, Heuristic Evaluation, and Think-Aloud Usability Testing. Students at the end of the course will have learned how to perform some useful techniques and will have an understanding of systematic procedures for creating usable and useful designs and systems.
 
-
-
 {: .no_toc }
 
 ## Jump to
-* TOC
-{:toc}
+
+- TOC
+  {:toc}
 
 ## Schedule and Readings
 
-*Subject to modification*
+_Subject to modification_
 
 {% for lecture in page.schedule %}
 
@@ -369,10 +362,12 @@ In this course, students will develop skills drawn from the field of HCI to rese
 None. Assignments will involve conducting interviews and observations, doing synthesis and analysis, ideation, paper prototyping, and implementing a prototype of a working design, using some computational medium. We will use the interactive design tool Figma for some assignemnts. No background in HCI is expected.
 
 ## Required Textbooks
+
 There is no required textbook for this course. Readings are drawn from a variety of books, readings and online postings, and will be provided by the instructor.
 
 ## Amount of Work
-This is a "6 unit" mini. As per university policy, this means that this course is expected to take students 12 hours per week, including class time. Surveys of previous students show that this is accurate. 
+
+This is a "6 unit" mini. As per university policy, this means that this course is expected to take students 12 hours per week, including class time. Surveys of previous students show that this is accurate.
 
 ## How to Submit Assignments
 
@@ -386,13 +381,13 @@ There will be 6 assignments, each worth 15% of your final grade.  All assignmen
 Each person must do their own work independently.
 Participation will comprise the remaining 10%:
 
-* Assignment 1: 15%
-* Assignment 2: 15%
-* Assignment 3: 15%
-* Assignment 4: 15%
-* Assignment 5: 15%
-* Assignment 6: 15%
-* Participation: 10%
+- Assignment 1: 15%
+- Assignment 2: 15%
+- Assignment 3: 15%
+- Assignment 4: 15%
+- Assignment 5: 15%
+- Assignment 6: 15%
+- Participation: 10%
 
 Participation includes interaction during classroom activities, as well as sharing stories, questions and comments related to past and upcoming lectures.
 
@@ -410,7 +405,7 @@ If you have a disability and are registered with the Office of Disability Resour
 
 ### Health and Well-being
 
-If you are experiencing COVID-like symptoms or have a recent COVID exposure, do not attend class if we are meeting in-person.  Please email the instructors for accomodations.
+If you are experiencing COVID-like symptoms or have a recent COVID exposure, do not attend class if we are meeting in-person. Please email the instructors for accomodations.
 
 If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help; call [412-268-2922](tel:412-268-2922) and visit their website at [www.cmu.edu/counseling/](http://www.cmu.edu/counseling/). Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help. If you or someone you know is feeling suicidal or in danger of self-harm, call someone immediately, day or night:
 

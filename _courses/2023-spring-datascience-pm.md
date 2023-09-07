@@ -136,33 +136,31 @@ schedule:
 
 ---
 
-*Additional course information available on [Canvas](https://canvas.cmu.edu/courses/34292).*
+_Additional course information available on [Canvas](https://canvas.cmu.edu/courses/34292)._
 
-
-The goal of this course is to provide you with the tools to understand and perform data science as it relates to product managers. You will learn and perform customer focused data analysis through a combination of lectures, readings, and practical skills development. Over the course of the semester, you will learn about data science and the entire data pipeline from collecting and analyzing to interacting with data. 
+The goal of this course is to provide you with the tools to understand and perform data science as it relates to product managers. You will learn and perform customer focused data analysis through a combination of lectures, readings, and practical skills development. Over the course of the semester, you will learn about data science and the entire data pipeline from collecting and analyzing to interacting with data.
 
 This course requires comfort with programming, at a minimum python and associated libraries (pandas, scikit-learn, altair, etc.).
 
 The learning goals of the course are as follows:
 
-* To understand basic data manipulation (import, export, columns, subsets, data frames)
-* To introduce common problems with data such as structural problems, outliers, incomplete data, and dirty data
-* To introduce basic concepts in data interpretation including feature generation, statistical analysis and classification (assumptions of data, bad data, missing data, outliers and winsoring, data shape)
-* To introduce concepts in data visualization including what makes a good visualization and the use of visualization in both exploratory data science and presentations to others
-* To provide practical applied examples of the data science using machine learning techniques
-* To explore and understand Data Science Ethics and ML Ethics
-
-
+- To understand basic data manipulation (import, export, columns, subsets, data frames)
+- To introduce common problems with data such as structural problems, outliers, incomplete data, and dirty data
+- To introduce basic concepts in data interpretation including feature generation, statistical analysis and classification (assumptions of data, bad data, missing data, outliers and winsoring, data shape)
+- To introduce concepts in data visualization including what makes a good visualization and the use of visualization in both exploratory data science and presentations to others
+- To provide practical applied examples of the data science using machine learning techniques
+- To explore and understand Data Science Ethics and ML Ethics
 
 {: .no_toc }
 
 ## Jump to
-* TOC
-{:toc}
+
+- TOC
+  {:toc}
 
 ## Schedule and Readings
 
-*Subject to modification*
+_Subject to modification_
 
 {% for lecture in page.schedule %}
 
@@ -249,10 +247,12 @@ The learning goals of the course are as follows:
 The class will involve programming and debugging. You should not take the course if you find programming or debugging extremely difficult because you will have to master several programming languages/concepts/libraries in very short order. That being said, the assignments that require these will have useful resources for brushing up on the topics.
 
 ## Required Textbooks
+
 There is no required textbook for this course. Readings are drawn from a variety of books, readings and online postings, and will be provided by the instructor.
 
 ## Amount of Work
-This is a "6 unit" mini. As per university policy, this means that this course is expected to take students 12 hours per week, including class time. Surveys of previous students show that this is accurate. 
+
+This is a "6 unit" mini. As per university policy, this means that this course is expected to take students 12 hours per week, including class time. Surveys of previous students show that this is accurate.
 
 ## How to Submit Assignments
 
@@ -266,12 +266,12 @@ There will be 5 assignments, each totaling to 90% of your final grade.  All ass
 Each person must do their own work independently.
 Participation will comprise the remaining 10%:
 
-* Assignment 0: 5%
-* Assignment 1: 20%
-* Assignment 2: 20%
-* Assignment 3: 20%
-* Assignment 4: 25%
-* Participation: 10%
+- Assignment 0: 5%
+- Assignment 1: 20%
+- Assignment 2: 20%
+- Assignment 3: 20%
+- Assignment 4: 25%
+- Participation: 10%
 
 Participation includes interaction during classroom activities, as well as sharing stories, questions and comments related to past and upcoming lectures.
 
@@ -289,7 +289,7 @@ If you have a disability and are registered with the Office of Disability Resour
 
 ### Health and Well-being
 
-If you are experiencing COVID-like symptoms or have a recent COVID exposure, do not attend class if we are meeting in-person.  Please email the instructors for accomodations.
+If you are experiencing COVID-like symptoms or have a recent COVID exposure, do not attend class if we are meeting in-person. Please email the instructors for accomodations.
 
 If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help; call [412-268-2922](tel:412-268-2922) and visit their website at [www.cmu.edu/counseling/](http://www.cmu.edu/counseling/). Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help. If you or someone you know is feeling suicidal or in danger of self-harm, call someone immediately, day or night:
 

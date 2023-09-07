@@ -444,8 +444,8 @@ After you successfully complete the course you will be able to:
 
 ## Jump to
 
-* TOC
-{:toc}
+- TOC
+  {:toc}
 
 ## Schedule and Readings
 
