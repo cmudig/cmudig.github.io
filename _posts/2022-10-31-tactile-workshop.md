@@ -15,9 +15,9 @@ While our lab is specifically interested in accessible data representation autho
 
 1. Bring the local community of researchers and interested BVI and deafblind experts together.
 2. Explore:
-    - *challenges* around braille and tactile graphics for BVI and deafblind individuals,
-    - *limitations* of our current materials and tools,
-    - *considerations* for research and collaboration.
+   - _challenges_ around braille and tactile graphics for BVI and deafblind individuals,
+   - _limitations_ of our current materials and tools,
+   - _considerations_ for research and collaboration.
 
 This workshop is invite-only, but you're more than welcome to email [Frank Elavsky](mailto:fje@cmu.edu) if you think there is someone who should be present who has additional expertise to offer. If you're wondering whether you're invited or not, you should have already received an email.
 

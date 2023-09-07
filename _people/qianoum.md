@@ -1,7 +1,7 @@
 ---
 name: Qianou (Christina) Ma
 image: /assets/people/qianoum.JPG
-website: https://qianouma.com/ 
+website: https://qianouma.com/
 role: PhD Student
 advisors:
   - Sherry Tongshuang Wu
