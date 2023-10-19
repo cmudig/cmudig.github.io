@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Study: Evaluating AI Systems"
-date: 2021-02-22 11:00:00 -0700
 studyLink: https://forms.gle/vP4WLzKvzVbDaCEQ9
 ---
 

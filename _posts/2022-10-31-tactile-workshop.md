@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Workshop: Tactile Graphics Tech and Media"
-date: 2022-10-31 13:00:00 -0400
 excerpt_separator: <!--more-->
 side_image: "/assets/posts/dot.png"
 side_image_alt: "A refreshable tactile graphics display. It has an array of 40 by 60 braille pins above 6 buttons. Beneath the buttons is a standard single line braille reader. It is made of a smooth appearing material and looks similar in width and heigh to a small laptop."
