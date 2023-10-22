@@ -124,37 +124,8 @@ layout: default
 
     <a class="cta" href="/publications">Show all</a>
 
-    <div class="mv3">
-      {% assign recent_pubs = site.publications | reverse %} {% for pub in
-      recent_pubs limit:5 %}
-      <div class="mt4 mt3-ns flex flex-row-ns flex-column">
-        {% assign thumb = 'assets' | append: pub.url | replace: '.html',
-        '_thumb.png' %}
-        <div
-          class="h3 mr3-ns mb2 mb0-ns flex-shrink-0 preview-image ba b--black-05 db"
-          style="background-image: url('{{ thumb | relative_url }}')"
-        ></div>
-        <div class="measure-wide">
-          <div class="mb1">
-            <a href="{{ pub.url }}" class="b link black hover-cmu-red"
-              >{{ pub.title }}</a
-            >
-            <span class="fw2">
-              {% for author in pub.authors %}{% include person name=author %}{%
-              unless forloop.last %}, {% endunless %}{% endfor %}</span
-            >, <span>{{ pub.venue }} {{ pub.year }}</span>
-            {% if pub.awards %}
-              <span class="cmu-red mv1 b nowrap">
-                {% for award in pub.awards %}{{ award }}{% unless forloop.last %}, {% endunless %}
-                {% endfor %}
-              </span>
-            {% endif %}
-          </div>
-          <a href="{{ pub.url }}" class="cta">Show details</a>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
+    {% assign recent_pubs = site.publications | reverse %} {% for pub in recent_pubs limit:5 %}
+    {% include publications.html publications=recent_pubs %}
 
     <a class="cta" href="/publications">Show all</a>
   </section>
