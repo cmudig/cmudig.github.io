@@ -142,7 +142,7 @@ layout: default
             <span class="fw2">
               {% for author in pub.authors %}{% include person name=author %}{%
               unless forloop.last %}, {% endunless %}{% endfor %}</span
-            >, <span class="nowrap">{{ pub.venue }} {{ pub.year }}</span>
+            >, <span>{{ pub.venue }} {{ pub.year }}</span>
           </div>
           <a href="{{ pub.url }}" class="cta">Show details</a>
         </div>
