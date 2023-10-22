@@ -1,5 +1,5 @@
 <div class="mv3">
-  {% for pub in include.publications %}
+  {% for pub in include.publications limit: include.limit %}
   <div class="mt4 mt3-ns flex flex-row-ns flex-column">
     {% assign thumb = 'assets' | append: pub.url | replace: '.html',
     '_thumb.png' %}
