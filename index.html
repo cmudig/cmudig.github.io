@@ -143,6 +143,12 @@ layout: default
               {% for author in pub.authors %}{% include person name=author %}{%
               unless forloop.last %}, {% endunless %}{% endfor %}</span
             >, <span>{{ pub.venue }} {{ pub.year }}</span>
+            {% if pub.awards %}
+              <span class="cmu-red mv1 b nowrap">
+                {% for award in pub.awards %}{{ award }}{% unless forloop.last %}, {% endunless %}
+                {% endfor %}
+              </span>
+            {% endif %}
           </div>
           <a href="{{ pub.url }}" class="cta">Show details</a>
         </div>
