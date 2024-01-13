@@ -3,6 +3,7 @@ name: Lan Lyu
 website: https://www.linkedin.com/in/lan-lyu/
 image: /assets/people/lan.jpg
 role: Masters Student
+alumni_since: 2023
 advisors:
   - Dominik Moritz
 ---
