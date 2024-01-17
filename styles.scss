@@ -25,6 +25,7 @@ body {
   margin: 0;
   height: 100%;
   position: relative;
+  text-wrap: pretty;
 }
 
 :root {
@@ -171,7 +172,9 @@ body {
   flex: 1 0 auto;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
   @extend .measure-wide, .lh-copy;
 }
 
