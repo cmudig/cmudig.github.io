@@ -57,7 +57,7 @@ layout: default
 
 <div class="w-100 mw8 ph4-l ph3 center mt4">
   {% assign filename = 'assets' | append: page.url | replace: '.html', '.png' %}
-  <img src="{{ filename | relative_url }}" alt="Teaser image" class="mw-100" style="max-height: 600px">
+  <img src="{{ filename | relative_url }}" alt="Teaser image" class="mw-100">
 
   {% if page.tweet %}
     <p class="measure-wide">
