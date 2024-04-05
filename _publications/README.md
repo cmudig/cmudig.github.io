@@ -41,7 +41,7 @@ Only the properties in the first block are required. The rest is optional but en
 
 ## Add a teaser and thumbnail image
 
-Add a teaser and thumbnail image to `assets/publications/` in png format. It's important that we keep download sizes small. Please use https://tinypng.com/ to reduce the file sizes af all images.
+Add a teaser and thumbnail image to `assets/publications/` in png format. It's important that we keep download sizes small. Please use https://tinypng.com/ to reduce the file sizes of all images.
 
 The teaser image should be at least 1920 pixels wide and wider than tall. Name your teaser image `KEY.png`.
 
