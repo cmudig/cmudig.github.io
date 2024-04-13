@@ -5,4 +5,5 @@ image: /assets/people/yejun.jpg
 role: Undergraduate Student
 advisors:
   - Adam Perer
+alumni_since: 2023
 ---
