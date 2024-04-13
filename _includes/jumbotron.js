@@ -141,7 +141,7 @@ function buildCanvas() {
             },
           },
           y: n.y,
-          color: `hsl(${Math.random() * 360}, 90%, 70%)`,
+          color: `hsla(${Math.random() * 360}, 20%, 70%, 0.8)`,
           radius: pointSize,
           alpha: 1.0,
         })
