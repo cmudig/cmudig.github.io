@@ -57,7 +57,7 @@ layout: default
 
 <div class="w-100 mw8 ph4-l ph3 center mt4">
   {% assign filename = 'assets' | append: page.url | replace: '.html', '.png' %}
-  <img src="{{ filename | relative_url }}" alt="Teaser image" class="mw-100" style="max-height: 600px">
+  <img src="{{ filename | relative_url }}" alt="Teaser image" class="mw-100">
 
   {% if page.tweet %}
     <p class="measure-wide">
@@ -75,11 +75,15 @@ layout: default
     </div>
   {% endif %}
 
-  {% if page.link or page.pdf or page.video or page.blog or page.slides or page.doi %}
+  {% if page.link or page.pdf or page.arxiv or page.video or page.blog or page.slides or page.doi %}
   <h2>Materials</h2>
     <ul class="list pl0">
       {% if page.pdf %}
         <li class="mt2"><a href="{{ page.pdf }}" class="black link hover-cmu-red">
+          <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
+        </a></li>
+      {% elsif page.arxiv %}
+        <li class="mt2"><a href="https://arxiv.org/pdf/{{ page.arxiv | cgi_escape }}.pdf" class="black link hover-cmu-red">
           <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
         </a></li>
       {% endif %}
@@ -94,7 +98,12 @@ layout: default
         </a></li>
       {% endif %}
       {% if page.arxiv %}
-        <li class="mt2"><a href="https://ar5iv.org/html/{{ page.arxiv | cgi_escape }}" class="black link hover-cmu-red">
+        <li class="mt2">
+        {% if page.year >= 2024 %}
+        <a href="https://arxiv.org/html/{{ page.arxiv | cgi_escape }}" class="black link hover-cmu-red">
+        {% else %}
+        <a href="https://ar5iv.org/html/{{ page.arxiv | cgi_escape }}" class="black link hover-cmu-red">
+        {% endif %}
           <i class="fab fa-html5" aria-hidden="true"></i> HTML
         </a></li>
       {% endif %}

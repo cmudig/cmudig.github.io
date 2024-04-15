@@ -103,6 +103,10 @@ description: Recent publications from the Data Interaction Group at Visualizatio
         <a href="{{ pub.pdf }}" class="black link hover-cmu-red mr3 dib">
           <i class="far fa-file-pdf f6" aria-hidden="true"></i> PDF
         </a>
+        {% elsif pub.arxiv %}
+        <a href="https://arxiv.org/pdf/{{ pub.arxiv | cgi_escape }}.pdf" class="black link hover-cmu-red mr3 dib">
+          <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
+        </a>
         {% endif %}
         {% if pub.link %}
         <a href="{{ pub.link }}" class="black link hover-cmu-red mr3 dib">
@@ -115,9 +119,13 @@ description: Recent publications from the Data Interaction Group at Visualizatio
         </a>
         {% endif %}
         {% if pub.arxiv %}
-        <a href="https://ar5iv.org/html/{{ pub.arxiv | cgi_escape }}" class="black link hover-cmu-red mr3 dib">
-          <i class="fab fa-html5" aria-hidden="true"></i> HTML
-        </a>
+          {% if pub.year >= 2024 %}
+          <a href="https://arxiv.org/html/{{ pub.arxiv | cgi_escape }}" class="black link hover-cmu-red mr3 dib">
+          {% else %}
+          <a href="https://ar5iv.org/html/{{ pub.arxiv | cgi_escape }}" class="black link hover-cmu-red mr3 dib">
+          {% endif %}
+            <i class="fab fa-html5" aria-hidden="true"></i> HTML
+          </a>
         {% endif %}
         {% if pub.video %}
         <a href="{{ pub.video }}" class="black link hover-cmu-red mr3 dib">
