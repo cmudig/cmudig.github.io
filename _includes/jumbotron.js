@@ -1,4 +1,3 @@
-import { forceSimulation, forceCollide, forceCenter, forceManyBody, forceLink } from "https://cdn.jsdelivr.net/npm/d3-force@3/+esm";
 import {
   Ticker,
   curveEaseInOut,
@@ -150,10 +149,9 @@ if (!!canvas) {
     if (!canvas) return;
     width = canvas.offsetWidth;
     height = canvas.offsetHeight;
-    simulationWidth = (Math.max(width, 400) + gutter * 2);
+    simulationWidth = (Math.max(width, 800) + gutter * 2);
     canvas.width = canvas.offsetWidth * window.devicePixelRatio;
     canvas.height = canvas.offsetHeight * window.devicePixelRatio;
-    console.log('drawing', width, height);
     draw();
   }).observe(canvas);
   
