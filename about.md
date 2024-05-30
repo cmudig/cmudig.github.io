@@ -47,3 +47,7 @@ adjust your principles when it doesn't match reality.
 **We don't live in a bubble.** Scientists can't be in a bubble.
 We have to care about the societal, ecological, and economical impact of our
 work. We have to help fight discrimination, climate change, and poverty.
+
+**Process integrity over outcome achievement.** We care about doing things right
+and upholding our values. Success comes in many different forms and is
+influenced by factors we do not control.

@@ -354,21 +354,22 @@ schedule:
        url: https://docs.google.com/document/d/1b1m_QVsQaqg-Ei9B0037RpWCUg0IetTJMcs-o3KkicA/edit?usp=sharing
 ---
 
-*Additional course information available on [Canvas](https://canvas.cmu.edu/courses/27195).*
+_Additional course information available on [Canvas](https://canvas.cmu.edu/courses/27195)._
 
 <!-- [Overview of final projects](https://cmu-ids-2020.github.io/) -->
 
-The goal of this course is to provide you with the tools to understand data and build data-driven interactive systems. You will learn to tell a story with the data and explore opportunities enabled by interactive data analysis through a combination of lectures, readings of current literature, and practical skills development. Over the course of the semester, you will learn about data science and the entire data pipeline from collecting and analyzing to interacting with data. We will also cover human-centered aspects of data science and how HCI methods can enhance the interpretation of data. This course requires comfort with programming, as required projects make use of Python and Git.  A series of homework assignments help to lay the groundwork for a final larger group project.
+The goal of this course is to provide you with the tools to understand data and build data-driven interactive systems. You will learn to tell a story with the data and explore opportunities enabled by interactive data analysis through a combination of lectures, readings of current literature, and practical skills development. Over the course of the semester, you will learn about data science and the entire data pipeline from collecting and analyzing to interacting with data. We will also cover human-centered aspects of data science and how HCI methods can enhance the interpretation of data. This course requires comfort with programming, as required projects make use of Python and Git. A series of homework assignments help to lay the groundwork for a final larger group project.
 
 {: .no_toc }
 
 ## Jump to
-* TOC
-{:toc}
+
+- TOC
+  {:toc}
 
 ## Schedule and Readings
 
-*Subject to modification*
+_Subject to modification_
 
 {% for lecture in page.schedule %}
 
@@ -564,7 +565,7 @@ If you have a disability and are registered with the Office of Disability Resour
 
 ### Health and Well-being
 
-If you are experiencing COVID-like symptoms or have a recent COVID exposure, do not attend class if we are meeting in-person.  Please email the instructors for accomodations.
+If you are experiencing COVID-like symptoms or have a recent COVID exposure, do not attend class if we are meeting in-person. Please email the instructors for accomodations.
 
 If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help; call [412-268-2922](tel:412-268-2922) and visit their website at [www.cmu.edu/counseling/](http://www.cmu.edu/counseling/). Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help. If you or someone you know is feeling suicidal or in danger of self-harm, call someone immediately, day or night:
 

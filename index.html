@@ -2,10 +2,11 @@
 layout: default
 ---
 
-<div class="jumbotron">
-  <div class="w-100 mw8 ph4-l ph3 pv5-l pv3 center">
-    <h1 class="f1 measure mt3">CMU Data Interaction Group</h1>
-    <p class="f4 measure lh-copy">
+<div class="jumbotron relative" style="min-height: 400px;">
+  <canvas class="absolute l-0 t-0 w-100 h-100 o-50" id="jumbotron-canvas"></canvas>
+  <div class="relative w-100 mw8 ph4-l ph3 pv5-l pv3 center z-1" style="pointer-events: none;" >
+    <h1 class="f1 measure mt3" style="pointer-events: auto;">CMU Data Interaction Group</h1>
+    <p class="f4 measure lh-copy" style="pointer-events: auto;">
       We are a research group at the
       <a href="https://www.hcii.cmu.edu/"
         >Human-Computer Interaction Institute</a
@@ -14,7 +15,7 @@ layout: default
       mission is to empower everyone to analyze and communicate data with
       interactive systems.
     </p>
-    <h3>
+    <h3 style="pointer-events: auto;">
       <a class="cta" href="{{ '/about' | relative_url }}"
         >Learn more about our group</a
       >
@@ -124,32 +125,20 @@ layout: default
 
     <a class="cta" href="/publications">Show all</a>
 
-    <div class="mv3">
-      {% assign recent_pubs = site.publications | reverse %} {% for pub in
-      recent_pubs limit:5 %}
-      <div class="mt4 mt3-ns flex flex-row-ns flex-column">
-        {% assign thumb = 'assets' | append: pub.url | replace: '.html',
-        '_thumb.png' %}
-        <div
-          class="h3 mr3-ns mb2 mb0-ns flex-shrink-0 preview-image ba b--black-05 db"
-          style="background-image: url('{{ thumb | relative_url }}')"
-        ></div>
-        <div class="measure-wide">
-          <div class="mb1">
-            <a href="{{ pub.url }}" class="b link black hover-cmu-red"
-              >{{ pub.title }}</a
-            >
-            <span class="fw2">
-              {% for author in pub.authors %}{% include person name=author %}{%
-              unless forloop.last %}, {% endunless %}{% endfor %}</span
-            >, <span class="nowrap">{{ pub.venue }} {{ pub.year }}</span>
-          </div>
-          <a href="{{ pub.url }}" class="cta">Show details</a>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
+    {% assign recent_pubs = site.publications | reverse %} {% include
+    publications.html publications=recent_pubs limit=7 %}
 
     <a class="cta" href="/publications">Show all</a>
   </section>
 </div>
+
+<script type="module" defer>
+  {% include jumbotron.js %}
+</script>
+<style>
+  @media (prefers-reduced-motion) or (prefers-contrast: more) {
+    #jumbotron-canvas {
+      display: none;
+    }
+  }
+</style>

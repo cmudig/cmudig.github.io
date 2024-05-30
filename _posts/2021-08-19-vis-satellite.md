@@ -2,7 +2,6 @@
 layout: post
 title: "VIS 2021 Satellite in Pittsburgh"
 excerpt_separator: <!--more-->
-date: 2021-08-19 12:00:00 -0400
 ---
 
 We are hosting an [IEEE VIS 2021 Satellite Event](http://ieeevis.org/year/2021/info/satellite) at Carnegie Mellon University. VIS is the premier visualization conference. It usually happens every year in a different city around the world, but due to the ongoing COVID pandemic, it will be virtual this year. To foster the local visualization community, we are hosting an in-person event during the conference.
