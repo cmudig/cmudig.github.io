@@ -2,10 +2,11 @@
 name: Qianou (Christina) Ma
 image: /assets/people/qianoum.JPG
 website: https://qianouma.com/
-role: Collaborator
+role: PhD Student
 advisors:
   - Sherry Tongshuang Wu
   - Kenneth Koedinger
+alumni_since: 2024
 ---
 
 Qianou = A thousand seagulls in Chinese
