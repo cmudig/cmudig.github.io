@@ -1,6 +1,6 @@
 ---
 name: Qianou (Christina) Ma
-image: /assets/people/qianoum.JPG
+image: /assets/people/qianou.jpg
 website: https://qianouma.com/
 role: PhD Student
 advisors:
