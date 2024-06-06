@@ -38,10 +38,34 @@ roles:
   {% endfor %}
 </div>
 
+<h2>PhD Alumni</h2>
+
+<div class="mb4 flex flex-wrap">
+  {% assign phd_alumni = site.people | where_exp: 'p', 'p.role == "PhD Student" and p.alumni_since' %}
+  {% assign sorted_phd_alumni = phd_alumni | sort: 'alumni_since' | reverse %} 
+  <div class="flex flex-wrap">
+  {% for person in sorted_phd_alumni %} 
+      <div class="w-25-m w-10-l w-50 ph2 pv2">
+        {% if person.website %}<a href="{{ person.website }}">{% endif %}
+          <span title="{{ person.name }} ({{ person.role }})">
+            <img src="{{ person.image | relative_url }}" alt="Picture of {{ person.name }}" loading="lazy" class="br3" />
+            <span class="black">
+              {{ person.name }}
+            </span>
+            <span class="gray">
+              ({{ person.alumni_since }})
+            </span>
+          </span>
+          {% if person.website %}</a>{% endif %}
+      </div>
+  {% endfor %} 
+  </div> 
+</div>
+
 <h2>Past Members</h2>
 
 <div class="mb4 flex flex-wrap">
-  {% assign alumni = site.people | where_exp: 'p', 'p.alumni_since' %}
+  {% assign alumni = site.people | where_exp: 'p', 'p.alumni_since and p.role != "PhD Student"' %}
   {% assign sorted_alumni = alumni | sort: 'alumni_since' | reverse %} 
   <div class="flex flex-wrap">
   {% for person in sorted_alumni %} 
