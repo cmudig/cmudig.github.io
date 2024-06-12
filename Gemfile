@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
 
-gem "webrick", "~> 1.8"
-
-gem "faraday-retry", "~> 2.2"
+gem 'jekyll', '~> 4.0'
+gem 'jekyll-sitemap'
+gem 'jekyll-feed'
+gem 'jekyll-seo-tag'
+gem 'jekyll-mentions'
+gem 'jekyll-redirect-from'
