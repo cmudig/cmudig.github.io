@@ -23,4 +23,4 @@ Students will learn how to use rapid prototyping tools, how to design and implem
 
 Practical experience with these concepts is also provided via an accompanying lab which meets once a week. In the labs, you will get hands-on experience in prototyping, informally evaluating, and implementing user interfaces.
 
-The course is hosted on Canvas at https://canvas.cmu.edu/courses/42093.
+The course is hosted on Canvas at [https://canvas.cmu.edu/courses/42093](https://canvas.cmu.edu/courses/42093).
