@@ -1,2 +1,4 @@
-- name: Aditya Anantharaman
-  image: /assets/person.png
+---
+name: Aditya Anantharaman
+image: /assets/person.png
+---
