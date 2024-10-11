@@ -103,13 +103,10 @@ layout: default
         in sorted_courses %}
         
         {% assign i = i | plus: 1 %}
-
         {% if i > 5 %} 
         {% assign break_loop = true %}  
         {% break %}     
         {% endif %}
-
-        
 
         <li class="pb2">
           <a href="{{ course.url }}">{{ course.name }}</a>
@@ -129,7 +126,7 @@ layout: default
     </section>
   </div>
 
-  <div class="mv3 measure-wide">
+  <!-- <div class="mv3 measure-wide">
     <h2 class="f3 mt0">Participate</h2>
     <p class="lh-copy">
       Interested in sharing your expertise with us? Check out our ongoing
@@ -137,7 +134,7 @@ layout: default
       practitioners!
     </p>
     <a class="link dim dib cta" href="/studies"> Learn More </a>
-  </div>
+  </div> -->
 
   <section class="pv3">
     <h2 class="f3">Recent Publications</h2>
