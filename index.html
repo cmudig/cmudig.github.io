@@ -95,18 +95,37 @@ layout: default
       <h2 class="f3">Courses</h2>
 
       <ul class="list pl0">
+        {% assign i = 0 %}
+        {% assign break_loop = false %}
         {% assign years = site.courses | group_by: 'year' %}{% assign
         sorted_years = years | reverse %}{% for year in sorted_years %} {%
         assign sorted_courses = year.items | sort: 'semester' %} {% for course
         in sorted_courses %}
+        
+        {% assign i = i | plus: 1 %}
+
+        {% if i > 5 %} 
+        {% assign break_loop = true %}  
+        {% break %}     
+        {% endif %}
+
+        
+
         <li class="pb2">
           <a href="{{ course.url }}">{{ course.name }}</a>
           <span class="db f6 black-80"
             >{{ course.semester }} {{ course.year }}</span
           >
         </li>
-        {% endfor %} {% endfor %}
+        {% endfor %} 
+        
+        {% if break_loop %}
+        {% break %}
+        {% endif %}
+
+        {% endfor %}
       </ul>
+      <a class="cta" href="/courses">Show all</a>
     </section>
   </div>
 

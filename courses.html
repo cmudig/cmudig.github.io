@@ -1,0 +1,26 @@
+---
+layout: page
+title: Courses
+subtitle: These are the courses taught by the Data Interaction Group.
+description: These are the courses taught by the Data Interaction Group.
+---
+
+<div>
+  <!-- {% for post in site.posts %}
+    {% include post-preview.html post=post %}
+  {% endfor %} -->
+
+  <ul class="list pl0">
+    {% assign years = site.courses | group_by: 'year' %}{% assign
+    sorted_years = years | reverse %}{% for year in sorted_years %} {%
+    assign sorted_courses = year.items | sort: 'semester' %} {% for course
+    in sorted_courses %}
+    <li class="pb2">
+      <a href="{{ course.url }}">{{ course.name }}</a>
+      <span class="db f6 black-80"
+        >{{ course.semester }} {{ course.year }}</span
+      >
+    </li>
+    {% endfor %} {% endfor %}
+  </ul>
+</div>
