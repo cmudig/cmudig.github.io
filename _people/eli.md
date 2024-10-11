@@ -2,7 +2,7 @@
 name: Eli Kranjec
 website: https://eli-kranjec.github.io/my-portfolio/
 image: /assets/people/eli.jpg
-role: Research Assistant
+role: High School Student
 advisors:
     - Adam Perer
     - Venkat Sivaraman

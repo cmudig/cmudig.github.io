@@ -5,4 +5,5 @@ role: Undergraduate Student
 advisors:
   - Will Epperson
   - Dominik Moritz
+alumni_since: 2023
 ---
