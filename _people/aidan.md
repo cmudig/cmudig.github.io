@@ -1,6 +1,6 @@
 ---
 name: Aidan Bradshaw
-website: https://www.linkedin.com/in/aidanbradshaw1/
+website: https://abradshaw1.github.io/
 image: /assets/people/aidan.jpg
 role: Masters Student
 advisors:
