@@ -78,11 +78,11 @@ description: Recent publications from the Data Interaction Group at Visualizatio
       </p>
       {% endif %}
 
-      {% if pub.tweet %}
+      {% if pub.summary %}
       <div class="mv1 measure-wide">
-        <a href="https://twitter.com/intent/tweet?text={{ pub.tweet }}&url={{ site.production_url }}/publications/%23{{ anchor }}&via=cmudig&related=cmudig"
+        <a href="https://bsky.app/intent/compose?text={{ pub.summary }}"
           class="cmu-dark-gray f6">
-          <i class="fab fa-twitter"></i> <span class="i">{{ pub.tweet }}</span>
+          <i class="fab fa-twitter"></i> <span class="i">{{ pub.summary }}</span>
         </a>
       </div>
       {% endif %}

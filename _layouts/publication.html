@@ -59,10 +59,10 @@ layout: default
   {% assign filename = 'assets' | append: page.url | replace: '.html', '.png' %}
   <img src="{{ filename | relative_url }}" alt="Teaser image" class="mw-100">
 
-  {% if page.tweet %}
+  {% if page.summary %}
     <p class="measure-wide">
-      <a href="https://twitter.com/intent/tweet?text={{ page.tweet }}&url={{ site.production_url }}/pagelications/%23{{ anchor }}&via=cmudig&related=cmudig" class="cmu-dark-gray">
-        <i class="fab fa-twitter"></i> <span class="i">{{ page.tweet }}</span>
+      <a href="https://bsky.app/intent/compose?text={{ page.summary }}" class="cmu-dark-gray">
+        <i class="fab fa-bluesky"></i> <span class="i">{{ page.summary }}</span>
       </a>
     </p>
   {% endif %}
