@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 4.3'
+gem 'jekyll'
+gem 'csv'
+
 gem 'jekyll-sitemap'
 gem 'jekyll-feed'
 gem 'jekyll-seo-tag'
