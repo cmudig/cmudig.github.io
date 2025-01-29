@@ -2,11 +2,19 @@
 layout: default
 ---
 
-<div class="jumbotron relative" style="min-height: 400px;">
-  <canvas class="absolute l-0 t-0 w-100 h-100 o-50" id="jumbotron-canvas"></canvas>
-  <div class="relative w-100 mw8 ph4-l ph3 pv5-l pv3 center z-1" style="pointer-events: none;" >
-    <h1 class="f1 measure mt3" style="pointer-events: auto;">CMU Data Interaction Group</h1>
-    <p class="f4 measure lh-copy" style="pointer-events: auto;">
+<div class="jumbotron relative" style="min-height: 400px">
+  <canvas
+    class="absolute l-0 t-0 w-100 h-100 o-50"
+    id="jumbotron-canvas"
+  ></canvas>
+  <div
+    class="relative w-100 mw8 ph4-l ph3 pv5-l pv3 center z-1"
+    style="pointer-events: none"
+  >
+    <h1 class="f1 measure mt3" style="pointer-events: auto">
+      CMU Data Interaction Group
+    </h1>
+    <p class="f4 measure lh-copy" style="pointer-events: auto">
       We are a research group at the
       <a href="https://www.hcii.cmu.edu/"
         >Human-Computer Interaction Institute</a
@@ -74,9 +82,14 @@ layout: default
   </section>
 
   <section class="pv3">
-    <p class="f4 measure-wide lh-copy" style="pointer-events: auto;">
-      Lab meetings are held on Mondays from 1-2 PM in Newell-Simon Hall. If you are interested in attending, please 
-      <a href="mailto:dmoritz2@andrew.cmu.edu,aperer1@andrew.cmu.edu">Email Us</a>!
+    <h2 class="f3">Lab Meetings</h2>
+
+    <p class="f5 measure-wide lh-copy" style="pointer-events: auto">
+      We have lab meetings on Mondays from 1-2 PM in our lab Newell-Simon Hall
+      A408. If you are interested in attending, please
+      <a href="mailto:dmoritz2@andrew.cmu.edu,aperer1@andrew.cmu.edu"
+        >email us</a
+      >.
     </p>
   </section>
 
@@ -102,18 +115,12 @@ layout: default
       <h2 class="f3">Courses</h2>
 
       <ul class="list pl0">
-        {% assign i = 0 %}
-        {% assign break_loop = false %}
-        {% assign years = site.courses | group_by: 'year' %}{% assign
-        sorted_years = years | reverse %}{% for year in sorted_years %} {%
-        assign sorted_courses = year.items | sort: 'semester' %} {% for course
-        in sorted_courses %}
-        
-        {% assign i = i | plus: 1 %}
-        {% if i > 5 %} 
-        {% assign break_loop = true %}  
-        {% break %}     
-        {% endif %}
+        {% assign i = 0 %} {% assign break_loop = false %} {% assign years =
+        site.courses | group_by: 'year' %}{% assign sorted_years = years |
+        reverse %}{% for year in sorted_years %} {% assign sorted_courses =
+        year.items | sort: 'semester' %} {% for course in sorted_courses %} {%
+        assign i = i | plus: 1 %} {% if i > 5 %} {% assign break_loop = true %}
+        {% break %} {% endif %}
 
         <li class="pb2">
           <a href="{{ course.url }}">{{ course.name }}</a>
@@ -121,13 +128,7 @@ layout: default
             >{{ course.semester }} {{ course.year }}</span
           >
         </li>
-        {% endfor %} 
-        
-        {% if break_loop %}
-        {% break %}
-        {% endif %}
-
-        {% endfor %}
+        {% endfor %} {% if break_loop %} {% break %} {% endif %} {% endfor %}
       </ul>
       <a class="cta" href="/courses">Show all</a>
     </section>
