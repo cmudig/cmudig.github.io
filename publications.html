@@ -118,7 +118,9 @@ description: Recent publications from the Data Interaction Group at Visualizatio
           <i class="fas fa-newspaper f6" aria-hidden="true"></i> Article
         </a>
         {% endif %}
-        {% if pub.arxiv %}
+        {% if pub.html %}
+          <a href="{{ pub.html }}" class="black link hover-cmu-red mr3 dib">
+        {% elsif pub.arxiv %}
           {% if pub.year >= 2024 %}
           <a href="https://arxiv.org/html/{{ pub.arxiv | cgi_escape }}" class="black link hover-cmu-red mr3 dib">
           {% else %}

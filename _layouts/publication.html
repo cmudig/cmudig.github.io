@@ -97,7 +97,11 @@ layout: default
           <i class="fas fa-newspaper" aria-hidden="true"></i> Article
         </a></li>
       {% endif %}
-      {% if page.arxiv %}
+      {% if page.html %}
+        <li class="mt2"><a href="{{ page.html }}" class="black link hover-cmu-red">
+          <i class="fab fa-html5" aria-hidden="true"></i> HTML
+        </a></li>
+      {% elsif page.arxiv %}
         <li class="mt2">
         {% if page.year >= 2024 %}
         <a href="https://arxiv.org/html/{{ page.arxiv | cgi_escape }}" class="black link hover-cmu-red">
