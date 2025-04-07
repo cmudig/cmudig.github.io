@@ -52,7 +52,7 @@ description: Recent publications from the Data Interaction Group at Visualizatio
       style="background-image: url('{{ thumb | relative_url }}')"></div>
     <div>
       <h3 class="mt0 f4 measure-wide lh-title mb2" id="{{ anchor }}">{% for award in pub.awards %}<i
-          class="fas fa-{% if award == "Best Paper Award" %}trophy gold{% else %}award cmu-red{% endif %}"
+          class="fas fa-{% if award == "Best Paper" %}trophy gold{% else %}award cmu-red{% endif %}"
           title="{{ award }}"></i> {% endfor %}<a href="{{ pub.url }}" class="black link">{{ pub.title }}</a></h3>
       <div class="fw2 lh-copy">
         {% for author in pub.authors %}{% include person name=author %}{% unless forloop.last %}, {% endunless %}

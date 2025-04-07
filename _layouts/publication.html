@@ -46,8 +46,8 @@ layout: default
     {% if page.awards %}
       <ul class="list pl0">
         {% for award in page.awards %}
-        <li class="mt1 {% if award == "Best Paper Award" %}gold{% else %}cmu-red{% endif %}">
-            <i class="fas fa-{% if award == "Best Paper Award" %}trophy{% else %}award{% endif %}"></i> {{ award }}
+        <li class="mt1 {% if award == "Best Paper" %}gold{% else %}cmu-red{% endif %}">
+            <i class="fas fa-{% if award == "Best Paper" %}trophy{% else %}award{% endif %}"></i> {{ award }}
         </li>
         {% endfor %}
       </ul>
