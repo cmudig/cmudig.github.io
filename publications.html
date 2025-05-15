@@ -5,7 +5,7 @@ subtitle: We publish at Visualization, Machine Learning, and Data Science confer
 description: Recent publications from the Data Interaction Group at Visualization, Machine Learning, and Data Science conferences.
 ---
 
-<div id="facets" class="dn flex flex-row flex-wrap">
+<div id="facets" class="flex flex-row flex-wrap dn">
   <div class="facet mr3" id="venue_tags">
     <strong>Venue</strong>
     <ul class="list pl0 lh-title"></ul>
@@ -48,7 +48,7 @@ description: Recent publications from the Data Interaction Group at Visualizatio
   <div class="publication flex mt4" data-pub='{{ pub | jsonify | escape }}'>
     {% assign thumb = 'assets' | append: pub.url | replace: '.html',
       '_thumb.png' %}
-    <div class="h3 mr4 flex-shrink-0 preview-image ba b--black-05 dn db-ns "
+    <div class="h3 mr4 flex-shrink-0 preview-image ba b--black-05 dn db-ns"
       style="background-image: url('{{ thumb | relative_url }}')"></div>
     <div>
       <h3 class="mt0 f4 measure-wide lh-title mb2" id="{{ anchor }}">{% for award in pub.awards %}<i
