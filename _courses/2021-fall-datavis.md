@@ -577,7 +577,7 @@ The tentative breakdown for grading is below. As a reminder, here is the [univer
 
 ## Resources
 
-[The MDN web docs](https://developer.mozilla.org/en-US/docs/Web) are the go-to guide for web technolgies such as HTML, CSS, and JavaScript.
+[The MDN web docs](https://developer.mozilla.org/en-US/docs/Web) are the go-to guide for web technologies such as HTML, CSS, and JavaScript.
 
 For D3 questions, check out [D3's documentation](https://github.com/d3/d3/wiki).
 

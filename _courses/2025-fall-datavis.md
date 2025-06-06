@@ -48,8 +48,8 @@ This course is open to both undergraduate and graduate-level students with profi
 
 Students are expected to have taken the following prerequisites, or to have equivalent prior knowledge and experience:
 
-Two or more introductory programming courses (e.g., 15-112 and one additional programming course above it)
-In addition, prior exposure to concepts or methods from web development (e.g, Javascript, HTML, CSS, DOM), data visualization libraries (e.g., Vega-Lite, D3), collaborative software development (git), human-computer interaction, and/or data science will be helpful, although not required.
+Two or more introductory programming courses (e.g., 15-112 and one additional programming course above it).
+Prior exposure to concepts or methods from web development (e.g, Javascript, HTML, CSS, DOM), data visualization libraries (e.g., Vega-Lite, D3), collaborative software development (git), human-computer interaction, and/or data science will be helpful, although not required.
 
 Skills that can be learned during the course:
 
@@ -93,7 +93,7 @@ The tentative breakdown for grading is below. As a reminder, here is the [univer
 
 ## Resources
 
-[The MDN web docs](https://developer.mozilla.org/en-US/docs/Web) are the go-to guide for web technolgies such as HTML, CSS, and JavaScript.
+[The MDN web docs](https://developer.mozilla.org/en-US/docs/Web) are the go-to guide for web technologies such as HTML, CSS, and JavaScript.
 
 For D3 questions, check out [D3&#39;s documentation](https://github.com/d3/d3/wiki).
 
