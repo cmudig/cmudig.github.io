@@ -1,6 +1,6 @@
 ---
 name: Rohit Chennamsetti
-role: Intern
+role: High School Student
 advisors: Adam Perer
 image: /assets/person.png
 ---
