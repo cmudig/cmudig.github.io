@@ -5,6 +5,7 @@ year: 2025
 semester: Fall
 instructors:
   - Dominik Moritz
+  - Frank Elavsky
 time: T/H 11:00am-12:20pm
 location: ???
 redirect_from:
