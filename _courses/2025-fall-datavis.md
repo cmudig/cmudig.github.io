@@ -7,12 +7,12 @@ instructors:
   - Dominik Moritz
   - Frank Elavsky
 time: T/H 11:00am-12:20pm
-location: ???
+location: SH 234
 redirect_from:
   - vis2025
 ---
 
-**Details TBA**
+Submit assignments and discussions on [Canvas](https://canvas.cmu.edu/courses/49143).
 
 The course covers theoretical foundations of perception, principles of effective data visualization, ethics of data visualization, and how to implement interactive web-based data visualizations.
 
@@ -39,7 +39,7 @@ After you successfully complete the course you will be able to:
 
 ## Schedule and Readings
 
-See [the course page](https://dig.cmu.edu/datavis-fall-2024/).
+See [the course page](https://dig.cmu.edu/datavis-fall-2025/).
 
 ## Details
 
