@@ -14,8 +14,7 @@ url: "https://dig.cmu.edu" # the base hostname & protocol for your site, e.g. ht
 twitter_username: cmudig
 github_username: cmudig
 
-include:
-  - ".well-known/atproto-did"
+include: [".well-known/atproto-did"]
 
 sass:
   style: compressed
