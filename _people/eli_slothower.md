@@ -3,6 +3,7 @@ name: Eli Slothower
 website: https://elislothower.com
 image: /assets/people/eli_slothower.jpeg
 role: Undergraduate Student
+alumni_since: 2025
 advisors:
     - Adam Perer
 ---
