@@ -15,7 +15,7 @@ twitter_username: cmudig
 github_username: cmudig
 
 include:
-	- ".well-known"
+  - ".well-known"
 
 sass:
   style: compressed
