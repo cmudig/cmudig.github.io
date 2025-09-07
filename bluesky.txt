@@ -1,5 +1,0 @@
----
-layout: none
-permalink: .well-known/atproto-did
----
-did:plc:jvkyxmrzybltdyxu2f2ebrva
