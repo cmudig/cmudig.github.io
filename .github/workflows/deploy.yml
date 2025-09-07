@@ -56,6 +56,8 @@ jobs:
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v4
+        with:
+          include-hidden-files: true
 
   # Deployment job
   deploy:
@@ -68,5 +70,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          include-hidden-files: true
