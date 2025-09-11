@@ -27,7 +27,7 @@ roles:
               {% assign content = person.content | strip_html | strip_newlines %}
               <span{% if content != '' %} title="Fun fact: {{ content }}"{% endif %}></span>
                 <picture>
-                  <img src="{{ person.image | relative_url }}" alt="Picture of {{ person.name }}" loading="lazy" class="br3" />
+                  <img src="{{ person.image | relative_url }}" alt="Picture of {{ person.name }}" class="br3" />
                 </picture>
                 <span class="black">
                   {{ person.name }}
@@ -52,7 +52,7 @@ roles:
       {% if person.website %}<a href="{{ person.website }}">{% endif %}
         <span title="{{ person.name }} ({{ person.role }})">
           <picture>
-            <img src="{{ person.image | relative_url }}" alt="Picture of {{ person.name }}" loading="lazy" class="br3" />
+            <img src="{{ person.image | relative_url }}" alt="Picture of {{ person.name }}" class="br3" />
           </picture>
           <span class="black">
             {{ person.name }}
@@ -76,7 +76,7 @@ roles:
       {% if person.website %}<a href="{{ person.website }}">{% endif %}
         <span title="{{ person.name }} ({{ person.role }})">
           <picture>
-            <img src="{{ person.image | relative_url }}" alt="Picture of {{ person.name }}" loading="lazy" class="br3" />
+            <img src="{{ person.image | relative_url }}" alt="Picture of {{ person.name }}" class="br3" />
           </picture>
           <span class="black">
             {{ person.name }}
