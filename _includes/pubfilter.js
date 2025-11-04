@@ -97,7 +97,7 @@
           wrap.appendChild(number);
 
           var barFull = document.createElement("div");
-          barFull.classList.add("w-100", "bb", "b--black-20", "bw1", "mt1");
+          barFull.classList.add("w-100", "bb", "b--white", "bw1", "mt1");
           child.append(barFull);
 
           var bar = document.createElement("div");
