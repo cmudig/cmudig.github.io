@@ -47,7 +47,7 @@ layout: default
       <ul class="list pl0">
         {% for award in page.awards %}
         <li class="mt1 {% if award == "Best Paper" %}gold{% else %}cmu-red{% endif %}">
-            <i class="fas fa-{% if award == "Best Paper" %}trophy{% else %}award{% endif %}"></i> {{ award }}
+            <i class="fa-fw fas fa-{% if award == "Best Paper" %}trophy{% else %}award{% endif %}"></i> {{ award }}
         </li>
         {% endfor %}
       </ul>
@@ -64,7 +64,7 @@ layout: default
   {% if page.summary %}
     <p class="measure-wide">
       <a href="https://bsky.app/intent/compose?text={{ page.summary }} (via @dig.cmu.edu)" class="cmu-dark-gray">
-        <i class="fab fa-bluesky"></i> <span class="i">{{ page.summary }}</span>
+        <i class="fa-fw fab fa-bluesky"></i> <span class="i">{{ page.summary }}</span>
       </a>
     </p>
   {% endif %}
@@ -82,26 +82,26 @@ layout: default
     <ul class="list pl0">
       {% if page.pdf %}
         <li class="mt2"><a href="{{ page.pdf }}" class="black link hover-cmu-red">
-          <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
+          <i class="fa-fw far fa-file-pdf" aria-hidden="true"></i> PDF
         </a></li>
       {% elsif page.arxiv %}
         <li class="mt2"><a href="https://arxiv.org/pdf/{{ page.arxiv | cgi_escape }}.pdf" class="black link hover-cmu-red">
-          <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
+          <i class="fa-fw far fa-file-pdf" aria-hidden="true"></i> PDF
         </a></li>
       {% endif %}
       {% if page.link %}
         <li class="mt2"><a href="{{ page.link }}" class="black link hover-cmu-red">
-          <i class="fas fa-link" aria-hidden="true"></i> Project
+          <i class="fa-fw fas fa-link" aria-hidden="true"></i> Project
         </a></li>
       {% endif %}
       {% if page.blog %}
         <li class="mt2"><a href="{{ page.blog }}" class="black link hover-cmu-red">
-          <i class="fas fa-newspaper" aria-hidden="true"></i> Article
+          <i class="fa-fw fas fa-newspaper" aria-hidden="true"></i> Article
         </a></li>
       {% endif %}
       {% if page.html %}
         <li class="mt2"><a href="{{ page.html }}" class="black link hover-cmu-red">
-          <i class="fab fa-html5" aria-hidden="true"></i> HTML
+          <i class="fa-fw fab fa-html5" aria-hidden="true"></i> HTML
         </a></li>
       {% elsif page.arxiv %}
         <li class="mt2">
@@ -110,46 +110,46 @@ layout: default
         {% else %}
         <a href="https://ar5iv.org/html/{{ page.arxiv | cgi_escape }}" class="black link hover-cmu-red">
         {% endif %}
-          <i class="fab fa-html5" aria-hidden="true"></i> HTML
+          <i class="fa-fw fab fa-html5" aria-hidden="true"></i> HTML
         </a></li>
       {% endif %}
       {% if page.video %}
         <li class="mt2"><a href="{{ page.video }}" class="black link hover-cmu-red">
-          <i class="fas fa-film" aria-hidden="true"></i> Video
+          <i class="fa-fw fas fa-film" aria-hidden="true"></i> Video
         </a></li>
       {% endif %}
       {% if page.recording %}
         <li class="mt2"><a href="{{ page.recording }}" class="black link hover-cmu-red">
-          <i class="fas fa-video" aria-hidden="true"></i> Recording
+          <i class="fa-fw fas fa-video" aria-hidden="true"></i> Recording
         </a></li>
       {% endif %}
       {% if page.slides %}
         <li class="mt2"><a href="{{ page.slides }}" class="black link hover-cmu-red">
-          <i class="fas fa-window-maximize" aria-hidden="true"></i> Slides
+          <i class="fa-fw fas fa-window-maximize" aria-hidden="true"></i> Slides
         </a></li>
       {% endif %}
       {% if page.doi %}
         <li class="mt2"><a href="https://www.doi2bib.org/bib/{{ page.doi }}" class="black link hover-cmu-red">
-          <i class="fas fa-book" aria-hidden="true"></i> Bibtex
+          <i class="fa-fw fas fa-book" aria-hidden="true"></i> Bibtex
         </a></li>
       {% elsif page.arxiv %}
         <li class="mt2"><a href="https://arxiv2bibtex.org/?q={{ page.arxiv | cgi_escape }}" class="black link hover-cmu-red">
-          <i class="fas fa-book" aria-hidden="true"></i> Bibtex
+          <i class="fa-fw fas fa-book" aria-hidden="true"></i> Bibtex
         </a></li>
       {% endif %}
       {% if page.short_doi %}
         <li class="mt2"><a href="http://doi.org/{{ page.short_doi }}" class="black link hover-cmu-red">
-          <i class="fas fa-anchor" aria-hidden="true"></i> DOI: {{ page.short_doi }}
+          <i class="fa-fw fas fa-anchor" aria-hidden="true"></i> DOI: {{ page.short_doi }}
         </a></li>
       {% endif %}
       {% if page.arxiv %}
         <li class="mt2"><a href="https://arxiv.org/abs/{{ page.arxiv }}" class="black link hover-cmu-red">
-          <i class="fas fa-archive" aria-hidden="true"></i> arXiv: {{ page.arxiv }}
+          <i class="fa-fw fas fa-archive" aria-hidden="true"></i> arXiv: {{ page.arxiv }}
         </a></li>
       {% endif %}
       {% if page.osf %}
         <li class="mt2"><a href="https://osf.io/{{ page.osf }}" class="black link hover-cmu-red">
-          <i class="fas fa-archive" aria-hidden="true"></i> OSF: {{ page.osf }}
+          <i class="fa-fw fas fa-archive" aria-hidden="true"></i> OSF: {{ page.osf }}
         </a></li>
       {% endif %}
     </ul>
