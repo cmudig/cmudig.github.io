@@ -1,10 +1,7 @@
 ---
-name: ...
-website: ...
-image: /assets/people/....jpg
-role: PhD Student
+name: Esther Suh
+image: /assets/people/esther.jpg
+role: Master's Student
 advisors:
-    - AdvisorFirstName AdvisorLastName
+  - Dominik Moritz
 ---
-
-Fun fact.
