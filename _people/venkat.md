@@ -3,6 +3,8 @@ name: Venkat Sivaraman
 website: https://venkatesh-sivaraman.github.io
 image: /assets/people/venkat.avif
 role: PhD Student
+alumni_since: 2025
+phd_graduate: true
 advisors:
   - Adam Perer
 ---
