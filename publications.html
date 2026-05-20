@@ -45,7 +45,10 @@ description: Recent publications from the Data Interaction Group at Visualizatio
   {% for pub in year.items %}
   {% capture anchor %}{% if pub.id %}{{ pub.id }}{% else %}{{ pub.title | slugify }}{% endif %}{% endcapture %}
 
-  <div class="publication flex mt4" data-pub='{{ pub | jsonify | escape }}'>
+  {%- capture pub_json -%}
+  {"year":{{ pub.year | jsonify }},"title":{{ pub.title | jsonify }},"authors":{{ pub.authors | jsonify }},"venue_tags":{{ pub.venue_tags | jsonify }},"tags":{{ pub.tags | jsonify }},"type":{{ pub.type | jsonify }},"awards":{{ pub.awards | jsonify }},"content":{{ pub.content | strip_html | normalize_whitespace | jsonify }}}
+  {%- endcapture -%}
+  <div class="publication flex mt4" data-pub='{{ pub_json | escape }}'>
     {% assign thumb = 'assets' | append: pub.url | replace: '.html',
       '_thumb.avif' %}
     <div class="h3 mr4 flex-shrink-0 preview-image ba b--black-05 dn db-ns"
