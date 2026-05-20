@@ -46,7 +46,12 @@ description: Recent publications from the Data Interaction Group at Visualizatio
   {% capture anchor %}{% if pub.id %}{{ pub.id }}{% else %}{{ pub.title | slugify }}{% endif %}{% endcapture %}
 
   {%- capture pub_json -%}
-  {"year":{{ pub.year | jsonify }},"title":{{ pub.title | jsonify }},"authors":{{ pub.authors | jsonify }},"venue_tags":{{ pub.venue_tags | jsonify }},"tags":{{ pub.tags | jsonify }},"type":{{ pub.type | jsonify }},"awards":{{ pub.awards | jsonify }},"content":{{ pub.content | strip_html | normalize_whitespace | jsonify }}}
+  {"year":{{ pub.year | jsonify }},"title":{{ pub.title | jsonify }},"authors":{{ pub.authors | jsonify }}
+  {%- if pub.venue_tags %},"venue_tags":{{ pub.venue_tags | jsonify }}{% endif -%}
+  {%- if pub.tags %},"tags":{{ pub.tags | jsonify }}{% endif -%}
+  {%- if pub.type %},"type":{{ pub.type | jsonify }}{% endif -%}
+  {%- if pub.awards %},"awards":{{ pub.awards | jsonify }}{% endif -%}
+  ,"content":{{ pub.content | strip_html | normalize_whitespace | jsonify }}}
   {%- endcapture -%}
   <div class="publication flex mt4" data-pub='{{ pub_json | escape }}'>
     {% assign thumb = 'assets' | append: pub.url | replace: '.html',
