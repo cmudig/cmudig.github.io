@@ -1,6 +1,6 @@
 ---
 name: Jochen Görtler
 website: https://jgoertler.com
-image: /assets/people/jochen.jpg
+image: /assets/people/jochen.avif
 role: Collaborator
 ---

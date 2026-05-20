@@ -1,6 +1,6 @@
 ---
 name: Vaishnavi Gorantla
-image: /assets/people/vaishnavi.jpg
+image: /assets/people/vaishnavi.avif
 role: Undergraduate Student
 advisors:
   - Will Epperson

@@ -47,7 +47,7 @@ description: Recent publications from the Data Interaction Group at Visualizatio
 
   <div class="publication flex mt4" data-pub='{{ pub | jsonify | escape }}'>
     {% assign thumb = 'assets' | append: pub.url | replace: '.html',
-      '_thumb.png' %}
+      '_thumb.avif' %}
     <div class="h3 mr4 flex-shrink-0 preview-image ba b--black-05 dn db-ns"
       style="background-image: url('{{ thumb | relative_url }}')"></div>
     <div>

@@ -1,2 +1,2 @@
 - name: Pranav Thombre
-  image: /assets/person.png
+  image: /assets/person.avif

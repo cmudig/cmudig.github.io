@@ -1,6 +1,6 @@
 ---
 name: Mia Manavalan
-image: /assets/people/miam.jpg
+image: /assets/people/miam.avif
 role: Masters Student
 alumni_since: 2020
 advisors:

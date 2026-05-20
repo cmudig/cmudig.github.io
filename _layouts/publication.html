@@ -20,7 +20,7 @@ layout: default
       <div class="flex flex-column items-center mt3 mr4">
         <picture>
           <source srcset="{{ author.image | relative_url }}"></source>
-          <source srcset="{{ 'assets/person.png' | relative_url }}"></source>
+          <source srcset="{{ 'assets/person.avif' | relative_url }}"></source>
           <img class="br-100 w3 h3 mb1" alt="Picture of {{ name }}" />
         </picture>
         <div class="black mw4 tc">{% include person name=name %}</div>
@@ -56,7 +56,7 @@ layout: default
 </div>
 
 <div class="w-100 mw8 ph4-l ph3 center mt4">
-  {% assign filename = 'assets' | append: page.url | replace: '.html', '.png' %}
+  {% assign filename = 'assets' | append: page.url | replace: '.html', '.avif' %}
   <picture class="mw-100">
     <img src="{{ filename | relative_url }}" alt="Teaser image">
   </picture>

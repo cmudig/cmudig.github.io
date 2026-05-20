@@ -41,8 +41,24 @@ Only the properties in the first block are required. The rest is optional but en
 
 ## Add a teaser and thumbnail image
 
-Add a teaser and thumbnail image to `assets/publications/` in png format. It's important that we keep download sizes small. Please use https://tinypng.com/ to reduce the file sizes of all images.
+Add a teaser and thumbnail image to `assets/publications/` in **AVIF** format. AVIF compresses much better than PNG/JPEG, so keep both files small.
 
-The teaser image should be at least 1920 pixels wide and wider than tall. Name your teaser image `KEY.png`.
+- **Teaser:** at least 1920 pixels wide, wider than tall. Name it `KEY.avif`.
+- **Thumbnail:** any aspect ratio, recognizable when small. At least 600 pixels on the long edge. Name it `KEY_thumb.avif`.
 
-The thumbnail may have any aspect ratio but should be recognizable when shown as a small image. The thumbnail should be at least 600 pixels wide or tall. Name your thumbnail `KEY_thumb.png`. You can programmatically achieve this with `mogrify -resize 600x600^ *_thumb.png`.
+### Converting an image to AVIF
+
+The easiest way: drop the image into [squoosh.app](https://squoosh.app), choose **AVIF** on the right, set **Effort** to 6 and **Quality** around 60-70, and download. Squoosh also lets you resize before exporting — use it to downsize the thumbnail (the display is only ~320 px wide so anything beyond ~800 px is wasted bytes).
+
+Command-line equivalent (requires `brew install libavif`):
+
+```sh
+# teaser, near-lossless
+avifenc -q 65 -s 6 KEY.png KEY.avif
+
+# thumbnail, resize first then encode
+magick KEY.png -resize 800x800\> KEY_thumb.png
+avifenc -q 60 -s 6 KEY_thumb.png KEY_thumb.avif
+```
+
+Aim for under ~150 KB for the teaser and under ~40 KB for the thumbnail. If you're well above that, lower the quality or downsize further.

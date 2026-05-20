@@ -1,6 +1,6 @@
 ---
 name: Tom Wartmann
-image: /assets/people/tomw.jpg
+image: /assets/people/tomw.avif
 role: Visiting Researcher
 advisors:
   - Adam Perer

@@ -1,6 +1,6 @@
 ---
 name: Leijie Wang
-image: /assets/people/leijiewang.jpg
+image: /assets/people/leijiewang.avif
 role: Undergraduate Student
 alumni_since: 2021
 advisors:

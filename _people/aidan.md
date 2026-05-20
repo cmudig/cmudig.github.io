@@ -1,7 +1,7 @@
 ---
 name: Aidan Bradshaw
 website: https://abradshaw1.github.io/
-image: /assets/people/aidan.jpg
+image: /assets/people/aidan.avif
 role: Masters Student
 alumni_since: 2025
 advisors:

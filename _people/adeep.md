@@ -1,5 +1,5 @@
 ---
 name: Adeep Biswas
-image: /assets/people/adeep.jpeg
+image: /assets/people/adeep.avif
 role: Grader
 ---

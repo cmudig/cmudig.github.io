@@ -1,7 +1,7 @@
 ---
 name: Yanna Lin
 website: https://yannahhh.github.io
-image: /assets/people/yannal.jpg
+image: /assets/people/yannal.avif
 role: Visiting PhD Student
 alumni_since: 2024
 advisors:

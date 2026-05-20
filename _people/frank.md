@@ -1,6 +1,6 @@
 ---
 name: Frank Elavsky
-image: /assets/people/frank.jpg
+image: /assets/people/frank.avif
 website: https://www.frank.computer
 role: PhD Student
 advisors:

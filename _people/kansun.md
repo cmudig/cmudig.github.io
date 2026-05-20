@@ -1,6 +1,6 @@
 ---
 name: Kan Sun
-image: /assets/people/kansun.jpg
+image: /assets/people/kansun.avif
 role: Undergraduate Student
 alumni_since: 2022
 ---

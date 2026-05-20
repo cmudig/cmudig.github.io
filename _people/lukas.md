@@ -1,7 +1,7 @@
 ---
 name: Lukas Hermann
 website: https://lukashermann.com
-image: /assets/people/lukas.jpg
+image: /assets/people/lukas.avif
 role: Undergraduate Student
 alumni_since: 2022
 ---

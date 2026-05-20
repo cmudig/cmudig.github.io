@@ -1,6 +1,6 @@
 ---
 name: Angie Boggust
 website: http://angieboggust.com/
-image: /assets/people/angie.jpg
+image: /assets/people/angie.avif
 role: Collaborator
 ---

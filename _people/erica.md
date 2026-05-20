@@ -1,7 +1,7 @@
 ---
 name: Erica Fu
 website: https://ericafu.me/
-image: /assets/people/ericaf.jpeg
+image: /assets/people/ericaf.avif
 role: Undergraduate Student
 alumni_since: 2024
 ---

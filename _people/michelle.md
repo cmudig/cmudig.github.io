@@ -1,6 +1,6 @@
 ---
 name: Michelle Feng
-image: /assets/people/michelle.jpg
+image: /assets/people/michelle.avif
 role: Undergraduate Student
 alumni_since: 2023
 advisors:

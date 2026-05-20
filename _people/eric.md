@@ -1,7 +1,7 @@
 ---
 name: Eric Mason
 website: https://www.linkedin.com/in/ericpaulmason/
-image: /assets/people/eric.jpg
+image: /assets/people/eric.avif
 role: PhD Student
 advisors:
     - Adam Perer

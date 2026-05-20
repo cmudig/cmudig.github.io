@@ -1,6 +1,6 @@
 ---
 name: Maggie Cai
-image: /assets/people/maggie.jpg
+image: /assets/people/maggie.avif
 role: Undergraduate Student
 advisors:
   - Adam Perer

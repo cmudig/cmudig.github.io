@@ -1,7 +1,7 @@
 ---
 name: Syeda Sheherbano Rizvi
 website: https://www.linkedin.com/in/syeda-srizvi
-image: /assets/people/syeda.jpg
+image: /assets/people/syeda.avif
 role: Masters Student
 alumni_since: 2023
 advisors:

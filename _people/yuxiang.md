@@ -1,6 +1,6 @@
 ---
 name: Yuxiang Huang
-image: /assets/people/yuxiang.jpg
+image: /assets/people/yuxiang.avif
 role: Undergraduate Student
 advisors:
   - Adam Perer

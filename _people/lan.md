@@ -1,7 +1,7 @@
 ---
 name: Lan Lyu
 website: https://www.linkedin.com/in/lan-lyu/
-image: /assets/people/lan.jpg
+image: /assets/people/lan.avif
 role: Masters Student
 alumni_since: 2023
 advisors:

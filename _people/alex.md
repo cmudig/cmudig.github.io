@@ -1,7 +1,7 @@
 ---
 name: Ángel Alexander Cabrera
 website: https://cabreraalex.com
-image: /assets/people/alex.jpg
+image: /assets/people/alex.avif
 role: PhD Student
 advisors:
   - Adam Perer
