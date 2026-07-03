@@ -1,0 +1,31 @@
+---
+layout: publication
+year: 2024
+title: "MedSyn: Text-Guided Anatomy-Aware Synthesis of High-Fidelity 3-D CT Images"
+authors:
+  - Yanwu Xu
+  - Li Sun
+  - Wei Peng
+  - Shuyue Jia
+  - Katelyn Morrison
+  - Adam Perer
+  - Afrooz Zandifar
+  - Shyam Visweswaran
+  - Motahhare Eslami
+  - Kayhan Batmanghelich
+doi: 10.1109/TMI.2024.3415032
+venue: IEEE Transactions on Medical Imaging
+venue_tags:
+  - TMI
+venue_url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42
+type:
+  - Journal
+tags:
+  - Machine Learning
+  - Healthcare
+  - Deep Learning
+pdf: ../assets/publications/pdfs/2024-medsyn.pdf
+arxiv: "2310.03559"
+---
+
+This paper introduces an innovative methodology for producing high-quality 3D lung CT images guided by textual information. While diffusion-based generative models are increasingly used in medical imaging, current state-of-the-art approaches are limited to low-resolution outputs and underutilize radiology reports' abundant information. The radiology reports can enhance the generation process by providing additional guidance and offering fine-grained control over the synthesis of images. Nevertheless, expanding text-guided generation to high-resolution 3D images poses significant memory and anatomical detail-preserving challenges. Addressing the memory issue, we introduce a hierarchical scheme that uses a modified UNet architecture. We start by synthesizing low-resolution images conditioned on the text, serving as a foundation for subsequent generators for complete volumetric data. To ensure the anatomical plausibility of the generated samples, we provide further guidance by generating vascular, airway, and lobular segmentation masks in conjunction with the CT images. The model demonstrates the capability to use textual input and segmentation tasks to generate synthesized images. Algorithmic comparative assessments and blind evaluations conducted by 10 board-certified radiologists indicate that our approach exhibits superior performance compared to the most advanced models based on GAN and diffusion techniques, especially in accurately retaining crucial anatomical features such as fissure lines and airways. This innovation introduces novel possibilities. This study focuses on two main objectives: (1) the development of a method for creating images based on textual prompts and anatomical components, and (2) the capability to generate new images conditioning on anatomical elements. The advancements in image generation can be applied to enhance numerous downstream tasks.
