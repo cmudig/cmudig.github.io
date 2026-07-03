@@ -1,6 +1,6 @@
 ---
 name: Rui Sheng
-image: /assets/people/rui.jpg
+image: /assets/people/rui.avif
 website: https://dylansheng.github.io/
 role: Visiting PhD Student
 advisors:

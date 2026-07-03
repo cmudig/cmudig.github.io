@@ -1,7 +1,7 @@
 ---
 name: Carol (Xinyi) Zheng
 website: https://carolzxyzxy.github.io
-image: /assets/people/carol.jpg
+image: /assets/people/carol.avif
 role: PhD Student
 alumni_since: 2022
 advisors:

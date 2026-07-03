@@ -1,6 +1,6 @@
 ---
 name: Zexuan (Zx) Li
-image: /assets/people/zexuan.jpg
+image: /assets/people/zexuan.avif
 role: Masters Student
 advisors:
   - Katelyn Morrison

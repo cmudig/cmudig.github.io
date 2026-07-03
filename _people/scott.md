@@ -1,6 +1,6 @@
 ---
 name: Scott Davidoff
-image: /assets/people/scott.jpg
+image: /assets/people/scott.avif
 website: https://scottdavidoff.com/
 role: Visiting Researcher
 advisors:

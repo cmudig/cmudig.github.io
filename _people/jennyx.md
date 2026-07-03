@@ -1,6 +1,6 @@
 ---
 name: Zhirou (Jenny) Xin
-image: /assets/people/jennyx.jpg
+image: /assets/people/jennyx.avif
 role: Masters Student
 alumni_since: 2021
 advisors:

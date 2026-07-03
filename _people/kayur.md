@@ -1,6 +1,6 @@
 ---
 name: Kayur Patel
 website: http://www.kayur.org/
-image: /assets/people/kayur.jpg
+image: /assets/people/kayur.avif
 role: Collaborator
 ---

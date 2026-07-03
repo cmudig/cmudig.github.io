@@ -1,6 +1,6 @@
 ---
 name: Yiwei Wu
-image: /assets/people/yiwei.jpg
+image: /assets/people/yiwei.avif
 role: Undergraduate Student
 advisors:
   - Adam Perer

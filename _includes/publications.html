@@ -2,7 +2,7 @@
   {% for pub in include.publications limit: include.limit %}
   <div class="mt4 mt3-ns flex flex-row-ns flex-column">
     {% assign thumb = 'assets' | append: pub.url | replace: '.html',
-    '_thumb.png' %}
+    '_thumb.avif' %}
     <div
       class="h3 mr3-ns mb2 mb0-ns flex-shrink-0 preview-image ba b--black-05 db"
       style="background-image: url('{{ thumb | relative_url }}')"

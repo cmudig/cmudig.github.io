@@ -1,7 +1,7 @@
 ---
 name: Arpit Mathur
 website: https://www.arpit-mathur.com/
-image: /assets/people/arpit.jpg
+image: /assets/people/arpit.avif
 role: PhD Student
 advisors:
     - Adam Perer

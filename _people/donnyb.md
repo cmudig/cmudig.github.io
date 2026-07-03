@@ -1,7 +1,7 @@
 ---
 name: Donald Bertucci
 website: https://donnybertucci.com
-image: /assets/people/donnyb.jpg
+image: /assets/people/donnyb.avif
 role: Undergraduate Student
 alumni_since: 2024
 ---

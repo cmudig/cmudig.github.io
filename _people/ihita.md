@@ -1,5 +1,5 @@
 name: Ihita Mandal
-image: /assets/people/ihita.jpg
+image: /assets/people/ihita.avif
 role: Masters Student
 advisors:
 

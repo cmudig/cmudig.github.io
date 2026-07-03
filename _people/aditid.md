@@ -1,6 +1,6 @@
 ---
 name: Aditi Dhabalia
-image: /assets/people/aditid.jpg
+image: /assets/people/aditid.avif
 role: Masters Student
 alumni_since: 2021
 advisors:
