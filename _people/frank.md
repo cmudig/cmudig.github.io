@@ -3,6 +3,7 @@ name: Frank Elavsky
 image: /assets/people/frank.avif
 website: https://www.frank.computer
 role: PhD Student
+alumni_since: 2026
 advisors:
   - Dominik Moritz
   - Patrick Carrington
