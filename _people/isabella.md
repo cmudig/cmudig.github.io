@@ -7,4 +7,4 @@ advisors:
     - Arpit Mathur
 ---
 
-Fun fact.
+I love doing Chinese dance!
