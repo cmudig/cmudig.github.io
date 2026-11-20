@@ -21,4 +21,6 @@ Add a picture to [the assets directory](../assets/people) as an **AVIF** image, 
 
 Once someone leaves the group, add `alumni_since: XXXX` to make them as alumni.
 
+If a long name overflows on the team page, add `display_name` with a soft hyphen at a good break point (e.g. `display_name: Rohit Chennam&shy;setti`). Keep `name` unchanged, since publications link to people by matching it.
+
 Please send a pull request with the changes and an admin will merge it. 
